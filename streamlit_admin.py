@@ -15,7 +15,7 @@ import requests
 from pypdf import PdfReader
 from docx import Document as Docx
 import traceback as tb
-
+from urllib.parse import unquote
 from config import (
     CHROMA_DIR, CHROMA_COLLECTION, INDEX_DIR,
     BM25_CORPUS_PATH, BM25_META_PATH, EMBED_MODEL,
@@ -32,6 +32,13 @@ import re, hashlib
 from pathlib import Path
 import json as pyjson
 import time
+import hashlib
+import mimetypes
+from datetime import datetime, timezone, timedelta
+from urllib.parse import urlparse
+import pandas as pd
+import requests
+from pathlib import Path
 
 from utils_text import clean_text
 st.set_page_config(page_title="JD–Resume Admin", page_icon="🗂️", layout="wide")
@@ -585,6 +592,142 @@ def validate_ext(filename: str) -> bool:
     ext = normalize_ext(filename)
     return ext in SUPPORTED_EXTS
 
+def _ext_from_content_type(ct: str) -> str:
+    ct = (ct or "").split(";")[0].strip().lower()
+    mapping = {
+        "application/pdf": ".pdf",
+        "application/msword": ".doc",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document": ".docx",
+        "application/rtf": ".rtf",
+        "text/plain": ".txt",
+    }
+    return mapping.get(ct, "")
+
+def _filename_from_content_disposition(cd: str | None) -> str | None:
+    if not cd:
+        return None
+    m = re.search(r"filename\*=.*?''([^;]+)", cd)  # RFC 5987
+    if m:
+        return unquote(m.group(1))
+    m = re.search(r'filename="?([^";]+)"?', cd)     # basic
+    if m:
+        return m.group(1)
+    return None
+
+def _safe_name(s: str) -> str:
+    return re.sub(r"[^A-Za-z0-9._-]+", "_", s)[:180]
+
+def _decide_save_path(cid: str, url: str, resp, dest_dir: str, default_docx: bool = True) -> Path:
+    """
+    Choose filename/extension using, in order:
+      1) Content-Disposition filename (authoritative)
+      2) Final response URL path (after redirects)
+      3) Content-Type mapping
+      4) Fallback: .docx if default_docx else .bin
+    """
+    # 1) filename from headers
+    fn = _filename_from_content_disposition(resp.headers.get("content-disposition"))
+    # 2) else final URL path
+    if not fn:
+        final_url = getattr(resp, "url", None) or url
+        fn = Path(urlparse(final_url).path).name or ""
+    # extension from filename if present
+    ext = "".join(Path(fn).suffixes).lower()
+
+    # 3) if still missing, try Content-Type
+    if not ext:
+        ext = _ext_from_content_type(resp.headers.get("content-type"))
+    # 4) final fallback — default to Word
+    if not ext:
+        ext = ".docx" if default_docx else ".bin"
+
+    # base name (prefer header/url stem, else generic)
+    base = _safe_name(Path(fn).stem) if fn else f"ceipal-{cid}"
+    h = hashlib.sha1(url.encode("utf-8")).hexdigest()[:8]
+    filename = f"{base}-{h}{ext}"
+    return Path(dest_dir) / filename
+
+
+def _extract_candidate_id(row: dict) -> str:
+    return str(
+        row.get("candidate_id")
+        or row.get("id")
+        or row.get("ceipal_id")
+        or row.get("applicant_id")
+        or ""
+    ).strip()
+
+def _extract_resume_url(row: dict) -> str | None:
+    return (
+        row.get("resume_path")
+        or row.get("resume")
+        or row.get("resumeUrl")
+        or row.get("resume_url")
+        or row.get("resume_file")
+        or row.get("file_url")
+        or None
+    )
+
+def _extract_creation_dt(row: dict) -> datetime | None:
+    # Try several possible CEIPAL field names
+    candidates = [
+        row.get("created_at"), row.get("creation_date"),
+        row.get("createdDate"), row.get("date_created"),
+        row.get("created_on"), row.get("created"),
+        row.get("dateAdded")
+    ]
+    for v in candidates:
+        if v is None or v == "":
+            continue
+        try:
+            if isinstance(v, (int, float)):
+                return datetime.fromtimestamp(float(v), tz=timezone.utc)
+            dt = pd.to_datetime(v, utc=True, errors="coerce")
+            if isinstance(dt, pd.Timestamp) and not pd.isna(dt):
+                return dt.to_pydatetime()
+            if isinstance(dt, datetime):
+                return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+        except Exception:
+            continue
+    return None
+
+def _is_within(dt: datetime | None, since: datetime, until: datetime) -> bool:
+    if dt is None:
+        return False
+    # normalize to UTC bounds
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return (since <= dt <= until)
+
+def _suggest_filename(candidate_id: str, resume_url: str) -> str:
+    parsed = urlparse(resume_url)
+    name = Path(parsed.path).name or "resume"
+    ext = "".join(Path(name).suffixes)
+    if not ext:
+        # best-effort extension from MIME
+        guess = mimetypes.guess_extension(mimetypes.guess_type(resume_url)[0] or "")
+        ext = guess or ".pdf"
+    h = hashlib.sha1(resume_url.encode("utf-8")).hexdigest()[:8]
+    base = f"ceipal-{candidate_id}-{h}"
+    return base + ext
+
+def _existing_candidate_ids(coll, meta_by_id: dict) -> set[str]:
+    ids = set()
+    # from BM25 parent meta
+    for md in (meta_by_id or {}).values():
+        cid = str(md.get("candidate_id") or md.get("ceipal_id") or md.get("id") or "").strip()
+        if cid: ids.add(cid)
+    # from Chroma (source=ceipal)
+    try:
+        got = coll.get(where={"source": "ceipal"}, include=["metadatas"])
+        for md in (got or {}).get("metadatas") or []:
+            if not isinstance(md, dict): continue
+            cid = str(md.get("candidate_id") or md.get("ceipal_id") or md.get("id") or "").strip()
+            if cid: ids.add(cid)
+    except Exception:
+        pass
+    return ids
+
 # --- Delete helpers (Chroma + BM25) ---
 def chroma_delete_by_document_ids(coll, parent_ids) -> int:
     """Bulk delete: remove all chunk vectors for the given parent_ids."""
@@ -1041,6 +1184,276 @@ st.caption("Admins can ingest resumes (bulk or single), avoid duplicates, and vi
 
 (client, coll) = get_chroma()
 corpus_tokens, meta_by_id, bm25_doc_ids = load_bm25()
+
+# === Step 3 of 7 – Download CEIPAL resumes (no date filter, dedupe by candidate_id) ===
+with st.expander("Step 3 of 7 – Download CEIPAL resumes (no date filter, dedupe by candidate_id)", expanded=False):
+    # Ensure Chroma + BM25 are available
+    try:
+        _coll = coll
+        _corpus_tokens = corpus_tokens
+        _meta_by_id = meta_by_id
+        _bm25_doc_ids = bm25_doc_ids
+    except NameError:
+        (client, _coll) = get_chroma()
+        _corpus_tokens, _meta_by_id, _bm25_doc_ids = load_bm25()
+
+    # ---- Helpers (safe to keep even if defined earlier) ----
+    import hashlib, mimetypes
+    from urllib.parse import urlparse
+    from pathlib import Path
+    import requests
+    import pandas as pd
+    from datetime import datetime, timezone
+
+    def _extract_candidate_id(row: dict) -> str:
+        return str(
+            row.get("candidate_id")
+            or row.get("id")
+            or row.get("ceipal_id")
+            or row.get("applicant_id")
+            or ""
+        ).strip()
+
+    def _extract_resume_url(row: dict) -> str | None:
+        return (
+            row.get("resume_path")
+            or row.get("resume")
+            or row.get("resumeUrl")
+            or row.get("resume_url")
+            or row.get("resume_file")
+            or row.get("file_url")
+            or None
+        )
+
+    def _suggest_filename(candidate_id: str, resume_url: str) -> str:
+        parsed = urlparse(resume_url)
+        name = Path(parsed.path).name or "resume"
+        ext = "".join(Path(name).suffixes)
+        if not ext:
+            guess = mimetypes.guess_extension(mimetypes.guess_type(resume_url)[0] or "")
+            ext = guess or ".pdf"
+        h = hashlib.sha1(resume_url.encode("utf-8")).hexdigest()[:8]
+        base = f"ceipal-{candidate_id}-{h}"
+        return base + ext
+
+    def _existing_candidate_ids(coll, meta_by_id: dict) -> set[str]:
+        ids = set()
+        for md in (meta_by_id or {}).values():
+            cid = str(md.get("candidate_id") or md.get("ceipal_id") or md.get("id") or "").strip()
+            if cid: ids.add(cid)
+        try:
+            got = coll.get(where={"source": "ceipal"}, include=["metadatas"])
+            for md in (got or {}).get("metadatas") or []:
+                if not isinstance(md, dict): continue
+                cid = str(md.get("candidate_id") or md.get("ceipal_id") or md.get("id") or "").strip()
+                if cid: ids.add(cid)
+        except Exception:
+            pass
+        return ids
+
+    # ---- CEIPAL creds ----
+    base  = _secret("CEIPAL_BASE_URL", "https://api.ceipal.com")
+    url   = _secret("CEIPAL_ENDPOINT_URL", "")
+    style = (_secret("CEIPAL_AUTH_STYLE", "bearer") or "bearer").lower().strip()
+    u     = _secret("CEIPAL_USERNAME", "")
+    p     = _secret("CEIPAL_PASSWORD", "")
+    k     = _secret("CEIPAL_API_KEY", "")
+
+    # ---- Download options ----
+    default_dir = str(Path(RESUMES_STORE_DIR).resolve()) if "RESUMES_STORE_DIR" in globals() else str(Path.cwd() / "resumes_store")
+    dest_dir = st.text_input("Local folder to save resumes", value=default_dir, key="s3_dest_dir",
+                             help="All downloaded resumes will be saved here.")
+    Path(dest_dir).mkdir(parents=True, exist_ok=True)
+
+    c1, c2, c3 = st.columns([1,1,1])
+    paging_len = c1.number_input("paging_length", 1, 100, 30, 1, key="s3_paging_length")
+    max_pages  = c2.number_input("max_pages (0 = all)", 0, 9999, 0, 1, key="s3_max_pages")
+    test_only  = c3.checkbox("Dry run (don't download)", value=False, key="s3_dry_run")
+
+    c4, c5 = st.columns([1,1])
+    skip_existing = c4.checkbox("Skip if file exists", value=True, key="s3_skip_existing")
+    throttle_s    = c5.slider("Throttle between downloads (seconds)", 0.0, 1.0, 0.0, 0.1, key="s3_throttle")
+
+    urls_text = st.text_area("Optional: paste resume_path URLs (one per line) to force-download",
+                             height=120, key="s3_urls",
+                             placeholder="https://.../resume1.pdf\nhttps://.../resume2.docx")
+
+    go = st.button("Download & stage", type="primary", use_container_width=True, key="s3_go")
+
+    if go:
+        try:
+            tok = None
+            if style == "bearer":
+                tok = ceipal_auth(u.strip(), p, k.strip(), base.strip())
+
+            headers = {"Authorization": f"Bearer {tok}"} if (tok and style == "bearer") else {}
+
+            existing_ids = _existing_candidate_ids(_coll, _meta_by_id)
+            seen_ids: set[str] = set()
+            staged_rows: list[dict] = []
+
+            kept = skipped_dupe = skipped_no_url = skipped_exists = dl_errors = 0
+            total_seen = 0
+            total_cap = int(paging_len) * (int(max_pages) if max_pages > 0 else 1000)
+            pbar = st.progress(0.0, text="Starting downloads…")
+            details = st.empty()
+
+            # ---- 1) Manual URL list (optional) ----
+            manual_urls = [u.strip() for u in (urls_text or "").splitlines() if u.strip()]
+            for uurl in manual_urls:
+                total_seen += 1
+                cid = "manual-" + hashlib.sha1(uurl.encode("utf-8")).hexdigest()[:8]
+                fname = _suggest_filename(cid, uurl)
+                out_path = Path(dest_dir) / fname
+
+                if skip_existing and out_path.exists():
+                    skipped_exists += 1
+                    staged_rows.append({
+                        "row": {"candidate_id": cid, "resume_path": uurl, "source": "manual"},
+                        "file_path": str(out_path),
+                        "created_at": datetime.now(timezone.utc).isoformat(),
+                    })
+                    details.info(f"exists: {out_path.name}")
+                else:
+                    if not test_only:
+                        try:
+                            with requests.get(uurl, headers=headers, stream=True, timeout=60,
+                                              allow_redirects=True) as r:
+                                r.raise_for_status()
+                                out_path = _decide_save_path(cid, uurl, r, dest_dir, default_docx=True)
+
+                                if skip_existing and out_path.exists():
+                                    skipped_exists += 1
+                                    staged_rows.append({
+                                        "row": {"candidate_id": cid, "resume_path": uurl, "source": "manual"},
+                                        "file_path": str(out_path),
+                                        "created_at": datetime.now(timezone.utc).isoformat(),
+                                    })
+                                else:
+                                    with open(out_path, "wb") as fh:
+                                        for chunk in r.iter_content(chunk_size=8192):
+                                            if chunk: fh.write(chunk)
+                                    kept += 1
+                                    staged_rows.append({
+                                        "row": {"candidate_id": cid, "resume_path": uurl, "source": "manual"},
+                                        "file_path": str(out_path),
+                                        "created_at": datetime.now(timezone.utc).isoformat(),
+                                    })
+
+                        except Exception as e:
+                            dl_errors += 1
+                            details.warning(f"manual download failed: {uurl} — {e}")
+                            pbar.progress(min(0.99, total_seen / max(1, total_cap)))
+                            continue
+                    kept += 1
+                    staged_rows.append({
+                        "row": {"candidate_id": cid, "resume_path": uurl, "source": "manual"},
+                        "file_path": str(out_path),
+                        "created_at": datetime.now(timezone.utc).isoformat(),
+                    })
+                    if throttle_s > 0: time.sleep(throttle_s)
+
+                pbar.progress(min(0.99, total_seen / max(1, total_cap)),
+                              text=f"manual: kept={kept} exists={skipped_exists} dupes={skipped_dupe} no_url={skipped_no_url} errors={dl_errors}")
+
+            # ---- 2) CEIPAL iterator (no date filter) ----
+            page_cap = (int(max_pages) if max_pages > 0 else None)
+            for row in ceipal_iter_applicants(
+                url, tok, auth_style=style,
+                paging_length=int(paging_len),
+                max_pages=page_cap
+            ):
+                total_seen += 1
+                cid = _extract_candidate_id(row)
+                if not cid:
+                    details.info("skip: missing candidate_id")
+                    pbar.progress(min(0.99, total_seen / max(1, total_cap))); continue
+
+                if cid in existing_ids or cid in seen_ids:
+                    skipped_dupe += 1
+                    details.info(f"skip duplicate candidate_id={cid}")
+                    pbar.progress(min(0.99, total_seen / max(1, total_cap))); continue
+
+                rurl = _extract_resume_url(row)
+                if not rurl:
+                    skipped_no_url += 1
+                    details.info(f"skip: no resume_path for candidate_id={cid}")
+                    pbar.progress(min(0.99, total_seen / max(1, total_cap))); continue
+
+                fname = _suggest_filename(cid, rurl)
+                out_path = Path(dest_dir) / fname
+
+                if skip_existing and out_path.exists():
+                    skipped_exists += 1
+                    staged_rows.append({
+                        "row": row,
+                        "file_path": str(out_path),
+                        "created_at": datetime.now(timezone.utc).isoformat(),
+                    })
+                else:
+                    if not test_only:
+                        try:
+                            with requests.get(rurl, headers=headers, stream=True, timeout=60,
+                                              allow_redirects=True) as rr:
+                                rr.raise_for_status()
+                                out_path = _decide_save_path(cid, rurl, rr, dest_dir, default_docx=True)
+
+                                if skip_existing and out_path.exists():
+                                    skipped_exists += 1
+                                    staged_rows.append({
+                                        "row": row,
+                                        "file_path": str(out_path),
+                                        "created_at": datetime.now(timezone.utc).isoformat(),
+                                    })
+                                else:
+                                    with open(out_path, "wb") as fh:
+                                        for chunk in rr.iter_content(chunk_size=8192):
+                                            if chunk: fh.write(chunk)
+                                    kept += 1
+                                    staged_rows.append({
+                                        "row": row,
+                                        "file_path": str(out_path),
+                                        "created_at": datetime.now(timezone.utc).isoformat(),
+                                    })
+                                    seen_ids.add(cid)
+
+                        except Exception as e:
+                            dl_errors += 1
+                            details.warning(f"download failed for candidate_id={cid}: {e}")
+                            pbar.progress(min(0.99, total_seen / max(1, total_cap))); continue
+
+                    kept += 1
+                    staged_rows.append({
+                        "row": row,
+                        "file_path": str(out_path),
+                        "created_at": datetime.now(timezone.utc).isoformat(),
+                    })
+                    seen_ids.add(cid)
+                    if throttle_s > 0: time.sleep(throttle_s)
+
+                pbar.progress(min(0.99, total_seen / max(1, total_cap)),
+                              text=f"seen={total_seen} kept={kept} exists={skipped_exists} dupes={skipped_dupe} no_url={skipped_no_url} errors={dl_errors}")
+
+            pbar.progress(1.0, text=f"done • kept={kept} exists={skipped_exists} dupes={skipped_dupe} no_url={skipped_no_url} errors={dl_errors}")
+            st.success(f"Staged {kept} new download(s). Skipped existing={skipped_exists}, dupes={skipped_dupe}, no-url={skipped_no_url}, errors={dl_errors}.")
+
+            # Persist manifest for Step 4 (ingestion will consume this)
+            st.session_state["ceipal_stage_rows"] = staged_rows
+
+            # Show a compact table
+            if staged_rows:
+                df = pd.DataFrame([{
+                    "candidate_id": _extract_candidate_id(it["row"]),
+                    "resume_path": _extract_resume_url(it["row"]) or "",
+                    "file_path": it["file_path"],
+                    "created_at": it["created_at"],
+                } for it in staged_rows])
+                st.dataframe(df, use_container_width=True, hide_index=True)
+
+        except Exception as e:
+            st.error(f"Staging failed: {e}")
+
+
 # --- step 4/7: CEIPAL → ingest to Chroma + BM25 ---
 with st.expander("Step 4 of 7 – CEIPAL ingest to Chroma + BM25", expanded=False):
     # ensure Chroma + BM25 artifacts exist in this scope
@@ -1060,10 +1473,13 @@ with st.expander("Step 4 of 7 – CEIPAL ingest to Chroma + BM25", expanded=Fals
     p = _secret("CEIPAL_PASSWORD", "")
     k = _secret("CEIPAL_API_KEY", "")
 
-    left, right = st.columns([1,1])
-    paging_len  = left.number_input("paging_length", 1, 100, 30, 1)
-    max_pages   = right.number_input("max_pages (0 = all)", 0, 9999, 0, 1)
-    throttle_s  = st.slider("throttle between adds (seconds)", 0.0, 1.0, 0.0, 0.1)
+    left, right = st.columns([1, 1])
+    paging_len = st.number_input("paging_length", 1, 100, 30, 1, key="s4_paging_length")
+    max_pages = st.number_input("max_pages (0 = all)", 0, 9999, 0, 1, key="s4_max_pages")
+    throttle_s = st.slider("throttle between adds (seconds)", 0.0, 1.0, 0.0, 0.1, key="s4_throttle")
+
+    # Choose source of rows: staged rows from Step 3 (preferred), else live iterator
+    rows_source = st.session_state.get("ceipal_stage_rows")
 
     ingest = st.button("Ingest CEIPAL applicants", type="primary", use_container_width=True)
 
@@ -1080,25 +1496,41 @@ with st.expander("Step 4 of 7 – CEIPAL ingest to Chroma + BM25", expanded=Fals
             pbar  = st.progress(0.0, text="Starting CEIPAL ingestion…")
             details = st.empty()
 
-            for row in ceipal_iter_applicants(
-                url, tok, auth_style=style,
-                paging_length=int(paging_len),
-                max_pages=(int(max_pages) if max_pages > 0 else None)
-            ):
+            if rows_source:
+                iterator = rows_source  # list of {"row": ..., "file_path": ..., "created_at": ...}
+            else:
+                iterator = ceipal_iter_applicants(
+                    url, tok, auth_style=style,
+                    paging_length=int(paging_len),
+                    max_pages=(int(max_pages) if max_pages > 0 else None)
+                )
+
+            for item in iterator:
+                # Unpack row + (optional) local file path
+                if rows_source:
+                    row = dict(item.get("row") or {})
+                    local_fp = item.get("file_path")
+                else:
+                    row = item
+                    local_fp = None
+
                 seen += 1
 
-                # --- DEDUPE (stable keys) + META ---
-                sha = applicant_sha(row)  # keep sha for logging only
-                md  = build_meta_from_app(row, sha)
+                # --- candidate_id-based dedupe (in addition to sha) ---
+                cand_id = _extract_candidate_id(row)
+                if cand_id:
+                    # Build once outside the loop if you prefer performance (left inline for clarity)
+                    existing_ids = _existing_candidate_ids(_coll, _meta_by_id)
+                    if cand_id in existing_ids:
+                        skipped += 1
+                        pbar.progress(min(0.99, seen / max(1, total)), text=f"skip duplicate candidate_id={cand_id}")
+                        continue
 
-                # stable parent id: ceipal-<ceipal_id> (or email/name if no id)
-                base_id = make_base_id(row, md)
-
-                # hard dedupe: if we already have this ceipal_id OR this document_id, skip
-                if exists_by_ceipal_id(_coll, md.get("ceipal_id")) or exists_by_document_id(_coll, base_id):
+                # dedupe by sha of canonical JSON (your existing logic)
+                sha = applicant_sha(row)
+                if already_exists(_coll, sha, _meta_by_id):
                     skipped += 1
-                    pbar.progress(min(0.99, seen / max(1, total)),
-                                  text=f"skip exists ceipal_id={md.get('ceipal_id') or '—'} • seen={seen}")
+                    pbar.progress(min(0.99, seen / max(1, total)), text=f"skip duplicate sha={sha[:12]}")
                     continue
 
                 # build safe text + metadata
@@ -1107,11 +1539,25 @@ with st.expander("Step 4 of 7 – CEIPAL ingest to Chroma + BM25", expanded=Fals
                     skipped += 1
                     continue
 
+                md = build_meta_from_app(row, sha)
+
+                # carry file paths into metadata when available (from Step 3)
+                if local_fp:
+                    md["file_path"] = local_fp
+                # keep the remote path too, when present
+                rurl = _extract_resume_url(row)
+                if rurl and "resume_path" not in md:
+                    md["resume_path"] = rurl
+
+                base_id = make_base_id(row, md)
+                slug = sanitize_slug(md.get("email") or md.get("candidate_name") or md.get("ceipal_id") or cand_id)
+                base_id = f"ceipal-{slug}-{sha[:12]}"
+
                 try:
                     add_one_document(_coll, text_blob, md, base_id, _corpus_tokens, _bm25_doc_ids)
                     _meta_by_id[base_id] = md  # parent-level meta
                     added += 1
-                    details.info(f"added {md['candidate_name']}  →  id={base_id}")
+                    details.info(f"added {md.get('candidate_name') or cand_id}  →  id={base_id}")
                     if throttle_s > 0:
                         time.sleep(throttle_s)
                 except Exception as e:
