@@ -1,0 +1,179 @@
+Anoop K Mohemmed
+mohemmed.anoop@gmail.com 
+8763 Kilpeck Ct, Richmond VA - 23294
+Mobile: 804-819-0333
+Visa Status: Green Card
+Experience Summary 
+
+More than 15 Years of experience in developing highly available, multi-threaded, multi-tiered, scalable software for multiple domains using Microsoft Technologies.
+
+      Expertise in developing and deploying application in Azure and GCP cloud platforms.
+      Working on Healthcare Interoperability projects with FHIR, FHIR API s, SMART on FHIR, CDS Hooks applications. 
+      Integrating SMART on FHIR and CDS Hooks applications with EHR systems like Epic, Cerner and eHealthworks. 
+      Working on Healthcare Interoperability Projects and performing Data mapping (Crosswalk) for FHIR profile set US Core, CARIN BB, Da Vinci Use Cases etc., data consolidation and transformation between client provided data elements with FHIR data sets. 
+      Expertise in Design, Development, Implementation, Testing, and Maintenance of Web based and Windows based Applications using advanced .Net Technologies.
+      Expertise in programming with C#.NET, ASP.NET, ASP.NET Core, MVC, WCF, Web API, LINQ, ADO.NET, SQL-Server, JavaScript, Node JS, jQuery, CSS3, and HTML5.
+      Working experience in complete architecting the solutions, building the project layers including common components.
+      Experience in managing small team providing technical help and acting as a project manager.
+      Experienced in SOA, API, WCF, .Net thread pooling and task parrell library.
+      Extensive working experience in database design and development, for creating complex database queries, constraints, indexes, views, triggers and Stored Procedures and Functions using T-SQL in SQL Server.
+      Implemented entire interface of the application in C#.NET using various object-oriented features like classes, interfaces, inheritance, polymorphism and abstraction.
+      Implemented .Net Web based Application using ASP.NET, ASP.NET Core
+      Expertise in Service Oriented Architecture using Windows Communication Foundation and Web Services.
+      Expertise in Reporting Tools like Crystal Reports.
+      Extensive working experience in testing framework using MS Test and Test-Driven Development (TDD).
+      Expertise in Version control tools like VSS, and TFS.
+      Excellent exposure in Retail Pharmacy and Pharmacy benefits management system.
+      Experience in ANTS Profiler, FxCop, VSTS unit test cases.
+Responsibilities: 
+
+      Interact with customer(s) to gather data and analyzed business requirements and convert them to system requirements to implement software in .Net applications in more efficient processes for the organization.
+      Developed scalable modular software packages for .Net APIs including Web and Windows Applications.
+      Guide team members to adopt and implement methodologies and practices based on prior experience. 
+      Investigating and analyzing critical production problems and provide solutions for client requirements.
+      Troubleshot and responded quickly, based on technical knowledge, to problems and technical challenges.
+      Providing the necessary support to the development team to fix the errors raised by testing team and delivering for retest.
+      A systematic, organized, hardworking team builder with an analytical mind reliable as a fully contributing, responsible & accountable member of task/project teams.
+      Coordinate with Development, QA, Prod support and Database teams to streamlined release process and deployment using various tools.
+
+Employment details.
+
+      Architect Technology in Cognizant Technology Solutions from August 2012 to till date.
+      Technical Lead in Wipro Technologies, Bangalore from October 2005 to August 2012.
+      Senior Software engineer in Al Hadaba Intl Fzc, Dubai from May 2004 to Sept 2005.
+      Software engineer in T-Biz Technologies Cochin Kerala from Aug 2003 to Feb 2004.
+
+Education
+
+      Master of Computer Application, India.
+      Bachelor of Computer Applications, India.
+
+Technical Skills
+
+Cloud
+      Azure, Azure Functions, Azure Durable Functions, Azure Storage, Azure Event Grid, Google Cloud
+Framework
+      NET Framework, .Net Core 2.0, .Net Core 3.1
+Programming Languages   
+      OOPs, C#.NET, VB.Net, ADO.Net, LINQ/LINQ to SQL, WPF.
+Web Programming	
+      ASP.NET, ASP.NET MVC, ASP.NET Core, ASP.NET Web API Core, HTML5, CSS3, JSON/XML, Java Script, AJAX, jQuery
+Database	
+      MS-SQL Server, Cosmos DB
+Middleware	
+      ASP.NET Web API Core, Node JS, SOA, WCF, Web Service
+Reporting Tools	
+      Crystal Report
+Development Tools 
+      Ants Profiler, Ants Memory Profiler, Ants database management tools, ReSharper, Firebug, IE Development Tools.
+Source Control
+      TFS, GIT, Azure Repos, GIT Hub
+
+
+
+Professional Experience
+
+Working on SMART on FHIR, FHIR Application (August 2018)
+
+Client is implementing FHIR (Fast Healthcare Interoperability Resources) an interoperability specification to send real-time clinical data and it is the next generation standard for sharing healthcare data. This project is aimed to configure Humana FHIR server, implement and Integrate FHIR API endpoints and implement smart on FHIR applications to securely exchange data with different providers and vendors and also to improve latency in clinical data movement, clinical data accuracy and better matching among disparate clinical, financial and enterprise systems, improving the overall patient and member care experience
+
+Working on FHIR, SMART on FHIR, CDS Hooks application to integrate healthcare solutions with EHR systems. Worked applications like CDEx, PDex, Bulk data export, CDS Hooks, Prior Auth SMART on FHIR applications and other Davinci Payer applications. Application which are developed tested and integrated with EHR systems like Epic and Cerner and Healow.
+
+Environment:	Windows, C#, WCF, ASP.NET Core, ASP.NET Web API Core, Visual Studio 2019, Azure Repos, SQL Server 2014, Azure Cosmos DB, Security Identity Server. 
+
+
+ECM and Mail Merge (Conduent Govt Healthcare Services) September 2017  May 2018
+
+External Contact Management application utilized by the Operations team to view documented responses/feedback received from the intervention letter mailings of patients and physicians.  ECM automates the process of selecting the letters to be send out based on multiple categories which can be defined based on pre-determined criteria. The Physician Mail Merge/Data Validator application utilized by the Operations team to validate data prior to the intervention letter mailing.  Once the intervention letters are mailed, the ECM application s file data is updated.
+
+      Involved in complete architecting the solutions, building the project layers from ground up. 
+      Built common controls like security, logging, exception handling with complete guideline how to build the modules.
+      Involved in design and conversion of business requirements into functional design specification
+      Prepared Class diagrams and Sequence diagrams using Microsoft Visio
+      Lead and mentored a team for module development and unit testing and integrating different components of the application.
+      Worked on complete lifecycle of the project and done project management of the resources.
+
+Environment:	Windows, C#, WCF, ASP.NET MVC, Visual Studio 2017, Ants, TFS, IIS, MS Visio 2012, Microsoft.Net 4.0, Microsoft Enterprise Library, SQL Server 2012, SSRS.
+
+
+Upgrading Legacy project to latest Microsoft technology stack   January 2017   August 2017
+
+Upgrading multiple projects which are implemented in .net framework 1.1 and above to the latest .Net framework (4.6.1).  Code refracting has been implemented for compiling and deploying the project to new framework standards. 
+Hosting environment of the project has been changed from Windows Service to IIS. All applications which was using Microsoft remoting has been upgraded to WCF.  All the ports exposed has been made secure ensuring the certificate exchange between layers of the projects. 
+
+      Involved in upgrading the project from end to end and gave guidance to the team how effectively changes can be completed. 
+      Created sample POC applications to the team when team when there was a road block. 
+      Upgraded 13 application and deployed to DEV and TEST without impacting any functional application change. 
+      Fixing security issues of the legacy applications.
+
+Environment:	Windows, C#, WCF, ASP.NET MVC, Visual Studio 2015, TFS, IIS, MS Visio 2012, Microsoft.Net 4.0, Microsoft Enterprise Library, SQL Server 2012, SSRS.
+
+
+Hercules (Conduent Govt Healthcare Services) September 2014   March 2016 
+
+Hercules is an application which distills huge amounts of patient-specific data to produce useful information for drug use evaluation, provider profiling, and other quality management activities.  Hercules detects both clinical and economic opportunities for improvement in pharmacotherapy.  Hercules can then be used to produce reports and other interventional communications designed to improve the quality and decrease the cost of pharmacotherapy. Drug-related problems and other opportunities for improvement are identified by using pre-defined clinical and business RULES.
+
+      Involved in complete architecting the solutions, building the project layers from ground up. 
+      Built common controls like security, logging, exception handling with complete guideline how to build the modules.
+      Involved in design and conversion of business requirements into functional design specification
+      Prepared Class diagrams and Sequence diagrams using Microsoft Visio
+      Lead and mentored a team for module development and unit testing and integrating different components of the application.
+      Worked on complete lifecycle of the project and done project management of the resources.
+
+Environment:	Windows, C#, WCF, ASP.NET MVC, Visual Studio 2015, Ants, TFS, IIS, MS Visio 2012, Microsoft.Net 4.0, Microsoft Enterprise Library, SQL Server 2012, SSRS.
+
+Cyberformance (Conduent Govt Healthcare Services) January 2013   August 2014 
+
+Role:  Technical Lead  
+
+The CyberFormance Drug Program Management ToolkitSM ( CyberFormance ) is an expert business and clinical system that provides a single source solution for conducting clinical and business analyses of drug therapy and disease states. With this information Xerox State Healthcare enables its clients to identify care management or quality improvement issues that are the most critical to the overall success of the program. 
+Specific situations that represent the greatest opportunity for clinical or economic improvement can easily be identified by the user with the CyberFormance desktop application. CyberFormance produces critical business trends, and clinical reports with a few simple clicks of the mouse.  
+Once (Client Name) implements the CyberFormance Drug Program Management ToolkitSM, (Client Name) will have access to the features listed below.
+
+      Involved in complete architecting the solutions, building the project layers from ground up. 
+      Built common controls like security, logging, exception handling with complete guideline how to build the modules.
+      Involved in design and conversion of business requirements into functional design specification
+      Prepared Class diagrams and Sequence diagrams using Microsoft Visio
+      Lead and mentored a team for module development and unit testing and integrating different components of the application.
+
+Environment:	Windows, C#, WCF, ASP.NET MVC, Visual Studio 2012, Ants, TFS, IIS, MS Visio 2012, Microsoft.Net 4.0, Microsoft Enterprise Library, SQL Server 2012, SSRS.
+
+
+
+RedRx (Target), MN, USA May 2007   August 2012                                
+
+Role: Technical Specialist                          				
+
+RedRx is a new Pharmacy solution being developed to addresses Target Corporation s need to operate and support a world class pharmacy operation. The application will run in over 1600 stores currently operational across United States. It s a multi-phased, multi-year development program following the industry best development practices.
+
+      Involved in design and conversion of business requirements into functional design specification
+      Involved in discussion with cross-functional teams, which included design, development, and test engineers, for designing feature design documents.
+      Preparation of low level architecture as well as detailed design.
+      Prepared Class diagrams and Sequence diagrams using Microsoft Visio
+      Lead and mentored a team for module development and unit testing and integrating different components of the application.
+      Coordinate with client s program management and QA team to develop project and test plans.
+      Design and development of various modules using a variety of technologies C#, WCF and SQL Server.
+      Development of test harnesses using visual studio test suite for unit testing.
+      Developed common components which are used across the application for integration of modules and common functionalities.
+      Played a crucial role in the performance team analyzing SQL Server bottlenecks, deadlocks.
+      Conducted design reviews of low level design document for performance. 
+      Done .Net code review and SQL stored procedure review for SQL server 2008 for performance and deadlocks.
+      Development of SSIS packages.
+
+
+Environment:	Windows, C#, WCF, WPF, Visual Studio 2008, Ants Profiler, Visual Studio Test Suite, TFS, IIS, MS Visio 2005, Ants Profiler, FxCop, Microsoft.Net 3.5, Microsoft Enterprise Library, SQL Server 2008, SSIS.
+
+
+Retail Pharmacy System, Wipro Technologies 				Nov 2006   Apr 2007
+
+Role: Technical Specialist                          
+
+Retail Pharmacy System aims to provide a complete end to end pharmacy dispensing solution covering the entire prescription processing lifecycle   right from drop off to pick up. Pharmacy System will encompass critical processes like prescription capture, Drug Utilization Evaluation, claims adjudication, filling and Will Call Management.
+
+      Involved in designing architectural framework for the Project, designing the layers of the application.
+      Preparation of high level and low level architecture of the modules.
+      Developed the entity framework for the application and various modules.
+      Mentored and guided a team for module development.
+      Preparing the coding standards and performance coding document for the program
+
+Environment:	Windows, C#, WCF, WPF, WF Visual Studio 2005, IIS, VSS, MS Visio 2003, FxCop, Microsoft.Net 3.5, Microsoft Enterprise Library, SQL Server 2005.

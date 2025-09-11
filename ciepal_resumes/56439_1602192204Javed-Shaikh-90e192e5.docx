@@ -1,0 +1,345 @@
+JAVED RAHIM SHAIKH
+
+278 Main St.
+Melrose, MA- 02176
+Email: jshaikh1304@gmail.com
+Contact No: +1 617 283 8308
+
+
+Professional Summary:
+    9+ years of experience in software development of Web & Enterprise applications using JAVA and
+J2EE Technologies. Strong work experience in Child support, Health Care and Finance Services.
+
+Certification:
+      1.      Sun Certified Java Programmer (SCJP) 1.6
+
+      2.      Oracle Certified Web Component Development(OCWCD)
+
+Experience Summary:
+
+Total Experience of 9+ years in IT Industry.
+    * Currently working in Accenture , Since Aug 2014 to till Date.
+    * Previously worked in HSBC Software, RSystems International Pvt Ltd
+
+Education:
+
+Examination    Name Of the Institution    University/Board    Year
+B.E. Computer Science    All India Shri Shivaji Memorial Society College of Engineering Pune-1 (AISSMS)
+Pune University
+2009
+
+
+
+
+.
+
+Personal Skills:
+    * 9+ years of experience in software development of Web & Enterprise applications using JAVA and
+      J2EE Technologies. Strong work experience in Child support, Health Care and Finance Services
+    * Extensive Hands-on experience in the Spring Framework, Spring Boot, Spring Core (IOC
+      Container, AOP), Spring MVC, Spring Batch, Data Access(Transactions, JDBC and ORM), Spring
+      Security, Hibernate.
+    * Experience in developing Microservices , Web services like SOAP (Simple Object Access
+      Protocol) and REST (Representational State Transfer).
+    * Extensive usage in Java 8 involving concepts like Lambda, Functional Interface, Streams ad
+      Java 6 like Collections, Multithreading, Data Structures, Algorithms, Synchronization,
+      Serialization, IO, Exception Handling and Polymorphism.
+    * Excellent knowledge of design patterns (Singleton, Factory pattern, DAO, Session Facade and
+      Model View Controller).
+    * Developed, test and maintained spring boot deploy able micro-service components as part of POC
+      and has good knowledge in it.
+    * Expertise in writing SQL Queries in Relational Database Management Systems like Oracle, MySQL
+      and Microsoft SQLServer.
+    * Expert in deploying applications on application servers like IBM Web Sphere Application
+      Server, WebLogic, JBoss, and web servers like Tomcat.
+    * Expertise in Maven and Jenkins for building and deploying application on the servers.
+
+
+
+
+Technical Skills:
+
+  Expertise      Details
+  Languages      Java (8 and Old Version), J2EE
+  Operating Systems      Window, Unix
+  Web Technologies      HTML, JavaScript, JSP, Servlets, Ajax (Basic), XML(Basic), Microservices, Web Service using WSDL
+  ,SOAP, Postman
+  Frameworks      Core Spring, Spring Batch, Spring Boot, Spring MVC, Struts, Hibernate
+  Rule      OPA
+  Scripting      JavaScript, jQuery
+  Database and Others      Oracle11g, MySQL, PostgreSQL 8.4
+  Tools      Tortoise SVN, Git Hub, KDiff, SOAP UI. Bugzilla, JIRA, Mantis, Selenium
+  Logging Tool      RabbitMQ, Splunk
+  Web Development Tools      Eclipse IDE, IBM RAD, Rational Team Concert (RTC).
+  Web Servers      JBoss, IBM Web Sphere, WebLogic
+  Batch Monitoring Tool      Control-M, Tivoli
+  Certifications      1.Oracle Certified Professional Java Programmer (OCJP)
+
+  2.Java EE 5 Web Component Developer (OCWCD)
+
+
+
+Work Experience
+
+Company      : Accenture Services
+Project Name : Commonwealth Of Massachusetts / Accenture USA
+Location      :Chelsea MA,USA
+Start Date      : Dec 2016  End Date: To Present
+
+
+Role: Software Engineering Sr. Developer
+
+
+
+Project Description:
+The Child Support Enforcement Division of the Massachusetts Department of Revenue (DOR) will be
+implementing a new integrated child support system known as COMETS HD.
+COMETS HD will be a user-friendly system that will automate the business of child support
+enforcement, and also enable its work by making appropriate use of technology to meet and anticipate
+user needs.
+
+
+Responsibilities:
+    * Designing and Developing Module based persistence layer under the guidance of DAO design
+      pattern, ORM principles, using Hibernate.
+    * Planning, analysis, design and implementation of different modules as per the Use Case
+      requirements.
+    * Deploying application on Web Sphere application server and portal server.
+    * Developing SOAP based web services and tested the services using SOAP UI.
+    * Developing front-end pages in JSP and its respective controller using MVC Portlets.
+    * Using NIEM (National Information Exchange Model) to develop web services interface and
+      integrate the web services with the partners.
+    * Developing components based on Spring Batch.
+    * Experienced with EasyMock testing framework.
+    * Fixing defects found in Integration, System and UAT testing.
+    * Handled end to end Build and Release activities from Development to Production environments.
+    * Documenting the Design Change Work Request.
+    * Worked on enhancement implementation and support
+    * Has been involved in managing team.
+    * Onshore co-ordination for requirement gathering, addressing design flaws, review and quality
+      of deliverables
+    * Creating Test Cases for developed modules using JUnit.
+    * Involved in peer review for making sure of the quality of deliverables as per the coding
+      conventions.
+    * Has been involved in data base change request (DBCR) review.
+
+Environment:
+Java , Spring Boot, Spring Batch, Spring MVC, Spring AOP, Spring Security ,Hibernate, Microservies,
+Oracle 11, Easy Mock, Maven, JSP, JSTL, Web Sphere Application / Portal Server, SOAP UI, IBM BPM.
+
+
+
+
+Company      : Accenture Services
+Project Name : State of Kansas (KEES)
+Location      : India
+Start Date      : Sep 2014   End Date : Nov 2016
+
+Role: Senior Software Developer
+
+
+
+Project Description :
+
+KEES (Kansas Eligibility Enforcement System) is a Web application designed for determining
+eligibility and based on that issuing benefit under various Programs by the Government to the
+citizens of State of Kansas. Citizens for Kansas apply for benefits on web portal based on which
+eligibly is checked on that and accordingly benefits are provided. KDHE and Department for Children
+and Families (DCF) are working together to develop KEES. This new system will replace legacy systems
+which have been used by the State of Kansas to determine eligibility for medical and family programs
+for the last 24 years.
+
+
+Responsibilities:
+    * Analyzing the new requirements and design required to implement the same.
+    *  Onshore co-ordination for requirement gathering, addressing design flaws, review and quality
+      of deliverables
+    * Producing the technical design documents(TDD's) for assigned modules to be developed.
+    * Identifying and raising Database change requests if any DB changes are required and sending
+      them for review.
+    * Implementing code modules as per the technical design document.
+    * Creating Test Cases for developed modules using JUnit.
+    * Involved in peer review for making sure of the quality of deliverables as per the coding
+      conventions.
+    * Has been involved in Change Request Development.
+    * Fixing defects found in Integration, System and UAT testing.
+    * Has been involved in Defect Fix(Batch & Interface/Rules/ABMS) and Analysis
+    * Has been involved in data base change request (DBCR) review.
+    * Has been involved in managing team.
+    * Has been involved in OPA Rules defects.
+
+
+Environment:
+Java 6, Spring Batch, Spring MVC, Spring AOP, Spring Security, Hibernate, Oracle 11, EasyMock,
+Maven, JSP, JSTL, Web Sphere Application / Portal Server, SOAP UI, IBM BPM,Splunk
+
+
+
+
+Company      : HSBC Software
+Project Name : FX Order Watch(FXOW)
+Location      : India
+Start Date      : Aug 2013   End Date: Aug 2014
+
+Role : Senior Software Developer
+
+Project Description :
+
+The Global FX Program aims to establish HSBC as the preferred provider of world-class FX products
+and services in the retail banking sector globally. HSBC's FX Order Watching service will allow
+customer to set their own target FX rate via HSBC's internet or mobile banking service, branches or
+call center to either:
+1.Be alerted when the FX rate is hit
+2.Convert funds automatically within their accounts when the FX rate is hit.
+The HSBC FX Order Watch service is targeted at customer with at customers with ratial FX needs
+seeking optimized rates for transactional purpose and also customer wishing to take advantage if FX
+movements to benefit their portfolios.
+
+
+Responsibilities:
+    * Development of local enhancement which includes the requirement gathering, development, unit
+      testing.
+    * Production support till the warranty period.
+    * Producing the technical design documents(TDD's) for assigned modules to be developed.
+    * Identifying and raising Database change requests if any DB changes are required and sending
+      them for review.
+    * Implementing code modules as per the TDD.
+    * Creating Test Cases for developed modules using JUnit.
+    * Involved in peer review for making sure of the quality of deliverables as per the coding
+      conventions.
+    * Has been involved in CR's Development.
+    * Has been involved in Defect Fix and Analysis
+Environment:
+Java 6, Spring Core, Oracle 11, EasyMock, Maven, JSP,RTC, Web Sphere Application / Portal Server,
+SOAP UI
+
+
+
+Company      : HSBC Software
+Project Name : GT Mobile
+Location      : India
+Start Date      : Aug 2012      End Date: Jul 2013
+
+Role: Senior Software Developer
+
+Project Description:
+
+Deliver a world-class customer experience for HSBC's leading Global Transfer service via
+multi-channel access, leveraging the latest technology or digital solution for customers.
+Project is enable to provide Global Transfer service via mobile devices, specially mobile phone and
+tablet. This will provide a mobile platform where the customer can move money across their own HSBC
+accounts, across different countries instantly using Global Transfers.
+
+
+
+Responsibilities:
+    * Development of local enhancement which includes the requirement gathering, development, unit
+      testing.
+    * Production support till the warranty period.
+    * Producing the technical design documents(TDD's) for assigned modules to be developed.
+    * Identifying and raising Database change requests if any DB changes are required and sending
+      them for review.
+    * Implementing code modules as per the TDD.
+    * Creating Test Cases for developed modules using JUnit.
+    * Involved in peer review for making sure of the quality of deliverables as per the coding
+      conventions.
+    * Has been involved in CR's Development.
+    * Has been involved in Defect Fix and Analysis
+Environment:
+Java 6, Spring Core,Oracle 11, EasyMock, Maven, JSP, Web Sphere Application / Portal Server, SOAP UI
+
+
+
+
+Company      : Rsystems International Ltd
+Project Name : Viva (Collection Banking)
+Location      : India
+Start Date      : Jan 2012      End Date: Jul 2012
+
+Role: Software Developer
+
+Project Description:
+
+VIVA is the most advanced mobile telecommunications service provider in the country. VIVA has
+rapidly established itself in the market through customer and employee-centric approach. With the
+objective of providing shareholders value, and return on investment, VIVA is focusing on corporate
+governance activities in the following key areas: Strategic Guidance, Active Monitoring, Strategic
+Management, Active Auditing and Organization and Human Resources to meet business requirements.
+
+Responsibilities:
+    * Development of local enhancement which includes the requirement gathering, development, unit
+      testing.
+    * Has been involved in Defect Fix and Analysis
+    * Has been involved in DBCR review.
+    * Producing the technical design documents(TDD's) for assigned modules to be developed.
+    * Identifying and raising Database change requests if any DB changes are required and sending
+      them for review.
+    * Implementing code modules as per the TDD.
+    * Creating Test Cases for developed modules using JUnit.
+    * Involved in peer review for making sure of the quality of deliverables as per the coding
+      conventions.
+
+
+
+
+Company      : Rsystems International Ltd
+Project Name : Fullerton India (Collection Banking)
+Location      : India
+Start Date      : Apr 2011      End Date: Dec 2011
+
+Role: Software Developer
+
+Project Description:
+
+Fullerton India Credit Company Limited is one of India's leading Non-Banking Finance Companies
+(NBFC). Fullerton India's mission is to bridge the gap between inclusion and access to financial
+services in the mass market segment. It strives towards realizing this mission by expanding its
+network in newer areas and designing products and services that would fulfill the needs and
+aspirations of the mass market in India.
+
+Responsibilities:
+    * Worked on Development of Repossession Module And Financial Authority Level(FAL) .Repossession
+      in Fullerton is initiated on cases which belong to Auto, 2w and Commercial vehicle portfolio.
+    * Development of local enhancement which includes the requirement gathering, development, unit
+      testing.
+    * Has been involved in Defect Fix and Analysis
+    * Producing the technical design documents(TDD's) for assigned modules to be developed.
+    * Identifying and raising Database change requests if any DB changes are required and sending
+      them for review.
+    * Implementing code modules as per the TDD.
+    * Creating Test Cases for developed modules using JUnit.
+    * Involved in peer review for making sure of the quality of deliverables as per the coding
+      conventions.
+
+
+
+Company      : Rsystems International Ltd
+Project Name : Volkswagen Loan Management System(LMS)
+Location      : India
+Start Date      : Dec 2010      End Date: Apr 2011
+
+Role: Software Developer
+
+Project Description:
+Indus Loan Management System modules tracks and manages the repayment process. It includes
+monitoring of receivables,acceptance of repayment details,report and custom queries. Indus Loan
+Management System has multi-users and multi-branch capabiliity.Various functionalities were
+Prepayment,Re-scheduling,Refunds,Write Offs, Maturity Marking, Excess Amounts, PDC,DAS,Auto
+Debit,Direct Receipts, Managing Customer queries.
+
+Responsibilities:
+    * Development of enhancement like Direct Debit Authorization Pending, Direct Debit Authorization
+      Result, Payment Download, Payment Summary, Complaint Registration Request module
+      which includes the requirement gathering, development, unit testing.
+    * Has been involved in Defect Fix and Analysis
+    * Producing the technical design documents(TDD's) for assigned modules to be developed.
+    * Implementing code modules as per the TDD.
+    * Identifying and raising Database change requests if any DB changes are required and sending
+      them for review.
+    * Creating Test Cases for developed modules using JUnit.
+    * Involved in peer review for making sure of the quality of deliverables as per the coding
+      conventions.
+
+
+
+GitHub - https://github.com/javedshaikh22?tab=repositories

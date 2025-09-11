@@ -1,0 +1,219 @@
+Babatunde Oluwatosin Ojo
+SENIOR ANDROID ARCHITECT
+
+AVAILABLE
+PHONE: 
+404-220-9130
+EMAIL:  
+babatundeojo987@gmail.com
+
+Highly motivated, goal oriented programmer and architect with a passion for innovation design and functionality in Android mobile application development.  Full stack developer skilled in Android architecture, design patterns, UI/UX and back-end integrations.
+10 yrs Java & 5 yrs Android
+
+Professional Summary
+ 	Architected and implemented multiple Android applications across versions.
+ 	Experience with multi-threading and memory management specific to mobile devices.
+ 	Good knowledge in UML standards for preparing Use Case Diagrams, Class Diagrams, Sequence Diagrams and Activity Diagrams.
+ 	Solid computer programming background, full SDLC, OOP, OOD, and functional programming.
+ 	Familiar with Google guidelines and APIs including Material Design, permissions APIs, GCM and Firebase.
+ 	Continuously learning and adopting new ideas and technologies
+ 	Offering strong interpersonal skills, analytical and problem-solving skills, organization, attention to detail, computer proficiency, ability to work collaboratively in a fast-paced environment.
+ 	Proficient in Java, J2ee, Web Services, JavaScript, JSP/JSF, XML, CSS/HTML, Ajax, Struts, MVC Architecture.
+ 	Experience writing SQL queries for Oracle/Microsoft Access databases and development of stored procedures using PL/SQL.
+ 	Programming, compiling, debugging code in the UNIX and Windows environment.
+ 	Experience with Eclipse based IDE's such as RAD and WID and other WebSphere tools.
+ 	Involved in all phases of the software development life cycle (i.e., Gathering requirements, Documentation, Analysis, Specification, Coding, Testing, Deployment).
+ 
+Technical Skills
+
+Programming Languages  
+Kotlin, Java, J2EE, Struts, Spring, Hibernate, JavaScript, SQL, HTML/CSS, XML, jQuery	Logging and Scheduling
+Bugfender, Evernote Android Job, Android Job Scheduler, Timer
+	Web Services
+REST, SOAP, JSON, GSON, XML, Ajax
+RESTful APIs	Dev Kits
+Java Development Kit (JDK)
+Android SDK, 
+Android NDK
+Fabric
+Google
+Reactive-X
+
+IDE
+Android Studio
+Eclipse
+
+Version Control:  
+Git, SVN, GitHub
+SourceTree
+Tower
+	PM Tools
+Basecamp
+Slack
+Trello
+Groove HQ
+Confluence
+JIRA
+JavaDocs	Database
+SQL Server
+SL/SQL
+MySQL
+SQLite
+Realm
+MongoDB
+Firebase
+Parse	Troubleshooting
+JIRA
+DDMS tool
+ADB
+LeakCanary
+Firebase Crash Reporting
+Fabric Crashlytics
+
+UI Creation
+Photoshop
+Sketch
+GIMP 
+Wireframes
+
+Cloud Services
+Google Cloud Messaging
+Firebase Cloud Messaging
+	UI Implementations
+Custom Android views classes and components.
+Android adapter views like Listview, Gridview and Gallery.
+Customized List views.
+Gallery widgets
+ParallaxPager	Threading
+Reactive-X
+Retrofit)
+AsyncTask
+IntentService
+Handler
+Handler Threads
+Loopers
+Loaders	Libraries
+C standard Library
+MPL and MECL libraries.
+Ksoap2 library 
+Jersey Library
+open source libraries,
+Java Swing
+Ajax Swing
+GWT
+Retrolambda
+NineOldAndroids
+RxJava
+Multimedia
+Picasso
+Glide
+Fresco
+	3rd Party APIs
+LinkedIn API
+Google API
+Twitter API
+Facebook API
+YouTube API
+Open Weather API
+Open Movies DB
+	Encryption
+ProGuard
+Dexguard
+ZRTP media encryption	Data Persistence:  
+SQLite
+Core Data
+Keychain
+
+Professional Experience
+
+October 2016 – Present
+Senior Android Architect, RaceTrac, Atlanta, GA
+https://play.google.com/store/apps/details?id=com.RaceTrac.Common
+?	Responsible for requirement gathering for the Android app, Android UI design, prototyping the app architecture and design, and ensuring the design matched and exceeded stakeholder expectations.
+?	Responsible for client interaction for requirement analysis, and transforming into product specs.
+?	Architected, designed, and Implemented end-to-end solution, including application flow and planning collaboration with the UI/UX team.
+?	implemented extensively multithreaded efficient dongle architecture which is capable of processing incoming-outgoing messages from all of the connection without blocking.
+?	Implemented unique design for portrait and landscape mode.
+?	Worked on creating and configuring android native application.
+?	Involved in Designing architecture, developing data models and implementing them.
+?	Organized & improved global widgets and UI controls.
+?	Designed screens related to categories and detail pages for this application. 
+?	Developed Android app architecture using MVP (Moxy/Mosby + Cicerone) and Dagger 2.
+?	Implemented HTTP Tunneling using HTTP Connect, while being behind a Syntonic proxy server which is used to compute user's eligibility for sponsored data. 
+?	Used Retrofit and RxJava for improved asynchronous communication and threading.
+?	Implemented Challenging UX components. iOS style browser top/bottom pane animation on scrolling the web content. 
+?	Used lazy loading of heavy resources, Caching images on LRU cache as well as files on worker threads for performance.
+?	Worked with Jenkins instance on continuous integration server, and tested all devices authentically.
+?	Managed Git version control for Android mobile app code base repository using SourceTree.
+?	Followed an Agile Scrum methodology with 2-week sprints and daily scrums.
+?	Included some pair programing and code reviews, and mentored Java developers on Android best practices.
+
+October 2015 – October 2016
+Senior Android Mobile Developer, CarMax, Richmond, VA
+https://play.google.com/store/apps/details?id=com.carmax.carmax&hl=en
+?	Involved in requirement gathering and designing of the application. 
+?	Designed a prototype application which had all these features integrated into a single one
+?	Architected the application from scratch and was also responsible for interacting with team in regard to project updates and technical discussions
+?	implemented extensively multithreaded efficient dongle architecture which is capable of processing incoming-outgoing messages from all of the connection without blocking.
+?	Implemented HTTP tunneling using HTTP CONNECT method. Extensively used thread and implemented a multithreaded solution.
+?	Implemented Reactive-X using RxJava as a fundamental framework for improved performance.
+?	Implemented Firebase realtime database as well as Firebase crash reporting.
+?	Worked with the Android SDK, and implemented Android Bluetooth and Location Connectivity components.
+?	Involved in designs and implements UI, classes, and activities, and worked with the design team to create the interactive UI. 
+?	Implemented unique design for portrait and landscape mode.
+?	This project utilized Test-Driven development with both automated testing and unit testing.  
+?	Oversaw the writing of jUnit and Mockito test cases and use of TestFairy for functional and scenario testing.
+?	Developed the app in Android Studio using Java programmatically as well as native Android and other frameworks.
+
+July 2014 – September 2015
+Android Java Developer, Best Buy, Inc. Richfield, MN
+https://play.google.com/store/apps/details?id=com.bestbuy.android
+?	Provided architectural inputs, daily updates, sorting open issues that involve issues related to design, development and implementation.
+?	Responsible for consuming the REST services, getting JSON response and parsing them to get the required information.
+?	Implemented Bluetooth BLE(Bluetooth Low energy) on Android, and Google Maps API to locate user location and nearest CarMax.
+?	Involved in implementing AsyncTask for the background operations.
+?	Implemented an array of backlogged UI elements
+?	Designed screens related to Categories and Detail description for Tablet for both 7 inch and 10 inch devices by customizing views as per mockup. 
+?	Created Master-Detail Interface for tablet implementation.
+?	Designed screens related to Front Page and Categories
+?	Involved in checking the network status before making any network call. 
+?	Used RESTful web services to consume a web service.
+?	Documented in Javadoc and Confluence, and used Atlassian stack for project including JIRA for tracking user stories and issues.
+
+July 2013 – July 2014
+Android Mobile App Developer, Macy’s Star Gifts, San Francisco, CA
+https://play.google.com/store/apps/details?id=com.macys.stargiftapp
+?	Worked with the Android SDK, and implemented Android Bluetooth and Location Connectivity components.
+?	Involved in implementing AsyncTask for background operations to reduce the load on the main thread. 
+?	Implemented a common interface for the application making it compatible with a desktop, web or mobile.
+?	Worked on the navigation view to display the user profile and respond to user interaction and updating the server if views are changed 
+?	Worked on menu items to have smooth transition while creating respective activities and fragments 
+?	Implemented collapsing tool bar in a drawer layout to collapse the image on scrolling up
+?	Worked on animations in the applications like view animations.
+?	Used Android Studio to develop the screens for the application using MVC design pattern.
+?	Constructed basic views and page designs based on the XML that was being parsed 
+?	Worked on innovative background reflecting the user account status that changes according to user's account.
+?	Implemented SQLite database
+?	Regular interaction of RESTful API design calls to populate the UI on the app using GET, PUT, POST and DELETE.
+?	Worked on implementing content providers to store application related data in content providers and querying data using Async Task. 
+?	Designed the database model in MySQL.
+?	Worked on local data storage using shared-preference.
+
+May 2012 – July 2013
+Mobile App Developer – Android Team, SNRB Labs, Marlboro, NJ
+https://play.google.com/store/apps/details?id=com.gvoip
+?	Implemented cross platform Bluetooth Dongle & Client solution over Classic Bluetooth and BLE(Bluetooth Low energy) on Android. The dongle software is able to connection both Android and iOS clients and is also capable of establishing multiple connections at the same time.
+?	Inserted suitable code to capture the various button and text field events and implemented the desired action for each of the widgets. 
+?	Created custom UI classes for corresponding misfiles
+?	Worked on the Android Asynctask service to update List View Screen. 
+?	Worked with Recycler views to display each card details and for fast transactions with Fragments. 
+?	Redesigned layouts using material design guidelines for better user experience.
+?	Major challenges included performance, efficient code. Because of the movie playback thousands of objects were created and hundreds of JAVA-JNI(reflex) calls were happening which was not efficient, 
+?	So we end up implementing Object pooling in both Java and native code and other strategies for limiting the reflexive JNI calls.
+?	Fixed bugs reported by service providers and testing team.
+?	Tested the app in various virtual devices and real devices.
+?	Used log cat, DDMS (Dali Debug Monitor Server) and trace view for debugging and detecting memory leaks.
+
+Education
+Degree
+University

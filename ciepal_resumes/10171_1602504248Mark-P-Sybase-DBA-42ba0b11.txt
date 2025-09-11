@@ -1,0 +1,11 @@
+I have 26yrs/16yrs/6yrs with the Sybase ASE/Repserver/DataAssurance products, respectively, with most work performed in UNIX/linux environments.
+
+My Sybase skill set covers all areas touching on ASE and repserver: installs/upgrades/configurations/migrations, monitoring/tuning, query/process design, replication design/configuration, etc.
+
+I also have extensive experience with UNIX/Llinux (ksh/bash) shell scripting (eg, DBA monitoring/maintenance jobs)..
+
+A resume and direct contact details can be provided to the recruiter who contacts me about this opportunity.
+
+Regards,
+MarkP
+markp_in_ca@yahoo.com
