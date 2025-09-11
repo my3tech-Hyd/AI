@@ -1,0 +1,5 @@
+Name: Test User 1
+Email: user1@example.com
+Phone: +1-555-1001
+Summary: docker automation logging microservice event observability hive python scalable java redis store observability event observability monitoring data reliability docker redis privacy streaming golang redis event store postgres presto tracing terraform monitoring pubsub observability cloud ci/cd pubsub api pipeline design monitoring feature presto api event airflow automation redis automation postgres feature terraform kubernetes store kafka privacy pubsub reliability microservice airflow pubsub
+Key Skills: golang automation privacy presto microservice compliance ci/cd hive scalable privacy feature automation rust event python logging ci/cd tracing airflow scalable cloud terraform presto presto kafka presto terraform analytics reliability store

@@ -1,0 +1,88 @@
+{
+  "id": "fb17f02e-688a-4d2b-9fdc-654652ee4dc0",
+  "title": "I need java full stack candidate Hyderabad location",
+  "created_at": "2025-08-22T17:21:32",
+  "updated_at": "2025-08-22T17:22:43",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).Don't ask irrelevent questions",
+      "ts": "2025-08-22T17:21:32"
+    },
+    {
+      "role": "user",
+      "content": "I need java full stack candidate with Hyderabad location ",
+      "ts": "2025-08-22T17:22:24"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**  \n- **Summary:** Srinivas is an excellent fit for the Java Full Stack Developer role, possessing over 5 years of experience in Java and related technologies, with a strong focus on microservices and API development.  \n- **Strengths:**  \n  - Over 5 years of experience as a Senior Java Developer.  \n  - Proficient in Java 8/11/17, Spring Boot, Spring MVC, Spring Batch, and Spring Cloud.  \n  - Developed and maintained microservices architecture for airline reservation systems.  \n  - Designed and implemented RESTful APIs, SOAP APIs, and GraphQL endpoints.  \n  - Location: Remote (not in Hyderabad, but relevant experience).  \n- **Areas to improve:**  \n  - Not located in Hyderabad.  \n  - Angular experience not evidenced in snippet.  \n  - SQL experience not explicitly mentioned in snippet.  \n\n---\n\n**2. Hrishikesh Raipet**  \n- **Summary:** Hrishikesh is a strong candidate for the Java Full Stack Developer position, with over 14 years of Java development experience and proficiency in both front-end and back-end frameworks.  \n- **Strengths:**  \n  - Over 14 years of experience in Java development.  \n  - Proficient in Angular JS and Angular 12.  \n  - Extensive experience with agile methodologies and SDLC.  \n  - Experience with MySQL and PostgreSQL databases.  \n  - Location: Carmel, IN (not in Hyderabad, but relevant experience).  \n- **Areas to improve:**  \n  - Not located in Hyderabad.  \n  - Spring experience not explicitly mentioned in snippet.  \n  - SQL experience not explicitly mentioned in snippet.  \n\n---\n\n**3. Jarnail Singh**  \n- **Summary:** Jarnail is a less suitable candidate for the Java Full Stack Developer role, primarily due to a focus on PowerBuilder rather than Java technologies, despite having strong SQL skills.  \n- **Strengths:**  \n  - Extensive experience in application development and optimization.  \n  - Strong analytical ability and experience in data modeling.  \n  - Proficient in SQL and database management (Sybase, Oracle, Microsoft SQL Server).  \n  - Results-driven with experience in full SDLC management.  \n- **Areas to improve:**  \n  - No evidence of Java, Spring, or Angular experience.  \n  - Not located in Hyderabad (based in Jersey City, NJ).  \n  - Not evidenced in snippet for Java Full Stack development experience.  \n\n---\n\n**4. Hari Prakash Pokala**  \n- **Summary:** Hari has significant experience in software engineering but lacks a clear focus on Java and Spring, making him a less ideal candidate for the Java Full Stack Developer role.  \n- **Strengths:**  \n  - Over 15 years of experience in software development.  \n  - Proficient in Angular 8.0 and above, Python, Node.js, and Java/JEE.  \n  - Strong knowledge of microservices architecture and RESTful API development.  \n  - Experience in Agile environments and implementing best practices.  \n- **Areas to improve:**  \n  - No explicit mention of Java proficiency or versions.  \n  - Spring experience not explicitly mentioned in snippet.  \n  - Not located in Hyderabad (based in Jacksonville, FL).  \n\n---\n\n**5. Final Resume**  \n- **Summary:** This candidate is not suitable for the Java Full Stack Developer role as their experience is primarily in Python and JavaScript, with no relevant Java or Spring expertise.  \n- **Strengths:**  \n  - Experience in developing applications using Flask and Python.  \n  - Proficient in HTML, CSS, and JavaScript for front-end development.  \n  - Developed applications using Node.js.  \n- **Areas to improve:**  \n  - No evidence of Java, Spring, or Angular experience.  \n  - Not located in Hyderabad (location not specified).  \n  - No SQL experience evidenced in snippet.  ",
+      "ts": "2025-08-22T17:22:43",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "e, Miro, Visio, and ALM Octane for managing projects and collaboration.Strong in problem-solving, debugging, and performance optimization, with tools such as VisualVM, JProfiler, and Postman for efficient application testing and debugging.TECHNICAL SKILLS:Education: Bachelors - Anna University, Chennai, Computer Science, 2011Masters - University of North Texas, Computer Science, 2012 Dec PROFESSIONAL EXPERIENCEClient: American Airlines | Senior Java Developer May 2022 – Present Location: Remote. Developed and maintained microservices architecture using Java 8/11/17, Spring Boot, Spring MVC, Spring Batch, and Spring Cloud for airline reservation systems and customer-facing platforms.Designed and implemented RESTful APIs, SOAP APIs, and GraphQL endpoints for seamless data retrieval, supporti"
+          }
+        },
+        {
+          "candidate_name": "Jarnail Singh Powerbuilder",
+          "match_pct": 95,
+          "email": "jarnailssingh3620063@gmail.comSummaryExpertise",
+          "phone": "+3044692098189",
+          "document_id": "Jarnail Singh Powerbuilder-66c6a35a7507",
+          "file_path": "./resumes_store\\Jarnail Singh Powerbuilder.66c6a35a7507.docx",
+          "evidence": {
+            "snippet": "Jarnail Singh Jersey City, NJ 07304(469) 209-8189 jarnailssingh3620063@gmail.comSummaryExpertise in the development of PowerBuilder Client/Server, Web, and Mobile multiplatform applications, such as Android and iOS. Have in-depth knowledge of development life-cycle, strong analytical ability, and experience in data modeling. Have wide experience with Sybase (ASE and ASA), Oracle, and Microsoft SQL Server databases. Results-driven PowerBuilder Developer & Technical Lead with X+ years of experience designing, developing, and optimizing enterprise applications using PowerBuilder, SQL, and Sybase. Proven expertise in legacy system modernization, team leadership, and full SDLC management. Adept at troubleshooting complex issues, mentoring junior developers, and aligning technical solutions with"
+          }
+        },
+        {
+          "candidate_name": "Hrishikesh Raipet - Java FullStack Developer",
+          "match_pct": 90,
+          "email": "5963hrishikeshraipet@gmail.comhttps",
+          "phone": "+1 203 572 5963",
+          "document_id": "Hrishikesh Raipet - Java FullStack Developer-15bf1060a0ac",
+          "file_path": "./resumes_store\\Hrishikesh Raipet - Java FullStack Developer.15bf1060a0ac.docx",
+          "evidence": {
+            "snippet": "Hrishikesh RaipetCarmel, IN, 46074 Public Trust Clearance +1 203 572 5963hrishikeshraipet@gmail.comhttps://www.linkedin.com/in/hrishikesh-raipet-75021024a/SR. Java Full Stack DeveloperSUMMARY: Over 14+ years of JAVA development experience working with the modern Front end and the Backend frameworks.Extensive experience of agile methodologies: Extreme Programming, Scrum and Waterfall Software Development Life Cycle (SDLC) including requirement analysis, design and technical specification, code development, code integration, testing and deployment of Object-Oriented Analysis and Design using Java/J2EE on Windows Unix and Linux platforms. Experience in working with Angular JS, Angular 12, AWS, jQuery, MySQL, Node.js, PostgreSQL.Experience in developing applications using React with Redux arch"
+          }
+        },
+        {
+          "candidate_name": "Hari Prakash Pokala",
+          "match_pct": 39,
+          "email": "904-514-5716hariprakash.pokala@gmail.comSummary",
+          "phone": "+1 904-514-5716",
+          "document_id": "Hari Prakash Pokala-ac0b6daf36a9",
+          "file_path": "./resumes_store\\Hari Prakash Pokala.ac0b6daf36a9.docx",
+          "evidence": {
+            "snippet": "Hari Prakash PokalaPhone: +1 904-514-5716hariprakash.pokala@gmail.comSummary:Experienced and versatile Software Engineer with over 15 years of expertise in developing cutting-edge web applications using Angular 8.0 & above, Python, Node.js, Java/JEE, and modern technologies. Proven leadership in Agile environments, adept at implementing best practices to deliver high-quality solutions. Skilled in client-side development with HTML, CSS, JavaScript, jQuery, Bootstrap, JSP, Struts, Ajax, Angular, and ReactJS, ensuring interactive and visually appealing user interfaces. Deep knowledge of Java and JavaEE platforms, including servlets, JDBC, Hibernate, Spring MVC, Spring Boot, and NodeJS. Strong in microservices architecture, RESTful APIs development using Spring Boot and Node.js, cloud technolo"
+          }
+        },
+        {
+          "candidate_name": "final resume",
+          "match_pct": 0,
+          "email": "divya.dha24@gmail.com",
+          "phone": "+917732000666",
+          "document_id": "final resume-46121dd3f6b7",
+          "file_path": "./resumes_store\\final resume.46121dd3f6b7.pdf",
+          "evidence": {
+            "snippet": "ilingual content management app with dynamic data retrieval using Flask and Python, and an interface using HTML, CSS, and JavaScript. Todo Website | Node.js, HTML, CSS, JavaScript Link • Developed a task management app for WD201 with NodeJS for dynamic handling, and HTML, CSS, and JavaScript for the user interface and interactivity. EEG-based Cognitive Load Classification | Feature Masked Autoencoding, TensorFlow/Keras Link • Developed a neural network with Feature Masked Autoencoding and TensorFlow/Keras to classify cognitive load levels from EEG data with high accuracy. Diabetes Prediction | Streamlit, Numpy, Seaborn, Scikit-learn Link • Built a diabetes prediction app using Streamlit for an interactive interface, with Python for backend processing. Utilized NumPy for data manipulation a"
+          }
+        }
+      ]
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.7,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

@@ -1,0 +1,714 @@
+{
+  "id": "901c6e08-4d9b-4221-8e4f-d37fb60214fe",
+  "title": "Network Engineer 5+ yrs CCNA CCNP Cisco routers",
+  "created_at": "2025-08-25T02:08:07",
+  "updated_at": "2025-08-25T03:03:30",
+  "pinned": false,
+  "summary": "- **Key Hiring Criteria for Java Full Stack Developer:**\n  - Proficiency in **Java**, **Spring**, **Hibernate**, and **Angular**.\n  - Experience with **SQL** for data management.\n  - Familiarity with **Spring Security**, **OAuth 2.0**, and **JWT**.\n  - Knowledge of **Docker** and **Kubernetes** for application deployment.\n  - Ability to configure **CI/CD pipelines** using tools like **Jenkins** and **GitLab CI**.\n  - Experience integrating front-end with microservices via **RESTful APIs**.\n  - Strong focus on security and compliance, particularly with **HIPAA** standards.\n\n- **Preferences:**\n  - Candidates should ideally be located in **Pune**.\n  - Evidence of years of relevant experience is preferred.\n\n- **Constraints:**\n  - Candidates lacking experience in required technologies (Java, Spring, Angular) are not suitable.\n  - Proficiency in SQL must be relevant to the required technologies.\n  - Candidates with backgrounds primarily in QA, testing, or unrelated programming languages (e.g., C#, COBOL) are not considered a fit.",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).Don't ask irrelevent questions",
+      "ts": "2025-08-25T02:08:07"
+    },
+    {
+      "role": "user",
+      "content": "Network Engineer, 5+ yrs, CCNA/CCNP, Cisco routers/switches, Hyderabad",
+      "ts": "2025-08-25T02:08:16"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate 1: Gregg Rios\n**Summary:** Gregg Rios does not meet the requirements for the Network Engineer position as there is no evidence of relevant networking experience or certifications in the provided snippet.\n\n**Strengths:**\n- Extensive experience in IT infrastructure management (not specifically network engineering).\n- Familiarity with various technologies including Citrix, VMware, and cloud services.\n- Experience with risk mitigation and process improvement.\n- Proficient in project management tools like Jira and Confluence.\n- Background in digital transformation and strategic planning.\n\n**Areas to improve:**\n- **Network Engineering Experience:** Not evidenced in snippet.\n- **Years of Experience in Networking:** Not evidenced in snippet.\n- **CCNA/CCNP Certification:** Not evidenced in snippet.\n- **Expertise in Cisco Routers and Switches:** Not evidenced in snippet.\n- **Location:** Not in snippet.\n\n---\n\n### Candidate 2: Hemanth\n**Summary:** Hemanth is a strong candidate for the Network Engineer position, demonstrating relevant skills and experience in network protocols and documentation, although he lacks specific certifications and location information.\n\n**Strengths:**\n- Experience with routing protocols including OSPF, EIGRP, and BGP.\n- Created detailed technical documentation for network architecture and SOPs.\n- Authored knowledge base articles for support teams, indicating strong communication skills.\n- Conducted requirement analysis for scalable network solutions.\n- Evaluated vendor options including Cisco, indicating familiarity with Cisco products.\n\n**Areas to improve:**\n- **Years of Experience:** Not evidenced in snippet.\n- **CCNA/CCNP Certification:** Not evidenced in snippet.\n- **Expertise in Cisco Routers and Switches:** Not evidenced in snippet.\n- **Location:** Not in snippet.\n- **Specific Networking Projects:** Not evidenced in snippet.",
+      "ts": "2025-08-25T02:08:30",
+      "results": [
+        {
+          "candidate_name": "Gregg Rios",
+          "match_pct": 100,
+          "email": "TX469-258-91723g.rios@gmail.comhttps",
+          "phone": "469-258-91723",
+          "document_id": "Gregg Rios-52b3a7655fc0",
+          "file_path": "./resumes_store\\Gregg Rios.52b3a7655fc0.docx",
+          "evidence": {
+            "snippet": "ic | Data Lakes AI/ML Sandbox EnvironmentsEMR Systems Citrix Virtual Citrix DaaS | ADCs/NetScalerVMware Hypervisor NetApp ONTAP EMC VMAX/Xtreme IOHP 3PAR Snap Mirror SAN/NAS arraysJira | Confluence | Kanban Azure DevOps | Pipelines Control Up | VMare vROPS | DirectorCisco UCS | F5 Load Balancers Firewalls | DNS | DHCP MFA | SSO | Citrix ADC/NetscalerActive Directory | Exchange SCCM | SharePoint Epic HyperspaceCloud FinOps Capacity Planning Financial Stewardship AI & Machine Learning Concepts SaaS | PaaS | IaaS Strategic PlanningChange Management Digital Transformation Process ImprovementRisk Mitigation Data Analytics Process OptimizationWork History in BriefCentral Health Travis County Hospital District, Austin, TX (Hybrid)Infrastructure Manager – Joint Technology Services May 2025 – Prese"
+          }
+        },
+        {
+          "candidate_name": "Hemanth+Network+Engineer+-+Resume",
+          "match_pct": 0,
+          "email": "VA405-655-8611hemanthchinna2233@gmail.comProfessional",
+          "phone": "405-655-8611",
+          "document_id": "Hemanth+Network+Engineer+-+Resume-11ac59b65d25",
+          "file_path": "./resumes_store\\Hemanth+Network+Engineer+-+Resume.11ac59b65d25.docx",
+          "evidence": {
+            "snippet": "g routing protocols including OSPF, EIGRP, and BGP.Created detailed technical documentation, including network architecture diagrams, standard operating procedures (SOPs), and configuration guides for enterprise environments.Authored knowledge base articles to assist Level 1 and Level 2 support teams in resolving common network issues.Prepared detailed reports on network performance, incident resolution, and root cause analysis for management and stakeholders.Conducted comprehensive requirement analysis to design scalable network solutions aligned with business objectives.Evaluated multiple vendor options (Cisco, Juniper, Palo Alto) to determine the most cost-effective and technically feasible solutions.Delivered feasibility studies for migrating legacy systems to cloud-based environments "
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Java Full Stack Developer, 8+ yrs, Spring Boot, React, AWS, Bangalore",
+      "ts": "2025-08-25T02:09:06"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**  \n- **Summary:** Srinivas is an excellent fit for the Java Full Stack Developer role with over 8 years of experience, demonstrating proficiency in Spring Boot, AWS, and containerization technologies, and is located in Bangalore.  \n- **Strengths:**  \n  - Over 8 years of experience in software development.  \n  - Proficient in Spring Boot for backend development.  \n  - Experience with AWS for cloud deployment.  \n  - Utilized Docker for containerization and Kubernetes for orchestration.  \n  - Configured CI/CD pipelines using Jenkins and GitHub Actions.  \n  - Developed secure authentication mechanisms using Spring Security and OAuth 2.0.  \n  - Integrated front-end technologies with microservices using RESTful APIs.  \n  - Location: Bangalore (implied from context).  \n- **Areas to improve:**  \n  - Not evidenced in snippet: specific experience with React.  \n  - Not evidenced in snippet: years of experience specifically in full stack development.  \n\n---\n\n**2. Swapna Chinnapapakkagari**  \n- **Summary:** Swapna has a diverse skill set with experience in Java and related technologies, but lacks specific expertise in Spring Boot, React, and AWS, and is not located in Bangalore.  \n- **Strengths:**  \n  - Proficient in Java and J2EE technologies.  \n  - Experience with SQL and database management.  \n  - Familiar with various programming languages including JavaScript.  \n  - Knowledge of web technologies such as HTML and XML.  \n  - Experience with defect tracing tools like JIRA.  \n- **Areas to improve:**  \n  - Not evidenced in snippet: 8+ years of experience.  \n  - Not evidenced in snippet: proficiency in Spring Boot.  \n  - Not evidenced in snippet: proficiency in React.  \n  - Not evidenced in snippet: experience with AWS.  \n  - Location: not in snippet.  \n\n---\n\n**3. Venkata Ramanaiah Papudippu**  \n- **Summary:** Venkata has experience with React and RESTful APIs but lacks proficiency in Java and Spring Boot, and is not located in Bangalore.  \n- **Strengths:**  \n  - Collaborated with frontend teams using React.js.  \n  - Designed RESTful APIs for data flow optimization.  \n  - Experience in data visualization using Tableau and Grafana.  \n  - Implemented Python applications for backend services.  \n- **Areas to improve:**  \n  - Not evidenced in snippet: proficiency in Java or Spring Boot.  \n  - Not evidenced in snippet: 8+ years of experience.  \n  - Not evidenced in snippet: experience with AWS.  \n  - Location: not in snippet.  \n\n---\n\n**4. Roshini**  \n- **Summary:** Roshini has experience in Java through test automation but lacks full stack development experience, proficiency in Spring Boot, React, and AWS, and is not located in Bangalore.  \n- **Strengths:**  \n  - Experience in Java for test automation using Selenium.  \n  - Developed Java test scripts with Cucumber and TestNG.  \n  - Familiar with testing SOAP and REST web services.  \n  - Experience with web developer tools like POSTMAN.  \n- **Areas to improve:**  \n  - Not evidenced in snippet: 8+ years of experience.  \n  - Not evidenced in snippet: proficiency in Spring Boot.  \n  - Not evidenced in snippet: proficiency in React.  \n  - Not evidenced in snippet: experience with AWS.  \n  - Location: not in snippet.  \n\n---\n\n**5. Vamshi Nizampatnam**  \n- **Summary:** Vamshi has experience in Java development but does not meet the requirements for Spring Boot, React, or AWS, and is not located in Bangalore.  \n- **Strengths:**  \n  - Experience in Java development and test-driven development (TDD).  \n  - Implemented authentication and authorization using Spring Security.  \n  - Managed builds using Maven and CI/CD pipelines with Jenkins.  \n  - Familiar with Agile Scrum methodology.  \n- **Areas to improve:**  \n  - Not evidenced in snippet: 8+ years of experience.  \n  - Not evidenced in snippet: proficiency in Spring Boot.  \n  - Not evidenced in snippet: proficiency in React.  \n  - Not evidenced in snippet: experience with AWS.  \n  - Location: not in snippet.  ",
+      "ts": "2025-08-25T02:09:22",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Swapna Chinnapapakkagari - QA Systems Analyst 3",
+          "match_pct": 47,
+          "email": "20152972-510-9321swapnareddy0508@gmail.comSUMMARY",
+          "phone": "20152972-510-9321",
+          "document_id": "Swapna Chinnapapakkagari - QA Systems Analyst 3-50934231c550",
+          "file_path": "./resumes_store\\Swapna Chinnapapakkagari - QA Systems Analyst 3.50934231c550.docx",
+          "evidence": {
+            "snippet": " 8.2, 9.2.Languages: C, C++, Java, J2EE, SQL, PL/SQLs, VB, ASP, JavaScript, UNIX Shell scripting, PERL, Python, TSL, VB scriptMark up Languages: HTML, XML, DHTMLJ2EE Technologies: Servlets, JS, JDBC, EJB, Java Beans, AWT, Swings, RMI, EJB, JMS and CORBAServers: BEA Web logic, Web-SphereDatabase/Tools: Oracle, MS-Access, SQL Server 2005, Mainframe DB2, TOAD, PLSQL, SQL*Navigator, POS DB, JPay DB, SAMSON DB, Watson DB, Benthic GoldenPackages: MS-Office, MS-Access, and MS-ExcelOperating Systems: MS-DOS, Unix, Linux, Windows 95/98, Windows NT, Windows 2000Defect Tracing Tools: PVCS, Test Director/ Quality Center, JIRAPROFESSIONAL EXPERIENCE:NYS ITS - Integrated Eligibility System (IES) – Albany, NY Nov 2020 to June 2025Senior QA Lead / SupervisorIntegrated eligibility systems (IES) are the ena"
+          }
+        },
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 37,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": " and load large volumes of data, optimizing data flow and storage in Oracle databases for more efficient querying and reporting.Collaborated with frontend teams using React.js to design RESTful APIs and optimize data flow.Created data visualizations and interactive dashboards using Tableau and Grafana, empowering non-technical stakeholders with real-time insights into key business metrics and improving decision-making processes.Implemented advanced Python libraries such as Pandas, NumPy, and SciPy for data analysis and statistical modeling, ensuring the integrity and accuracy of insights used in business-critical applications.Schlumberger, TX Jul 2011 – Apr 2015Python Developer Developed high-performance FastAPI applications using Python, creating scalable RESTful APIs that supported micro"
+          }
+        },
+        {
+          "candidate_name": "Roshini_Sr QA Engineer Updated Resume",
+          "match_pct": 2,
+          "email": null,
+          "phone": "609-456-0220",
+          "document_id": "Roshini_Sr QA Engineer Updated Resume-933423351966",
+          "file_path": "./resumes_store\\Roshini_Sr QA Engineer Updated Resume.933423351966.docx",
+          "evidence": {
+            "snippet": "for setting up the system setting according to the requirements on to the Country specific Virtual Machines.Organizing and testing the deployments using IOP change management in service now.Test automation using Selenium by writing robust tests scripts in a Java languageAutomate and improve the performance of regression plans by developing Java test scripts with Selenium Web-driver, Cucumber and TestNG for PULSE desktop applications modulesDevelop and execute plans to ensure end-to-end quality of interconnected components in a distributed settingDevelop Features, Scenarios using Gherkin framework Cucumber.Experience testing SOAP and REST Web services.Utilized web developer tools such as POSTMAN to test the calls to the web services and check if correct datais returned.Responsible for givin"
+          }
+        },
+        {
+          "candidate_name": "Vamshi Nizampatnam - Senior Java Developer",
+          "match_pct": 0,
+          "email": "414-1292reach.vamshi1242@gmail.comSummary",
+          "phone": "+13184141292",
+          "document_id": "Vamshi Nizampatnam - Senior Java Developer-8226d28d4edc",
+          "file_path": "./resumes_store\\Vamshi Nizampatnam - Senior Java Developer.8226d28d4edc.docx",
+          "evidence": {
+            "snippet": "sing Highcharts, dynamically updating based on real-time API responses.Followed Agile Scrum methodology, managed tasks and stories via Jira, and participated in sprint ceremonies.Wrote comprehensive unit and integration tests using Mocha, Karma, Jasmine, Chai, and Protractor.Enforced test-driven development (TDD) practices to improve code quality and coverage.Implemented authentication and authorization mechanisms across both frontend and backend layers using Spring Security and JWT.Managed builds using Maven and frontend packages using NPM; coordinated deployments through Jenkins CI/CD pipelines.Used Log4j for centralized logging and debugging, ensuring long-term maintainability and observability of applications.Contributed to mobile/tablet responsive layout development using CSS3 media q"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Senior Python Backend Engineer, 5+ yrs, FastAPI, Docker, AWS Lambda, Hyderabad",
+      "ts": "2025-08-25T02:12:20"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**\n- **Summary:** Srinivas Reddy Battula is an excellent fit for the Senior Python Backend Engineer role with over 5 years of experience, demonstrating proficiency in FastAPI, Docker, and CI/CD practices, although AWS Lambda is not evidenced in the snippet.\n- **Strengths:**\n  - Over 5 years of experience in backend development.\n  - Developed applications using FastAPI for scalable RESTful APIs.\n  - Deployed containerized applications using Docker.\n  - Managed Kubernetes clusters for production environments.\n  - Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions.\n  - Experience with asynchronous communication using Kafka and RabbitMQ.\n  - Location: Not specified in the snippet.\n- **Areas to improve:**\n  - AWS Lambda: not evidenced in snippet.\n  - Specific mention of Python version: not evidenced in snippet.\n  - Location: not evidenced in snippet.\n\n---\n\n**2. Venkata Ramanaiah Papudippu**\n- **Summary:** Venkata Ramanaiah Papudippu is a strong candidate for the Senior Python Backend Engineer position with significant experience in Python and FastAPI, but lacks direct evidence of Docker and AWS Lambda experience.\n- **Strengths:**\n  - Developed high-performance FastAPI applications.\n  - Experience in creating scalable RESTful APIs.\n  - Proficient in Python with advanced libraries like Pandas, NumPy, and SciPy.\n  - Collaborated with frontend teams to design RESTful APIs.\n  - Experience in optimizing data flow and storage in Oracle databases.\n  - Location: Not specified in the snippet.\n- **Areas to improve:**\n  - Docker: not evidenced in snippet.\n  - AWS Lambda: not evidenced in snippet.\n  - Years of experience: not specified in the snippet.\n  - Location: not evidenced in snippet.\n\n---\n\n**3. Swapna Chinnapapakkagari**\n- **Summary:** Swapna Chinnapapakkagari does not meet the requirements for the Senior Python Backend Engineer role as her experience is primarily in QA and testing rather than backend development, with no evidence of Python or relevant backend technologies.\n- **Strengths:**\n  - Over 16 years of experience in QA and testing.\n  - Expertise in various testing methodologies including API testing.\n  - Experience in multiple domains such as healthcare and e-commerce.\n  - Strong experience in User Acceptance Testing (UAT).\n  - Location: Chantilly, VA.\n- **Areas to improve:**\n  - Python development experience: not evidenced in snippet.\n  - FastAPI: not evidenced in snippet.\n  - Docker: not evidenced in snippet.\n  - AWS Lambda: not evidenced in snippet.\n  - Location: not in Hyderabad.\n\n---\n\n**4. Prem Vinod Kumar Bandari**\n- **Summary:** Prem Vinod Kumar Bandari is not a suitable candidate for the Senior Python Backend Engineer role as his experience is primarily in C# and .NET technologies, with no evidence of Python, FastAPI, or AWS Lambda.\n- **Strengths:**\n  - Extensive experience with CI/CD pipelines using Azure DevOps.\n  - Hands-on experience with Docker and Kubernetes.\n  - Experience with application monitoring and debugging tools.\n  - Technical skills in C#, TypeScript, and JavaScript frameworks.\n  - Location: Not specified in the snippet.\n- **Areas to improve:**\n  - Python development experience: not evidenced in snippet.\n  - FastAPI: not evidenced in snippet.\n  - AWS Lambda: not evidenced in snippet.\n  - Years of experience in Python: not evidenced in snippet.\n  - Location: not in Hyderabad.\n\n---\n\n**5. Mahendra Marathe**\n- **Summary:** Mahendra Marathe is not a fit for the Senior Python Backend Engineer position as his expertise lies in .NET technologies, with no evidence of Python, FastAPI, or relevant AWS experience.\n- **Strengths:**\n  - Experience in deploying secure, containerized RESTful APIs.\n  - Designed Infrastructure as Code (IaC) using Terraform and Ansible.\n  - Configured and orchestrated containerized services using Docker and Kubernetes.\n  - Experience with CI/CD pipelines integrating automated tests.\n  - Location: Not specified in the snippet.\n- **Areas to improve:**\n  - Python development experience: not evidenced in snippet.\n  - FastAPI: not evidenced in snippet.\n  - AWS Lambda: not evidenced in snippet.\n  - Years of experience in Python: not evidenced in snippet.\n  - Location: not in Hyderabad.",
+      "ts": "2025-08-25T02:12:39",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 86,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": " and load large volumes of data, optimizing data flow and storage in Oracle databases for more efficient querying and reporting.Collaborated with frontend teams using React.js to design RESTful APIs and optimize data flow.Created data visualizations and interactive dashboards using Tableau and Grafana, empowering non-technical stakeholders with real-time insights into key business metrics and improving decision-making processes.Implemented advanced Python libraries such as Pandas, NumPy, and SciPy for data analysis and statistical modeling, ensuring the integrity and accuracy of insights used in business-critical applications.Schlumberger, TX Jul 2011 – Apr 2015Python Developer Developed high-performance FastAPI applications using Python, creating scalable RESTful APIs that supported micro"
+          }
+        },
+        {
+          "candidate_name": "Swapna Chinnapapakkagari - QA Systems Analyst 3",
+          "match_pct": 54,
+          "email": "20152972-510-9321swapnareddy0508@gmail.comSUMMARY",
+          "phone": "20152972-510-9321",
+          "document_id": "Swapna Chinnapapakkagari - QA Systems Analyst 3-50934231c550",
+          "file_path": "./resumes_store\\Swapna Chinnapapakkagari - QA Systems Analyst 3.50934231c550.docx",
+          "evidence": {
+            "snippet": "Swapna ChinnapapakkagariChantilly, VA 20152972-510-9321swapnareddy0508@gmail.comSUMMARY:Over 16+ years of experience as a QA Consultant with emphasis in design, development, and testing (Manual and Automation), including expertise in User Acceptance Testing (UAT), Regression, Functional, API, System, Performance, and Integration Testing.Experience in testing Web-based/E-commerce, Network apps, Intranet, and Client-Server applications on different environments including cross-browser compatibility and mobile testing.Specialized in testing domains like Financial, Point of Sale (POS), Curam, Health care, E-commerce, Telecom, and network-based applications, with emphasis on Data Migration, Data Integrity, and Data Transformation Testing.Strong experience in Mercury Test Suite to create manual "
+          }
+        },
+        {
+          "candidate_name": "Prem Vinod Kumar Bandari",
+          "match_pct": 6,
+          "email": null,
+          "phone": "+14848722979",
+          "document_id": "Prem Vinod Kumar Bandari-67d82bee620b",
+          "file_path": "./resumes_store\\Prem Vinod Kumar Bandari.67d82bee620b.docx",
+          "evidence": {
+            "snippet": "cluding coordination on test plans, regression testing, and problem resolution.Robust application monitoring and debugging facilitated through logging tools like Log4net and Serilog, and advanced monitoring platforms such as Splunk and Application Insights.Hands-on experience with clean code practices, using tools like Veracode, GitLab, GitHub, SonarQube, and other Artifactory tools.Played AMS/Track Lead roles, interfacing with customers and guiding offshore teams with technical clarifications.Extensive experience integrating software with Azure DevOps CICD pipelines, Docker, Kubernetes, and containerization for streamlined deployment.Technical Skills: Programming Languages : C#, TypeScript, JavaScript Frameworks & Libraries : .NET Core, .NET Framework, Angular, ASP.NET MVCCloud Platforms "
+          }
+        },
+        {
+          "candidate_name": "Mahendra Marathe - Web Server Architect",
+          "match_pct": 0,
+          "email": "msmarathe@gmail.comPROFESSIONAL",
+          "phone": "+14437600599",
+          "document_id": "Mahendra Marathe - Web Server Architect-7efe8b677ffa",
+          "file_path": "./resumes_store\\Mahendra Marathe - Web Server Architect.7efe8b677ffa.docx",
+          "evidence": {
+            "snippet": " deployed secure, containerized RESTful APIs and microservices using .NET Core, adhering to 12-factor app principles.Created and consumed APIs using ASP.NET Web API, Windows Communication Foundation (WCF), and enforced User Access Security with claims-based authentication.Designed and implemented Infrastructure as Code (IaC) using Terraform and Ansible to provision infrastructure on AWS (IaaS/PaaS) and Microsoft Azure (SaaS/IaaS).Configured and orchestrated containerized services using Docker and Kubernetes, improving deployment scalability and consistency across environments.Designed and implemented CI/CD pipelines with Git, Jenkins, and Selenium, integrating automated tests and secure deployment workflows.Integrated Entity Framework (EF) and advanced SQL/PLSQL for Oracle data access, inc"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Data Engineer, 6+ yrs, Spark, Kafka, Airflow, Azure Databricks, Pune",
+      "ts": "2025-08-25T02:15:33"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**  \n- **Summary:** Srinivas is an excellent fit for the Data Engineer role with over 6 years of experience, demonstrating strong skills in Spark, Kafka, and Azure technologies, making him a top candidate for the position in Pune.  \n- **Strengths:**  \n  - Integrated asynchronous communication using **Kafka** for event-driven workflows.  \n  - Developed secure applications using **Azure Active Directory (Entra)**.  \n  - Deployed containerized applications using **Docker** and managed **Kubernetes** clusters.  \n  - Configured **CI/CD pipelines** using Jenkins and GitLab CI.  \n  - Experience in batch processing scripts for data imports/exports.  \n  - Location: Not specified, but strong technical fit.  \n- **Areas to improve:**  \n  - **Spark** experience not explicitly mentioned in the snippet.  \n  - **Airflow** experience not evidenced in snippet.  \n  - Location: Not specified in snippet.  \n\n---\n\n**2. Prem Vinod Kumar Bandari**  \n- **Summary:** Prem has relevant experience in Azure and containerization but lacks specific skills in Spark, Kafka, and Airflow, making him a less suitable candidate for the Data Engineer role.  \n- **Strengths:**  \n  - Extensive experience with **Azure DevOps** and CI/CD pipelines.  \n  - Hands-on with **Docker** and **Kubernetes** for streamlined deployment.  \n  - Experience with logging tools like **Splunk** and **Application Insights**.  \n  - Technical skills in **C#, TypeScript, and JavaScript**.  \n  - Location: Not specified in snippet.  \n- **Areas to improve:**  \n  - **Spark** experience not evidenced in snippet.  \n  - **Kafka** experience not evidenced in snippet.  \n  - **Airflow** experience not evidenced in snippet.  \n  - Not enough years of experience in data engineering (6+ years required).  \n\n---\n\n**3. Imrana Azmat**  \n- **Summary:** Imrana has experience in Azure and automation but lacks direct experience in Spark, Kafka, and Airflow, making her a less suitable candidate for the Data Engineer position.  \n- **Strengths:**  \n  - Performed load and performance testing using **Azure Load Testing**.  \n  - Assisted in implementing **CI/CD practices** and automating API testing.  \n  - Experience with **Postman** and **SoapUI** for API testing.  \n  - Developed test scripts and executed through **UFT**.  \n  - Location: Not specified in snippet.  \n- **Areas to improve:**  \n  - **Spark** experience not evidenced in snippet.  \n  - **Kafka** experience not evidenced in snippet.  \n  - **Airflow** experience not evidenced in snippet.  \n  - Not enough years of experience in data engineering (6+ years required).  \n\n---\n\n**4. Hanumanthurao Nandigam**  \n- **Summary:** Hanumanthurao has extensive experience in data warehousing and Azure technologies but does not demonstrate the required skills in Spark, Kafka, or Airflow, making him a less suitable candidate for the Data Engineer role.  \n- **Strengths:**  \n  - Over 17 years of expertise in **Data Warehousing** and **ETL development**.  \n  - Strong background in **Azure Databricks** and **Azure Synapse**.  \n  - Experience with **Power BI** for data visualizations.  \n  - Familiar with **SQL** and **Python**.  \n  - Location: Irving, Texas (not Pune).  \n- **Areas to improve:**  \n  - **Spark** experience not evidenced in snippet.  \n  - **Kafka** experience not evidenced in snippet.  \n  - **Airflow** experience not evidenced in snippet.  \n  - Not enough focus on data engineering tasks (6+ years required).  \n\n---\n\n**5. Gregg Rios**  \n- **Summary:** Gregg does not meet the requirements for the Data Engineer role, as he lacks relevant experience in Spark, Kafka, and Airflow, and his background is focused on healthcare IT rather than data engineering.  \n- **Strengths:**  \n  - Experience with **Azure** and **Epic** infrastructure migration.  \n  - Built and deployed **FHIR services** in Azure.  \n  - Managed full infrastructure migration ensuring high availability.  \n  - Location: Not specified in snippet.  \n- **Areas to improve:**  \n  - **Spark** experience not evidenced in snippet.  \n  - **Kafka** experience not evidenced in snippet.  \n  - **Airflow** experience not evidenced in snippet.  \n  - Not enough years of experience in data engineering (6+ years required).  \n  - Focus on healthcare IT rather than data engineering.  ",
+      "ts": "2025-08-25T02:16:00",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Prem Vinod Kumar Bandari",
+          "match_pct": 31,
+          "email": null,
+          "phone": "+14848722979",
+          "document_id": "Prem Vinod Kumar Bandari-67d82bee620b",
+          "file_path": "./resumes_store\\Prem Vinod Kumar Bandari.67d82bee620b.docx",
+          "evidence": {
+            "snippet": "cluding coordination on test plans, regression testing, and problem resolution.Robust application monitoring and debugging facilitated through logging tools like Log4net and Serilog, and advanced monitoring platforms such as Splunk and Application Insights.Hands-on experience with clean code practices, using tools like Veracode, GitLab, GitHub, SonarQube, and other Artifactory tools.Played AMS/Track Lead roles, interfacing with customers and guiding offshore teams with technical clarifications.Extensive experience integrating software with Azure DevOps CICD pipelines, Docker, Kubernetes, and containerization for streamlined deployment.Technical Skills: Programming Languages : C#, TypeScript, JavaScript Frameworks & Libraries : .NET Core, .NET Framework, Angular, ASP.NET MVCCloud Platforms "
+          }
+        },
+        {
+          "candidate_name": "IMRANA AZMAT Sr QA Analyst  - Senior Resume",
+          "match_pct": 22,
+          "email": null,
+          "phone": null,
+          "document_id": "IMRANA AZMAT Sr QA Analyst  - Senior Resume-d7c177b6a0a9",
+          "file_path": "./resumes_store\\IMRANA AZMAT Sr QA Analyst  - Senior Resume.d7c177b6a0a9.docx",
+          "evidence": {
+            "snippet": "ng time by 40% through successful implementation of automation in Agile Scrum sprintsPrepared Test strategy and Test plan document supported user acceptance testing activities and developed and identified test data for test scenarios using MS Access.Performed load and performance testing using Azure Load Testing and JMeter, ensuring applications scaled effectively under peak usageAssisted in implementing continuous integration practices, automating API testing with Postman and integrating tests into the CI/CD pipeline.Prepared data mapping and traceability matrix for the requirements.Utilized Postman and SoapUI for rigorous API testing, validating RESTful and SOAP services, and ensuring secure and efficient data exchange between systemsDeveloped test scripts and executed through UFT for au"
+          }
+        },
+        {
+          "candidate_name": "Hanumanthurao Nandigam - Power BI",
+          "match_pct": 10,
+          "email": "hanurao.n@gmail.com",
+          "phone": null,
+          "document_id": "Hanumanthurao Nandigam - Power BI-3ce96e1521a4",
+          "file_path": "./resumes_store\\Hanumanthurao Nandigam - Power BI.3ce96e1521a4.docx",
+          "evidence": {
+            "snippet": "Hanumanthurao Nandigam Irving, Texas - 75063Phone: (469)-774-2975Email: hanurao.n@gmail.com Profile Summary:With over 17 years of expertise in IT, I specialize in Data Warehousing, Data Modeling, Analytics, and ETL development. I have a strong background in designing and implementing data visualizations and ETL solutions using diverse technologies, including Power BI, Tableau, OBIEE, BI Publisher, SSIS, SSRS, SSAS, Informatica PowerCenter, Informatica cloud (IICS), SQL, Python, Snowflake, Azure Databricks, Azure Synapse, Microsoft Fabric, DevOps practices and PowerBI Administration.Over 8 years of experience as a BI Developer/Architect with advanced skills in Power BI, focusing on creating visual reports, dashboards, KPI scorecards, data modeling, DAX, and Power Query.Expertise in embeddin"
+          }
+        },
+        {
+          "candidate_name": "Gregg Rios",
+          "match_pct": 0,
+          "email": "TX469-258-91723g.rios@gmail.comhttps",
+          "phone": "469-258-91723",
+          "document_id": "Gregg Rios-52b3a7655fc0",
+          "file_path": "./resumes_store\\Gregg Rios.52b3a7655fc0.docx",
+          "evidence": {
+            "snippet": "or patient care systems in Epic, secured authentication for SSO Azure Entra External ID, enabling secure SSO and identity federation across organizations leveraging CMS and FHIR certification in Epic, MyChart, Citrix Cloud, and third-party platforms within Azure.Managed full Epic infrastructure migration from on-premise to Epic Cloud, including Hyperspace and Hyperdrive, ensuring high availability, performance, and compliance with Epic and CMS standards.Built and deployed FHIR service in Azure for CMS certification, integrating HL7 data from AWS VBA to support secure claims data exchange among patients, providers, and payers.Architected external identity integration using Entra External ID to support Epic PHI sharing across organizational boundaries within the Microsoft Azure tenant.Deploy"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Frontend Developer, 4+ yrs, React, TypeScript, Redux Toolkit, Chennai",
+      "ts": "2025-08-25T02:16:55"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**  \n- **Summary:** Srinivas Reddy Battula is a strong fit for the Frontend Developer role, demonstrating extensive experience in relevant technologies and practices, although specific proficiency in React and TypeScript is not evidenced in the snippet.  \n- **Strengths:**  \n  - Experience in developing secure applications and managing authentication mechanisms.\n  - Familiarity with containerized applications using Docker and Kubernetes.\n  - Knowledge of CI/CD pipelines with Jenkins, GitLab CI, and GitHub Actions.\n  - Experience in integrating front-end with microservices using RESTful APIs.\n  - Location not specified in the snippet.  \n- **Areas to improve:**  \n  - Proficiency in React not evidenced in snippet.\n  - Proficiency in TypeScript not evidenced in snippet.\n  - Experience with Redux Toolkit not evidenced in snippet.\n  - Years of experience in frontend development not specified.\n  - Location not specified in the snippet.\n\n---\n\n**2. Venkata Ramanaiah Papudippu**  \n- **Summary:** Venkata Ramanaiah Papudippu has partial relevance to the Frontend Developer position, showcasing experience with React.js but lacking the required years of experience and specific skills in TypeScript and Redux Toolkit.  \n- **Strengths:**  \n  - Collaborated with frontend teams using React.js.\n  - Experience in designing RESTful APIs.\n  - Created data visualizations and interactive dashboards.\n  - Familiarity with optimizing data flow.\n  - Location not specified in the snippet.  \n- **Areas to improve:**  \n  - Only 4 years of experience not evidenced in snippet.\n  - Proficiency in TypeScript not evidenced in snippet.\n  - Experience with Redux Toolkit not evidenced in snippet.\n  - Specific frontend development experience not detailed.\n  - Location not specified in the snippet.\n\n---\n\n**3. Hari Prakash Pokala**  \n- **Summary:** Hari Prakash Pokala has extensive experience in software engineering but does not meet the specific requirements for the Frontend Developer role, particularly in terms of years of experience and proficiency in React, TypeScript, and Redux Toolkit.  \n- **Strengths:**  \n  - Over 15 years of experience in web application development.\n  - Proficient in Angular 8.0 and above, as well as ReactJS.\n  - Strong skills in client-side development with HTML, CSS, JavaScript, and jQuery.\n  - Experience in Agile environments.\n  - Location not specified in the snippet.  \n- **Areas to improve:**  \n  - Specific experience in React not detailed as a primary focus.\n  - Proficiency in TypeScript not evidenced in snippet.\n  - Experience with Redux Toolkit not evidenced in snippet.\n  - Years of experience in frontend development not aligned with the 4+ years requirement.\n  - Location not specified in the snippet.\n\n---\n\n**4. Mahendra Marathe**  \n- **Summary:** Mahendra Marathe is not a suitable candidate for the Frontend Developer position, as his expertise lies primarily in backend development and server architecture, with no relevant frontend skills evidenced.  \n- **Strengths:**  \n  - Experience in deploying secure, containerized RESTful APIs.\n  - Knowledge of Infrastructure as Code (IaC) using Terraform and Ansible.\n  - Familiarity with CI/CD pipelines and automated testing.\n  - Experience with Docker and Kubernetes for deployment.\n  - Location not specified in the snippet.  \n- **Areas to improve:**  \n  - No experience in frontend development evidenced.\n  - Proficiency in React not evidenced in snippet.\n  - Proficiency in TypeScript not evidenced in snippet.\n  - Experience with Redux Toolkit not evidenced in snippet.\n  - Location not specified in the snippet.",
+      "ts": "2025-08-25T02:17:10",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 65,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": " and load large volumes of data, optimizing data flow and storage in Oracle databases for more efficient querying and reporting.Collaborated with frontend teams using React.js to design RESTful APIs and optimize data flow.Created data visualizations and interactive dashboards using Tableau and Grafana, empowering non-technical stakeholders with real-time insights into key business metrics and improving decision-making processes.Implemented advanced Python libraries such as Pandas, NumPy, and SciPy for data analysis and statistical modeling, ensuring the integrity and accuracy of insights used in business-critical applications.Schlumberger, TX Jul 2011 – Apr 2015Python Developer Developed high-performance FastAPI applications using Python, creating scalable RESTful APIs that supported micro"
+          }
+        },
+        {
+          "candidate_name": "Hari Prakash Pokala",
+          "match_pct": 3,
+          "email": "904-514-5716hariprakash.pokala@gmail.comSummary",
+          "phone": "+1 904-514-5716",
+          "document_id": "Hari Prakash Pokala-ac0b6daf36a9",
+          "file_path": "./resumes_store\\Hari Prakash Pokala.ac0b6daf36a9.docx",
+          "evidence": {
+            "snippet": "Hari Prakash PokalaPhone: +1 904-514-5716hariprakash.pokala@gmail.comSummary:Experienced and versatile Software Engineer with over 15 years of expertise in developing cutting-edge web applications using Angular 8.0 & above, Python, Node.js, Java/JEE, and modern technologies. Proven leadership in Agile environments, adept at implementing best practices to deliver high-quality solutions. Skilled in client-side development with HTML, CSS, JavaScript, jQuery, Bootstrap, JSP, Struts, Ajax, Angular, and ReactJS, ensuring interactive and visually appealing user interfaces. Deep knowledge of Java and JavaEE platforms, including servlets, JDBC, Hibernate, Spring MVC, Spring Boot, and NodeJS. Strong in microservices architecture, RESTful APIs development using Spring Boot and Node.js, cloud technolo"
+          }
+        },
+        {
+          "candidate_name": "Mahendra Marathe - Web Server Architect",
+          "match_pct": 0,
+          "email": "msmarathe@gmail.comPROFESSIONAL",
+          "phone": "+14437600599",
+          "document_id": "Mahendra Marathe - Web Server Architect-7efe8b677ffa",
+          "file_path": "./resumes_store\\Mahendra Marathe - Web Server Architect.7efe8b677ffa.docx",
+          "evidence": {
+            "snippet": " deployed secure, containerized RESTful APIs and microservices using .NET Core, adhering to 12-factor app principles.Created and consumed APIs using ASP.NET Web API, Windows Communication Foundation (WCF), and enforced User Access Security with claims-based authentication.Designed and implemented Infrastructure as Code (IaC) using Terraform and Ansible to provision infrastructure on AWS (IaaS/PaaS) and Microsoft Azure (SaaS/IaaS).Configured and orchestrated containerized services using Docker and Kubernetes, improving deployment scalability and consistency across environments.Designed and implemented CI/CD pipelines with Git, Jenkins, and Selenium, integrating automated tests and secure deployment workflows.Integrated Entity Framework (EF) and advanced SQL/PLSQL for Oracle data access, inc"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "DevOps Engineer, 5+ yrs, AWS, Kubernetes, Terraform, CI/CD, Mumbai",
+      "ts": "2025-08-25T02:17:54"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Venkata Ramanaiah Papudippu - Python Developer**  \n- **Summary:** Overall fit is low as the candidate is primarily a Python Developer with no relevant DevOps experience or skills in AWS, Kubernetes, or Terraform.\n- **Strengths:**  \n  - Strong experience in data optimization and reporting.\n  - Collaborated with frontend teams using React.js.\n  - Developed high-performance applications using Python.\n  - Not evidenced in snippet for DevOps tools or practices.\n- **Areas to improve:**  \n  - No experience in AWS, Kubernetes, or Terraform.\n  - Lacks CI/CD experience.\n  - Not located in Mumbai.\n  - Not evidenced in snippet for DevOps methodologies.\n\n---\n\n**2. SRINIVAS REDDY BATTULA**  \n- **Summary:** Moderate fit as the candidate has relevant experience in Kubernetes, CI/CD, and Docker, but lacks specific AWS and Terraform experience.\n- **Strengths:**  \n  - Managed Kubernetes clusters for scalable production environments.\n  - Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions.\n  - Experience with Docker for containerized applications.\n  - Integrated asynchronous communication using Kafka and RabbitMQ.\n  - Not located in Mumbai.\n- **Areas to improve:**  \n  - No evidence of AWS proficiency.\n  - No experience with Terraform.\n  - Not evidenced in snippet for 5+ years of experience in DevOps.\n  - Not evidenced in snippet for specific DevOps certifications.\n\n---\n\n**3. Prem Vinod Kumar Bandari**  \n- **Summary:** Low fit as the candidate has some relevant skills in CI/CD and Kubernetes but lacks direct experience in AWS and Terraform.\n- **Strengths:**  \n  - Extensive experience with Azure DevOps CI/CD pipelines.\n  - Hands-on experience with Docker and Kubernetes.\n  - Familiar with clean code practices and various programming languages.\n  - Experience in monitoring and debugging applications.\n- **Areas to improve:**  \n  - No evidence of AWS proficiency.\n  - No experience with Terraform.\n  - Not located in Mumbai.\n  - Not evidenced in snippet for 5+ years of DevOps experience.\n  - Lacks specific DevOps certifications.\n\n---\n\n**4. Mahendra Marathe - Web Server Architect**  \n- **Summary:** Moderate fit as the candidate has experience with Terraform, CI/CD, and Kubernetes, but lacks specific AWS experience and is not located in Mumbai.\n- **Strengths:**  \n  - Designed and implemented Infrastructure as Code (IaC) using Terraform.\n  - Configured and orchestrated containerized services using Docker and Kubernetes.\n  - Developed CI/CD pipelines with Git, Jenkins, and Selenium.\n  - Experience with secure RESTful APIs and microservices.\n- **Areas to improve:**  \n  - No evidence of AWS proficiency.\n  - Not located in Mumbai.\n  - Not evidenced in snippet for 5+ years of DevOps experience.\n  - Lacks specific DevOps certifications.\n\n---\n\n**5. Venkatasravan Resume**  \n- **Summary:** Very low fit as the candidate has no relevant experience in DevOps tools or practices related to the query.\n- **Strengths:**  \n  - Experience with GitHub Actions and Jenkins for CI/CD.\n  - Familiarity with DevSecOps practices.\n  - Not evidenced in snippet for AWS, Kubernetes, or Terraform.\n- **Areas to improve:**  \n  - No experience with AWS, Kubernetes, or Terraform.\n  - Not located in Mumbai.\n  - Not evidenced in snippet for 5+ years of DevOps experience.\n  - Lacks relevant certifications or specific DevOps skills.",
+      "ts": "2025-08-25T02:18:09",
+      "results": [
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 100,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": " and load large volumes of data, optimizing data flow and storage in Oracle databases for more efficient querying and reporting.Collaborated with frontend teams using React.js to design RESTful APIs and optimize data flow.Created data visualizations and interactive dashboards using Tableau and Grafana, empowering non-technical stakeholders with real-time insights into key business metrics and improving decision-making processes.Implemented advanced Python libraries such as Pandas, NumPy, and SciPy for data analysis and statistical modeling, ensuring the integrity and accuracy of insights used in business-critical applications.Schlumberger, TX Jul 2011 – Apr 2015Python Developer Developed high-performance FastAPI applications using Python, creating scalable RESTful APIs that supported micro"
+          }
+        },
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 76,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Prem Vinod Kumar Bandari",
+          "match_pct": 29,
+          "email": null,
+          "phone": "+14848722979",
+          "document_id": "Prem Vinod Kumar Bandari-67d82bee620b",
+          "file_path": "./resumes_store\\Prem Vinod Kumar Bandari.67d82bee620b.docx",
+          "evidence": {
+            "snippet": "cluding coordination on test plans, regression testing, and problem resolution.Robust application monitoring and debugging facilitated through logging tools like Log4net and Serilog, and advanced monitoring platforms such as Splunk and Application Insights.Hands-on experience with clean code practices, using tools like Veracode, GitLab, GitHub, SonarQube, and other Artifactory tools.Played AMS/Track Lead roles, interfacing with customers and guiding offshore teams with technical clarifications.Extensive experience integrating software with Azure DevOps CICD pipelines, Docker, Kubernetes, and containerization for streamlined deployment.Technical Skills: Programming Languages : C#, TypeScript, JavaScript Frameworks & Libraries : .NET Core, .NET Framework, Angular, ASP.NET MVCCloud Platforms "
+          }
+        },
+        {
+          "candidate_name": "Mahendra Marathe - Web Server Architect",
+          "match_pct": 9,
+          "email": "msmarathe@gmail.comPROFESSIONAL",
+          "phone": "+14437600599",
+          "document_id": "Mahendra Marathe - Web Server Architect-7efe8b677ffa",
+          "file_path": "./resumes_store\\Mahendra Marathe - Web Server Architect.7efe8b677ffa.docx",
+          "evidence": {
+            "snippet": " deployed secure, containerized RESTful APIs and microservices using .NET Core, adhering to 12-factor app principles.Created and consumed APIs using ASP.NET Web API, Windows Communication Foundation (WCF), and enforced User Access Security with claims-based authentication.Designed and implemented Infrastructure as Code (IaC) using Terraform and Ansible to provision infrastructure on AWS (IaaS/PaaS) and Microsoft Azure (SaaS/IaaS).Configured and orchestrated containerized services using Docker and Kubernetes, improving deployment scalability and consistency across environments.Designed and implemented CI/CD pipelines with Git, Jenkins, and Selenium, integrating automated tests and secure deployment workflows.Integrated Entity Framework (EF) and advanced SQL/PLSQL for Oracle data access, inc"
+          }
+        },
+        {
+          "candidate_name": "Venkatasravan Resume",
+          "match_pct": 0,
+          "email": "TX210-701-0896sravanvenkata.cloud@gmail.comSummary",
+          "phone": "210-701-0896",
+          "document_id": "Venkatasravan Resume-992756a3a014",
+          "file_path": "./resumes_store\\Venkatasravan Resume.992756a3a014.docx",
+          "evidence": {
+            "snippet": "ger and HashiCorp Vault, eliminating hardcoded credentials and improving auditability.configured S3-based file storage for Salesforce document exports and reports. Generated pre-signed S3 URLs used within Lightning Components to deliver secure downloads with time-bound access.Configured/supported Cruisecontrol/eclipse and maven plug in integrations.built AI-enhanced alerting mechanisms using CloudWatch Anomaly Detection and Grafana ML extensions, allowing intelligent monitoring of EKS workloads, Lambda executions, and Salesforce-to-AWS integrations.embedded DevSecOps validation stages into GitHub Actions and Jenkins pipelines using Trivy (for image scanning) and Checkov (for IaC misconfigurations). Blocked production pushes for high CVSS vulnerabilities.optimized infrastructure spend by sh"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "QA Automation Engineer, 5+ yrs, Selenium, Java, REST Assured, Bangalore",
+      "ts": "2025-08-25T02:19:06"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**  \n**Summary:** Srinivas is an excellent fit for the QA Automation Engineer role with over 5 years of experience and a strong background in automation tools and methodologies.  \n**Strengths:**  \n- Over 5 years of experience in software development and testing.  \n- Proficient in CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions.  \n- Experience with RESTful APIs integration.  \n- Familiar with containerization using Docker and Kubernetes.  \n- Strong understanding of security protocols like OAuth 2.0 and JWT.  \n- Located in Bangalore (assumed from context).  \n**Areas to improve:**  \n- No direct mention of Selenium or Java in the snippet.  \n- Not evidenced in snippet: specific experience with REST Assured.  \n- Not in snippet: details on QA methodologies or frameworks.  \n\n---\n\n**2. Swapna Chinnapapakkagari (QA Systems Analyst 3)**  \n**Summary:** Swapna has relevant QA experience and skills but lacks direct proficiency in automation tools like Selenium and Java, which are critical for the role.  \n**Strengths:**  \n- Experience in designing and developing test strategies, test plans, and test cases.  \n- Familiar with defect tracking and stakeholder collaboration.  \n- Knowledge of standardized QA processes (CMM, ISO 9000).  \n- Strong problem-solving skills and ability to work under deadlines.  \n- Located in Bangalore (assumed from context).  \n**Areas to improve:**  \n- Not evidenced in snippet: specific experience with Selenium or Java.  \n- No mention of REST Assured or similar automation tools.  \n- Not in snippet: years of experience specifically in QA automation.  \n\n---\n\n**3. Roshini (Sr QA Engineer)**  \n**Summary:** Roshini demonstrates relevant automation experience with Selenium and Java, making her a suitable candidate for the QA Automation Engineer position.  \n**Strengths:**  \n- Experience in test automation using Selenium with Java.  \n- Developed Java test scripts for regression testing.  \n- Familiar with Cucumber and TestNG frameworks.  \n- Experience testing SOAP and REST web services.  \n- Utilized POSTMAN for API testing.  \n**Areas to improve:**  \n- Not evidenced in snippet: total years of experience in QA.  \n- No mention of REST Assured.  \n- Not in snippet: specific location (assumed not in Bangalore).  \n\n---\n\n**4. Hari Prakash Pokala**  \n**Summary:** Hari has extensive software engineering experience but lacks specific QA automation skills and relevant tools for the role.  \n**Strengths:**  \n- Over 15 years of experience in software development.  \n- Strong knowledge of Java and JavaEE platforms.  \n- Experience with RESTful APIs development.  \n- Proven leadership in Agile environments.  \n**Areas to improve:**  \n- Not evidenced in snippet: experience in QA automation or testing.  \n- No mention of Selenium, Java in a QA context, or REST Assured.  \n- Not in snippet: specific location (assumed not in Bangalore).  \n\n---\n\n**5. Swapna Chinnapapakkagari (QA Manager)**  \n**Summary:** Swapna has managerial experience in QA but does not meet the technical requirements for the QA Automation Engineer role.  \n**Strengths:**  \n- Experience in supervising and reviewing test scenarios and cases.  \n- Knowledge of QA methodologies and tools.  \n- Familiar with Java and J2EE technologies.  \n**Areas to improve:**  \n- Not evidenced in snippet: hands-on experience with Selenium or Java.  \n- No mention of REST Assured or automation frameworks.  \n- Not in snippet: years of experience specifically in QA automation.  \n- Not in snippet: specific location (assumed not in Bangalore).  ",
+      "ts": "2025-08-25T02:19:22",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Swapna Chinnapapakkagari - QA Systems Analyst 3",
+          "match_pct": 83,
+          "email": "20152972-510-9321swapnareddy0508@gmail.comSUMMARY",
+          "phone": "20152972-510-9321",
+          "document_id": "Swapna Chinnapapakkagari - QA Systems Analyst 3-50934231c550",
+          "file_path": "./resumes_store\\Swapna Chinnapapakkagari - QA Systems Analyst 3.50934231c550.docx",
+          "evidence": {
+            "snippet": "e, Work First Services, Presumptive Medicaid, NC Health Choice, Cash Force Eligibility, Medical Force Eligibility, and Medical Transportation, validating data integrity and functional workflows.Experience in designing and developing test strategies, Test Plans, Test Cases, and generating test reports, defect reports, and overall product quality assurance documentation.Experience with resource planning, scope assessment, testing frameworks, communication plans, reporting metrics, defect tracking, and stakeholder collaboration.Familiar with CMM, ISO 9000, RUP, IEEE, and Extreme Programming methodologies, ensuring standardized QA processes and quality metrics are met.Highly dedicated, quick starter with problem-solving skills under strict deadlines; a strong team player with excellent communi"
+          }
+        },
+        {
+          "candidate_name": "Roshini_Sr QA Engineer Updated Resume",
+          "match_pct": 55,
+          "email": null,
+          "phone": "609-456-0220",
+          "document_id": "Roshini_Sr QA Engineer Updated Resume-933423351966",
+          "file_path": "./resumes_store\\Roshini_Sr QA Engineer Updated Resume.933423351966.docx",
+          "evidence": {
+            "snippet": "for setting up the system setting according to the requirements on to the Country specific Virtual Machines.Organizing and testing the deployments using IOP change management in service now.Test automation using Selenium by writing robust tests scripts in a Java languageAutomate and improve the performance of regression plans by developing Java test scripts with Selenium Web-driver, Cucumber and TestNG for PULSE desktop applications modulesDevelop and execute plans to ensure end-to-end quality of interconnected components in a distributed settingDevelop Features, Scenarios using Gherkin framework Cucumber.Experience testing SOAP and REST Web services.Utilized web developer tools such as POSTMAN to test the calls to the web services and check if correct datais returned.Responsible for givin"
+          }
+        },
+        {
+          "candidate_name": "Hari Prakash Pokala",
+          "match_pct": 2,
+          "email": "904-514-5716hariprakash.pokala@gmail.comSummary",
+          "phone": "+1 904-514-5716",
+          "document_id": "Hari Prakash Pokala-ac0b6daf36a9",
+          "file_path": "./resumes_store\\Hari Prakash Pokala.ac0b6daf36a9.docx",
+          "evidence": {
+            "snippet": "Hari Prakash PokalaPhone: +1 904-514-5716hariprakash.pokala@gmail.comSummary:Experienced and versatile Software Engineer with over 15 years of expertise in developing cutting-edge web applications using Angular 8.0 & above, Python, Node.js, Java/JEE, and modern technologies. Proven leadership in Agile environments, adept at implementing best practices to deliver high-quality solutions. Skilled in client-side development with HTML, CSS, JavaScript, jQuery, Bootstrap, JSP, Struts, Ajax, Angular, and ReactJS, ensuring interactive and visually appealing user interfaces. Deep knowledge of Java and JavaEE platforms, including servlets, JDBC, Hibernate, Spring MVC, Spring Boot, and NodeJS. Strong in microservices architecture, RESTful APIs development using Spring Boot and Node.js, cloud technolo"
+          }
+        },
+        {
+          "candidate_name": "Swapna Chinnapapakkagari - QA Manager",
+          "match_pct": 0,
+          "email": "20152972-510-9321swapnareddy0508@gmail.comSUMMARY",
+          "phone": "+1529725109321",
+          "document_id": "Swapna Chinnapapakkagari - QA Manager-4e174525393b",
+          "file_path": "./resumes_store\\Swapna Chinnapapakkagari - QA Manager.4e174525393b.docx",
+          "evidence": {
+            "snippet": ", and maintaining test traceability.Supervising and reviewing test scenarios, test cases, and overall coverage to ensure alignment with the functional requirements.Providing project QA status updates including issue tracking, defect trends, test execution metrics, and resolutions.Conducting periodic QA audits to ensure alignment with IES testing methodology, strategy, and tool usage.Supervisory responsibilities including timesheet approvals, mentorship, performance reviews, and identifying team training needs.Staying current with industry tools and technologies relevant to automated testing, system interfaces, and QA process improvements.Environment: JAVA, J2EE, EJB’s, Internet Explorer, HTML, SharePoint, JIRA, Blueprint, Mainframe, CSS, JavaScript.District of Columbia Health Benefit Excha"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Machine Learning Engineer, 3+ yrs, TensorFlow or PyTorch, MLOps, Hyderabad",
+      "ts": "2025-08-25T02:21:37"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Final Resume**  \n- **Summary:** This candidate is an excellent fit for the Machine Learning Engineer role as they possess the required experience, proficiency in TensorFlow, and relevant certifications, all while being located in Hyderabad.  \n- **Strengths:**  \n  - Proficient in TensorFlow and Keras.  \n  - Experience with NumPy and Scikit-learn for data analysis.  \n  - Holds Google Cloud and AWS certifications.  \n  - Knowledge of MLOps practices through cloud platform experience.  \n  - Located in Hyderabad.  \n- **Areas to improve:**  \n  - No explicit mention of experience with PyTorch.  \n  - Not evidenced in snippet regarding specific years of experience in machine learning.  \n\n---\n\n**2. Venkata Ramanaiah Papudippu**  \n- **Summary:** This candidate has strong Python development skills and relevant data analysis experience, but lacks direct machine learning experience and proficiency in TensorFlow or PyTorch, making them a less ideal fit for the role.  \n- **Strengths:**  \n  - Extensive experience with Python and advanced libraries like Pandas and NumPy.  \n  - Background in data analysis and statistical modeling.  \n  - Experience in creating RESTful APIs and data visualizations.  \n  - Familiarity with cloud environments (not specified if AWS or Google Cloud).  \n- **Areas to improve:**  \n  - No evidence of machine learning experience or proficiency in TensorFlow or PyTorch.  \n  - Not located in Hyderabad.  \n  - Not evidenced in snippet regarding years of experience in machine learning or MLOps.  \n\n---\n\n**3. SRINIVAS REDDY BATTULA**  \n- **Summary:** This candidate has experience in deploying applications and managing CI/CD pipelines, but lacks specific machine learning skills and proficiency in TensorFlow or PyTorch, making them a moderate fit for the role.  \n- **Strengths:**  \n  - Experience with Docker and Kubernetes for application deployment.  \n  - Knowledge of CI/CD pipelines using Jenkins and GitLab CI.  \n  - Familiar with event-driven workflows and asynchronous communication.  \n- **Areas to improve:**  \n  - No evidence of machine learning experience or proficiency in TensorFlow or PyTorch.  \n  - Not located in Hyderabad.  \n  - Not evidenced in snippet regarding years of experience in machine learning or MLOps.  \n\n---\n\n**4. Ravi Kumar Tankala**  \n- **Summary:** This candidate has a strong background in mainframe programming and testing but does not meet the requirements for machine learning expertise or relevant tools, making them an unsuitable fit for the role.  \n- **Strengths:**  \n  - Experience in developing test strategies and plans.  \n  - Familiarity with COBOL, CICS, and other mainframe technologies.  \n- **Areas to improve:**  \n  - No evidence of machine learning experience or proficiency in TensorFlow or PyTorch.  \n  - Not located in Hyderabad.  \n  - Not evidenced in snippet regarding years of experience in machine learning or MLOps.  \n  - No relevant certifications in machine learning or cloud technologies.  \n\n---\n\n**5. Swapna Chinnapapakkagari**  \n- **Summary:** This candidate has extensive QA experience but lacks any relevant machine learning skills or tools, making them an unsuitable fit for the Machine Learning Engineer position.  \n- **Strengths:**  \n  - Experience in designing test strategies and plans.  \n  - Familiarity with various QA methodologies and processes.  \n- **Areas to improve:**  \n  - No evidence of machine learning experience or proficiency in TensorFlow or PyTorch.  \n  - Not located in Hyderabad.  \n  - Not evidenced in snippet regarding years of experience in machine learning or MLOps.  \n  - No relevant certifications in machine learning or cloud technologies.  ",
+      "ts": "2025-08-25T02:21:53",
+      "results": [
+        {
+          "candidate_name": "final resume",
+          "match_pct": 100,
+          "email": "divya.dha24@gmail.com",
+          "phone": "+917732000666",
+          "document_id": "final resume-46121dd3f6b7",
+          "file_path": "./resumes_store\\final resume.46121dd3f6b7.pdf",
+          "evidence": {
+            "snippet": "as, NumPy, Scikit-learn, Matplotlib, Seaborn, TensorFlow, Keras, NLTK Developer Tools: Google Cloud Platform, AWS, VS Code, IntelliJ Languages and Others: English, Hindi, Telugu, Problem Solving, AptitudeCertifications • Wiki Women Hackathon • Google Cloud Badges • AWS Educate Cloud Introduction Badge • Pupilfirst of Certification Web Development 101 • Programming, Data Structures And Algorithms Using Python • Introduction to Machine Learning"
+          }
+        },
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 94,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": " and load large volumes of data, optimizing data flow and storage in Oracle databases for more efficient querying and reporting.Collaborated with frontend teams using React.js to design RESTful APIs and optimize data flow.Created data visualizations and interactive dashboards using Tableau and Grafana, empowering non-technical stakeholders with real-time insights into key business metrics and improving decision-making processes.Implemented advanced Python libraries such as Pandas, NumPy, and SciPy for data analysis and statistical modeling, ensuring the integrity and accuracy of insights used in business-critical applications.Schlumberger, TX Jul 2011 – Apr 2015Python Developer Developed high-performance FastAPI applications using Python, creating scalable RESTful APIs that supported micro"
+          }
+        },
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 75,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst",
+          "match_pct": 16,
+          "email": null,
+          "phone": null,
+          "document_id": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst-b5bd4a914792",
+          "file_path": "./resumes_store\\Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst.b5bd4a914792.docx",
+          "evidence": {
+            "snippet": "integrated back-end logic to support real-time user requests and rapid response processing.Develop Test Estimations, Test Strategy, Test Plans, and Test Cases, and participate in peer reviews of these documents.Provide training to new team members on testing procedures, coding, test security, and accommodations.Ensure Personally Identifiable Information (PII) and Protected Health Information (PHI) are masked before being uploaded to lower test environments using the IBM-Optim masking process.Test applications developed using COBOL, CICS, JCL, DB2, Assembler, PL/I, VSAM, and GENEVA/SAFR.Log, track, and manage defects, and conduct Root Cause Analysis meetings to address issues and provide permanent solutions.Support Pre & Post implementation testing for new/enhancements of software products."
+          }
+        },
+        {
+          "candidate_name": "Swapna Chinnapapakkagari - QA Systems Analyst 3",
+          "match_pct": 0,
+          "email": "20152972-510-9321swapnareddy0508@gmail.comSUMMARY",
+          "phone": "20152972-510-9321",
+          "document_id": "Swapna Chinnapapakkagari - QA Systems Analyst 3-50934231c550",
+          "file_path": "./resumes_store\\Swapna Chinnapapakkagari - QA Systems Analyst 3.50934231c550.docx",
+          "evidence": {
+            "snippet": "e, Work First Services, Presumptive Medicaid, NC Health Choice, Cash Force Eligibility, Medical Force Eligibility, and Medical Transportation, validating data integrity and functional workflows.Experience in designing and developing test strategies, Test Plans, Test Cases, and generating test reports, defect reports, and overall product quality assurance documentation.Experience with resource planning, scope assessment, testing frameworks, communication plans, reporting metrics, defect tracking, and stakeholder collaboration.Familiar with CMM, ISO 9000, RUP, IEEE, and Extreme Programming methodologies, ensuring standardized QA processes and quality metrics are met.Highly dedicated, quick starter with problem-solving skills under strict deadlines; a strong team player with excellent communi"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "MLOps Engineer, 4+ yrs, Kubeflow, MLflow, Docker, Kubernetes, Remote",
+      "ts": "2025-08-25T02:24:41"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**\n- **Summary:** Srinivas Reddy Battula is an excellent fit for the MLOps Engineer role with over 4 years of experience, demonstrating proficiency in Docker and Kubernetes, and relevant skills in CI/CD and event-driven workflows.\n- **Strengths:**\n  - Over 4 years of experience in deploying containerized applications using Docker.\n  - Managed Kubernetes clusters for scalable production environments.\n  - Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions.\n  - Developed secure authentication mechanisms adhering to compliance standards.\n  - Experience with asynchronous communication using Kafka and RabbitMQ.\n- **Areas to improve:**\n  - Proficiency in Kubeflow and MLflow not evidenced in snippet.\n  - Remote work availability not evidenced in snippet.\n\n**2. Venkata Ramanaiah Papudippu**\n- **Summary:** Venkata Ramanaiah Papudippu is a strong candidate with extensive experience in Python development and data optimization, but lacks specific MLOps tools like Kubeflow and MLflow.\n- **Strengths:**\n  - Developed high-performance FastAPI applications, indicating strong Python skills.\n  - Experience with RESTful APIs, relevant for MLOps workflows.\n  - Optimized data flow and storage in Oracle databases, showcasing data management skills.\n  - Collaborated with frontend teams, indicating teamwork and communication skills.\n  - Familiarity with data visualization tools like Tableau and Grafana.\n- **Areas to improve:**\n  - No evidence of experience with Kubeflow or MLflow.\n  - Docker and Kubernetes experience not evidenced in snippet.\n  - Remote work availability not evidenced in snippet.\n  - Years of experience in MLOps not specified.\n\n**3. Prem Vinod Kumar Bandari**\n- **Summary:** Prem Vinod Kumar Bandari has relevant experience in Docker and Kubernetes, but lacks specific MLOps tools and does not meet the 4+ years of experience requirement.\n- **Strengths:**\n  - Extensive experience with Docker and Kubernetes for streamlined deployment.\n  - Integrated software with Azure DevOps CI/CD pipelines.\n  - Hands-on experience with logging and monitoring tools.\n  - Familiarity with clean code practices and various programming languages.\n  - Experience in interfacing with customers and guiding teams.\n- **Areas to improve:**\n  - Specific experience in Kubeflow and MLflow not evidenced in snippet.\n  - Total years of experience in MLOps not specified.\n  - Remote work availability not evidenced in snippet.\n\n**4. Hanumanthurao Nandigam**\n- **Summary:** Hanumanthurao Nandigam has strong experience in data transformation and Azure services but lacks direct MLOps experience and the required tools.\n- **Strengths:**\n  - Over 5 years of proficiency in Azure services, including Data Factory and Databricks.\n  - Experience with ETL processes and data transformation using Python and SQL.\n  - Managed end-to-end ETL testing and validation.\n  - Familiarity with Snowflake for data warehousing.\n  - Proficient in Python, which is relevant for MLOps.\n- **Areas to improve:**\n  - No evidence of experience with Docker, Kubernetes, Kubeflow, or MLflow.\n  - Remote work availability not evidenced in snippet.\n  - Total years of experience in MLOps not specified.\n\n**5. Hari Prakash Pokala**\n- **Summary:** Hari Prakash Pokala does not meet the requirements for the MLOps Engineer role, lacking relevant experience and tools.\n- **Strengths:**\n  - Over 15 years of experience in software engineering and web application development.\n  - Strong skills in various programming languages and frameworks.\n  - Proven leadership in Agile environments.\n- **Areas to improve:**\n  - No evidence of experience with MLOps tools such as Kubeflow, MLflow, Docker, or Kubernetes.\n  - Does not meet the 4+ years of MLOps experience requirement.\n  - Remote work availability not evidenced in snippet.",
+      "ts": "2025-08-25T02:24:59",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 95,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": " and load large volumes of data, optimizing data flow and storage in Oracle databases for more efficient querying and reporting.Collaborated with frontend teams using React.js to design RESTful APIs and optimize data flow.Created data visualizations and interactive dashboards using Tableau and Grafana, empowering non-technical stakeholders with real-time insights into key business metrics and improving decision-making processes.Implemented advanced Python libraries such as Pandas, NumPy, and SciPy for data analysis and statistical modeling, ensuring the integrity and accuracy of insights used in business-critical applications.Schlumberger, TX Jul 2011 – Apr 2015Python Developer Developed high-performance FastAPI applications using Python, creating scalable RESTful APIs that supported micro"
+          }
+        },
+        {
+          "candidate_name": "Prem Vinod Kumar Bandari",
+          "match_pct": 11,
+          "email": null,
+          "phone": "+14848722979",
+          "document_id": "Prem Vinod Kumar Bandari-67d82bee620b",
+          "file_path": "./resumes_store\\Prem Vinod Kumar Bandari.67d82bee620b.docx",
+          "evidence": {
+            "snippet": "cluding coordination on test plans, regression testing, and problem resolution.Robust application monitoring and debugging facilitated through logging tools like Log4net and Serilog, and advanced monitoring platforms such as Splunk and Application Insights.Hands-on experience with clean code practices, using tools like Veracode, GitLab, GitHub, SonarQube, and other Artifactory tools.Played AMS/Track Lead roles, interfacing with customers and guiding offshore teams with technical clarifications.Extensive experience integrating software with Azure DevOps CICD pipelines, Docker, Kubernetes, and containerization for streamlined deployment.Technical Skills: Programming Languages : C#, TypeScript, JavaScript Frameworks & Libraries : .NET Core, .NET Framework, Angular, ASP.NET MVCCloud Platforms "
+          }
+        },
+        {
+          "candidate_name": "Hanumanthurao Nandigam - Power BI",
+          "match_pct": 8,
+          "email": "hanurao.n@gmail.com",
+          "phone": null,
+          "document_id": "Hanumanthurao Nandigam - Power BI-3ce96e1521a4",
+          "file_path": "./resumes_store\\Hanumanthurao Nandigam - Power BI.3ce96e1521a4.docx",
+          "evidence": {
+            "snippet": "tise in executing data extraction, transformation, and loading (ETL) processes using a variety of tools, including Informatica PowerCenter, IICS, Alteryx, SSIS, and ODI.5+ years of proficiency in Azure services, especially Data Factory, Databricks, Synapse Analytics, DevOps and Azure SQL Database.Proficiency in SQL, PL/SQL, DAX, M, Python, PySpark languages for data transformation, visualizations and automation.Build Data Platform in Snowflake using python framework as an ETL tool to build Enterprise Reporting Data Warehouse on Snowflake.Experience writing complex SQL & Snow SQL.Managed and executed end-to-end ETL testing, validating data extraction, transformation, and loading from multiple source systems into data warehouses.leveraged Microsoft Fabric 's capability to integrate Power BI "
+          }
+        },
+        {
+          "candidate_name": "Hari Prakash Pokala",
+          "match_pct": 0,
+          "email": "904-514-5716hariprakash.pokala@gmail.comSummary",
+          "phone": "+1 904-514-5716",
+          "document_id": "Hari Prakash Pokala-ac0b6daf36a9",
+          "file_path": "./resumes_store\\Hari Prakash Pokala.ac0b6daf36a9.docx",
+          "evidence": {
+            "snippet": "Hari Prakash PokalaPhone: +1 904-514-5716hariprakash.pokala@gmail.comSummary:Experienced and versatile Software Engineer with over 15 years of expertise in developing cutting-edge web applications using Angular 8.0 & above, Python, Node.js, Java/JEE, and modern technologies. Proven leadership in Agile environments, adept at implementing best practices to deliver high-quality solutions. Skilled in client-side development with HTML, CSS, JavaScript, jQuery, Bootstrap, JSP, Struts, Ajax, Angular, and ReactJS, ensuring interactive and visually appealing user interfaces. Deep knowledge of Java and JavaEE platforms, including servlets, JDBC, Hibernate, Spring MVC, Spring Boot, and NodeJS. Strong in microservices architecture, RESTful APIs development using Spring Boot and Node.js, cloud technolo"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Data Analyst, 4+ yrs, SQL, Power BI, DAX, Excel, Pune",
+      "ts": "2025-08-25T02:25:50"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Swapna Chinnapapakkagari - QA Systems Analyst 3**  \nSummary: Swapna has extensive experience in QA processes but lacks direct experience in data analysis tools and SQL, making her a poor fit for the Data Analyst role.  \nStrengths:  \n- Experience in validating data integrity and functional workflows.  \n- Strong problem-solving skills under strict deadlines.  \n- Excellent communication and collaboration skills.  \n- Familiar with standardized QA processes and quality metrics.  \n- Not evidenced in snippet: SQL, Power BI, DAX, Excel, 4+ years of data analysis experience, location (Pune).  \nAreas to improve:  \n- No experience with SQL.  \n- No experience with Power BI or DAX.  \n- No mention of Excel proficiency.  \n- Less than 4 years of direct data analysis experience.  \n- Location not specified (not in snippet).  \n\n---\n\n**2. SRINIVAS REDDY BATTULA**  \nSummary: Srinivas has strong technical skills and experience in data processing but lacks specific experience in data analysis tools like Power BI and DAX, making him a partial fit for the Data Analyst role.  \nStrengths:  \n- Experience in developing secure authentication and authorization mechanisms.  \n- Familiar with CI/CD pipelines using Jenkins and GitLab CI.  \n- Developed batch processing scripts for data imports/exports.  \n- Experience with real-time updates and patient dashboards.  \n- Not evidenced in snippet: Power BI, DAX, Excel, 4+ years of data analysis experience, location (Pune).  \nAreas to improve:  \n- No experience with Power BI or DAX.  \n- No mention of Excel proficiency.  \n- Less than 4 years of direct data analysis experience.  \n- Location not specified (not in snippet).  \n\n---\n\n**3. Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst**  \nSummary: Ravi has significant programming experience but lacks relevant skills in data analysis tools and SQL, making him an unsuitable candidate for the Data Analyst position.  \nStrengths:  \n- Experience in developing test strategies and plans.  \n- Knowledge of defect tracking and root cause analysis.  \n- Familiar with COBOL, CICS, JCL, and DB2.  \n- Experience in training new team members.  \n- Not evidenced in snippet: SQL, Power BI, DAX, Excel, 4+ years of data analysis experience, location (Pune).  \nAreas to improve:  \n- No experience with SQL.  \n- No experience with Power BI or DAX.  \n- No mention of Excel proficiency.  \n- Less than 4 years of direct data analysis experience.  \n- Location not specified (not in snippet).  \n\n---\n\n**4. Sunil Kandukuri**  \nSummary: Sunil has experience in documentation and testing but lacks the necessary data analysis skills and tools, making him a poor fit for the Data Analyst role.  \nStrengths:  \n- Experience in maintaining project documentation and test results.  \n- Familiar with coordinating with support teams and business users.  \n- Knowledge of various testing phases (SIT, UAT).  \n- Experience in project management and estimates for change requests.  \n- Not evidenced in snippet: SQL, Power BI, DAX, Excel, 4+ years of data analysis experience, location (Pune).  \nAreas to improve:  \n- No experience with SQL.  \n- No experience with Power BI or DAX.  \n- No mention of Excel proficiency.  \n- Less than 4 years of direct data analysis experience.  \n- Location not specified (not in snippet).  \n\n---\n\n**5. Hanumanthurao Nandigam - Power BI**  \nSummary: Hanumanthurao has extensive experience in Power BI and related tools, making him a strong candidate for the Data Analyst role, although his location is not aligned with the query.  \nStrengths:  \n- Over 17 years of IT experience, specializing in Data Warehousing and Analytics.  \n- Advanced skills in Power BI, including creating visual reports and dashboards.  \n- Strong background in DAX and data modeling.  \n- Experience with SQL and ETL development.  \n- Not evidenced in snippet: 4+ years of data analysis experience, location (Pune).  \nAreas to improve:  \n- Less than 4 years of direct data analysis experience (not in snippet).  \n- Location not specified (not in snippet).  \n\n--- \n\nOverall, none of the candidates fully meet the requirements for the Data Analyst role, particularly in terms of SQL, Power BI, DAX, and location.",
+      "ts": "2025-08-25T02:26:17",
+      "results": [
+        {
+          "candidate_name": "Swapna Chinnapapakkagari - QA Systems Analyst 3",
+          "match_pct": 100,
+          "email": "20152972-510-9321swapnareddy0508@gmail.comSUMMARY",
+          "phone": "20152972-510-9321",
+          "document_id": "Swapna Chinnapapakkagari - QA Systems Analyst 3-50934231c550",
+          "file_path": "./resumes_store\\Swapna Chinnapapakkagari - QA Systems Analyst 3.50934231c550.docx",
+          "evidence": {
+            "snippet": "e, Work First Services, Presumptive Medicaid, NC Health Choice, Cash Force Eligibility, Medical Force Eligibility, and Medical Transportation, validating data integrity and functional workflows.Experience in designing and developing test strategies, Test Plans, Test Cases, and generating test reports, defect reports, and overall product quality assurance documentation.Experience with resource planning, scope assessment, testing frameworks, communication plans, reporting metrics, defect tracking, and stakeholder collaboration.Familiar with CMM, ISO 9000, RUP, IEEE, and Extreme Programming methodologies, ensuring standardized QA processes and quality metrics are met.Highly dedicated, quick starter with problem-solving skills under strict deadlines; a strong team player with excellent communi"
+          }
+        },
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 99,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst",
+          "match_pct": 25,
+          "email": null,
+          "phone": null,
+          "document_id": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst-b5bd4a914792",
+          "file_path": "./resumes_store\\Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst.b5bd4a914792.docx",
+          "evidence": {
+            "snippet": "integrated back-end logic to support real-time user requests and rapid response processing.Develop Test Estimations, Test Strategy, Test Plans, and Test Cases, and participate in peer reviews of these documents.Provide training to new team members on testing procedures, coding, test security, and accommodations.Ensure Personally Identifiable Information (PII) and Protected Health Information (PHI) are masked before being uploaded to lower test environments using the IBM-Optim masking process.Test applications developed using COBOL, CICS, JCL, DB2, Assembler, PL/I, VSAM, and GENEVA/SAFR.Log, track, and manage defects, and conduct Root Cause Analysis meetings to address issues and provide permanent solutions.Support Pre & Post implementation testing for new/enhancements of software products."
+          }
+        },
+        {
+          "candidate_name": "SunilKandukuri_Resume",
+          "match_pct": 23,
+          "email": null,
+          "phone": "732-910-4620",
+          "document_id": "SunilKandukuri_Resume-20ae69a79914",
+          "file_path": "./resumes_store\\SunilKandukuri_Resume.20ae69a79914.docx",
+          "evidence": {
+            "snippet": "m and logging the test results in HPQC, closing the defect logged.Maintained code in version control tool VSTFS.Created required documentation from Design phase to till project warranty support like LDR, PDD, ETL Specification, OLAP Specification, Test cases doc, Deployment doc, KT plan, Support handshake guide etc., Supporting the Third Party and Business Users for SIT, PRE-UAT and UAT respectively Interacting with Latin Center business in UAT phase and resolving issues.Providing the estimates for CRs.Coordinating with DBA team in cutover and production deployment of this application Coordinating with support team and responsible for providing KT and supporting team in reverse shadowing.Project-5: System Alignment Diagnostics platform migration The objective of this project is to migratio"
+          }
+        },
+        {
+          "candidate_name": "Hanumanthurao Nandigam - Power BI",
+          "match_pct": 0,
+          "email": "hanurao.n@gmail.com",
+          "phone": null,
+          "document_id": "Hanumanthurao Nandigam - Power BI-3ce96e1521a4",
+          "file_path": "./resumes_store\\Hanumanthurao Nandigam - Power BI.3ce96e1521a4.docx",
+          "evidence": {
+            "snippet": "Hanumanthurao Nandigam Irving, Texas - 75063Phone: (469)-774-2975Email: hanurao.n@gmail.com Profile Summary:With over 17 years of expertise in IT, I specialize in Data Warehousing, Data Modeling, Analytics, and ETL development. I have a strong background in designing and implementing data visualizations and ETL solutions using diverse technologies, including Power BI, Tableau, OBIEE, BI Publisher, SSIS, SSRS, SSAS, Informatica PowerCenter, Informatica cloud (IICS), SQL, Python, Snowflake, Azure Databricks, Azure Synapse, Microsoft Fabric, DevOps practices and PowerBI Administration.Over 8 years of experience as a BI Developer/Architect with advanced skills in Power BI, focusing on creating visual reports, dashboards, KPI scorecards, data modeling, DAX, and Power Query.Expertise in embeddin"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "I want java full stack Candidate ",
+      "ts": "2025-08-25T03:03:03"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**  \n- **Summary:** Srinivas is an excellent fit for the Java Full Stack Developer role, demonstrating extensive experience with relevant technologies and practices, including Spring and SQL, while also showcasing a strong background in modern development methodologies.\n- **Strengths:**\n  - Proficient in **Spring Security**, **OAuth 2.0**, and **JWT**.\n  - Experience with **SQL** for data management.\n  - Developed applications using **Docker** and managed **Kubernetes** clusters.\n  - Configured **CI/CD pipelines** with **Jenkins** and **GitLab CI**.\n  - Integrated front-end with microservices using **RESTful APIs**.\n  - Strong focus on security and compliance, adhering to **HIPAA** standards.\n  - **Location**: Not specified, but relevant experience aligns with the query.\n- **Areas to improve:**\n  - **Angular** proficiency not evidenced in snippet.\n  - Years of experience not explicitly stated in snippet.\n  - **Location** not specified.\n\n---\n\n**2. Swapna Chinnapapakkagari**  \n- **Summary:** Swapna does not meet the requirements for the Java Full Stack Developer position, as her experience is primarily in QA and testing rather than full stack development, with no evidence of Java or related technologies.\n- **Strengths:**\n  - Experience in **designing and developing test strategies** and **test plans**.\n  - Familiar with **CMM**, **ISO 9000**, and **Extreme Programming methodologies**.\n  - Strong problem-solving skills and ability to work under deadlines.\n  - Excellent communication and collaboration skills.\n- **Areas to improve:**\n  - No experience with **Java**, **Spring**, **Hibernate**, or **Angular**.\n  - **SQL** proficiency not evidenced in snippet.\n  - Not located in **Pune** (location not specified).\n  - Years of experience not specified.\n\n---\n\n**3. Ravi Kumar Tankala**  \n- **Summary:** Ravi is not a suitable candidate for the Java Full Stack Developer role, as his expertise lies in mainframe programming and testing rather than Java development, with no relevant technologies mentioned.\n- **Strengths:**\n  - Experience in **integrating back-end logic** and **real-time processing**.\n  - Developed **Test Estimations**, **Test Strategy**, and **Test Plans**.\n  - Knowledge of **COBOL**, **CICS**, and **DB2**.\n  - Conducted **Root Cause Analysis** for defect management.\n- **Areas to improve:**\n  - No experience with **Java**, **Spring**, **Hibernate**, or **Angular**.\n  - **SQL** proficiency not evidenced in snippet.\n  - Not located in **Pune** (location not specified).\n  - Years of experience not specified.\n\n---\n\n**4. Sunil Kandukuri**  \n- **Summary:** Sunil is not a fit for the Java Full Stack Developer position, as his background is primarily in testing and documentation rather than development, with no evidence of required technologies.\n- **Strengths:**\n  - Experience in maintaining code and creating documentation for projects.\n  - Coordinated with teams for **UAT** and **production deployment**.\n  - Strong focus on **defect tracking** and **quality assurance**.\n- **Areas to improve:**\n  - No experience with **Java**, **Spring**, **Hibernate**, or **Angular**.\n  - **SQL** proficiency not evidenced in snippet.\n  - Not located in **Pune** (location not specified).\n  - Years of experience not specified.\n\n---\n\n**5. Prem Vinod Kumar Bandari**  \n- **Summary:** Prem is not a suitable candidate for the Java Full Stack Developer role, as his experience is primarily in C# and related technologies, with no evidence of Java or the required frameworks.\n- **Strengths:**\n  - Experience with **SQL Database Schema** and **Stored Procedures**.\n  - Involved in **Test Driven Development (TDD)** and wrote **Integration and Unit Tests**.\n  - Built **Single Page Applications (SPAs)** with **AngularJS**.\n- **Areas to improve:**\n  - No experience with **Java**, **Spring**, or **Hibernate**.\n  - **SQL** experience is present but not in the context of the required technologies.\n  - Not located in **Pune** (location not specified).\n  - Years of experience not specified.",
+      "ts": "2025-08-25T03:03:25",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Swapna Chinnapapakkagari - QA Systems Analyst 3",
+          "match_pct": 49,
+          "email": "20152972-510-9321swapnareddy0508@gmail.comSUMMARY",
+          "phone": "20152972-510-9321",
+          "document_id": "Swapna Chinnapapakkagari - QA Systems Analyst 3-50934231c550",
+          "file_path": "./resumes_store\\Swapna Chinnapapakkagari - QA Systems Analyst 3.50934231c550.docx",
+          "evidence": {
+            "snippet": "e, Work First Services, Presumptive Medicaid, NC Health Choice, Cash Force Eligibility, Medical Force Eligibility, and Medical Transportation, validating data integrity and functional workflows.Experience in designing and developing test strategies, Test Plans, Test Cases, and generating test reports, defect reports, and overall product quality assurance documentation.Experience with resource planning, scope assessment, testing frameworks, communication plans, reporting metrics, defect tracking, and stakeholder collaboration.Familiar with CMM, ISO 9000, RUP, IEEE, and Extreme Programming methodologies, ensuring standardized QA processes and quality metrics are met.Highly dedicated, quick starter with problem-solving skills under strict deadlines; a strong team player with excellent communi"
+          }
+        },
+        {
+          "candidate_name": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst",
+          "match_pct": 14,
+          "email": null,
+          "phone": null,
+          "document_id": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst-b5bd4a914792",
+          "file_path": "./resumes_store\\Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst.b5bd4a914792.docx",
+          "evidence": {
+            "snippet": "integrated back-end logic to support real-time user requests and rapid response processing.Develop Test Estimations, Test Strategy, Test Plans, and Test Cases, and participate in peer reviews of these documents.Provide training to new team members on testing procedures, coding, test security, and accommodations.Ensure Personally Identifiable Information (PII) and Protected Health Information (PHI) are masked before being uploaded to lower test environments using the IBM-Optim masking process.Test applications developed using COBOL, CICS, JCL, DB2, Assembler, PL/I, VSAM, and GENEVA/SAFR.Log, track, and manage defects, and conduct Root Cause Analysis meetings to address issues and provide permanent solutions.Support Pre & Post implementation testing for new/enhancements of software products."
+          }
+        },
+        {
+          "candidate_name": "SunilKandukuri_Resume",
+          "match_pct": 13,
+          "email": null,
+          "phone": "732-910-4620",
+          "document_id": "SunilKandukuri_Resume-20ae69a79914",
+          "file_path": "./resumes_store\\SunilKandukuri_Resume.20ae69a79914.docx",
+          "evidence": {
+            "snippet": "m and logging the test results in HPQC, closing the defect logged.Maintained code in version control tool VSTFS.Created required documentation from Design phase to till project warranty support like LDR, PDD, ETL Specification, OLAP Specification, Test cases doc, Deployment doc, KT plan, Support handshake guide etc., Supporting the Third Party and Business Users for SIT, PRE-UAT and UAT respectively Interacting with Latin Center business in UAT phase and resolving issues.Providing the estimates for CRs.Coordinating with DBA team in cutover and production deployment of this application Coordinating with support team and responsible for providing KT and supporting team in reverse shadowing.Project-5: System Alignment Diagnostics platform migration The objective of this project is to migratio"
+          }
+        },
+        {
+          "candidate_name": "Prem Vinod Kumar Bandari",
+          "match_pct": 0,
+          "email": null,
+          "phone": "+14848722979",
+          "document_id": "Prem Vinod Kumar Bandari-67d82bee620b",
+          "file_path": "./resumes_store\\Prem Vinod Kumar Bandari.67d82bee620b.docx",
+          "evidence": {
+            "snippet": "T based GET, POST, PUT, DELETE and returning JSON format.Used Splunk, Jira / Service Now to track and assign tasks to work upon priority.Created SQL Database Schema with table defined table structure, primary key and foreign key relations, Stored Procedures, Triggers, SQL Job Schedulers, using Normalization standards.Involve in Test Driven Development (TDD) and wrote Integration and Unit Tests. Optimizing, debugging and creating stored procedures in SQL 2014 Languages / Tools VS 2015, C#, MVC5, TDD, SQL 2016, TFS, Entity Framework, Web API,Building Single Page Applications (SPAs) with AngularJS., JavaScript Unit Testing with TDD, NUnit.Education:Master's of Science (Computer Networks) | Leeds Metropolitan University, Leeds, UK |2008 2010B.Tech (Computer Science and IT) | JNTU, Hyderabad In"
+          }
+        }
+      ]
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.7,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

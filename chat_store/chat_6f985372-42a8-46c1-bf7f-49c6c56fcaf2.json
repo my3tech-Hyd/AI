@@ -1,0 +1,41 @@
+{
+  "id": "6f985372-42a8-46c1-bf7f-49c6c56fcaf2",
+  "title": "i want Candidate instructor trainee skills",
+  "created_at": "2025-08-16T18:49:43",
+  "updated_at": "2025-08-16T18:58:58",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).",
+      "ts": "2025-08-16T18:49:43"
+    },
+    {
+      "role": "user",
+      "content": "i want a Candidate with the instructor trainee skills ",
+      "ts": "2025-08-16T18:50:50"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the provided evidence, here are my recommendations for the top 5 candidates:\n\n1. **Tiffany Rhodes**: With her extensive experience as an Instructor Trainer (2018-Present), Tiffany has demonstrated expertise in lesson planning, classroom management, and student performance monitoring. Her high success rate of 83.3% in helping students pass the GED and TSI tests is a testament to her effectiveness.\n\n2. **Jerome Motley**: Jerome's experience as a Support Analyst (2017-2019) has honed his skills in troubleshooting, technical issue resolution, and knowledge base management. His ability to coach students one-on-one for academic and certification success showcases his potential as an instructor.\n\n3. **Tiffany Rhodes** (again, due to her strong match): Tiffany's experience as a Live Online Mentor Instructor (2017-2019) has given her expertise in teaching Information Technology coursework to large classes and coaching students for success.\n\n4. **Jerome Motley** (again, due to his strong match): Jerome's experience as a Support Analyst has also prepared him well for an instructional role, where he can utilize his problem-solving skills to help students overcome technical challenges.\n\n5. **Diane Reiter**: While Diane lacks direct teaching experience, her background in cybersecurity and project management demonstrates transferable skills that could be valuable in an instructional setting. Her certifications and board memberships showcase her commitment to ongoing learning and professional development.\n\nNote: Ashok Ankalla's profile does not match any of the provided evidence, making it difficult to recommend him based on this data alone.",
+      "ts": "2025-08-16T18:51:43"
+    },
+    {
+      "role": "user",
+      "content": "python skills and 2 years experiance ",
+      "ts": "2025-08-16T18:58:13"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the provided evidence, here are my recommendations for the top 5 candidates:\n\n1. **Valiani** (100% match)\n\t* Strong expertise in Python programming (10 Years) and Linux OS.\n\t* 2+ years of experience as a Lead Data Analyst.\n\n2. **Vinod Thakur**\n\t* Proficient in Python programming (74% match).\n\t* Experience in creating/reviewing Requirement Specification & Design documents.\n\t* 2+ years of experience as a Tableau Developer/Administrator.\n\n3. **Tiffany Rhodes** (19% match)\n\t* Skilled in Python programming, data analysis, and project management.\n\t* 2+ years of experience in technical roles, with expertise in AI and machine learning.\n\n4. **Diane Reiter**\n\t* No direct Python skills mentioned, but has a Python class tutorial (16% match).\n\t* May be a good fit for those looking to learn Python or gain experience in related fields.\n\n5. **Venkata Ramanaiah Papudippu** (0% match)\n\t* No direct mention of Python skills, despite being a Python Developer.\n\t* May not be the best fit based on the provided evidence.\n\nPlease note that while Venkata Ramanaiah Papudippu has a title of \"Python Developer,\" his snippet does not explicitly mention Python programming skills.",
+      "ts": "2025-08-16T18:58:58"
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.7,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

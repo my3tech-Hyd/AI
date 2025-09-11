@@ -1,0 +1,160 @@
+{
+  "id": "7f637485-5931-4f09-bded-5591e06b0761",
+  "title": "I want candidate skills instructor trainee 2",
+  "created_at": "2025-08-16T19:05:11",
+  "updated_at": "2025-08-16T19:49:28",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).",
+      "ts": "2025-08-16T19:05:11"
+    },
+    {
+      "role": "user",
+      "content": "I want a candidate with the skills in instructor trainee and 2 years experience ",
+      "ts": "2025-08-16T19:06:48"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the provided evidence, I recommend the following top 5 candidates:\n\n1. **Tiffany Rhodes**: Instructor Trainer with 100% match, 2+ years of experience in developing and implementing training programs, and excellent communication skills.\n2. **Jerome Motley**: Live Online Mentor Instructor with 35% match, 2+ years of experience in teaching Information Technology coursework to class sizes of up to 100 students per class, and coaching students for academic success.\n\nThe other candidates do not have a strong enough match (less than 40%) or relevant skills/tools/experience that align with the query. Joseph Maggio's extensive experience is not directly related to instructor trainee skills, while Manzoor Shanawaz has QA Analyst skills but no direct experience in training or instruction. IMRANA AZMAT's senior resume does not match any of the provided evidence snippets.\n\nPlease note that I had to make some assumptions and inferences based on the limited information available. If you have more evidence or clarification, I can provide a revised recommendation.",
+      "ts": "2025-08-16T19:07:27",
+      "results": [
+        {
+          "candidate_name": "Tiffany Rhodes _ Instructor Trainer",
+          "match_pct": 100,
+          "email": "rhodes512-420-3127tlrhodes7@outlook.comSUMMARY",
+          "phone": "512-420-3127",
+          "document_id": "Tiffany Rhodes _ Instructor Trainer-bd3276a616d9",
+          "file_path": "./resumes_store\\Tiffany Rhodes _ Instructor Trainer.bd3276a616d9.docx",
+          "evidence": {
+            "snippet": "business, industry, labor, and professional employment practices. Provide support and advice to academic programs, assist in the development of new programs, and identify best-practice standards. Serve as ambassadors to the program, providing a connection to and ongoing exchange of information and ideas with members of a broader society.Attend bi-monthly committee meetings and other events/functions as requested. Review agenda and supporting materials prior to committee meetings.Be informed about the program(s); its students, curriculum, services/supports, and activities, and inform others.Share developments in the field.Provide support and advice to program(s), assist in the development of new programs, and identify best-practice standards. Created engaging multimedia content to complemen…"
+          }
+        },
+        {
+          "candidate_name": "Joseph Maggio_2025",
+          "match_pct": 41,
+          "email": "Maggiojmaggionc@yahoo.com",
+          "phone": "919-618-9179",
+          "document_id": "Joseph Maggio_2025-0eabd97d1e40",
+          "file_path": "./resumes_store\\Joseph Maggio_2025.0eabd97d1e40.docx",
+          "evidence": {
+            "snippet": "ion experience20+ years Management experience20+ years of Information Security, Including Governance, Risk and Compliance experience20+ years Cloud and Datacenter security.9 years Project ManagementEducationSanta Ana College - Santa Ana, California Computer Science / Data Processing, Math Certifications / AwardsPCI-DSS v3.1 Qualified Security Assessor (QSA), Previous Certification for version 3.1ITILv3 Foundations\\ Intermediate CertificationsDuke Medicine - CIO Award for ExcellenceHITRUST CSF Certified Assessor (Certification)Technical skills:Work History FISMA Security Consultant (Remediation) Tri-Com Consulting Group | 333 Industrial Park Road Middletown, CT 06457 | 7/2023- 4/2025Hired by the State of Connecticut through Tri-COM to remediate deficiencies discovered during a Social Securi…"
+          }
+        },
+        {
+          "candidate_name": "Jerome Motley -- Support Analyst 2025",
+          "match_pct": 35,
+          "email": "jmotley.jm@gmail.com",
+          "phone": "919-225-8731",
+          "document_id": "Jerome Motley -- Support Analyst 2025-3da34ef41ecc",
+          "file_path": "./resumes_store\\Jerome Motley -- Support Analyst 2025.3da34ef41ecc.docx",
+          "evidence": {
+            "snippet": " the problem and explaining possible solutionsDealing with common or basic technical issues such as resetting passwordsUpdating knowledge bases with details of common problems which customers can view onlineUsing helpdesk software to log calls with descriptions of issues, progress and solutionsPassing calls to a team of 2nd line support analysts if the problem is more complexMy Computer Career June 2017 - November 2019 Live Online Mentor InstructorOversee shipping team activities and ensure support of company policies and procedures for distribution team.Assist the Lead Instructor in providing instruction of Information Technology coursework to class sizes of up to 100 students per class. Coach students one-on-one to both academic and certification success. Plan, prepare and deliver instru…"
+          }
+        },
+        {
+          "candidate_name": "Manzoor Shanawaz _ QA Analyst",
+          "match_pct": 12,
+          "email": "Shanawaz202-403-7406manzoorshanawaz@hotmail.comSUMMARY",
+          "phone": "202-403-7406",
+          "document_id": "Manzoor Shanawaz _ QA Analyst-a844e2d59d22",
+          "file_path": "./resumes_store\\Manzoor Shanawaz _ QA Analyst.a844e2d59d22.docx",
+          "evidence": {
+            "snippet": "etrics.Hands on experience in Testing Java based web services using SOAP UI for both SOAP and REST API.Extensive experience in automation using Rational Functional Tester and Selenium Web driver.Excellent logical skills for understanding and developing system workflows and well suited for communicating with both technical and functional professionals.Possess expert level of understanding of WSDL, Schema, and XML documents for Web Services Testing.Experienced in mainframe environments for triggering and validating the batches. Created and standardized process documentation, leading to consistent quality practices across teams and reducing onboarding time for new members by 30%. Possess expert level of understanding of WSDL, Schema, and XML documents for Web Services Testing. 3+ years of exp…"
+          }
+        },
+        {
+          "candidate_name": "IMRANA AZMAT Sr QA Analyst  - Senior Resume",
+          "match_pct": 0,
+          "email": null,
+          "phone": null,
+          "document_id": "IMRANA AZMAT Sr QA Analyst  - Senior Resume-d7c177b6a0a9",
+          "file_path": "./resumes_store\\IMRANA AZMAT Sr QA Analyst  - Senior Resume.d7c177b6a0a9.docx",
+          "evidence": {
+            "snippet": "Imrana Azmat Summary of Qualifications: 17+ years of experience in IT industry which include 14+ years of Software Testing and 1+ year in Software Development (Java/Oracle/VB/SAP) with various client server, Mainframe & web applications. Experience in testing various IT industrial applications in HealthCare, Insurance, Banking and Financial. Experience testing web applications developed in Java, Drupal, PHP and .Net technologies. Experienced in defect management, analysis and tracking for resolution using various tools with test director, Quality Center, ALM, JIRA, Zephyr TFS & Escalated issues to development teams and verified fixes. Proficient in Manual and automation testing and knowledge of Core Java, JavaScript, Oracle, Power Builder, Selenium WebDriver, Page object model, Cucumber, J…"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "I want a candidate with the skills in python  and 2 years experience",
+      "ts": "2025-08-16T19:08:19"
+    },
+    {
+      "role": "user",
+      "content": "I want a candidate with the skills in python and 2 years experience",
+      "ts": "2025-08-16T19:12:49"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the provided evidence, here are brief recommendations for the top 5 candidates:\n\n1. **Nagendra Babu Dadi**: Strong Python expertise with experience in data pipelines, mathematical operations, and big data workflows. (100% match)\n2. **Mark Balogun**: 7 years of experience with Python, including web application development and security engineering. (56% match)\n3. **Venkata Ramanaiah Papudippu**: Proven Python developer with expertise in optimization techniques, system performance improvement, and team leadership. (37% match)\n4. **VINOD THAKUR**: Proficient in Python and R language, with experience in debugging, problem-solving, and creating requirement specification documents. (4% match)\n5. **Valiani - Lead Data Analyst**: Skilled in Python for testing, validation, and data profiling, but lacks direct evidence of relevant work experience. (0% match)\n\nRecommendation: Nagendra Babu Dadi and Venkata Ramanaiah Papudippu are top candidates due to their strong Python expertise and relevant work experience. Mark Balogun is a close third, with 7 years of experience in Python development. VINOD THAKUR's skills are notable, but limited by the low match percentage. Valiani's skills are not directly applicable to the query.",
+      "ts": "2025-08-16T19:13:30",
+      "results": [
+        {
+          "candidate_name": "Nagendra Babu Dadi",
+          "match_pct": 100,
+          "email": "nagendrababud8622@gmail.com",
+          "phone": "404-468-8092",
+          "document_id": "Nagendra Babu Dadi-b416bd44a0fd",
+          "file_path": "./resumes_store\\Nagendra Babu Dadi.b416bd44a0fd.docx",
+          "evidence": {
+            "snippet": "ation using Python and continuously analyze and test new data sources. Also, perform research analysis on bidding strategies.Developed automated data pipelines from various external data sources (web pages, API etc.) to internal data warehouse (SQL Server, AWS), then export to reporting tools like Tableau.Carried out various mathematical operations for calculation purpose using Python libraries NumPy, Statsmodels, Pandas.Worked on Informatica, SSIS package, DTS import/export for transferring data from database by writing PL/SQL queries (Oracle and Text format data) to SQL server. Recorded the online users' data using Typescipt and Python Django forms and implemented test case using Pytest.Configured various big data workflows to run on top of Hadoop and these workflows comprise of heteroge…"
+          }
+        },
+        {
+          "candidate_name": "Mark Balogun",
+          "match_pct": 56,
+          "email": "mark.balogun1528@gmail.comlinkedin.com",
+          "phone": "301-549-2552",
+          "document_id": "Mark Balogun-3f46a4c8291a",
+          "file_path": "./resumes_store\\Mark Balogun.3f46a4c8291a.docx",
+          "evidence": {
+            "snippet": " 7yrs: Managed and used Python for programming and scripting Python in the government unclass + classified environment for web applications, for the Apache web server. With Web Server Gateway Interface, and standard API applications. I configured Web application frameworks like Django, Pylons, Pyramid, TurboGears, web2py, Tornado, Flask, Bottle and Zope support developers in the design and maintenance.P.A.M for 12yrs: Lead Security Engineer one of my responsibilities was to Create and Engineer the PAM within our active directory environment in four major steps in Prepare identify privileged groups, protect setup authentication requirements, Operate approved requests, Monitor Review auditing, alerts and reports. Some of my tasks was to check for Vulnerabilities, Unauthorized privilege escal…"
+          }
+        },
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 37,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": " optimization techniques across several critical applications, improving system performance by 40%, reducing response times, and significantly enhancing user experience, leading to increased client trust and higher retention rates.Developed and nurtured strong, long-lasting relationships with clients, consistently delivering value and exceeding expectations, which resulted in increased client retention, expansion of service contracts, and new business opportunities.Mentored and coached a team of 10+ developers, driving technical excellence through structured training, regular code reviews, and setting performance benchmarks, leading to a 30% improvement in team output.PROFESSIONAL EXPERIENCE:Bank of America, TX Jan 2022 - Present Senior Python DeveloperArchitected and developed high-perfor…"
+          }
+        },
+        {
+          "candidate_name": "VINOD THAKUR_Tableau_Resume",
+          "match_pct": 4,
+          "email": null,
+          "phone": null,
+          "document_id": "VINOD THAKUR_Tableau_Resume-7b440fd596b5",
+          "file_path": "./resumes_store\\VINOD THAKUR_Tableau_Resume.7b440fd596b5.docx",
+          "evidence": {
+            "snippet": " python & R language. Proficient with SDLC methodologies and processes like Agile SCRUM, and Waterfall.Out-standing skills in debugging and problem solving.Experience in creating/reviewing Requirement Specification & Design documentsTECHNICAL SUMMARY:-AWARDS:-Zenith-Young Champion Award-Recognized for delivering knowledge transfer to client and solving their queries.Star performer award- Recognized for delivering High performance in the Project.Stretch award-One of the Syntel value award. Syntellers are encouraged to rise beyond expectations, always raising the bar and aiming for excellence.Bright Spot award –Recognized as Bright Spot in our team for Consistent On-Time Delivery and Resolution of Issues.Project Experience:-Solventum, Houston, TX Sep 24’ – Till Date Tableau Developer/Admin/P…"
+          }
+        },
+        {
+          "candidate_name": "Valiani - Lead Data Analyst",
+          "match_pct": 0,
+          "email": "anilv375@hotmail.comPROFESSIONAL",
+          "phone": "+14079231838",
+          "document_id": "Valiani - Lead Data Analyst-975da5d02a82",
+          "file_path": "./resumes_store\\Valiani - Lead Data Analyst.975da5d02a82.docx",
+          "evidence": {
+            "snippet": "tom scripts and macros to automate data extraction and reporting from multiple systems, enhancing software testing, report generation, and dashboard creation capabilitiesExecuted SQL queries using Teradata Studio, Express, and SQL Assistant for validation, integrating data into Power BI and Tableau dashboardsUtilized Python into the team's project for testing, validations and data profiling, including support for survey design analytics and focus group insights processingMaintained files using Linux and running code in Unix using Putty, contributing to technical documentation and ensuring reliable production supportExperienced in creating custom modules and visualizations from scratch in Tableau to deliver impactful insights and applying visual design principles to enhance claritySkilled i…"
+          }
+        }
+      ]
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.7,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

@@ -1,0 +1,88 @@
+{
+  "id": "6faefb0d-fee6-4bf1-a8d1-df6a38195fc9",
+  "title": "java full stack developer",
+  "created_at": "2025-09-04T17:13:12",
+  "updated_at": "2025-09-04T17:13:52",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).Don't ask irrelevent questions",
+      "ts": "2025-09-04T17:13:12"
+    },
+    {
+      "role": "user",
+      "content": "java full stack developer ",
+      "ts": "2025-09-04T17:13:24"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**  \n**Summary:** Srinivas is an excellent fit for the Java Full Stack Developer role with over 5 years of experience, demonstrating proficiency in key technologies such as Spring and Docker, and showcasing senior-level capabilities in a relevant domain.  \n**Strengths:**  \n- Over 5 years of experience in software development.  \n- Proficient in Spring Security, OAuth 2.0, and JWT for secure applications.  \n- Experience with containerization using Docker and Kubernetes for scalable applications.  \n- Configured CI/CD pipelines using Jenkins and GitLab CI for automated deployments.  \n- Integrated front-end technologies with back-end services using RESTful APIs.  \n- Developed secure authentication mechanisms adhering to compliance standards.  \n- Experience in event-driven workflows using Kafka and RabbitMQ.  \n- Location not specified in snippet.  \n**Areas to improve:**  \n- Proficiency in Angular not evidenced in snippet.  \n- Not explicitly stated as a senior-level position in the snippet.  \n- Specific years of experience with Angular not evidenced in snippet.  \n- Location not specified in snippet.\n\n**2. Ravi Kumar Tankala**  \n**Summary:** Ravi does not meet the requirements for the Java Full Stack Developer role, as his experience is primarily in mainframe programming and testing rather than Java development.  \n**Strengths:**  \n- Experience in integrating back-end logic for real-time processing.  \n- Developed test strategies and participated in peer reviews.  \n- Knowledge of COBOL, CICS, JCL, DB2, and other mainframe technologies.  \n- Conducted root cause analysis for defect management.  \n- Experience in handling Personally Identifiable Information (PII) and Protected Health Information (PHI).  \n**Areas to improve:**  \n- No experience with Java, Spring, Hibernate, or Angular evidenced in snippet.  \n- Not a full stack developer; focus is on mainframe technologies.  \n- No evidence of senior-level experience in the snippet.  \n- Location not specified in snippet.  \n- Not evidenced in snippet for relevant software development methodologies.\n\n**3. Shawnta Austin**  \n**Summary:** Shawnta is not a suitable candidate for the Java Full Stack Developer position, as her background is in human resources and benefits administration rather than software development.  \n**Strengths:**  \n- Experience in managing employee benefits and payroll.  \n- Handled qualified life events and FMLA for employees.  \n- Location: Indianapolis, IN.  \n- Willing to relocate anywhere.  \n- Authorized to work in the US for any employer.  \n**Areas to improve:**  \n- No experience with Java, Spring, Hibernate, or Angular evidenced in snippet.  \n- Not a developer; focus is on HR and benefits administration.  \n- No evidence of software development experience or skills.  \n- Not evidenced in snippet for relevant technical certifications.  \n- Not evidenced in snippet for senior-level experience.\n\n**4. Sunil Kandukuri**  \n**Summary:** Sunil does not align with the Java Full Stack Developer role, as his experience is primarily in testing and documentation rather than full stack development.  \n**Strengths:**  \n- Experience in maintaining code and version control using VSTFS.  \n- Created documentation throughout the project lifecycle.  \n- Coordinated with teams for UAT and production deployment.  \n- Experience in interacting with business users during UAT phases.  \n- Knowledge of ETL specifications and test case documentation.  \n**Areas to improve:**  \n- No experience with Java, Spring, Hibernate, or Angular evidenced in snippet.  \n- Not a full stack developer; focus is on testing and documentation.  \n- No evidence of senior-level experience in the snippet.  \n- Location not specified in snippet.  \n- Not evidenced in snippet for relevant software development methodologies.\n\n**5. Himabindu Maddela**  \n**Summary:** Himabindu is not a fit for the Java Full Stack Developer position, as her experience centers around project management and procurement rather than software development.  \n**Strengths:**  \n- Experience in project management activities including scoping and estimation.  \n- Provided daily communications and project status reports.  \n- Organized and led internal and client status calls.  \n- Tracked team efforts throughout project implementation.  \n- Knowledge of tools like Microsoft Project and MySQL.  \n**Areas to improve:**  \n- No experience with Java, Spring, Hibernate, or Angular evidenced in snippet.  \n- Not a developer; focus is on project management and procurement.  \n- No evidence of senior-level experience in the snippet.  \n- Location not specified in snippet.  \n- Not evidenced in snippet for relevant technical certifications.",
+      "ts": "2025-09-04T17:13:52",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst",
+          "match_pct": 12,
+          "email": null,
+          "phone": null,
+          "document_id": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst-b5bd4a914792",
+          "file_path": "./resumes_store\\Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst.b5bd4a914792.docx",
+          "evidence": {
+            "snippet": "integrated back-end logic to support real-time user requests and rapid response processing.Develop Test Estimations, Test Strategy, Test Plans, and Test Cases, and participate in peer reviews of these documents.Provide training to new team members on testing procedures, coding, test security, and accommodations.Ensure Personally Identifiable Information (PII) and Protected Health Information (PHI) are masked before being uploaded to lower test environments using the IBM-Optim masking process.Test applications developed using COBOL, CICS, JCL, DB2, Assembler, PL/I, VSAM, and GENEVA/SAFR.Log, track, and manage defects, and conduct Root Cause Analysis meetings to address issues and provide permanent solutions.Support Pre & Post implementation testing for new/enhancements of software products."
+          }
+        },
+        {
+          "candidate_name": "Shawnta-Austin 2",
+          "match_pct": 11,
+          "email": "",
+          "phone": "+13174201859",
+          "document_id": "Shawnta-Austin 2-c1f7d7ad4b56",
+          "file_path": null,
+          "evidence": {
+            "snippet": "Shawnta AustinIndianapolis, IN 46229 shawntajacks@yahoo.com+1 317 420 1859Summary : Seeking a human resource/management/healthcare position in a professional facility that will allow me to contribute and utilize my skills in order to be an asset to a growing company.Willing to relocate: AnywhereAuthorized to work in the US for any employerWork ExperienceBenefits Administrator October 2022 to February 2024Managepoint.-Indianapolis, INHandled all benefits and enrollments for employees. Assisted with payroll and kept track of company changes due to out sourcing.HR Benefits Administrator June 2022 to September 2022OYO Hotel & Casino Las Vegas-Las Vegas, NV Handled benefit enrollment for employees. Handled qualified life events. Handled Employees who have Covid and need time off. Handled FMLASe"
+          }
+        },
+        {
+          "candidate_name": "SunilKandukuri_Resume",
+          "match_pct": 8,
+          "email": null,
+          "phone": "732-910-4620",
+          "document_id": "SunilKandukuri_Resume-20ae69a79914",
+          "file_path": "./resumes_store\\SunilKandukuri_Resume.20ae69a79914.docx",
+          "evidence": {
+            "snippet": "m and logging the test results in HPQC, closing the defect logged.Maintained code in version control tool VSTFS.Created required documentation from Design phase to till project warranty support like LDR, PDD, ETL Specification, OLAP Specification, Test cases doc, Deployment doc, KT plan, Support handshake guide etc., Supporting the Third Party and Business Users for SIT, PRE-UAT and UAT respectively Interacting with Latin Center business in UAT phase and resolving issues.Providing the estimates for CRs.Coordinating with DBA team in cutover and production deployment of this application Coordinating with support team and responsible for providing KT and supporting team in reverse shadowing.Project-5: System Alignment Diagnostics platform migration The objective of this project is to migratio"
+          }
+        },
+        {
+          "candidate_name": "Himabindu_Maddela_ Procurement",
+          "match_pct": 0,
+          "email": "Maddela919-564-5190himabindu.maddela@gmail.comPROFESSIONAL",
+          "phone": "919-564-5190",
+          "document_id": "Himabindu_Maddela_ Procurement-dc7ae2aea0a4",
+          "file_path": "./resumes_store\\Himabindu_Maddela_ Procurement.dc7ae2aea0a4.docx",
+          "evidence": {
+            "snippet": "sign specificationsProvided daily communications, scrum notes, sprint reviews reports, project retrospectives, and regular snapshots of project velocity and budget burn rate.Planning project activities viz. Scoping, Estimation, Tracking, Change Management, Delivery Management & Post Implementation support.Reported progress to all stakeholders through Sprint Burn-Down Reports, Iteration Burn-Down Reports, and velocity target updates.Organized and lead the Internal and Client weekly status calls with all the project stakeholders.Tracked the efforts of each team member in SVN throughout the implementation.IV & V was brought it typically for the Functional tests, Integration tests, UAT tests, Operational and Certification test.Tools: Microsoft Project, HP Quality Center, MS Excel, MySQLTechniq"
+          }
+        }
+      ]
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.7,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

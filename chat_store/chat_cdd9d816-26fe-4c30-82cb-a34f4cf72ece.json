@@ -1,0 +1,88 @@
+{
+  "id": "cdd9d816-26fe-4c30-82cb-a34f4cf72ece",
+  "title": "need full stack developer both java python",
+  "created_at": "2025-08-22T16:55:25",
+  "updated_at": "2025-08-22T17:04:23",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).Don't ask irrelevent questions",
+      "ts": "2025-08-22T16:55:25"
+    },
+    {
+      "role": "user",
+      "content": "need a full stack developer both in java and python ",
+      "ts": "2025-08-22T17:00:51"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Venkata Ramanaiah Papudippu**\n- **Summary:** Venkata is a strong fit for the Full Stack Developer role, showcasing extensive experience with Python and modern web frameworks, although Java experience is not evidenced.\n- **Strengths:**\n  - 4 years of experience as a Python Developer.\n  - Developed high-performance FastAPI applications, indicating proficiency in modern web frameworks.\n  - Collaborated with frontend teams using React.js, demonstrating full-stack capabilities.\n  - Implemented advanced Python libraries such as Pandas, NumPy, and SciPy for data analysis.\n  - Experience in creating scalable RESTful APIs.\n  - Location: Schlumberger, TX.\n- **Areas to improve:**\n  - Java experience is not evidenced in snippet.\n  - No mention of specific years of experience in full-stack development.\n  - Not evidenced in snippet for proficiency in additional modern web frameworks beyond React.js.\n\n---\n\n**2. Tiegang Tong**\n- **Summary:** Tiegang presents a solid background as a full-stack developer with over 9 years of experience, proficient in Python and various modern web frameworks, but lacks specific Java experience.\n- **Strengths:**\n  - 9+ years of experience in full-stack development.\n  - Proficient in Python and backend development using C#.\n  - Experience with front-end technologies including React, AngularJS, and jQuery.\n  - Developed Restful APIs, indicating familiarity with web services.\n  - Strong knowledge of SQL and database technologies including Microsoft SQL Server and Oracle.\n  - Familiar with modern DevOps tools like Git and Azure DevOps.\n- **Areas to improve:**\n  - Java experience is not evidenced in snippet.\n  - No specific mention of modern web frameworks beyond those listed.\n  - Not evidenced in snippet for location.\n\n---\n\n**3. Jarnail Singh**\n- **Summary:** Jarnail has expertise in PowerBuilder and SQL but lacks relevant experience in Java and Python, making him a poor fit for the Full Stack Developer role.\n- **Strengths:**\n  - Extensive experience in developing multiplatform applications.\n  - Strong analytical ability and experience in data modeling.\n  - Knowledge of SQL and databases including Sybase, Oracle, and Microsoft SQL Server.\n  - Proven expertise in full SDLC management.\n- **Areas to improve:**\n  - No experience in Java or Python evidenced in snippet.\n  - Not evidenced in snippet for modern web frameworks.\n  - Location is not provided in snippet.\n\n---\n\n**4. Shikha Sobhani**\n- **Summary:** Shikha does not meet the requirements for the Full Stack Developer role, as there is no evidence of experience in Python or Java, and her skills are primarily focused on older technologies.\n- **Strengths:**\n  - Strong experience in UI development using JSP, HTML, CSS, and JavaScript.\n  - Knowledge of web services through JAX-RPC and SOAP/REST.\n  - Experience with various Java/J2EE technologies.\n- **Areas to improve:**\n  - No experience in Python or modern web frameworks evidenced in snippet.\n  - Java experience is primarily in older technologies (JSP, Struts).\n  - Not evidenced in snippet for location.\n\n---\n\n**5. Hari Prakash Pokala**\n- **Summary:** Hari has extensive experience in web application development and proficiency in Python and Java, but lacks specific evidence of modern web frameworks and full-stack development experience.\n- **Strengths:**\n  - Over 15 years of experience in software engineering.\n  - Proficient in Python, Java/JEE, and modern technologies.\n  - Experience with Angular and ReactJS for client-side development.\n  - Strong knowledge of microservices architecture and RESTful APIs.\n- **Areas to improve:**\n  - Not evidenced in snippet for specific years of experience in full-stack development.\n  - No mention of specific modern web frameworks beyond Angular and ReactJS.\n  - Location is not provided in snippet.",
+      "ts": "2025-08-22T17:01:14",
+      "results": [
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 100,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": " and load large volumes of data, optimizing data flow and storage in Oracle databases for more efficient querying and reporting.Collaborated with frontend teams using React.js to design RESTful APIs and optimize data flow.Created data visualizations and interactive dashboards using Tableau and Grafana, empowering non-technical stakeholders with real-time insights into key business metrics and improving decision-making processes.Implemented advanced Python libraries such as Pandas, NumPy, and SciPy for data analysis and statistical modeling, ensuring the integrity and accuracy of insights used in business-critical applications.Schlumberger, TX Jul 2011 – Apr 2015Python Developer Developed high-performance FastAPI applications using Python, creating scalable RESTful APIs that supported micro"
+          }
+        },
+        {
+          "candidate_name": "Tiegang Tong _ DOTNET Developer",
+          "match_pct": 52,
+          "email": "Tong608-216-5402tonytong002@gmail.comPROFESSIONAL",
+          "phone": "608-216-5402",
+          "document_id": "Tiegang Tong _ DOTNET Developer-a6b0a58e6fb4",
+          "file_path": "./resumes_store\\Tiegang Tong _ DOTNET Developer.a6b0a58e6fb4.docx",
+          "evidence": {
+            "snippet": "Tiegang Tong608-216-5402tonytong002@gmail.comPROFESSIONAL SUMMARY:Full-stack developer with 9+ years of experience in designing and developing scalable, high-performance web applications. Proficient in .NET (Forms, MVC 4/5, Core/8), Restful API development, and front-end technologies including React, Kendo UI, AngularJS, and jQuery. Extensive experience in backend development using C#, Python, and SQL, and database technologies including Microsoft SQL Server and Oracle with strong knowledge of T-SQL and PL/SQL. Adept in software design patterns, clean coding practices, and the full SDLC. Skilled in integrating applications with Azure AD and Azure B2C, deploying/debugging web applications, and working with modern DevOps tools like Git, TFS, and Azure DevOps. Seeking backend, full-stack, or "
+          }
+        },
+        {
+          "candidate_name": "Jarnail Singh Powerbuilder",
+          "match_pct": 22,
+          "email": "jarnailssingh3620063@gmail.comSummaryExpertise",
+          "phone": "+3044692098189",
+          "document_id": "Jarnail Singh Powerbuilder-66c6a35a7507",
+          "file_path": "./resumes_store\\Jarnail Singh Powerbuilder.66c6a35a7507.docx",
+          "evidence": {
+            "snippet": "Jarnail Singh Jersey City, NJ 07304(469) 209-8189 jarnailssingh3620063@gmail.comSummaryExpertise in the development of PowerBuilder Client/Server, Web, and Mobile multiplatform applications, such as Android and iOS. Have in-depth knowledge of development life-cycle, strong analytical ability, and experience in data modeling. Have wide experience with Sybase (ASE and ASA), Oracle, and Microsoft SQL Server databases. Results-driven PowerBuilder Developer & Technical Lead with X+ years of experience designing, developing, and optimizing enterprise applications using PowerBuilder, SQL, and Sybase. Proven expertise in legacy system modernization, team leadership, and full SDLC management. Adept at troubleshooting complex issues, mentoring junior developers, and aligning technical solutions with"
+          }
+        },
+        {
+          "candidate_name": "Shikha Sobhani",
+          "match_pct": 0,
+          "email": null,
+          "phone": "770-617-0778",
+          "document_id": "Shikha Sobhani-c87cb1de8a30",
+          "file_path": "./resumes_store\\Shikha Sobhani.c87cb1de8a30.docx",
+          "evidence": {
+            "snippet": "ability to apply W3C web standards.Extensively used UML with design tools like Rational Rose. Strong Experience in User Interface (UI) Development Using JSP, HTML, DHTML, CSS, JavaScript, JSON, Dojo, and AJAX and JSF.Extensive experience in XML related technologies like XML, XSL, XPATH, DTD, XML Implemented Web Services through JAX -RPC in various projects through SOAP/REST and SOA.Experienced with IDE like JBuilder, Eclipse, and software configuration management using CVS/Visual Source Safe.Excellent technical problem solving, code debugging and testing skills.Technical SkillsOperating Systems : UNIX, Linux, Windows, and Solaris,AWS EC2Languages : Java, JSP, JavaScript, JSON, HQL, XML, XSLTJava/J2EE Technologies : St r Struts 1.2 / 2.0(MVC), Spring (MVC), Hibernate, Web services, JSTL, Se"
+          }
+        },
+        {
+          "candidate_name": "Hari Prakash Pokala",
+          "match_pct": 0,
+          "email": "904-514-5716hariprakash.pokala@gmail.comSummary",
+          "phone": "+1 904-514-5716",
+          "document_id": "Hari Prakash Pokala-ac0b6daf36a9",
+          "file_path": "./resumes_store\\Hari Prakash Pokala.ac0b6daf36a9.docx",
+          "evidence": {
+            "snippet": "Hari Prakash PokalaPhone: +1 904-514-5716hariprakash.pokala@gmail.comSummary:Experienced and versatile Software Engineer with over 15 years of expertise in developing cutting-edge web applications using Angular 8.0 & above, Python, Node.js, Java/JEE, and modern technologies. Proven leadership in Agile environments, adept at implementing best practices to deliver high-quality solutions. Skilled in client-side development with HTML, CSS, JavaScript, jQuery, Bootstrap, JSP, Struts, Ajax, Angular, and ReactJS, ensuring interactive and visually appealing user interfaces. Deep knowledge of Java and JavaEE platforms, including servlets, JDBC, Hibernate, Spring MVC, Spring Boot, and NodeJS. Strong in microservices architecture, RESTful APIs development using Spring Boot and Node.js, cloud technolo"
+          }
+        }
+      ]
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.7,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

@@ -1,0 +1,610 @@
+{
+  "id": "d78e7647-8369-49c1-908b-10a23a6a97c2",
+  "title": "java developer 5 years experience",
+  "created_at": "2025-09-04T20:16:09",
+  "updated_at": "2025-09-10T23:57:51",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).Don't ask irrelevent questions",
+      "ts": "2025-09-04T20:16:09"
+    },
+    {
+      "role": "user",
+      "content": "java developer with 5 years of experience ",
+      "ts": "2025-09-04T20:16:41"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**\n- **Summary:** Srinivas Reddy Battula is an excellent fit for the Java developer role with over 5 years of experience, demonstrating strong Java skills and senior-level expertise in various relevant technologies.\n- **Strengths:**\n  - Over 5 years of experience in software development.\n  - Proficient in Java and Spring frameworks, specifically \"Spring Security, OAuth 2.0, JWT.\"\n  - Experience with event-driven architectures using \"Kafka and RabbitMQ.\"\n  - Skilled in deploying applications using \"Docker\" and managing \"Kubernetes clusters.\"\n  - Configured CI/CD pipelines using \"Jenkins, GitLab CI, and GitHub Actions.\"\n  - Developed RESTful APIs for microservices integration.\n  - Experience with secure authentication mechanisms adhering to compliance standards.\n- **Areas to improve:**\n  - Not evidenced in snippet: specific senior-level title or role.\n  - Not evidenced in snippet: location preference.\n\n**2. Ravi Kumar Tankala**\n- **Summary:** Ravi Kumar Tankala is not a suitable candidate for the Java developer position, as his experience primarily revolves around mainframe programming and testing rather than Java development.\n- **Strengths:**\n  - Experience in software testing and development processes.\n  - Knowledge of COBOL, CICS, JCL, and DB2.\n  - Involvement in test strategy and planning.\n  - Experience in training team members on testing procedures.\n- **Areas to improve:**\n  - Not evidenced in snippet: experience with Java or related technologies.\n  - Not evidenced in snippet: 5 years of experience in Java development.\n  - Not evidenced in snippet: senior-level experience.\n  - Not evidenced in snippet: location preference.\n\n**3. Sunil Kandukuri**\n- **Summary:** Sunil Kandukuri is not a strong candidate for the Java developer role, as his experience is more aligned with testing and documentation rather than Java development.\n- **Strengths:**\n  - Experience in maintaining code and documentation.\n  - Involvement in project management and coordination.\n  - Familiarity with testing phases (SIT, UAT).\n- **Areas to improve:**\n  - Not evidenced in snippet: experience with Java or related technologies.\n  - Not evidenced in snippet: 5 years of experience in Java development.\n  - Not evidenced in snippet: senior-level experience.\n  - Not evidenced in snippet: location preference.\n\n**4. Himabindu Maddela**\n- **Summary:** Himabindu Maddela is not a suitable candidate for the Java developer position, as her background is focused on procurement and project management rather than software development.\n- **Strengths:**\n  - Experience in project management and delivery management.\n  - Proficient in tools like Microsoft Project and HP Quality Center.\n  - Involvement in stakeholder communication and reporting.\n- **Areas to improve:**\n  - Not evidenced in snippet: experience with Java or related technologies.\n  - Not evidenced in snippet: 5 years of experience in Java development.\n  - Not evidenced in snippet: senior-level experience.\n  - Not evidenced in snippet: location preference.\n\n**5. Alex Gupta**\n- **Summary:** Alex Gupta is not a fit for the Java developer role due to being an entry-level candidate with limited experience and skills.\n- **Strengths:**\n  - Basic knowledge of Core Java, OOP, and Collections.\n  - Familiar with Spring Boot fundamentals and REST API design.\n  - Experience with JPA/Hibernate and SQL (MySQL/PostgreSQL).\n  - Basic understanding of CI/CD concepts and unit testing.\n- **Areas to improve:**\n  - Not evidenced in snippet: 5 years of experience in Java development.\n  - Not evidenced in snippet: senior-level experience.\n  - Not evidenced in snippet: advanced skills in Java or related technologies.\n  - Not evidenced in snippet: location preference.",
+      "ts": "2025-09-04T20:16:59",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst",
+          "match_pct": 19,
+          "email": null,
+          "phone": null,
+          "document_id": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst-b5bd4a914792",
+          "file_path": "./resumes_store\\Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst.b5bd4a914792.docx",
+          "evidence": {
+            "snippet": "integrated back-end logic to support real-time user requests and rapid response processing.Develop Test Estimations, Test Strategy, Test Plans, and Test Cases, and participate in peer reviews of these documents.Provide training to new team members on testing procedures, coding, test security, and accommodations.Ensure Personally Identifiable Information (PII) and Protected Health Information (PHI) are masked before being uploaded to lower test environments using the IBM-Optim masking process.Test applications developed using COBOL, CICS, JCL, DB2, Assembler, PL/I, VSAM, and GENEVA/SAFR.Log, track, and manage defects, and conduct Root Cause Analysis meetings to address issues and provide permanent solutions.Support Pre & Post implementation testing for new/enhancements of software products."
+          }
+        },
+        {
+          "candidate_name": "SunilKandukuri_Resume",
+          "match_pct": 11,
+          "email": null,
+          "phone": "732-910-4620",
+          "document_id": "SunilKandukuri_Resume-20ae69a79914",
+          "file_path": "./resumes_store\\SunilKandukuri_Resume.20ae69a79914.docx",
+          "evidence": {
+            "snippet": "m and logging the test results in HPQC, closing the defect logged.Maintained code in version control tool VSTFS.Created required documentation from Design phase to till project warranty support like LDR, PDD, ETL Specification, OLAP Specification, Test cases doc, Deployment doc, KT plan, Support handshake guide etc., Supporting the Third Party and Business Users for SIT, PRE-UAT and UAT respectively Interacting with Latin Center business in UAT phase and resolving issues.Providing the estimates for CRs.Coordinating with DBA team in cutover and production deployment of this application Coordinating with support team and responsible for providing KT and supporting team in reverse shadowing.Project-5: System Alignment Diagnostics platform migration The objective of this project is to migratio"
+          }
+        },
+        {
+          "candidate_name": "Himabindu_Maddela_ Procurement",
+          "match_pct": 6,
+          "email": "Maddela919-564-5190himabindu.maddela@gmail.comPROFESSIONAL",
+          "phone": "919-564-5190",
+          "document_id": "Himabindu_Maddela_ Procurement-dc7ae2aea0a4",
+          "file_path": "./resumes_store\\Himabindu_Maddela_ Procurement.dc7ae2aea0a4.docx",
+          "evidence": {
+            "snippet": "sign specificationsProvided daily communications, scrum notes, sprint reviews reports, project retrospectives, and regular snapshots of project velocity and budget burn rate.Planning project activities viz. Scoping, Estimation, Tracking, Change Management, Delivery Management & Post Implementation support.Reported progress to all stakeholders through Sprint Burn-Down Reports, Iteration Burn-Down Reports, and velocity target updates.Organized and lead the Internal and Client weekly status calls with all the project stakeholders.Tracked the efforts of each team member in SVN throughout the implementation.IV & V was brought it typically for the Functional tests, Integration tests, UAT tests, Operational and Certification test.Tools: Microsoft Project, HP Quality Center, MS Excel, MySQLTechniq"
+          }
+        },
+        {
+          "candidate_name": "alex_gupta_java_developer__entry_level",
+          "match_pct": 0,
+          "email": "alexgupta2079@gmail.com",
+          "phone": "415-555-1020",
+          "document_id": "alex_gupta_java_developer__entry_level-9d1b0905ab69",
+          "file_path": "./resumes_store\\alex_gupta_java_developer__entry_level.9d1b0905ab69.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Alex Gupta \\b0\\fs20\\lineRemote | USA | (415) 555-1020 | alexgupta2079@gmail.com | linkedin.com/in/alex_gupta95\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a task "
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "java developer ",
+      "ts": "2025-09-04T20:17:45"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**\n- **Summary**: Srinivas Reddy Battula is an excellent fit for the Java developer role, possessing over 5 years of experience with senior-level expertise in Core Java, Spring Boot, JPA/Hibernate, SQL, and CI/CD concepts.\n- **Strengths**:\n  - Over 5 years of experience in software development.\n  - Proficient in Core Java and Spring Boot.\n  - Experienced with JPA/Hibernate for data persistence.\n  - Strong SQL skills evidenced by database interactions.\n  - Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions.\n  - Developed secure applications using Spring Security and OAuth 2.0.\n  - Familiar with containerization using Docker and Kubernetes.\n  - Experience with event-driven architectures using Kafka and RabbitMQ.\n- **Areas to improve**:\n  - Not evidenced in snippet: specific senior-level certifications.\n  - Not evidenced in snippet: location preference.\n\n**2. Shawnta Austin**\n- **Summary**: Shawnta Austin is not a suitable candidate for the Java developer position, as her experience is primarily in case management and public assistance programs, with no relevant technical skills or experience in Java development.\n- **Strengths**:\n  - Not evidenced in snippet: relevant technical skills.\n  - Not evidenced in snippet: experience with Java or related technologies.\n- **Areas to improve**:\n  - No experience in Java development.\n  - No proficiency in Core Java, Spring Boot, JPA/Hibernate, or SQL.\n  - Not familiar with CI/CD concepts.\n  - Not evidenced in snippet: any relevant certifications or technical training.\n  - Not evidenced in snippet: location preference.\n\n**3. Alex Gupta**\n- **Summary**: Alex Gupta is a limited fit for the Java developer role, being an entry-level candidate with foundational knowledge in Java and related technologies but lacking the required 5+ years of experience and senior-level expertise.\n- **Strengths**:\n  - Familiar with Core Java, OOP, Collections, and Streams.\n  - Basic understanding of Spring Boot and REST API design.\n  - Knowledge of JPA/Hibernate for basic CRUD operations.\n  - SQL skills with MySQL/PostgreSQL.\n  - Exposure to CI/CD concepts and unit testing.\n- **Areas to improve**:\n  - Lacks the required 5+ years of experience.\n  - Not evidenced in snippet: senior-level expertise.\n  - Limited experience with Spring Boot and JPA/Hibernate.\n  - Not evidenced in snippet: familiarity with advanced CI/CD tools.\n  - Not evidenced in snippet: specific certifications or advanced projects.\n\n**4. Arden Allen**\n- **Summary**: Arden Allen is not a suitable candidate for the Java developer position, as her background is in training and instructional support, with no relevant experience in software development or Java technologies.\n- **Strengths**:\n  - Not evidenced in snippet: relevant technical skills.\n  - Not evidenced in snippet: experience with Java or related technologies.\n- **Areas to improve**:\n  - No experience in Java development.\n  - No proficiency in Core Java, Spring Boot, JPA/Hibernate, or SQL.\n  - Not familiar with CI/CD concepts.\n  - Not evidenced in snippet: any relevant certifications or technical training.\n  - Not evidenced in snippet: location preference.\n\n**5. Casey Allen**\n- **Summary**: Casey Allen is not a suitable candidate for the Java developer role, as his experience is focused on PeopleSoft analysis, with no relevant skills or experience in Java development.\n- **Strengths**:\n  - Not evidenced in snippet: relevant technical skills.\n  - Not evidenced in snippet: experience with Java or related technologies.\n- **Areas to improve**:\n  - No experience in Java development.\n  - No proficiency in Core Java, Spring Boot, JPA/Hibernate, or SQL.\n  - Not familiar with CI/CD concepts.\n  - Not evidenced in snippet: any relevant certifications or technical training.\n  - Not evidenced in snippet: location preference.",
+      "ts": "2025-09-04T20:18:03",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Shawnta-Austin 2",
+          "match_pct": 2,
+          "email": "",
+          "phone": "+13174201859",
+          "document_id": "Shawnta-Austin 2-c1f7d7ad4b56",
+          "file_path": null,
+          "evidence": {
+            "snippet": "ase information and preparing it for case disposition by the state eligibility consultant and recertifying ongoing eligibility for public assistance programs. Maintaining caseload on ongoing cases, including processing changes to cases and ensuring client service issues are resolved. I worked at FSSA authorizing cases, so I’m familiar with IEDSS. I also have experience with MaGIK and KidTracks from my time handling transfers at FSSA.Patient Financial Coordinator Community Hospitals of Indiana-Indianapolis, IN June 2005 to February 2008Pre-Registration, Patient Access 1500 N Ritter Avenue Indianapolis, Indiana 46219317-355-2896Duties: Call insurance companies to verify the patient's benefits while accurately entering the information into the system, register patients for their appointments,"
+          }
+        },
+        {
+          "candidate_name": "alex_gupta_java_developer__entry_level",
+          "match_pct": 1,
+          "email": "alexgupta2079@gmail.com",
+          "phone": "415-555-1020",
+          "document_id": "alex_gupta_java_developer__entry_level-9d1b0905ab69",
+          "file_path": "./resumes_store\\alex_gupta_java_developer__entry_level.9d1b0905ab69.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Alex Gupta \\b0\\fs20\\lineRemote | USA | (415) 555-1020 | alexgupta2079@gmail.com | linkedin.com/in/alex_gupta95\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a task "
+          }
+        },
+        {
+          "candidate_name": "arden_allen_instructor_trainee",
+          "match_pct": 0,
+          "email": "ardenallen0886@gmail.com",
+          "phone": "305-555-1008",
+          "document_id": "arden_allen_instructor_trainee-58682a638a41",
+          "file_path": "./resumes_store\\arden_allen_instructor_trainee.58682a638a41.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Arden Allen \\b0\\fs20\\lineRemote | USA | (305) 555-1008 | ardenallen0886@gmail.com | linkedin.com/in/arden_allen69\\line\\line\\b Instructor Trainee \\b0\\lineEntry-level training professional with foundational experience assisting in course delivery, learning content preparation, and LMS administration. Familiar with adult learning principles and classroom/virtual facilitation support.\\line\\line\\b Skills \\b0\\line - Training delivery support (virtual and classroom)\\line - Content authoring (PowerPoint, Google Slides)\\line - LMS basics (assignment setup, enrollment tracking)\\line - Assessment design support and feedback consolidation\\line - Documentation, checklists, and SOP drafting\\line - MS Office & Google Workspace; basic data analysis (Excel)\\li"
+          }
+        },
+        {
+          "candidate_name": "casey_allen_peoplesoft_analyst__entry_level",
+          "match_pct": 0,
+          "email": "caseyallen3093@gmail.com",
+          "phone": "310-555-1030",
+          "document_id": "casey_allen_peoplesoft_analyst__entry_level-cacf34ec6112",
+          "file_path": "./resumes_store\\casey_allen_peoplesoft_analyst__entry_level.cacf34ec6112.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Casey Allen \\b0\\fs20\\lineRemote | USA | (310) 555-1030 | caseyallen3093@gmail.com | linkedin.com/in/casey_allen53\\line\\line\\b PeopleSoft Analyst (Entry-Level) \\b0\\lineEntry-level PeopleSoft analyst with coursework and shadowing experience across HCM/FIN modules. Understands PeopleSoft navigation, Query Manager, and the change management lifecycle.\\line\\line\\b Skills \\b0\\line - PeopleSoft navigation and component/page structure\\line - Query Manager basics; simple PS/Query development\\line - Functional documentation (BRD/FRD) and test case drafting\\line - Issue triage, ticket documentation, and UAT coordination\\line - SQL fundamentals for data validation\\line - Awareness of PeopleTools concepts and environments\\line\\line\\b Projects \\b0\\line - As"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "spring boot, java, maven ",
+      "ts": "2025-09-04T20:18:34"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**  \n**Summary:** Srinivas Reddy Battula is an excellent fit for the Java developer role, possessing over 5 years of experience and proficiency in key technologies such as Spring Boot, CI/CD tools, and SQL.  \n**Strengths:**  \n- Over 5 years of experience in software development.  \n- Proficient in Spring Boot, as evidenced by \"Developed secure authentication and authorization mechanisms using Spring Security.\"  \n- Experience with CI/CD tools, specifically \"Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions.\"  \n- Strong knowledge of SQL, as indicated by \"Designed and implemented batch processing scripts for data imports/exports.\"  \n- Familiarity with JPA/Hibernate, demonstrated by \"integrated JSF front-end with microservices using RESTful APIs.\"  \n- Experience with Docker and Kubernetes for containerized applications.  \n- Location not specified in the snippet.  \n\n**Areas to Improve:**  \n- No mention of Core Java specifically, though it is implied through other skills.  \n- Not evidenced in snippet: specific years of experience with JPA/Hibernate.  \n- Not evidenced in snippet: specific experience with Maven.  \n- Not evidenced in snippet: direct experience with CI/CD tools beyond configuration.  \n\n---\n\n**2. Shawnta-Austin**  \n**Summary:** Shawnta-Austin is not a suitable candidate for the Java developer position, as the experience detailed is unrelated to software development or Java technologies.  \n**Strengths:**  \n- Experience in case management and client service.  \n- Familiarity with public assistance programs and case processing.  \n- Location: Indianapolis, IN.  \n\n**Areas to Improve:**  \n- Not evidenced in snippet: Java development experience.  \n- Not evidenced in snippet: proficiency in Spring Boot, Maven, Core Java, JPA/Hibernate, SQL, or CI/CD tools.  \n- Not evidenced in snippet: any relevant technical certifications.  \n- Not evidenced in snippet: experience with software development methodologies.  \n\n---\n\n**3. Alex Gupta**  \n**Summary:** Alex Gupta is an entry-level candidate with foundational knowledge in Java development, but lacks the required 5+ years of experience and full proficiency in the necessary technologies.  \n**Strengths:**  \n- Familiar with Core Java, OOP, Collections, and Streams.  \n- Basic understanding of Spring Boot and REST API design.  \n- Knowledge of JPA/Hibernate (basic CRUD) and SQL (MySQL/PostgreSQL).  \n- Experience with Maven/Gradle and basic CI/CD concepts.  \n- Completed projects involving Spring Boot REST API development.  \n\n**Areas to Improve:**  \n- Not evidenced in snippet: 5+ years of experience in Java development.  \n- Not evidenced in snippet: advanced proficiency in Spring Boot or JPA/Hibernate.  \n- Not evidenced in snippet: experience with CI/CD tools beyond basic concepts.  \n- Not evidenced in snippet: experience with SQL beyond basic CRUD operations.  \n- Not evidenced in snippet: familiarity with production-level deployment practices.  \n\n---\n\n**4. Arden Allen**  \n**Summary:** Arden Allen is not a suitable candidate for the Java developer role, as the experience detailed is focused on training and instructional support rather than software development.  \n**Strengths:**  \n- Experience in training delivery and content preparation.  \n- Familiarity with adult learning principles.  \n- Skills in documentation and checklists.  \n\n**Areas to Improve:**  \n- Not evidenced in snippet: Java development experience.  \n- Not evidenced in snippet: proficiency in Spring Boot, Maven, Core Java, JPA/Hibernate, SQL, or CI/CD tools.  \n- Not evidenced in snippet: any relevant technical certifications.  \n- Not evidenced in snippet: experience with software development methodologies.  \n\n---\n\n**5. Casey Allen**  \n**Summary:** Casey Allen is not a suitable candidate for the Java developer position, as the experience detailed is focused on PeopleSoft analysis rather than Java development.  \n**Strengths:**  \n- Experience with PeopleSoft navigation and component/page structure.  \n- Understanding of SQL fundamentals for data validation.  \n\n**Areas to Improve:**  \n- Not evidenced in snippet: Java development experience.  \n- Not evidenced in snippet: proficiency in Spring Boot, Maven, Core Java, JPA/Hibernate, SQL, or CI/CD tools.  \n- Not evidenced in snippet: any relevant technical certifications.  \n- Not evidenced in snippet: experience with software development methodologies.  ",
+      "ts": "2025-09-04T20:18:51",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Shawnta-Austin 2",
+          "match_pct": 1,
+          "email": "",
+          "phone": "+13174201859",
+          "document_id": "Shawnta-Austin 2-c1f7d7ad4b56",
+          "file_path": null,
+          "evidence": {
+            "snippet": "ase information and preparing it for case disposition by the state eligibility consultant and recertifying ongoing eligibility for public assistance programs. Maintaining caseload on ongoing cases, including processing changes to cases and ensuring client service issues are resolved. I worked at FSSA authorizing cases, so I’m familiar with IEDSS. I also have experience with MaGIK and KidTracks from my time handling transfers at FSSA.Patient Financial Coordinator Community Hospitals of Indiana-Indianapolis, IN June 2005 to February 2008Pre-Registration, Patient Access 1500 N Ritter Avenue Indianapolis, Indiana 46219317-355-2896Duties: Call insurance companies to verify the patient's benefits while accurately entering the information into the system, register patients for their appointments,"
+          }
+        },
+        {
+          "candidate_name": "alex_gupta_java_developer__entry_level",
+          "match_pct": 0,
+          "email": "alexgupta2079@gmail.com",
+          "phone": "415-555-1020",
+          "document_id": "alex_gupta_java_developer__entry_level-9d1b0905ab69",
+          "file_path": "./resumes_store\\alex_gupta_java_developer__entry_level.9d1b0905ab69.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Alex Gupta \\b0\\fs20\\lineRemote | USA | (415) 555-1020 | alexgupta2079@gmail.com | linkedin.com/in/alex_gupta95\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a task "
+          }
+        },
+        {
+          "candidate_name": "arden_allen_instructor_trainee",
+          "match_pct": 0,
+          "email": "ardenallen0886@gmail.com",
+          "phone": "305-555-1008",
+          "document_id": "arden_allen_instructor_trainee-58682a638a41",
+          "file_path": "./resumes_store\\arden_allen_instructor_trainee.58682a638a41.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Arden Allen \\b0\\fs20\\lineRemote | USA | (305) 555-1008 | ardenallen0886@gmail.com | linkedin.com/in/arden_allen69\\line\\line\\b Instructor Trainee \\b0\\lineEntry-level training professional with foundational experience assisting in course delivery, learning content preparation, and LMS administration. Familiar with adult learning principles and classroom/virtual facilitation support.\\line\\line\\b Skills \\b0\\line - Training delivery support (virtual and classroom)\\line - Content authoring (PowerPoint, Google Slides)\\line - LMS basics (assignment setup, enrollment tracking)\\line - Assessment design support and feedback consolidation\\line - Documentation, checklists, and SOP drafting\\line - MS Office & Google Workspace; basic data analysis (Excel)\\li"
+          }
+        },
+        {
+          "candidate_name": "casey_allen_peoplesoft_analyst__entry_level",
+          "match_pct": 0,
+          "email": "caseyallen3093@gmail.com",
+          "phone": "310-555-1030",
+          "document_id": "casey_allen_peoplesoft_analyst__entry_level-cacf34ec6112",
+          "file_path": "./resumes_store\\casey_allen_peoplesoft_analyst__entry_level.cacf34ec6112.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Casey Allen \\b0\\fs20\\lineRemote | USA | (310) 555-1030 | caseyallen3093@gmail.com | linkedin.com/in/casey_allen53\\line\\line\\b PeopleSoft Analyst (Entry-Level) \\b0\\lineEntry-level PeopleSoft analyst with coursework and shadowing experience across HCM/FIN modules. Understands PeopleSoft navigation, Query Manager, and the change management lifecycle.\\line\\line\\b Skills \\b0\\line - PeopleSoft navigation and component/page structure\\line - Query Manager basics; simple PS/Query development\\line - Functional documentation (BRD/FRD) and test case drafting\\line - Issue triage, ticket documentation, and UAT coordination\\line - SQL fundamentals for data validation\\line - Awareness of PeopleTools concepts and environments\\line\\line\\b Projects \\b0\\line - As"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "java full stack developer ",
+      "ts": "2025-09-04T20:19:24"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**\n- **Summary:** Srinivas Reddy Battula is an excellent fit for the Java Full Stack Developer role, possessing extensive experience and proficiency in key technologies outlined in the query.\n- **Strengths:**\n  - Over 5 years of experience in software development.\n  - Proficient in Spring Boot, as evidenced by \"Developed secure authentication and authorization mechanisms using Spring Security.\"\n  - Experience with CI/CD tools, specifically \"Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions.\"\n  - Strong knowledge of Core Java, as indicated by his development work.\n  - Familiarity with JPA/Hibernate, demonstrated by \"Integrated JSF front-end with microservices using RESTful APIs.\"\n  - SQL experience is implied through data processing tasks.\n  - Experience with Docker and Kubernetes for deployment.\n  - Located in a relevant area for the position (not specified in snippet).\n- **Areas to improve:**\n  - No specific mention of Maven in the snippet.\n  - No explicit mention of years of experience with JPA/Hibernate.\n  - Not evidenced in snippet for specific SQL database technologies used.\n  - Not in snippet for any certifications.\n\n**2. Shawnta-Austin**\n- **Summary:** Shawnta-Austin is not a suitable candidate for the Java Full Stack Developer position, as her experience is primarily in case management and public assistance programs.\n- **Strengths:**\n  - Experience in maintaining caseloads and processing changes.\n  - Familiarity with case management systems (IEDSS, MaGIK, KidTracks).\n  - Background in patient financial coordination.\n  - Strong communication skills implied through client service roles.\n  - Located in Indianapolis, IN.\n- **Areas to improve:**\n  - No experience in Java or related technologies.\n  - No evidence of proficiency in Spring Boot, Maven, or CI/CD tools.\n  - Not evidenced in snippet for any software development experience.\n  - Not in snippet for any relevant certifications or technical skills.\n\n**3. Alex Gupta**\n- **Summary:** Alex Gupta is an entry-level candidate with foundational knowledge in Java development but lacks the required experience and proficiency for the Java Full Stack Developer role.\n- **Strengths:**\n  - Basic knowledge of Core Java and OOP principles.\n  - Familiar with Spring Boot fundamentals and REST API design.\n  - Experience with JPA/Hibernate (basic CRUD operations).\n  - SQL knowledge with MySQL/PostgreSQL.\n  - Familiarity with Maven and basic CI/CD concepts.\n  - Basic front-end skills in HTML/CSS/JavaScript.\n- **Areas to improve:**\n  - Only entry-level experience, lacking the required 5+ years.\n  - No evidence of proficiency in CI/CD tools beyond basic concepts.\n  - Not evidenced in snippet for any real-world project experience.\n  - No mention of experience with advanced Java frameworks or tools.\n  - Not in snippet for any certifications.\n\n**4. Arden Allen**\n- **Summary:** Arden Allen is not a fit for the Java Full Stack Developer role, as her background is in training and education rather than software development.\n- **Strengths:**\n  - Experience in training delivery and content preparation.\n  - Familiarity with adult learning principles.\n  - Skills in documentation and checklists.\n  - Proficient in MS Office and Google Workspace.\n  - Basic data analysis skills.\n- **Areas to improve:**\n  - No experience in Java or related technologies.\n  - Not evidenced in snippet for any software development or programming skills.\n  - No mention of Spring Boot, Maven, or CI/CD tools.\n  - Not in snippet for any relevant certifications.\n\n**5. Casey Allen**\n- **Summary:** Casey Allen is not a suitable candidate for the Java Full Stack Developer position, as her experience is focused on PeopleSoft analysis rather than Java development.\n- **Strengths:**\n  - Entry-level experience in PeopleSoft with coursework and shadowing.\n  - Understanding of SQL fundamentals for data validation.\n  - Familiarity with functional documentation and UAT coordination.\n  - Basic knowledge of PeopleSoft navigation and Query Manager.\n- **Areas to improve:**\n  - No experience in Java or related technologies.\n  - Not evidenced in snippet for any proficiency in Spring Boot, Maven, or CI/CD tools.\n  - No mention of software development experience.\n  - Not in snippet for any relevant certifications or technical skills.",
+      "ts": "2025-09-04T20:19:39",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Shawnta-Austin 2",
+          "match_pct": 1,
+          "email": "",
+          "phone": "+13174201859",
+          "document_id": "Shawnta-Austin 2-c1f7d7ad4b56",
+          "file_path": null,
+          "evidence": {
+            "snippet": "ase information and preparing it for case disposition by the state eligibility consultant and recertifying ongoing eligibility for public assistance programs. Maintaining caseload on ongoing cases, including processing changes to cases and ensuring client service issues are resolved. I worked at FSSA authorizing cases, so I’m familiar with IEDSS. I also have experience with MaGIK and KidTracks from my time handling transfers at FSSA.Patient Financial Coordinator Community Hospitals of Indiana-Indianapolis, IN June 2005 to February 2008Pre-Registration, Patient Access 1500 N Ritter Avenue Indianapolis, Indiana 46219317-355-2896Duties: Call insurance companies to verify the patient's benefits while accurately entering the information into the system, register patients for their appointments,"
+          }
+        },
+        {
+          "candidate_name": "alex_gupta_java_developer__entry_level",
+          "match_pct": 0,
+          "email": "alexgupta2079@gmail.com",
+          "phone": "415-555-1020",
+          "document_id": "alex_gupta_java_developer__entry_level-9d1b0905ab69",
+          "file_path": "./resumes_store\\alex_gupta_java_developer__entry_level.9d1b0905ab69.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Alex Gupta \\b0\\fs20\\lineRemote | USA | (415) 555-1020 | alexgupta2079@gmail.com | linkedin.com/in/alex_gupta95\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a task "
+          }
+        },
+        {
+          "candidate_name": "arden_allen_instructor_trainee",
+          "match_pct": 0,
+          "email": "ardenallen0886@gmail.com",
+          "phone": "305-555-1008",
+          "document_id": "arden_allen_instructor_trainee-58682a638a41",
+          "file_path": "./resumes_store\\arden_allen_instructor_trainee.58682a638a41.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Arden Allen \\b0\\fs20\\lineRemote | USA | (305) 555-1008 | ardenallen0886@gmail.com | linkedin.com/in/arden_allen69\\line\\line\\b Instructor Trainee \\b0\\lineEntry-level training professional with foundational experience assisting in course delivery, learning content preparation, and LMS administration. Familiar with adult learning principles and classroom/virtual facilitation support.\\line\\line\\b Skills \\b0\\line - Training delivery support (virtual and classroom)\\line - Content authoring (PowerPoint, Google Slides)\\line - LMS basics (assignment setup, enrollment tracking)\\line - Assessment design support and feedback consolidation\\line - Documentation, checklists, and SOP drafting\\line - MS Office & Google Workspace; basic data analysis (Excel)\\li"
+          }
+        },
+        {
+          "candidate_name": "casey_allen_peoplesoft_analyst__entry_level",
+          "match_pct": 0,
+          "email": "caseyallen3093@gmail.com",
+          "phone": "310-555-1030",
+          "document_id": "casey_allen_peoplesoft_analyst__entry_level-cacf34ec6112",
+          "file_path": "./resumes_store\\casey_allen_peoplesoft_analyst__entry_level.cacf34ec6112.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Casey Allen \\b0\\fs20\\lineRemote | USA | (310) 555-1030 | caseyallen3093@gmail.com | linkedin.com/in/casey_allen53\\line\\line\\b PeopleSoft Analyst (Entry-Level) \\b0\\lineEntry-level PeopleSoft analyst with coursework and shadowing experience across HCM/FIN modules. Understands PeopleSoft navigation, Query Manager, and the change management lifecycle.\\line\\line\\b Skills \\b0\\line - PeopleSoft navigation and component/page structure\\line - Query Manager basics; simple PS/Query development\\line - Functional documentation (BRD/FRD) and test case drafting\\line - Issue triage, ticket documentation, and UAT coordination\\line - SQL fundamentals for data validation\\line - Awareness of PeopleTools concepts and environments\\line\\line\\b Projects \\b0\\line - As"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "java full stack developer ",
+      "ts": "2025-09-04T20:35:16"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**\n- **Summary:** Srinivas is an excellent fit for the Java Full Stack Developer role, possessing over 3 years of experience and proficiency in Spring Boot, CI/CD tools, and relevant technologies.\n- **Strengths:**\n  - Over 3 years of experience in software development.\n  - Proficient in Spring Boot and Spring Security.\n  - Experience with CI/CD tools including Jenkins, GitLab CI, and GitHub Actions.\n  - Familiar with Docker and Kubernetes for application deployment.\n  - Developed RESTful APIs and integrated front-end with microservices.\n  - Knowledge of event-driven workflows using Kafka and RabbitMQ.\n- **Areas to improve:**\n  - Not evidenced in snippet: specific location.\n  - Not evidenced in snippet: experience with Maven.\n\n**2. Shawnta-Austin**\n- **Summary:** Shawnta has limited relevance to the Java Full Stack Developer role, lacking technical skills and experience in Java development or related technologies.\n- **Strengths:**\n  - Bachelor's Degree in Healthcare Administration.\n  - Experience in managing workflows and employee oversight.\n- **Areas to improve:**\n  - Not evidenced in snippet: Java development experience.\n  - Not evidenced in snippet: proficiency in Spring Boot, Maven, or CI/CD tools.\n  - Not evidenced in snippet: technical skills relevant to software development.\n  - Not evidenced in snippet: experience in a software development environment.\n\n**3. Alex Gupta**\n- **Summary:** Alex is a potential candidate for the Java Full Stack Developer position, with foundational skills in Java and Spring Boot, but lacks the required experience.\n- **Strengths:**\n  - Familiar with Spring Boot fundamentals and REST API design.\n  - Basic understanding of CI/CD concepts.\n  - Knowledge of Maven and Gradle.\n  - Experience with JPA/Hibernate and SQL.\n  - Developed a Spring Boot REST API during academic projects.\n- **Areas to improve:**\n  - Not evidenced in snippet: 3+ years of experience.\n  - Not evidenced in snippet: proficiency in CI/CD tools beyond basic concepts.\n  - Not evidenced in snippet: experience with advanced Java frameworks or tools.\n  - Not evidenced in snippet: specific location.\n\n**4. Ravi Kumar Tankala**\n- **Summary:** Ravi is not a suitable candidate for the Java Full Stack Developer role, as his experience is primarily in mainframe programming rather than Java development.\n- **Strengths:**\n  - Experience in software testing and defect management.\n  - Knowledge of COBOL, CICS, JCL, and DB2.\n- **Areas to improve:**\n  - Not evidenced in snippet: Java development experience.\n  - Not evidenced in snippet: proficiency in Spring Boot, Maven, or CI/CD tools.\n  - Not evidenced in snippet: experience in full-stack development.\n  - Not evidenced in snippet: familiarity with modern web technologies.\n\n**5. Casey Long**\n- **Summary:** Casey is an entry-level candidate with foundational Java skills, but lacks the required experience and proficiency for the Java Full Stack Developer role.\n- **Strengths:**\n  - Familiar with Core Java, OOP, and Collections.\n  - Basic knowledge of Spring Boot fundamentals and REST API design.\n  - Experience with Maven and Gradle.\n  - Developed a Spring Boot REST API during academic projects.\n- **Areas to improve:**\n  - Not evidenced in snippet: 3+ years of experience.\n  - Not evidenced in snippet: proficiency in CI/CD tools.\n  - Not evidenced in snippet: experience with advanced Java frameworks or tools.\n  - Not evidenced in snippet: specific location.\n\n**6. Devin Fisher**\n- **Summary:** Devin is an entry-level candidate with basic Java skills, but does not meet the experience requirements for the Java Full Stack Developer position.\n- **Strengths:**\n  - Familiar with Core Java, OOP, and Collections.\n  - Basic knowledge of Spring Boot fundamentals and REST API design.\n  - Experience with Maven and Gradle.\n  - Developed a Spring Boot REST API during academic projects.\n- **Areas to improve:**\n  - Not evidenced in snippet: 3+ years of experience.\n  - Not evidenced in snippet: proficiency in CI/CD tools.\n  - Not evidenced in snippet: experience with advanced Java frameworks or tools.\n  - Not evidenced in snippet: specific location.\n\n**7. Jamie Iyer**\n- **Summary:** Jamie is an entry-level candidate with foundational Java skills, but lacks the necessary experience for the Java Full Stack Developer role.\n- **Strengths:**\n  - Familiar with Core Java, OOP, and Collections.\n  - Basic knowledge of Spring Boot fundamentals and REST API design.\n  - Experience with Maven and Gradle.\n  - Developed a Spring Boot REST API during academic projects.\n- **Areas to improve:**\n  - Not evidenced in snippet: 3+ years of experience.\n  - Not evidenced in snippet: proficiency in CI/CD tools.\n  - Not evidenced in snippet: experience with advanced Java frameworks or tools.\n  - Not evidenced in snippet: specific location.\n\n**8. Micah Gibson**\n- **Summary:** Micah is an entry-level candidate with basic Java skills, but does not fulfill the experience requirements for the Java Full Stack Developer position.\n- **Strengths:**\n  - Familiar with Core Java, OOP, and Collections.\n  - Basic knowledge of Spring Boot fundamentals and REST API design.\n  - Experience with Maven and Gradle.\n  - Developed a Spring Boot REST API during academic projects.\n- **Areas to improve:**\n  - Not evidenced in snippet: 3+ years of experience.\n  - Not evidenced in snippet: proficiency in CI/CD tools.\n  - Not evidenced in snippet: experience with advanced Java frameworks or tools.\n  - Not evidenced in snippet: specific location.\n\n**9. Micah Kapoor**\n- **Summary:** Micah is an entry-level candidate with foundational Java skills, but lacks the required experience for the Java Full Stack Developer role.\n- **Strengths:**\n  - Familiar with Core Java, OOP, and Collections.\n  - Basic knowledge of Spring Boot fundamentals and REST API design.\n  - Experience with Maven and Gradle.\n  - Developed a Spring Boot REST API during academic projects.\n- **Areas to improve:**\n  - Not evidenced in snippet: 3+ years of experience.\n  - Not evidenced in snippet: proficiency in CI/CD tools.\n  - Not evidenced in snippet: experience with advanced Java frameworks or tools.\n  - Not evidenced in snippet: specific location.\n\n**10. Reese Nair**\n- **Summary:** Reese is an entry-level candidate with basic Java skills, but does not meet the experience requirements for the Java Full Stack Developer position.\n- **Strengths:**\n  - Familiar with Core Java, OOP, and Collections.\n  - Basic knowledge of Spring Boot fundamentals and REST API design.\n  - Experience with Maven and Gradle.\n  - Developed a Spring Boot REST API during academic projects.\n- **Areas to improve:**\n  - Not evidenced in snippet: 3+ years of experience.\n  - Not evidenced in snippet: proficiency in CI/CD tools.\n  - Not evidenced in snippet: experience with advanced Java frameworks or tools.\n  - Not evidenced in snippet: specific location.",
+      "ts": "2025-09-04T20:35:44",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Shawnta-Austin 2",
+          "match_pct": 42,
+          "email": "",
+          "phone": "+13174201859",
+          "document_id": "Shawnta-Austin 2-c1f7d7ad4b56",
+          "file_path": null,
+          "evidence": {
+            "snippet": " information when the patient is being brought in by Ambulance. Processing patient accounts, patient billing, and collections of copayments and handling Medicare/Medicaid billing.Team Leader April 2003 to June 2005Group Athletica-Indianapolis, IN 46219317-895-7001Duties: Manage employees on their work flow, disciplining employees when necessary, controlling every aspect of the production floor and making sure the orders are shipped out correctly and in a timely manner and also making sure all items that were being shipped is the items being ordered.EducationBachelor's Degree in Healthcare Administration Ashford University August 2015 to May 2017Associates Degree in Medical Assistant Brown Mackie College July 2012Diploma Arsenal Technical High School June 2002Certificate of Completion in Ad"
+          }
+        },
+        {
+          "candidate_name": "alex_gupta_java_developer__entry_level",
+          "match_pct": 2,
+          "email": "alexgupta2079@gmail.com",
+          "phone": "415-555-1020",
+          "document_id": "alex_gupta_java_developer__entry_level-9d1b0905ab69",
+          "file_path": "./resumes_store\\alex_gupta_java_developer__entry_level.9d1b0905ab69.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Alex Gupta \\b0\\fs20\\lineRemote | USA | (415) 555-1020 | alexgupta2079@gmail.com | linkedin.com/in/alex_gupta95\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a task "
+          }
+        },
+        {
+          "candidate_name": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst",
+          "match_pct": 2,
+          "email": null,
+          "phone": null,
+          "document_id": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst-b5bd4a914792",
+          "file_path": "./resumes_store\\Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst.b5bd4a914792.docx",
+          "evidence": {
+            "snippet": "integrated back-end logic to support real-time user requests and rapid response processing.Develop Test Estimations, Test Strategy, Test Plans, and Test Cases, and participate in peer reviews of these documents.Provide training to new team members on testing procedures, coding, test security, and accommodations.Ensure Personally Identifiable Information (PII) and Protected Health Information (PHI) are masked before being uploaded to lower test environments using the IBM-Optim masking process.Test applications developed using COBOL, CICS, JCL, DB2, Assembler, PL/I, VSAM, and GENEVA/SAFR.Log, track, and manage defects, and conduct Root Cause Analysis meetings to address issues and provide permanent solutions.Support Pre & Post implementation testing for new/enhancements of software products."
+          }
+        },
+        {
+          "candidate_name": "casey_long_java_developer__entry_level",
+          "match_pct": 1,
+          "email": "caseylong1720@gmail.com",
+          "phone": "305-555-1017",
+          "document_id": "casey_long_java_developer__entry_level-8ce02def3090",
+          "file_path": "./resumes_store\\casey_long_java_developer__entry_level.8ce02def3090.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Casey Long \\b0\\fs20\\lineRemote | USA | (305) 555-1017 | caseylong1720@gmail.com | linkedin.com/in/casey_long78\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a task "
+          }
+        },
+        {
+          "candidate_name": "devin_fisher_java_developer__entry_level",
+          "match_pct": 1,
+          "email": "devinfisher1124@gmail.com",
+          "phone": "503-555-1011",
+          "document_id": "devin_fisher_java_developer__entry_level-7b68c74129b8",
+          "file_path": "./resumes_store\\devin_fisher_java_developer__entry_level.7b68c74129b8.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Devin Fisher \\b0\\fs20\\lineRemote | USA | (503) 555-1011 | devinfisher1124@gmail.com | linkedin.com/in/devin_fisher10\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a"
+          }
+        },
+        {
+          "candidate_name": "jamie_iyer_java_developer__entry_level",
+          "match_pct": 1,
+          "email": "jamieiyer1243@gmail.com",
+          "phone": "718-555-1012",
+          "document_id": "jamie_iyer_java_developer__entry_level-bf5d2a56ea7a",
+          "file_path": "./resumes_store\\jamie_iyer_java_developer__entry_level.bf5d2a56ea7a.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Jamie Iyer \\b0\\fs20\\lineRemote | USA | (718) 555-1012 | jamieiyer1243@gmail.com | linkedin.com/in/jamie_iyer23\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a task "
+          }
+        },
+        {
+          "candidate_name": "micah_gibson_java_developer__entry_level",
+          "match_pct": 0,
+          "email": "micahgibson1435@gmail.com",
+          "phone": "312-555-1014",
+          "document_id": "micah_gibson_java_developer__entry_level-a3a73e903bcf",
+          "file_path": "./resumes_store\\micah_gibson_java_developer__entry_level.a3a73e903bcf.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Micah Gibson \\b0\\fs20\\lineRemote | USA | (312) 555-1014 | micahgibson1435@gmail.com | linkedin.com/in/micah_gibson77\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a"
+          }
+        },
+        {
+          "candidate_name": "micah_kapoor_java_developer__entry_level",
+          "match_pct": 0,
+          "email": "micahkapoor1826@gmail.com",
+          "phone": "312-555-1018",
+          "document_id": "micah_kapoor_java_developer__entry_level-000f60f4cbef",
+          "file_path": "./resumes_store\\micah_kapoor_java_developer__entry_level.000f60f4cbef.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Micah Kapoor \\b0\\fs20\\lineRemote | USA | (312) 555-1018 | micahkapoor1826@gmail.com | linkedin.com/in/micah_kapoor31\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a"
+          }
+        },
+        {
+          "candidate_name": "reese_nair_java_developer__entry_level",
+          "match_pct": 0,
+          "email": "reesenair1390@gmail.com",
+          "phone": "503-555-1013",
+          "document_id": "reese_nair_java_developer__entry_level-3a48e852a20d",
+          "file_path": "./resumes_store\\reese_nair_java_developer__entry_level.3a48e852a20d.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Reese Nair \\b0\\fs20\\lineRemote | USA | (503) 555-1013 | reesenair1390@gmail.com | linkedin.com/in/reese_nair87\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a task "
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "java developer ",
+      "ts": "2025-09-04T20:36:34"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**\n- **Summary:** Srinivas is an excellent fit for the Java Developer role with over 3 years of experience, advanced proficiency in Java frameworks, and extensive knowledge of CI/CD tools.\n- **Strengths:**\n  - Over 3 years of experience in software development.\n  - Proficient in advanced Java frameworks, including Spring Boot.\n  - Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions.\n  - Developed secure applications using Spring Security, OAuth 2.0, and JWT.\n  - Experience with Docker and Kubernetes for application deployment.\n  - Familiar with asynchronous communication using Kafka and RabbitMQ.\n- **Areas to improve:**\n  - Not evidenced in snippet: specific location.\n  - Not evidenced in snippet: additional certifications.\n\n**2. Shawnta-Austin**\n- **Summary:** Shawnta has limited relevance to the Java Developer role, lacking direct experience in Java development and advanced frameworks.\n- **Strengths:**\n  - Experience in managing workflows and teams.\n  - Background in healthcare administration.\n  - Bachelor's degree in Healthcare Administration.\n- **Areas to improve:**\n  - Not evidenced in snippet: Java development experience.\n  - Not evidenced in snippet: proficiency in advanced Java frameworks.\n  - Not evidenced in snippet: experience with CI/CD tools.\n  - Not evidenced in snippet: Spring Boot knowledge.\n  - Not evidenced in snippet: relevant certifications.\n\n**3. Alex Gupta**\n- **Summary:** Alex is a suitable candidate for an entry-level Java Developer position, demonstrating foundational knowledge in Java and Spring Boot but lacking the required experience.\n- **Strengths:**\n  - Familiar with Core Java, OOP, Collections, and Streams.\n  - Basic knowledge of Spring Boot and REST API design.\n  - Experience with JPA/Hibernate and SQL (MySQL/PostgreSQL).\n  - Understanding of unit testing and CI/CD concepts.\n  - Developed a Spring Boot REST API as part of projects.\n- **Areas to improve:**\n  - Less than 3 years of experience (entry-level).\n  - Not evidenced in snippet: advanced Java frameworks.\n  - Not evidenced in snippet: specific CI/CD tools.\n  - Not evidenced in snippet: professional experience.\n  - Not evidenced in snippet: location.\n\n**4. Ravi Kumar Tankala**\n- **Summary:** Ravi is not a fit for the Java Developer role, focusing instead on mainframe programming and testing rather than Java development.\n- **Strengths:**\n  - Experience in software testing and defect management.\n  - Knowledge of COBOL, CICS, and DB2.\n  - Developed test strategies and plans.\n- **Areas to improve:**\n  - Not evidenced in snippet: Java development experience.\n  - Not evidenced in snippet: proficiency in Java frameworks.\n  - Not evidenced in snippet: CI/CD tools.\n  - Not evidenced in snippet: Spring Boot knowledge.\n  - Not evidenced in snippet: relevant certifications.\n\n**5. Sunil Kandukuri**\n- **Summary:** Sunil does not meet the requirements for the Java Developer position, with a focus on testing and documentation rather than Java development.\n- **Strengths:**\n  - Experience in project documentation and testing.\n  - Familiarity with version control tools.\n- **Areas to improve:**\n  - Not evidenced in snippet: Java development experience.\n  - Not evidenced in snippet: proficiency in advanced Java frameworks.\n  - Not evidenced in snippet: CI/CD tools.\n  - Not evidenced in snippet: Spring Boot knowledge.\n  - Not evidenced in snippet: relevant certifications.\n\n**6. Himabindu Maddela**\n- **Summary:** Himabindu is not a suitable candidate for the Java Developer role, with experience primarily in project management and procurement rather than Java development.\n- **Strengths:**\n  - Experience in project management and reporting.\n  - Familiarity with project tracking tools.\n- **Areas to improve:**\n  - Not evidenced in snippet: Java development experience.\n  - Not evidenced in snippet: proficiency in advanced Java frameworks.\n  - Not evidenced in snippet: CI/CD tools.\n  - Not evidenced in snippet: Spring Boot knowledge.\n  - Not evidenced in snippet: relevant certifications.\n\n**7. Casey Long**\n- **Summary:** Casey is an entry-level candidate with foundational skills in Java and Spring Boot but lacks the required experience for the role.\n- **Strengths:**\n  - Familiar with Core Java, OOP, Collections, and Streams.\n  - Basic knowledge of Spring Boot and REST API design.\n  - Experience with JPA/Hibernate and SQL (MySQL/PostgreSQL).\n  - Understanding of unit testing and CI/CD concepts.\n  - Developed a Spring Boot REST API as part of projects.\n- **Areas to improve:**\n  - Less than 3 years of experience (entry-level).\n  - Not evidenced in snippet: advanced Java frameworks.\n  - Not evidenced in snippet: specific CI/CD tools.\n  - Not evidenced in snippet: professional experience.\n  - Not evidenced in snippet: location.\n\n**8. Devin Fisher**\n- **Summary:** Devin is an entry-level candidate with basic Java skills but does not meet the experience requirements for the Java Developer position.\n- **Strengths:**\n  - Familiar with Core Java, OOP, Collections, and Streams.\n  - Basic knowledge of Spring Boot and REST API design.\n  - Experience with JPA/Hibernate and SQL (MySQL/PostgreSQL).\n  - Understanding of unit testing and CI/CD concepts.\n  - Developed a Spring Boot REST API as part of projects.\n- **Areas to improve:**\n  - Less than 3 years of experience (entry-level).\n  - Not evidenced in snippet: advanced Java frameworks.\n  - Not evidenced in snippet: specific CI/CD tools.\n  - Not evidenced in snippet: professional experience.\n  - Not evidenced in snippet: location.\n\n**9. Jamie Iyer**\n- **Summary:** Jamie is an entry-level candidate with foundational Java skills but lacks the necessary experience for the Java Developer role.\n- **Strengths:**\n  - Familiar with Core Java, OOP, Collections, and Streams.\n  - Basic knowledge of Spring Boot and REST API design.\n  - Experience with JPA/Hibernate and SQL (MySQL/PostgreSQL).\n  - Understanding of unit testing and CI/CD concepts.\n  - Developed a Spring Boot REST API as part of projects.\n- **Areas to improve:**\n  - Less than 3 years of experience (entry-level).\n  - Not evidenced in snippet: advanced Java frameworks.\n  - Not evidenced in snippet: specific CI/CD tools.\n  - Not evidenced in snippet: professional experience.\n  - Not evidenced in snippet: location.\n\n**10. Micah Gibson**\n- **Summary:** Micah is an entry-level candidate with basic Java skills but does not meet the experience requirements for the Java Developer position.\n- **Strengths:**\n  - Familiar with Core Java, OOP, Collections, and Streams.\n  - Basic knowledge of Spring Boot and REST API design.\n  - Experience with JPA/Hibernate and SQL (MySQL/PostgreSQL).\n  - Understanding of unit testing and CI/CD concepts.\n  - Developed a Spring Boot REST API as part of projects.\n- **Areas to improve:**\n  - Less than 3 years of experience (entry-level).\n  - Not evidenced in snippet: advanced Java frameworks.\n  - Not evidenced in snippet: specific CI/CD tools.\n  - Not evidenced in snippet: professional experience.\n  - Not evidenced in snippet: location.",
+      "ts": "2025-09-04T20:37:02",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Shawnta-Austin 2",
+          "match_pct": 54,
+          "email": "",
+          "phone": "+13174201859",
+          "document_id": "Shawnta-Austin 2-c1f7d7ad4b56",
+          "file_path": null,
+          "evidence": {
+            "snippet": " information when the patient is being brought in by Ambulance. Processing patient accounts, patient billing, and collections of copayments and handling Medicare/Medicaid billing.Team Leader April 2003 to June 2005Group Athletica-Indianapolis, IN 46219317-895-7001Duties: Manage employees on their work flow, disciplining employees when necessary, controlling every aspect of the production floor and making sure the orders are shipped out correctly and in a timely manner and also making sure all items that were being shipped is the items being ordered.EducationBachelor's Degree in Healthcare Administration Ashford University August 2015 to May 2017Associates Degree in Medical Assistant Brown Mackie College July 2012Diploma Arsenal Technical High School June 2002Certificate of Completion in Ad"
+          }
+        },
+        {
+          "candidate_name": "alex_gupta_java_developer__entry_level",
+          "match_pct": 51,
+          "email": "alexgupta2079@gmail.com",
+          "phone": "415-555-1020",
+          "document_id": "alex_gupta_java_developer__entry_level-9d1b0905ab69",
+          "file_path": "./resumes_store\\alex_gupta_java_developer__entry_level.9d1b0905ab69.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Alex Gupta \\b0\\fs20\\lineRemote | USA | (415) 555-1020 | alexgupta2079@gmail.com | linkedin.com/in/alex_gupta95\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a task "
+          }
+        },
+        {
+          "candidate_name": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst",
+          "match_pct": 24,
+          "email": null,
+          "phone": null,
+          "document_id": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst-b5bd4a914792",
+          "file_path": "./resumes_store\\Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst.b5bd4a914792.docx",
+          "evidence": {
+            "snippet": "integrated back-end logic to support real-time user requests and rapid response processing.Develop Test Estimations, Test Strategy, Test Plans, and Test Cases, and participate in peer reviews of these documents.Provide training to new team members on testing procedures, coding, test security, and accommodations.Ensure Personally Identifiable Information (PII) and Protected Health Information (PHI) are masked before being uploaded to lower test environments using the IBM-Optim masking process.Test applications developed using COBOL, CICS, JCL, DB2, Assembler, PL/I, VSAM, and GENEVA/SAFR.Log, track, and manage defects, and conduct Root Cause Analysis meetings to address issues and provide permanent solutions.Support Pre & Post implementation testing for new/enhancements of software products."
+          }
+        },
+        {
+          "candidate_name": "SunilKandukuri_Resume",
+          "match_pct": 22,
+          "email": null,
+          "phone": "732-910-4620",
+          "document_id": "SunilKandukuri_Resume-20ae69a79914",
+          "file_path": "./resumes_store\\SunilKandukuri_Resume.20ae69a79914.docx",
+          "evidence": {
+            "snippet": "m and logging the test results in HPQC, closing the defect logged.Maintained code in version control tool VSTFS.Created required documentation from Design phase to till project warranty support like LDR, PDD, ETL Specification, OLAP Specification, Test cases doc, Deployment doc, KT plan, Support handshake guide etc., Supporting the Third Party and Business Users for SIT, PRE-UAT and UAT respectively Interacting with Latin Center business in UAT phase and resolving issues.Providing the estimates for CRs.Coordinating with DBA team in cutover and production deployment of this application Coordinating with support team and responsible for providing KT and supporting team in reverse shadowing.Project-5: System Alignment Diagnostics platform migration The objective of this project is to migratio"
+          }
+        },
+        {
+          "candidate_name": "Himabindu_Maddela_ Procurement",
+          "match_pct": 9,
+          "email": "Maddela919-564-5190himabindu.maddela@gmail.comPROFESSIONAL",
+          "phone": "919-564-5190",
+          "document_id": "Himabindu_Maddela_ Procurement-dc7ae2aea0a4",
+          "file_path": "./resumes_store\\Himabindu_Maddela_ Procurement.dc7ae2aea0a4.docx",
+          "evidence": {
+            "snippet": "sign specificationsProvided daily communications, scrum notes, sprint reviews reports, project retrospectives, and regular snapshots of project velocity and budget burn rate.Planning project activities viz. Scoping, Estimation, Tracking, Change Management, Delivery Management & Post Implementation support.Reported progress to all stakeholders through Sprint Burn-Down Reports, Iteration Burn-Down Reports, and velocity target updates.Organized and lead the Internal and Client weekly status calls with all the project stakeholders.Tracked the efforts of each team member in SVN throughout the implementation.IV & V was brought it typically for the Functional tests, Integration tests, UAT tests, Operational and Certification test.Tools: Microsoft Project, HP Quality Center, MS Excel, MySQLTechniq"
+          }
+        },
+        {
+          "candidate_name": "casey_long_java_developer__entry_level",
+          "match_pct": 0,
+          "email": "caseylong1720@gmail.com",
+          "phone": "305-555-1017",
+          "document_id": "casey_long_java_developer__entry_level-8ce02def3090",
+          "file_path": "./resumes_store\\casey_long_java_developer__entry_level.8ce02def3090.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Casey Long \\b0\\fs20\\lineRemote | USA | (305) 555-1017 | caseylong1720@gmail.com | linkedin.com/in/casey_long78\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a task "
+          }
+        },
+        {
+          "candidate_name": "devin_fisher_java_developer__entry_level",
+          "match_pct": 0,
+          "email": "devinfisher1124@gmail.com",
+          "phone": "503-555-1011",
+          "document_id": "devin_fisher_java_developer__entry_level-7b68c74129b8",
+          "file_path": "./resumes_store\\devin_fisher_java_developer__entry_level.7b68c74129b8.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Devin Fisher \\b0\\fs20\\lineRemote | USA | (503) 555-1011 | devinfisher1124@gmail.com | linkedin.com/in/devin_fisher10\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a"
+          }
+        },
+        {
+          "candidate_name": "jamie_iyer_java_developer__entry_level",
+          "match_pct": 0,
+          "email": "jamieiyer1243@gmail.com",
+          "phone": "718-555-1012",
+          "document_id": "jamie_iyer_java_developer__entry_level-bf5d2a56ea7a",
+          "file_path": "./resumes_store\\jamie_iyer_java_developer__entry_level.bf5d2a56ea7a.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Jamie Iyer \\b0\\fs20\\lineRemote | USA | (718) 555-1012 | jamieiyer1243@gmail.com | linkedin.com/in/jamie_iyer23\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a task "
+          }
+        },
+        {
+          "candidate_name": "micah_gibson_java_developer__entry_level",
+          "match_pct": 0,
+          "email": "micahgibson1435@gmail.com",
+          "phone": "312-555-1014",
+          "document_id": "micah_gibson_java_developer__entry_level-a3a73e903bcf",
+          "file_path": "./resumes_store\\micah_gibson_java_developer__entry_level.a3a73e903bcf.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Micah Gibson \\b0\\fs20\\lineRemote | USA | (312) 555-1014 | micahgibson1435@gmail.com | linkedin.com/in/micah_gibson77\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "python developer ",
+      "ts": "2025-09-04T20:38:03"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**  \n- **Summary**: Srinivas Reddy Battula is a strong fit for the Python Developer role with extensive experience in CI/CD, REST API development, and relevant tools, although Python-specific experience is not evidenced in the snippet.  \n- **Strengths**:  \n  - Experience with CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions.  \n  - Developed RESTful APIs for integration with microservices.  \n  - Familiarity with containerization using Docker and Kubernetes.  \n  - Knowledge of secure authentication mechanisms (OAuth 2.0, JWT).  \n  - Experience in batch processing and data imports/exports.  \n- **Areas to improve**:  \n  - Python development experience not evidenced in snippet.  \n  - Proficiency in Django/Flask not evidenced in snippet.  \n  - Specific years of experience in Python development not evidenced in snippet.  \n  - SQL experience not explicitly mentioned in relation to MySQL/PostgreSQL.  \n  - Unit testing experience not explicitly mentioned in relation to Python.\n\n---\n\n**2. Shawnta-Austin**  \n- **Summary**: Shawnta-Austin is not a suitable candidate for the Python Developer role as the experience and skills listed do not align with the requirements.  \n- **Strengths**:  \n  - Experience in managing workflows and employee oversight.  \n  - Background in patient billing and collections.  \n- **Areas to improve**:  \n  - No experience with Python or relevant frameworks (Django/Flask) evidenced in snippet.  \n  - No experience in REST API development evidenced in snippet.  \n  - No SQL experience (MySQL/PostgreSQL) evidenced in snippet.  \n  - No unit testing experience evidenced in snippet.  \n  - No CI/CD tools experience evidenced in snippet.  \n  - Location not specified in snippet.\n\n---\n\n**3. Alex Gupta**  \n- **Summary**: Alex Gupta has foundational skills in Java development and REST API design but lacks the required 3+ years of experience and specific Python proficiency.  \n- **Strengths**:  \n  - Basic experience in building RESTful services.  \n  - Familiarity with SQL (MySQL/PostgreSQL) and JPA/Hibernate.  \n  - Knowledge of unit testing with JUnit.  \n  - Understanding of CI/CD concepts.  \n  - Basic front-end integration skills (HTML/CSS/JavaScript).  \n- **Areas to improve**:  \n  - Python development experience not evidenced in snippet.  \n  - Proficiency in Django/Flask not evidenced in snippet.  \n  - Does not meet the 3+ years of experience requirement.  \n  - No specific experience with CI/CD tools mentioned.  \n  - No explicit mention of experience with REST API development in a production environment.\n\n---\n\n**4. Casey Allen**  \n- **Summary**: Casey Allen is not a fit for the Python Developer role as the skills and experience listed are focused on PeopleSoft analysis rather than Python development.  \n- **Strengths**:  \n  - Experience with PeopleSoft navigation and component/page structure.  \n  - Basic SQL fundamentals for data validation.  \n- **Areas to improve**:  \n  - No experience with Python or relevant frameworks (Django/Flask) evidenced in snippet.  \n  - No experience in REST API development evidenced in snippet.  \n  - No SQL experience (MySQL/PostgreSQL) evidenced in snippet.  \n  - No unit testing experience evidenced in snippet.  \n  - No CI/CD tools experience evidenced in snippet.  \n  - Location not specified in snippet.\n\n---\n\n**5. Casey Long**  \n- **Summary**: Casey Long is not a suitable candidate for the Python Developer role as the experience and skills listed are primarily in Java development and do not meet the specific Python requirements.  \n- **Strengths**:  \n  - Basic experience in building RESTful services.  \n  - Familiarity with SQL (MySQL/PostgreSQL) and JPA/Hibernate.  \n  - Knowledge of unit testing with JUnit.  \n  - Understanding of CI/CD concepts.  \n  - Basic front-end integration skills (HTML/CSS/JavaScript).  \n- **Areas to improve**:  \n  - Python development experience not evidenced in snippet.  \n  - Proficiency in Django/Flask not evidenced in snippet.  \n  - Does not meet the 3+ years of experience requirement.  \n  - No specific experience with CI/CD tools mentioned.  \n  - No explicit mention of experience with REST API development in a production environment.",
+      "ts": "2025-09-04T20:38:24",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Shawnta-Austin 2",
+          "match_pct": 2,
+          "email": "",
+          "phone": "+13174201859",
+          "document_id": "Shawnta-Austin 2-c1f7d7ad4b56",
+          "file_path": null,
+          "evidence": {
+            "snippet": " information when the patient is being brought in by Ambulance. Processing patient accounts, patient billing, and collections of copayments and handling Medicare/Medicaid billing.Team Leader April 2003 to June 2005Group Athletica-Indianapolis, IN 46219317-895-7001Duties: Manage employees on their work flow, disciplining employees when necessary, controlling every aspect of the production floor and making sure the orders are shipped out correctly and in a timely manner and also making sure all items that were being shipped is the items being ordered.EducationBachelor's Degree in Healthcare Administration Ashford University August 2015 to May 2017Associates Degree in Medical Assistant Brown Mackie College July 2012Diploma Arsenal Technical High School June 2002Certificate of Completion in Ad"
+          }
+        },
+        {
+          "candidate_name": "alex_gupta_java_developer__entry_level",
+          "match_pct": 2,
+          "email": "alexgupta2079@gmail.com",
+          "phone": "415-555-1020",
+          "document_id": "alex_gupta_java_developer__entry_level-9d1b0905ab69",
+          "file_path": "./resumes_store\\alex_gupta_java_developer__entry_level.9d1b0905ab69.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Alex Gupta \\b0\\fs20\\lineRemote | USA | (415) 555-1020 | alexgupta2079@gmail.com | linkedin.com/in/alex_gupta95\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a task "
+          }
+        },
+        {
+          "candidate_name": "casey_allen_peoplesoft_analyst__entry_level",
+          "match_pct": 0,
+          "email": "caseyallen3093@gmail.com",
+          "phone": "310-555-1030",
+          "document_id": "casey_allen_peoplesoft_analyst__entry_level-cacf34ec6112",
+          "file_path": "./resumes_store\\casey_allen_peoplesoft_analyst__entry_level.cacf34ec6112.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Casey Allen \\b0\\fs20\\lineRemote | USA | (310) 555-1030 | caseyallen3093@gmail.com | linkedin.com/in/casey_allen53\\line\\line\\b PeopleSoft Analyst (Entry-Level) \\b0\\lineEntry-level PeopleSoft analyst with coursework and shadowing experience across HCM/FIN modules. Understands PeopleSoft navigation, Query Manager, and the change management lifecycle.\\line\\line\\b Skills \\b0\\line - PeopleSoft navigation and component/page structure\\line - Query Manager basics; simple PS/Query development\\line - Functional documentation (BRD/FRD) and test case drafting\\line - Issue triage, ticket documentation, and UAT coordination\\line - SQL fundamentals for data validation\\line - Awareness of PeopleTools concepts and environments\\line\\line\\b Projects \\b0\\line - As"
+          }
+        },
+        {
+          "candidate_name": "casey_long_java_developer__entry_level",
+          "match_pct": 0,
+          "email": "caseylong1720@gmail.com",
+          "phone": "305-555-1017",
+          "document_id": "casey_long_java_developer__entry_level-8ce02def3090",
+          "file_path": "./resumes_store\\casey_long_java_developer__entry_level.8ce02def3090.rtf",
+          "evidence": {
+            "snippet": "{\\rtf1\\ansi\\deff0{\\fonttbl{\\f0 Arial;}}\\fs28\\b Casey Long \\b0\\fs20\\lineRemote | USA | (305) 555-1017 | caseylong1720@gmail.com | linkedin.com/in/casey_long78\\line\\line\\b Java Developer (Entry-Level) \\b0\\lineEntry-level Java developer with academic and internship experience in building RESTful services and simple web applications. Familiar with SDLC, unit testing, and basic CI/CD concepts.\\line\\line\\b Skills \\b0\\line - Core Java, OOP, Collections, Streams\\line - Spring Boot fundamentals; REST API design\\line - JPA/Hibernate (basic CRUD), SQL (MySQL/PostgreSQL)\\line - JUnit testing; basic Git branching workflows\\line - Maven/Gradle; JSON, HTTP, Postman usage\\line - Basic HTML/CSS/JavaScript for front-end integration\\line\\line\\b Projects \\b0\\line - Developed a Spring Boot REST API for a task "
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "java developer with 5 years of experiance",
+      "ts": "2025-09-10T23:57:47"
+    },
+    {
+      "role": "assistant",
+      "content": "(Retrieval error) list index out of range",
+      "ts": "2025-09-10T23:57:51"
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.7,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

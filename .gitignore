@@ -1,0 +1,8 @@
+AI Notes/
+.streamlit/
+debug/
+resumes_raw/
+testResumes/
+ResumeFinder/
+__pycache__/
+.idea/

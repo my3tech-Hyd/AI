@@ -1,0 +1,192 @@
+{
+  "id": "bfa119fe-5bee-479a-9dd6-1fe45e495e06",
+  "user_id": "anonymous",
+  "title": "Senior Python backend engineer Django DRF PostgreSQL Docker",
+  "created_at": "2025-08-29T21:20:22",
+  "updated_at": "2025-09-04T17:10:14",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).Don't ask irrelevent questions",
+      "ts": "2025-08-29T21:20:22"
+    },
+    {
+      "role": "user",
+      "content": "Senior Python backend engineer with Django, DRF, PostgreSQL, Docker, AWS (5+ years) Bangalore",
+      "ts": "2025-08-29T22:02:39"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Final Resume**\n- **Summary:** This candidate demonstrates a strong overall fit for the Senior Python backend engineer role, showcasing relevant experience in Python and backend development, although lacking specific mentions of Django, DRF, PostgreSQL, Docker, and AWS.\n- **Strengths:**\n  - Proficient in Python for backend processing.\n  - Developed applications using Flask, indicating familiarity with web frameworks.\n  - Experience with dynamic data retrieval and interactive interfaces.\n  - Utilized Python libraries such as NumPy and Scikit-learn for data manipulation and machine learning.\n  - Not evidenced in snippet for Django, DRF, PostgreSQL, Docker, AWS.\n- **Areas to improve:**\n  - No experience with Django or Django REST Framework (DRF) evidenced in snippet.\n  - PostgreSQL experience not evidenced in snippet.\n  - Docker experience not evidenced in snippet.\n  - AWS experience not evidenced in snippet.\n  - Lacks 5+ years of specific backend engineering experience in the snippet.\n\n---\n\n**2. Srinivas Reddy Battula**\n- **Summary:** This candidate is a strong fit for the Senior Python backend engineer position, with extensive experience in backend development, Docker, and CI/CD practices, although lacking direct experience with Python and Django.\n- **Strengths:**\n  - Developed secure authentication and authorization mechanisms, indicating strong backend skills.\n  - Deployed containerized applications using Docker.\n  - Managed Kubernetes clusters for scalable production environments.\n  - Configured CI/CD pipelines using Jenkins and GitLab CI.\n  - Experience with RESTful APIs for microservices integration.\n- **Areas to improve:**\n  - No direct experience with Python evidenced in snippet.\n  - No experience with Django or Django REST Framework (DRF) evidenced in snippet.\n  - PostgreSQL experience not evidenced in snippet.\n  - AWS experience not evidenced in snippet.\n  - No specific mention of 5+ years of experience in backend engineering.\n\n---\n\n**3. Swapna Chinnapapakkagari**\n- **Summary:** This candidate has limited relevance to the Senior Python backend engineer role, primarily focused on QA and testing rather than backend development, with no evidence of Python, Django, or related technologies.\n- **Strengths:**\n  - Strong knowledge of Software Development Life Cycle (SDLC) and Software Testing Life Cycle (STLC).\n  - Proficient in SQL and PL/SQL for backend validations.\n  - Experience in defect lifecycle management and collaboration with development teams.\n  - Familiarity with relational database management systems.\n- **Areas to improve:**\n  - No experience with Python evidenced in snippet.\n  - No experience with Django or Django REST Framework (DRF) evidenced in snippet.\n  - Docker experience not evidenced in snippet.\n  - AWS experience not evidenced in snippet.\n  - Lacks 5+ years of backend engineering experience.\n\n---\n\n**4. Prem Vinod Kumar Bandari**\n- **Summary:** This candidate shows minimal fit for the Senior Python backend engineer role, with a focus on C#, SQL, and front-end technologies rather than Python and backend frameworks.\n- **Strengths:**\n  - Experience with SQL database schema creation and stored procedures.\n  - Involvement in Test Driven Development (TDD) and writing integration tests.\n  - Familiarity with web API development.\n- **Areas to improve:**\n  - No experience with Python evidenced in snippet.\n  - No experience with Django or Django REST Framework (DRF) evidenced in snippet.\n  - Docker experience not evidenced in snippet.\n  - AWS experience not evidenced in snippet.\n  - Lacks 5+ years of backend engineering experience.\n\n---\n\n**5. Hari Prakash Pokala**\n- **Summary:** This candidate is not a fit for the Senior Python backend engineer role, as their experience is heavily focused on front-end technologies and Java, with no relevant backend Python experience.\n- **Strengths:**\n  - Over 15 years of experience in software engineering.\n  - Proficient in multiple programming languages including Python and Node.js.\n  - Strong knowledge of microservices architecture and RESTful APIs.\n- **Areas to improve:**\n  - No experience with Django or Django REST Framework (DRF) evidenced in snippet.\n  - PostgreSQL experience not evidenced in snippet.\n  - Docker experience not evidenced in snippet.\n  - AWS experience not evidenced in snippet.\n  - Lacks specific backend engineering experience in Python.",
+      "ts": "2025-08-29T22:03:02",
+      "results": [
+        {
+          "candidate_name": "final resume",
+          "match_pct": 100,
+          "email": "divya.dha24@gmail.com",
+          "phone": "+917732000666",
+          "document_id": "final resume-46121dd3f6b7",
+          "file_path": "./resumes_store\\final resume.46121dd3f6b7.pdf",
+          "evidence": {
+            "snippet": "ilingual content management app with dynamic data retrieval using Flask and Python, and an interface using HTML, CSS, and JavaScript. Todo Website | Node.js, HTML, CSS, JavaScript Link • Developed a task management app for WD201 with NodeJS for dynamic handling, and HTML, CSS, and JavaScript for the user interface and interactivity. EEG-based Cognitive Load Classification | Feature Masked Autoencoding, TensorFlow/Keras Link • Developed a neural network with Feature Masked Autoencoding and TensorFlow/Keras to classify cognitive load levels from EEG data with high accuracy. Diabetes Prediction | Streamlit, Numpy, Seaborn, Scikit-learn Link • Built a diabetes prediction app using Streamlit for an interactive interface, with Python for backend processing. Utilized NumPy for data manipulation a"
+          }
+        },
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 91,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Swapna Chinnapapakkagari - QA Systems Analyst 3",
+          "match_pct": 53,
+          "email": "20152972-510-9321swapnareddy0508@gmail.comSUMMARY",
+          "phone": "20152972-510-9321",
+          "document_id": "Swapna Chinnapapakkagari - QA Systems Analyst 3-50934231c550",
+          "file_path": "./resumes_store\\Swapna Chinnapapakkagari - QA Systems Analyst 3.50934231c550.docx",
+          "evidence": {
+            "snippet": "riven Testing for application backend testing using Quick Test Pro to validate data workflows and consistency.Experience in Defect Life Cycle and logged the defects in Test Director and JIRA, supporting collaborative communication with Dev and PM teams.Strong knowledge of Software Development Life Cycle (SDLC), Software Testing Life Cycle (STLC), and QA Methodologies like Iterative, V-Model, Waterfall, Spiral, and Scrum/Agile.Good understanding of Relational Database Management Systems. Proficient in SQL and PL/SQL Programming (queries, stored procedures, cursors, and triggers) for backend validations and data testing.Follow HIPAA Privacy Rule guidelines for handling sensitive health-related data and aligning testing with compliance.Specialized in testing Curam applications, involving func"
+          }
+        },
+        {
+          "candidate_name": "Prem Vinod Kumar Bandari",
+          "match_pct": 15,
+          "email": null,
+          "phone": "+14848722979",
+          "document_id": "Prem Vinod Kumar Bandari-67d82bee620b",
+          "file_path": "./resumes_store\\Prem Vinod Kumar Bandari.67d82bee620b.docx",
+          "evidence": {
+            "snippet": "T based GET, POST, PUT, DELETE and returning JSON format.Used Splunk, Jira / Service Now to track and assign tasks to work upon priority.Created SQL Database Schema with table defined table structure, primary key and foreign key relations, Stored Procedures, Triggers, SQL Job Schedulers, using Normalization standards.Involve in Test Driven Development (TDD) and wrote Integration and Unit Tests. Optimizing, debugging and creating stored procedures in SQL 2014 Languages / Tools VS 2015, C#, MVC5, TDD, SQL 2016, TFS, Entity Framework, Web API,Building Single Page Applications (SPAs) with AngularJS., JavaScript Unit Testing with TDD, NUnit.Education:Master's of Science (Computer Networks) | Leeds Metropolitan University, Leeds, UK |2008 2010B.Tech (Computer Science and IT) | JNTU, Hyderabad In"
+          }
+        },
+        {
+          "candidate_name": "Hari Prakash Pokala",
+          "match_pct": 0,
+          "email": "904-514-5716hariprakash.pokala@gmail.comSummary",
+          "phone": "+1 904-514-5716",
+          "document_id": "Hari Prakash Pokala-ac0b6daf36a9",
+          "file_path": "./resumes_store\\Hari Prakash Pokala.ac0b6daf36a9.docx",
+          "evidence": {
+            "snippet": "Hari Prakash PokalaPhone: +1 904-514-5716hariprakash.pokala@gmail.comSummary:Experienced and versatile Software Engineer with over 15 years of expertise in developing cutting-edge web applications using Angular 8.0 & above, Python, Node.js, Java/JEE, and modern technologies. Proven leadership in Agile environments, adept at implementing best practices to deliver high-quality solutions. Skilled in client-side development with HTML, CSS, JavaScript, jQuery, Bootstrap, JSP, Struts, Ajax, Angular, and ReactJS, ensuring interactive and visually appealing user interfaces. Deep knowledge of Java and JavaEE platforms, including servlets, JDBC, Hibernate, Spring MVC, Spring Boot, and NodeJS. Strong in microservices architecture, RESTful APIs development using Spring Boot and Node.js, cloud technolo"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "java full stack developer with 5 years of experianc e",
+      "ts": "2025-09-04T16:37:03"
+    },
+    {
+      "role": "user",
+      "content": "java full stack developer with 5 years of experiance",
+      "ts": "2025-09-04T17:04:55"
+    },
+    {
+      "role": "user",
+      "content": "java full stack developer with 5 years of experiance",
+      "ts": "2025-09-04T17:10:03"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the provided context, here are the top 3 candidates for the Java Full Stack Developer position with 5 years of experience:\n\n1. **Vamshi Nizampatnam - Senior Java Developer**: Vamshi's title indicates a strong focus on Java development, which is essential for a full stack role. His seniority suggests he has significant experience and expertise in both front-end and back-end technologies.\n\n2. **Shawnta-Austin 2**: Although specific details are not provided, Shawnta's mention implies relevant experience. If her background aligns with full stack development, she could be a strong candidate.\n\n3. **Prem Vinod Kumar Bandari**: Similar to Shawnta, while specific qualifications are not detailed, Prem's inclusion suggests he may have the necessary skills and experience for the role.\n\nFurther details from their resumes would help solidify these recommendations, but based on the context, these candidates stand out.",
+      "ts": "2025-09-04T17:10:14",
+      "results": [
+        {
+          "document_id": "Shawnta-Austin 2-c1f7d7ad4b56",
+          "candidate_name": "Shawnta-Austin 2",
+          "match_pct": 100,
+          "sem": 0.0,
+          "kw": 1.315846545014186,
+          "kw_coverage": 0.3333333333333333,
+          "sig_hits": 1
+        },
+        {
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 87,
+          "sem": 0.5337125142815216,
+          "kw": 0.0,
+          "kw_coverage": 0.16666666666666666,
+          "sig_hits": 1
+        },
+        {
+          "document_id": "Roshini_Sr QA Engineer Updated Resume-933423351966",
+          "candidate_name": "Roshini_Sr QA Engineer Updated Resume",
+          "match_pct": 42,
+          "sem": 0.20582528851293985,
+          "kw": 0.0,
+          "kw_coverage": 0.5,
+          "sig_hits": 1
+        },
+        {
+          "document_id": "Prem Vinod Kumar Bandari-67d82bee620b",
+          "candidate_name": "Prem Vinod Kumar Bandari",
+          "match_pct": 39,
+          "sem": 0.2740464136347914,
+          "kw": 0.0,
+          "kw_coverage": 0.16666666666666666,
+          "sig_hits": 1
+        },
+        {
+          "document_id": "Vamshi Nizampatnam - Senior Java Developer-8226d28d4edc",
+          "candidate_name": "Vamshi Nizampatnam - Senior Java Developer",
+          "match_pct": 14,
+          "sem": 0.1846349171409704,
+          "kw": 0.0,
+          "kw_coverage": 0.0,
+          "sig_hits": 1
+        },
+        {
+          "document_id": "Mahendra Marathe - Web Server Architect-7efe8b677ffa",
+          "candidate_name": "Mahendra Marathe - Web Server Architect",
+          "match_pct": 10,
+          "sem": 0.11606238797522091,
+          "kw": 0.0,
+          "kw_coverage": 0.16666666666666666,
+          "sig_hits": 1
+        },
+        {
+          "document_id": "Tiegang Tong _ DOTNET Developer-a6b0a58e6fb4",
+          "candidate_name": "Tiegang Tong _ DOTNET Developer",
+          "match_pct": 6,
+          "sem": 0.09455127197257948,
+          "kw": 0.0,
+          "kw_coverage": 0.16666666666666666,
+          "sig_hits": 1
+        },
+        {
+          "document_id": "Swapna Chinnapapakkagari - QA Manager-4e174525393b",
+          "candidate_name": "Swapna Chinnapapakkagari - QA Manager",
+          "match_pct": 3,
+          "sem": 0.07759504418100059,
+          "kw": 0.0,
+          "kw_coverage": 0.16666666666666666,
+          "sig_hits": 1
+        },
+        {
+          "document_id": "Sri Chaitanya Vanam Servicenow ITAM -70cf32adb260",
+          "candidate_name": "Sri Chaitanya Vanam Servicenow ITAM ",
+          "match_pct": 0,
+          "sem": 0.10608078362315651,
+          "kw": 0.0,
+          "kw_coverage": 0.0,
+          "sig_hits": 1
+        }
+      ]
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.65,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

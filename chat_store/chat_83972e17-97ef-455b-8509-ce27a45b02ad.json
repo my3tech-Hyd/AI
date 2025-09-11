@@ -1,0 +1,155 @@
+{
+  "id": "83972e17-97ef-455b-8509-ce27a45b02ad",
+  "title": "people soft 8 years experience",
+  "created_at": "2025-08-16T19:37:28",
+  "updated_at": "2025-08-16T19:49:32",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).",
+      "ts": "2025-08-16T19:37:28"
+    },
+    {
+      "role": "user",
+      "content": "people soft with 8 years experience ",
+      "ts": "2025-08-16T19:38:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the provided evidence, here are my recommendations for the top 5 candidates:\n\n1. **Venkata Ramanaiah Papudippu**: With over 8+ years of experience as a Technical Consultant, Venkata has expertise in SAP R/3 (ABAP/4), NetWeaver, and Adobe Live Cycle. His experience in design and development of applications, eSOA, CAF, WebDynpro, and SLD is highly relevant for a software engineer role.\n\n2. **Hemanth**: Although his match percentage is lower, Hemanth has extensive experience maintaining detailed inventory and project documentation, which could be valuable skills for a software engineer. His education in computer science and engineering also provides a solid foundation for the role.\n\n3. **Roshini Nalla**: Roshini has over 8+ years of experience in software quality assurance testing, with expertise in Selenium, Cucumber, and current QA technologies. Her diverse experience in various domains like Healthcare, Point of Sale System, and E-Commerce makes her a strong candidate for the role.\n\n4. **Vipin Gautam**: Although not directly related to software engineering, Vipin's experience as a Project Manager with Agile and Waterfall methodologies could translate well to managing projects and teams in a software development context.\n\n5. **No clear match**: VINOD THAKUR does not have any relevant skills or experience mentioned in the provided snippet that aligns with the role of a software engineer.\n\nPlease note that these recommendations are based solely on the provided evidence and may require further evaluation and verification to confirm the candidates' suitability for the role.",
+      "ts": "2025-08-16T19:38:45",
+      "results": [
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 100,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": "esting and quality assurance processes using Selenium, reducing manual testing efforts by 50% and ensuring smooth functionality across the application’s user interfaces. The Home Depot Jun 2009 - Oct 2010 Software EngineerOver 9 years of IT experience, of which around 8+ years as a Technical Consultant in design and development of applications in SAP R/3 (ABAP/4), NetWeaver 2004, 2004s and Administration. Good experience In eSOA, CAF (Composite Application Framework), WebDynpro (Java and ABAP), SLD, NWDI, JCo’s, Development Infrastructure (DI), ADS and Administration and Adobe Live Cycle. Experience in Adobe interactive forms on JAVA and ABAP Stacks. Experience in ESS, MSS. Good experience in portal administration. Experience on SSO (Single sign on) architecture and Solution manager 4.0. K…"
+          }
+        },
+        {
+          "candidate_name": "Hemanth+Network+Engineer+-+Resume",
+          "match_pct": 47,
+          "email": "VA405-655-8611hemanthchinna2233@gmail.comProfessional",
+          "phone": "405-655-8611",
+          "document_id": "Hemanth+Network+Engineer+-+Resume-11ac59b65d25",
+          "file_path": "./resumes_store\\Hemanth+Network+Engineer+-+Resume.11ac59b65d25.docx",
+          "evidence": {
+            "snippet": "liance with industry standards. Extensive experience maintaining detailed inventory and project documentation. EDUCATION DETAILS: Jawaharlal Nehru Technological University, Hyderabad, India Bachelor’s in computer science and engineering - Jun 2013 – Jul 2017"
+          }
+        },
+        {
+          "candidate_name": "Roshini_Sr QA Engineer Updated Resume",
+          "match_pct": 29,
+          "email": null,
+          "phone": "609-456-0220",
+          "document_id": "Roshini_Sr QA Engineer Updated Resume-933423351966",
+          "file_path": "./resumes_store\\Roshini_Sr QA Engineer Updated Resume.933423351966.docx",
+          "evidence": {
+            "snippet": "Roshini Nalla roshini8822@gmail.com609-456-0220 EXT 105 Quality Assurance Engineer with over 8+ years of experience in software quality assurance testing of web applications, web services, client/server applications and databases using Selenium, Cucumber,and current QA technologies. Worked in diversified domains like Health Care, Point of Sale System and E-Commerce both automation and manual testing. Professional Summary:Accomplished Quality Assurance Engineer with 8 years of experience in the Information Technology industry, performing analysis, Manual and automated testing of Client Server and Web applications.Worked and built relationships with cross-functional teams that include product management, Business Analysts, Business users and Software designers/developers for test planning an…"
+          }
+        },
+        {
+          "candidate_name": "Vipin_Gautam - Project Manager",
+          "match_pct": 24,
+          "email": "CSM847-702-4540vipingautam@yahoo.comOver",
+          "phone": "847-702-4540",
+          "document_id": "Vipin_Gautam - Project Manager-da53232f77d3",
+          "file_path": "./resumes_store\\Vipin_Gautam - Project Manager.da53232f77d3.docx",
+          "evidence": {
+            "snippet": "Vipin GautamPMP, P2P, CSM847-702-4540vipingautam@yahoo.comOver 25 years of experience including over 15 years in leading projects & programs using Agile & Waterfall methodologiesFrameworks & MethodologiesAgile/ScrumSoftware Development Life Cycle (SDLC)/WaterfallRBPM - Risk Based Project Management Program & Portfolio ManagementTechnology SummaryMicrosoft Project, Visio, Planview PPM, Hadoop, Apache Spark, Spark Streaming AWSNoSQL, Java, Oracle, Linux, Sybase, Mainframe Clarity, Jira, Jira Align, Azure DevOps (ADO), VersionOne Microsoft Office Suite, Web Technology SuiteHP PPM, QC, ALM, RPA, Tableau,Maven, Jenkins, Kubernetes, Docker, Datadog Education MBA—International BusinessBachelor of TechnologyJapanese Language skills (JLPT Level 3 certified)CertificationsCertified Scrum Master (CSM)…"
+          }
+        },
+        {
+          "candidate_name": "VINOD THAKUR_Tableau_Resume",
+          "match_pct": 0,
+          "email": null,
+          "phone": null,
+          "document_id": "VINOD THAKUR_Tableau_Resume-7b440fd596b5",
+          "file_path": "./resumes_store\\VINOD THAKUR_Tableau_Resume.7b440fd596b5.docx",
+          "evidence": {
+            "snippet": "fer process, etc.Created various ad-hoc reports based on the Business Users requirements using WEBI Tool.Experienced in working with various types of Charts, Graphs and drill down reports.Environment: SAPBW, SAP Business Objects, Universe Designer, WEBI.EDUCATIONAL QUALIFICATION:-Bachelor’s in computer science engineering (B.Tech – C.S.E) 2008 from JNTU Jawaharlal Nehru Technological University."
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "senior java developer with 8 years experience",
+      "ts": "2025-08-16T19:39:03"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the provided evidence, here are brief recommendations for the top 5 candidates:\n\n1. **Srinivas Reddy Battula**: With 13 years of experience as a Senior Java Developer, he has expertise in Java (8/11/17), Object-Oriented Programming (OOP), Spring MVC, and Web API development using REST, SOAP, XML, and JSON. His proficiency in Agile methodologies and software development tools like NetWeaver or Selenium makes him an ideal candidate.\n\n2. **Vamshi Nizampatnam**: As a Senior Java Developer with 12+ years of experience, he has strong expertise in building distributed, service-oriented architectures using Java (Spring Boot) and risk analytics. His ability to lead Agile teams and optimize system performance makes him a top contender.\n\n3. **Hari Prakash Pokala**: Although his profile is not as detailed, Hari's extensive experience (15+ years) in developing cutting-edge web applications using Angular 8.0 & above, Java/JEE, and modern technologies like Node.js and Spring Boot, suggests he has valuable skills.\n\n4. **Hrishikesh Raipet**: With over 14+ years of JAVA development experience, Hrishikesh has expertise in agile methodologies (Extreme Programming, Scrum) and software development life cycles. His experience with Angular JS, AWS, jQuery, MySQL, Node.js, PostgreSQL, and React with Redux architecture makes him a strong candidate.\n\n5. **Roshini Priyanka Nallagatlta**: Although her profile is not directly relevant to the query, Roshini's expertise in cross-browser testing (Selenium Grid) and performance load testing using JMeter could be valuable assets for a company looking for a QA professional with technical skills.\n\nPlease note that some candidates have lower matching percentages, but their profiles still showcase relevant skills.",
+      "ts": "2025-08-16T19:39:53",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "SRINIVAS REDDY BATTULA Senior Java Developer LinkedIn: linkedin.com/in/srinivasreddy54 PROFESSIONAL SUMMARY:Around 13 years of experience as a Senior Java Developer with expertise in building and maintaining high-performance web applications and enterprise software solutions.Proficient in Java (8/11/17) with hands-on expertise in Object-Oriented Programming (OOP), Multithreading, Concurrency, and modern features like Records and Virtual Threads (JEP 425).Frontend development expertise using JSP, HTML5, CSS3, Bootstrap 2.0, and JavaScript (ES6+) for designing WCAG-compliant web applications.Strong backend development proficiency in Spring MVC, Spring Boot, Spring Batch, and Web API development using REST, SOAP, XML, and JSON.Extensive experience working with SQL, DDL/DML, Stored Procedures,…"
+          }
+        },
+        {
+          "candidate_name": "Vamshi Nizampatnam - Senior Java Developer",
+          "match_pct": 88,
+          "email": "414-1292reach.vamshi1242@gmail.comSummary",
+          "phone": "+13184141292",
+          "document_id": "Vamshi Nizampatnam - Senior Java Developer-8226d28d4edc",
+          "file_path": "./resumes_store\\Vamshi Nizampatnam - Senior Java Developer.8226d28d4edc.docx",
+          "evidence": {
+            "snippet": "Vamshi Nizampatnam+1 (318) 414-1292reach.vamshi1242@gmail.comSummary:Results-driven Senior Java Developer with 12+ years of experience designing and delivering high-performance, scalable enterprise systems across regulated domains including healthcare, finance, and e-commerce.Specialized in building distributed, service-oriented architectures using Java (Spring Boot), with strong proficiency in risk analytics, cloud-native deployments, and CI/CD automation.Proven ability to lead Agile and Scrum teams, optimize system performance, and collaborate cross-functionally to meet complex business and regulatory requirements such as CCAR and stress testing.Experienced in developing and testing ADA-compliant user interfaces, ensuring applications meet WCAG standards and accessibility guidelines acro…"
+          }
+        },
+        {
+          "candidate_name": "Hari Prakash Pokala",
+          "match_pct": 42,
+          "email": "904-514-5716hariprakash.pokala@gmail.comSummary",
+          "phone": "+1 904-514-5716",
+          "document_id": "Hari Prakash Pokala-ac0b6daf36a9",
+          "file_path": "./resumes_store\\Hari Prakash Pokala.ac0b6daf36a9.docx",
+          "evidence": {
+            "snippet": "Hari Prakash PokalaPhone: +1 904-514-5716hariprakash.pokala@gmail.comSummary:Experienced and versatile Software Engineer with over 15 years of expertise in developing cutting-edge web applications using Angular 8.0 & above, Python, Node.js, Java/JEE, and modern technologies. Proven leadership in Agile environments, adept at implementing best practices to deliver high-quality solutions. Skilled in client-side development with HTML, CSS, JavaScript, jQuery, Bootstrap, JSP, Struts, Ajax, Angular, and ReactJS, ensuring interactive and visually appealing user interfaces. Deep knowledge of Java and JavaEE platforms, including servlets, JDBC, Hibernate, Spring MVC, Spring Boot, and NodeJS. Strong in microservices architecture, RESTful APIs development using Spring Boot and Node.js, cloud technolo…"
+          }
+        },
+        {
+          "candidate_name": "Hrishikesh Raipet - Java FullStack Developer",
+          "match_pct": 21,
+          "email": "5963hrishikeshraipet@gmail.comhttps",
+          "phone": "+1 203 572 5963",
+          "document_id": "Hrishikesh Raipet - Java FullStack Developer-15bf1060a0ac",
+          "file_path": "./resumes_store\\Hrishikesh Raipet - Java FullStack Developer.15bf1060a0ac.docx",
+          "evidence": {
+            "snippet": "Hrishikesh RaipetCarmel, IN, 46074 Public Trust Clearance +1 203 572 5963hrishikeshraipet@gmail.comhttps://www.linkedin.com/in/hrishikesh-raipet-75021024a/SR. Java Full Stack DeveloperSUMMARY: Over 14+ years of JAVA development experience working with the modern Front end and the Backend frameworks.Extensive experience of agile methodologies: Extreme Programming, Scrum and Waterfall Software Development Life Cycle (SDLC) including requirement analysis, design and technical specification, code development, code integration, testing and deployment of Object-Oriented Analysis and Design using Java/J2EE on Windows Unix and Linux platforms. Experience in working with Angular JS, Angular 12, AWS, jQuery, MySQL, Node.js, PostgreSQL.Experience in developing applications using React with Redux arch…"
+          }
+        },
+        {
+          "candidate_name": "Roshini Priyanka Nallagatlta_QA Resume",
+          "match_pct": 0,
+          "email": "TX201-668-7373Nallaroshini2qa@gmail.com",
+          "phone": "201-668-7373",
+          "document_id": "Roshini Priyanka Nallagatlta_QA Resume-ecb66bd7e7dd",
+          "file_path": "./resumes_store\\Roshini Priyanka Nallagatlta_QA Resume.ecb66bd7e7dd.docx",
+          "evidence": {
+            "snippet": " Proficient in version control (GitHub, GitLab), with experience configuring CI/CD pipelines using Jenkins, Travis CI, CircleCI for seamless integration and deployment.Cross-Browser Testing & Performance Testing (5+ Years): Expertise in cross-browser (Selenium Grid) and cross-platform testing, along with performance/load testing using JMeter.EDUCATION:Master's degree in Computer Engineering at Fairleigh Dickinson University, New Jersey, USA-2016TECHNICAL SKILLS:Approaches: Waterfall, Agile/Scrum, SDLC, STLC, Bug Life Cycle, Behavior-Driven Development (BDD)Testing Tools: Selenium WebDriver, Selenium IDE, Selenium Grid, TestNG, JUnit, Appium, JMeter, Cucumber, Postman, SoapUI, Rest Assured, Katalon Studio, TestComplete, BrowserStack, Sauce Labs, Mockito, Ranorex, JIRA, playwrightTest Build …"
+          }
+        }
+      ]
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.7,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

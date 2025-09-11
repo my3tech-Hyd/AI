@@ -1,0 +1,433 @@
+{
+  "id": "b2ba570f-e9fc-4f20-89fc-8bcf6c849669",
+  "title": "with OpenAI chat model",
+  "created_at": "2025-08-22T14:46:57",
+  "updated_at": "2025-08-24T01:18:21",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).",
+      "ts": "2025-08-22T14:46:57"
+    },
+    {
+      "role": "user",
+      "content": "java full stack with 5 years of experience ",
+      "ts": "2025-08-22T14:47:14"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the top candidates for the Java Full Stack Developer position based on the provided evidence:\n\n1. **Srinivas Reddy Battula**  \n   - **Experience**: Senior Java Developer (May 2022 – Present)  \n   - **Skills**: Proficient in Java (versions 8/11/17), Spring Boot, Spring MVC, Spring Batch, Spring Cloud, RESTful APIs, SOAP APIs, GraphQL.  \n   - **Location**: Remote  \n   - **Match**: 100%\n\n2. **Hrishikesh Raipet**  \n   - **Experience**: Over 14 years in Java development  \n   - **Skills**: Java, Angular (Angular 12), AWS, MySQL, PostgreSQL, Node.js, Agile methodologies.  \n   - **Location**: Carmel, IN  \n   - **Match**: 80%\n\n3. **Hari Prakash Pokala**  \n   - **Experience**: Over 15 years in software engineering  \n   - **Skills**: Java/JEE, Angular (8.0 & above), Spring MVC, Spring Boot, RESTful APIs, microservices architecture.  \n   - **Location**: Not specified  \n   - **Match**: 32%\n\n4. **Jarnail Singh**  \n   - **Experience**: Expertise in PowerBuilder and SQL development  \n   - **Skills**: SQL, data modeling, enterprise application development.  \n   - **Location**: Jersey City, NJ  \n   - **Match**: 45% (less relevant for Java focus)\n\n5. **Tiegang Tong**  \n   - **Experience**: Full-stack developer with 9+ years  \n   - **Skills**: Proficient in AngularJS, SQL, and .NET technologies (less relevant for Java).  \n   - **Location**: Not specified  \n   - **Match**: 0% (not a fit for Java)\n\n**Recommendation Summary**: The strongest candidates are Srinivas Reddy Battula and Hrishikesh Raipet, both with extensive Java and front-end framework experience.",
+      "ts": "2025-08-22T14:47:28",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "e, Miro, Visio, and ALM Octane for managing projects and collaboration.Strong in problem-solving, debugging, and performance optimization, with tools such as VisualVM, JProfiler, and Postman for efficient application testing and debugging.TECHNICAL SKILLS:Education: Bachelors - Anna University, Chennai, Computer Science, 2011Masters - University of North Texas, Computer Science, 2012 Dec PROFESSIONAL EXPERIENCEClient: American Airlines | Senior Java Developer May 2022 – Present Location: Remote. Developed and maintained microservices architecture using Java 8/11/17, Spring Boot, Spring MVC, Spring Batch, and Spring Cloud for airline reservation systems and customer-facing platforms.Designed and implemented RESTful APIs, SOAP APIs, and GraphQL endpoints for seamless data retrieval, supporti"
+          }
+        },
+        {
+          "candidate_name": "Hrishikesh Raipet - Java FullStack Developer",
+          "match_pct": 80,
+          "email": "5963hrishikeshraipet@gmail.comhttps",
+          "phone": "+1 203 572 5963",
+          "document_id": "Hrishikesh Raipet - Java FullStack Developer-15bf1060a0ac",
+          "file_path": "./resumes_store\\Hrishikesh Raipet - Java FullStack Developer.15bf1060a0ac.docx",
+          "evidence": {
+            "snippet": "Hrishikesh RaipetCarmel, IN, 46074 Public Trust Clearance +1 203 572 5963hrishikeshraipet@gmail.comhttps://www.linkedin.com/in/hrishikesh-raipet-75021024a/SR. Java Full Stack DeveloperSUMMARY: Over 14+ years of JAVA development experience working with the modern Front end and the Backend frameworks.Extensive experience of agile methodologies: Extreme Programming, Scrum and Waterfall Software Development Life Cycle (SDLC) including requirement analysis, design and technical specification, code development, code integration, testing and deployment of Object-Oriented Analysis and Design using Java/J2EE on Windows Unix and Linux platforms. Experience in working with Angular JS, Angular 12, AWS, jQuery, MySQL, Node.js, PostgreSQL.Experience in developing applications using React with Redux arch"
+          }
+        },
+        {
+          "candidate_name": "Jarnail Singh Powerbuilder",
+          "match_pct": 45,
+          "email": "jarnailssingh3620063@gmail.comSummaryExpertise",
+          "phone": "+3044692098189",
+          "document_id": "Jarnail Singh Powerbuilder-66c6a35a7507",
+          "file_path": "./resumes_store\\Jarnail Singh Powerbuilder.66c6a35a7507.docx",
+          "evidence": {
+            "snippet": "Jarnail Singh Jersey City, NJ 07304(469) 209-8189 jarnailssingh3620063@gmail.comSummaryExpertise in the development of PowerBuilder Client/Server, Web, and Mobile multiplatform applications, such as Android and iOS. Have in-depth knowledge of development life-cycle, strong analytical ability, and experience in data modeling. Have wide experience with Sybase (ASE and ASA), Oracle, and Microsoft SQL Server databases. Results-driven PowerBuilder Developer & Technical Lead with X+ years of experience designing, developing, and optimizing enterprise applications using PowerBuilder, SQL, and Sybase. Proven expertise in legacy system modernization, team leadership, and full SDLC management. Adept at troubleshooting complex issues, mentoring junior developers, and aligning technical solutions with"
+          }
+        },
+        {
+          "candidate_name": "Hari Prakash Pokala",
+          "match_pct": 32,
+          "email": "904-514-5716hariprakash.pokala@gmail.comSummary",
+          "phone": "+1 904-514-5716",
+          "document_id": "Hari Prakash Pokala-ac0b6daf36a9",
+          "file_path": "./resumes_store\\Hari Prakash Pokala.ac0b6daf36a9.docx",
+          "evidence": {
+            "snippet": "Hari Prakash PokalaPhone: +1 904-514-5716hariprakash.pokala@gmail.comSummary:Experienced and versatile Software Engineer with over 15 years of expertise in developing cutting-edge web applications using Angular 8.0 & above, Python, Node.js, Java/JEE, and modern technologies. Proven leadership in Agile environments, adept at implementing best practices to deliver high-quality solutions. Skilled in client-side development with HTML, CSS, JavaScript, jQuery, Bootstrap, JSP, Struts, Ajax, Angular, and ReactJS, ensuring interactive and visually appealing user interfaces. Deep knowledge of Java and JavaEE platforms, including servlets, JDBC, Hibernate, Spring MVC, Spring Boot, and NodeJS. Strong in microservices architecture, RESTful APIs development using Spring Boot and Node.js, cloud technolo"
+          }
+        },
+        {
+          "candidate_name": "Tiegang Tong _ DOTNET Developer",
+          "match_pct": 0,
+          "email": "Tong608-216-5402tonytong002@gmail.comPROFESSIONAL",
+          "phone": "608-216-5402",
+          "document_id": "Tiegang Tong _ DOTNET Developer-a6b0a58e6fb4",
+          "file_path": "./resumes_store\\Tiegang Tong _ DOTNET Developer.a6b0a58e6fb4.docx",
+          "evidence": {
+            "snippet": "Tiegang Tong608-216-5402tonytong002@gmail.comPROFESSIONAL SUMMARY:Full-stack developer with 9+ years of experience in designing and developing scalable, high-performance web applications. Proficient in .NET (Forms, MVC 4/5, Core/8), Restful API development, and front-end technologies including React, Kendo UI, AngularJS, and jQuery. Extensive experience in backend development using C#, Python, and SQL, and database technologies including Microsoft SQL Server and Oracle with strong knowledge of T-SQL and PL/SQL. Adept in software design patterns, clean coding practices, and the full SDLC. Skilled in integrating applications with Azure AD and Azure B2C, deploying/debugging web applications, and working with modern DevOps tools like Git, TFS, and Azure DevOps. Seeking backend, full-stack, or "
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "sambar",
+      "ts": "2025-08-22T14:48:47"
+    },
+    {
+      "role": "assistant",
+      "content": "### Top Candidate Recommendations\n\n1. **Srinivas Reddy Battula**  \n   - **Experience:** 10+ years  \n   - **Skills:** Java (8/11/17), Spring Boot, Spring MVC, RESTful APIs  \n   - **Location:** Remote  \n   - **Details:** Currently a Senior Java Developer at American Airlines, developed microservices architecture and designed RESTful APIs.\n\n2. **Hrishikesh Raipet**  \n   - **Experience:** Not specified, but currently a Senior Java Full Stack Developer  \n   - **Skills:** Java (21), Spring Boot, RESTful APIs  \n   - **Location:** Remote  \n   - **Details:** Led a team, developed scalable applications, and optimized backend services with Spring Boot.\n\n3. **Hari Prakash Pokala**  \n   - **Experience:** 15 years  \n   - **Skills:** Java/JEE, Spring MVC, Spring Boot, RESTful APIs, Angular (8.0 & above)  \n   - **Location:** Not specified  \n   - **Details:** Versatile Software Engineer with leadership experience in Agile environments and strong client-side development skills.\n\n4. **Vamshi Nizampatnam**  \n   - **Experience:** 12+ years  \n   - **Skills:** Java (Spring Boot), cloud-native deployments, CI/CD automation  \n   - **Location:** Not specified  \n   - **Details:** Results-driven Senior Java Developer with experience in building scalable enterprise systems across various regulated domains.\n\n5. **Final Resume Candidate**  \n   - **Experience:** Not specified  \n   - **Skills:** Java (not explicitly mentioned), HTML, CSS, JavaScript  \n   - **Location:** Not specified  \n   - **Details:** Focused on web applications but lacks specific Java/Spring experience relevant to the query.\n\n### Summary\nSrinivas Reddy Battula stands out as the top candidate due to his direct match with the required skills and remote work capability. Hrishikesh Raipet and Hari Prakash Pokala also have strong qualifications but may not meet the exact Java version requirements. Vamshi Nizampatnam has extensive experience but lacks specific Java version details. The final candidate is less relevant to the query.",
+      "ts": "2025-08-22T14:48:56",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "e, Miro, Visio, and ALM Octane for managing projects and collaboration.Strong in problem-solving, debugging, and performance optimization, with tools such as VisualVM, JProfiler, and Postman for efficient application testing and debugging.TECHNICAL SKILLS:Education: Bachelors - Anna University, Chennai, Computer Science, 2011Masters - University of North Texas, Computer Science, 2012 Dec PROFESSIONAL EXPERIENCEClient: American Airlines | Senior Java Developer May 2022 – Present Location: Remote. Developed and maintained microservices architecture using Java 8/11/17, Spring Boot, Spring MVC, Spring Batch, and Spring Cloud for airline reservation systems and customer-facing platforms.Designed and implemented RESTful APIs, SOAP APIs, and GraphQL endpoints for seamless data retrieval, supporti"
+          }
+        },
+        {
+          "candidate_name": "Hrishikesh Raipet - Java FullStack Developer",
+          "match_pct": 32,
+          "email": "5963hrishikeshraipet@gmail.comhttps",
+          "phone": "+1 203 572 5963",
+          "document_id": "Hrishikesh Raipet - Java FullStack Developer-15bf1060a0ac",
+          "file_path": "./resumes_store\\Hrishikesh Raipet - Java FullStack Developer.15bf1060a0ac.docx",
+          "evidence": {
+            "snippet": "K EXPERIENCE: Sephora Carmel, IN (Remote) May 2022 TO PRESENT Sr Java Full Stack Developer Responsibilities:Led a team of 6 developers, providing technical guidance and participating across design, development, testing, and support phases.Designed and developed scalable applications using Java 21 and Spring Boot, enhancing system performance and user experience.Developed and maintained complex Java applications, improving operational efficiency and user engagement.Developed backend using Spring Boot, Spring JPA, Spring Data, Spring Security, Spring Actuator, and Swagger.Designed and optimized back-end services with Java and Spring Boot, ensuring high performance and reliability.Developed and maintained PostgreSQL databases, optimizing queries and improving data retrieval efficiency.Develop"
+          }
+        },
+        {
+          "candidate_name": "Hari Prakash Pokala",
+          "match_pct": 12,
+          "email": "904-514-5716hariprakash.pokala@gmail.comSummary",
+          "phone": "+1 904-514-5716",
+          "document_id": "Hari Prakash Pokala-ac0b6daf36a9",
+          "file_path": "./resumes_store\\Hari Prakash Pokala.ac0b6daf36a9.docx",
+          "evidence": {
+            "snippet": "Hari Prakash PokalaPhone: +1 904-514-5716hariprakash.pokala@gmail.comSummary:Experienced and versatile Software Engineer with over 15 years of expertise in developing cutting-edge web applications using Angular 8.0 & above, Python, Node.js, Java/JEE, and modern technologies. Proven leadership in Agile environments, adept at implementing best practices to deliver high-quality solutions. Skilled in client-side development with HTML, CSS, JavaScript, jQuery, Bootstrap, JSP, Struts, Ajax, Angular, and ReactJS, ensuring interactive and visually appealing user interfaces. Deep knowledge of Java and JavaEE platforms, including servlets, JDBC, Hibernate, Spring MVC, Spring Boot, and NodeJS. Strong in microservices architecture, RESTful APIs development using Spring Boot and Node.js, cloud technolo"
+          }
+        },
+        {
+          "candidate_name": "final resume",
+          "match_pct": 7,
+          "email": "divya.dha24@gmail.com",
+          "phone": "+917732000666",
+          "document_id": "final resume-46121dd3f6b7",
+          "file_path": "./resumes_store\\final resume.46121dd3f6b7.pdf",
+          "evidence": {
+            "snippet": "ilingual content management app with dynamic data retrieval using Flask and Python, and an interface using HTML, CSS, and JavaScript. Todo Website | Node.js, HTML, CSS, JavaScript Link • Developed a task management app for WD201 with NodeJS for dynamic handling, and HTML, CSS, and JavaScript for the user interface and interactivity. EEG-based Cognitive Load Classification | Feature Masked Autoencoding, TensorFlow/Keras Link • Developed a neural network with Feature Masked Autoencoding and TensorFlow/Keras to classify cognitive load levels from EEG data with high accuracy. Diabetes Prediction | Streamlit, Numpy, Seaborn, Scikit-learn Link • Built a diabetes prediction app using Streamlit for an interactive interface, with Python for backend processing. Utilized NumPy for data manipulation a"
+          }
+        },
+        {
+          "candidate_name": "Vamshi Nizampatnam - Senior Java Developer",
+          "match_pct": 0,
+          "email": "414-1292reach.vamshi1242@gmail.comSummary",
+          "phone": "+13184141292",
+          "document_id": "Vamshi Nizampatnam - Senior Java Developer-8226d28d4edc",
+          "file_path": "./resumes_store\\Vamshi Nizampatnam - Senior Java Developer.8226d28d4edc.docx",
+          "evidence": {
+            "snippet": "Vamshi Nizampatnam+1 (318) 414-1292reach.vamshi1242@gmail.comSummary:Results-driven Senior Java Developer with 12+ years of experience designing and delivering high-performance, scalable enterprise systems across regulated domains including healthcare, finance, and e-commerce.Specialized in building distributed, service-oriented architectures using Java (Spring Boot), with strong proficiency in risk analytics, cloud-native deployments, and CI/CD automation.Proven ability to lead Agile and Scrum teams, optimize system performance, and collaborate cross-functionally to meet complex business and regulatory requirements such as CCAR and stress testing.Experienced in developing and testing ADA-compliant user interfaces, ensuring applications meet WCAG standards and accessibility guidelines acro"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "from above resumes I want whose location is Hydrabad ",
+      "ts": "2025-08-22T14:49:39"
+    },
+    {
+      "role": "assistant",
+      "content": "### Top Candidate Recommendations\n\n1. **Hari Prakash Pokala** - **Match 100%**\n   - **Experience**: 15+ years in software engineering.\n   - **Skills**: Proficient in Java/JEE, Spring Boot, RESTful APIs, and Angular 8.0 & above.\n   - **Location**: Hyderabad.\n   - **Highlights**: Strong leadership in Agile environments, microservices architecture, and client-side development.\n\n2. **SRINIVAS REDDY BATTULA** - **Match 52%**\n   - **Experience**: Senior Java Developer since May 2022.\n   - **Skills**: Java 8/11/17, Spring Boot, RESTful APIs, microservices architecture.\n   - **Location**: Remote (not specified as Hyderabad).\n   - **Highlights**: Developed APIs for airline reservation systems, strong problem-solving skills.\n\n3. **Hrishikesh Raipet** - **Match 0%**\n   - **Experience**: 14+ years in Java development.\n   - **Skills**: Java/J2EE, Angular (12), and various backend frameworks.\n   - **Location**: Carmel, IN (not Hyderabad).\n   - **Highlights**: Extensive experience in Agile methodologies and full software development lifecycle.\n\n4. **Jarnail Singh Powerbuilder** - **Match 55%**\n   - **Experience**: X+ years in PowerBuilder development (exact years not specified).\n   - **Skills**: PowerBuilder, SQL, and enterprise application design.\n   - **Location**: Jersey City, NJ (not Hyderabad).\n   - **Highlights**: Strong analytical skills and experience in legacy system modernization.\n\n5. **Venkata Ramanaiah Papudippu** - **Match 49%**\n   - **Experience**: Not specified.\n   - **Skills**: Python, RESTful APIs, data visualization (Tableau, Grafana).\n   - **Location**: Not specified (not Hyderabad).\n   - **Highlights**: Developed FastAPI applications and collaborated with frontend teams.\n\n### Summary\n**Top Recommendation**: Hari Prakash Pokala is the best fit due to his extensive experience and direct match with the required skills and location. SRINIVAS REDDY BATTULA also shows strong qualifications but is remote. Other candidates either lack the required location or specific Java-related skills.",
+      "ts": "2025-08-22T14:49:50",
+      "results": [
+        {
+          "candidate_name": "Hari Prakash Pokala",
+          "match_pct": 100,
+          "email": "904-514-5716hariprakash.pokala@gmail.comSummary",
+          "phone": "+1 904-514-5716",
+          "document_id": "Hari Prakash Pokala-ac0b6daf36a9",
+          "file_path": "./resumes_store\\Hari Prakash Pokala.ac0b6daf36a9.docx",
+          "evidence": {
+            "snippet": "Hari Prakash PokalaPhone: +1 904-514-5716hariprakash.pokala@gmail.comSummary:Experienced and versatile Software Engineer with over 15 years of expertise in developing cutting-edge web applications using Angular 8.0 & above, Python, Node.js, Java/JEE, and modern technologies. Proven leadership in Agile environments, adept at implementing best practices to deliver high-quality solutions. Skilled in client-side development with HTML, CSS, JavaScript, jQuery, Bootstrap, JSP, Struts, Ajax, Angular, and ReactJS, ensuring interactive and visually appealing user interfaces. Deep knowledge of Java and JavaEE platforms, including servlets, JDBC, Hibernate, Spring MVC, Spring Boot, and NodeJS. Strong in microservices architecture, RESTful APIs development using Spring Boot and Node.js, cloud technolo"
+          }
+        },
+        {
+          "candidate_name": "Jarnail Singh Powerbuilder",
+          "match_pct": 55,
+          "email": "jarnailssingh3620063@gmail.comSummaryExpertise",
+          "phone": "+3044692098189",
+          "document_id": "Jarnail Singh Powerbuilder-66c6a35a7507",
+          "file_path": "./resumes_store\\Jarnail Singh Powerbuilder.66c6a35a7507.docx",
+          "evidence": {
+            "snippet": "Jarnail Singh Jersey City, NJ 07304(469) 209-8189 jarnailssingh3620063@gmail.comSummaryExpertise in the development of PowerBuilder Client/Server, Web, and Mobile multiplatform applications, such as Android and iOS. Have in-depth knowledge of development life-cycle, strong analytical ability, and experience in data modeling. Have wide experience with Sybase (ASE and ASA), Oracle, and Microsoft SQL Server databases. Results-driven PowerBuilder Developer & Technical Lead with X+ years of experience designing, developing, and optimizing enterprise applications using PowerBuilder, SQL, and Sybase. Proven expertise in legacy system modernization, team leadership, and full SDLC management. Adept at troubleshooting complex issues, mentoring junior developers, and aligning technical solutions with"
+          }
+        },
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 52,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "e, Miro, Visio, and ALM Octane for managing projects and collaboration.Strong in problem-solving, debugging, and performance optimization, with tools such as VisualVM, JProfiler, and Postman for efficient application testing and debugging.TECHNICAL SKILLS:Education: Bachelors - Anna University, Chennai, Computer Science, 2011Masters - University of North Texas, Computer Science, 2012 Dec PROFESSIONAL EXPERIENCEClient: American Airlines | Senior Java Developer May 2022 – Present Location: Remote. Developed and maintained microservices architecture using Java 8/11/17, Spring Boot, Spring MVC, Spring Batch, and Spring Cloud for airline reservation systems and customer-facing platforms.Designed and implemented RESTful APIs, SOAP APIs, and GraphQL endpoints for seamless data retrieval, supporti"
+          }
+        },
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 49,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": " and load large volumes of data, optimizing data flow and storage in Oracle databases for more efficient querying and reporting.Collaborated with frontend teams using React.js to design RESTful APIs and optimize data flow.Created data visualizations and interactive dashboards using Tableau and Grafana, empowering non-technical stakeholders with real-time insights into key business metrics and improving decision-making processes.Implemented advanced Python libraries such as Pandas, NumPy, and SciPy for data analysis and statistical modeling, ensuring the integrity and accuracy of insights used in business-critical applications.Schlumberger, TX Jul 2011 – Apr 2015Python Developer Developed high-performance FastAPI applications using Python, creating scalable RESTful APIs that supported micro"
+          }
+        },
+        {
+          "candidate_name": "Hrishikesh Raipet - Java FullStack Developer",
+          "match_pct": 0,
+          "email": "5963hrishikeshraipet@gmail.comhttps",
+          "phone": "+1 203 572 5963",
+          "document_id": "Hrishikesh Raipet - Java FullStack Developer-15bf1060a0ac",
+          "file_path": "./resumes_store\\Hrishikesh Raipet - Java FullStack Developer.15bf1060a0ac.docx",
+          "evidence": {
+            "snippet": "Hrishikesh RaipetCarmel, IN, 46074 Public Trust Clearance +1 203 572 5963hrishikeshraipet@gmail.comhttps://www.linkedin.com/in/hrishikesh-raipet-75021024a/SR. Java Full Stack DeveloperSUMMARY: Over 14+ years of JAVA development experience working with the modern Front end and the Backend frameworks.Extensive experience of agile methodologies: Extreme Programming, Scrum and Waterfall Software Development Life Cycle (SDLC) including requirement analysis, design and technical specification, code development, code integration, testing and deployment of Object-Oriented Analysis and Design using Java/J2EE on Windows Unix and Linux platforms. Experience in working with Angular JS, Angular 12, AWS, jQuery, MySQL, Node.js, PostgreSQL.Experience in developing applications using React with Redux arch"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "python full stack candidates with django skills ",
+      "ts": "2025-08-22T14:56:19"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Venkata Ramanaiah Papudippu**  \n- **Summary:** Excellent fit for the Python full stack developer role with extensive experience and relevant skills.  \n- **Strengths:**  \n  - Over 13 years of experience as a Senior Python Full Stack Developer.  \n  - Expertise in Django and other Python frameworks like Flask and FastAPI.  \n  - Strong focus on building REST APIs and implementing microservices architecture.  \n  - Proven ability to develop scalable web applications and enterprise solutions.  \n- **Areas to improve:** Not evidenced in snippet.\n\n---\n\n**2. Tiegang Tong**  \n- **Summary:** Limited fit; primarily a .NET developer with some Python exposure.  \n- **Strengths:**  \n  - Developed internal Python-based analytics tools.  \n  - Utilized GIT and TFS for version control and collaboration.  \n  - Experience in designing and implementing RESTful Web Services.  \n- **Areas to improve:**  \n  - No evidence of Django skills.  \n  - Less than 5 years of experience in Python development.  \n  - Primarily focused on .NET technologies, not full stack development.\n\n---\n\n**3. Nagendra Babu Dadi**  \n- **Summary:** Minimal fit; experience in Python but lacks full stack development and Django expertise.  \n- **Strengths:**  \n  - Experience using Python for data analysis and automation.  \n  - Developed automated data pipelines and worked with Python libraries like NumPy and Pandas.  \n  - Familiarity with SQL Server and AWS for data warehousing.  \n- **Areas to improve:**  \n  - No evidence of full stack development experience.  \n  - No mention of Django skills.  \n  - Less than 5 years of experience in relevant roles.\n\n---\n\n**4. Diane Reiter**  \n- **Summary:** Poor fit; lacks relevant technical experience as a Python full stack developer.  \n- **Strengths:** Not evidenced in snippet.  \n- **Areas to improve:**  \n  - No experience in Python or Django.  \n  - No relevant technical skills or years of experience in software development.  \n  - Focused on cybersecurity and unrelated activities.\n\n---\n\n**5. Swapna Chinnapapakkagari**  \n- **Summary:** Not a fit; primarily a QA Systems Analyst with no relevant development experience.  \n- **Strengths:** Not evidenced in snippet.  \n- **Areas to improve:**  \n  - No experience in Python or full stack development.  \n  - No mention of Django skills.  \n  - Focused on QA processes rather than software development.",
+      "ts": "2025-08-22T14:56:34",
+      "results": [
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 100,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": "Venkata Ramanaiah Papudippu8479 Kara Creek Rd, Frisco, TX, 75036US CitizenPhone: (972) 379-8117Email: venkatpapudippu284@gmail.comlinkedin.com/in/venkat-papudippu-3846989PROFESSIONAL SUMMARY:Over 13+ years of experience as a Senior Python Full Stack Developer, specializing in designing, developing, and deploying scalable web applications and enterprise solutions.Expertise in Python frameworks, including Django, Flask, and FastAPI, with a strong focus on building REST APIs and implementing microservices architecture.Built and deployed machine learning models for predictive analytics, improving product recommendations and increasing customer retention by 15%.Developed and optimized NLP pipelines for text classification, achieving a 10% increase in accuracy and reducing processing time by 20%"
+          }
+        },
+        {
+          "candidate_name": "Tiegang Tong _ DOTNET Developer",
+          "match_pct": 25,
+          "email": "Tong608-216-5402tonytong002@gmail.comPROFESSIONAL",
+          "phone": "608-216-5402",
+          "document_id": "Tiegang Tong _ DOTNET Developer-a6b0a58e6fb4",
+          "file_path": "./resumes_store\\Tiegang Tong _ DOTNET Developer.a6b0a58e6fb4.docx",
+          "evidence": {
+            "snippet": " deployments, using debugging tools and browser dev tools to troubleshoot and resolve production issues efficiently.Utilized GIT and TFS (Team Foundation Server) for version control, collaboration, and release management across development lifecycles.Implemented authentication and authorization mechanisms, with exposure to Azure AD and Azure B2C integrations for secure access management.Developed internal Python-based analytics tools to process and visualize faculty research data, providing actionable insights.Application Developer, Madison, WI August 2016 - February 2017Heck of An Idea Developed an online reservation system using C#, ASP.NET MVC 4, and JavaScript, improving booking efficiency by 30%.Designed and implemented RESTful Web Services to support mobile and web-based applications"
+          }
+        },
+        {
+          "candidate_name": "Nagendra Babu Dadi",
+          "match_pct": 16,
+          "email": "nagendrababud8622@gmail.com",
+          "phone": "404-468-8092",
+          "document_id": "Nagendra Babu Dadi-b416bd44a0fd",
+          "file_path": "./resumes_store\\Nagendra Babu Dadi.b416bd44a0fd.docx",
+          "evidence": {
+            "snippet": "ation using Python and continuously analyze and test new data sources. Also, perform research analysis on bidding strategies.Developed automated data pipelines from various external data sources (web pages, API etc.) to internal data warehouse (SQL Server, AWS), then export to reporting tools like Tableau.Carried out various mathematical operations for calculation purpose using Python libraries NumPy, Statsmodels, Pandas.Worked on Informatica, SSIS package, DTS import/export for transferring data from database by writing PL/SQL queries (Oracle and Text format data) to SQL server. Recorded the online users' data using Typescipt and Python Django forms and implemented test case using Pytest.Configured various big data workflows to run on top of Hadoop and these workflows comprise of heteroge"
+          }
+        },
+        {
+          "candidate_name": "Diane Reiter_ TW_July_2025",
+          "match_pct": 7,
+          "email": "856-3376diareit2@aol.com",
+          "phone": "2018-2019",
+          "document_id": "Diane Reiter_ TW_July_2025-f9e0d16b66d2",
+          "file_path": "./resumes_store\\Diane Reiter_ TW_July_2025.f9e0d16b66d2.docx",
+          "evidence": {
+            "snippet": " |Tutorials in Documenting APIs Python class 9/22 | International Information System Security Certification Consortium (ISC2)candidate for Cybersecurity certificationOther:Board Member for Condo Association with The Property Group, Stamford, CTMember of Encore Social Club, New Canaan, CT and EATs, active member of Pilates Studio and YMCA"
+          }
+        },
+        {
+          "candidate_name": "Swapna Chinnapapakkagari - QA Systems Analyst 3",
+          "match_pct": 0,
+          "email": "20152972-510-9321swapnareddy0508@gmail.comSUMMARY",
+          "phone": "20152972-510-9321",
+          "document_id": "Swapna Chinnapapakkagari - QA Systems Analyst 3-50934231c550",
+          "file_path": "./resumes_store\\Swapna Chinnapapakkagari - QA Systems Analyst 3.50934231c550.docx",
+          "evidence": {
+            "snippet": "e, Work First Services, Presumptive Medicaid, NC Health Choice, Cash Force Eligibility, Medical Force Eligibility, and Medical Transportation, validating data integrity and functional workflows.Experience in designing and developing test strategies, Test Plans, Test Cases, and generating test reports, defect reports, and overall product quality assurance documentation.Experience with resource planning, scope assessment, testing frameworks, communication plans, reporting metrics, defect tracking, and stakeholder collaboration.Familiar with CMM, ISO 9000, RUP, IEEE, and Extreme Programming methodologies, ensuring standardized QA processes and quality metrics are met.Highly dedicated, quick starter with problem-solving skills under strict deadlines; a strong team player with excellent communi"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "FastAPI skills with 5 years and more experience ",
+      "ts": "2025-08-22T15:27:49"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Venu Gopal Kakarla - Senior Power Platform Developer**  \n- **Summary:** Venu Gopal Kakarla is not a fit for the query as he lacks FastAPI skills and relevant experience, focusing instead on Power Platform development.\n- **Strengths:**\n  - Strong database skills with SQL Server.\n  - Holds certifications in Power Platform, SharePoint Server, and Microsoft 365 Fundamentals.\n  - Experience in designing and developing complex Canvas Apps.\n  - Recognized for effective collaboration with stakeholders.\n  - Proven ability to drive cloud migration strategies.\n- **Areas to improve:**\n  - No experience with FastAPI.\n  - Less than 5 years of relevant experience in software development.\n  - Not evidenced in snippet for senior developer role.\n  - Not evidenced in snippet for location flexibility.\n\n**2. Vipin Gautam - Project Manager**  \n- **Summary:** Vipin Gautam is not a fit for the query as he does not demonstrate FastAPI skills or relevant software development experience.\n- **Strengths:**\n  - Over 25 years of experience in project management.\n  - 15+ years in leading projects using Agile and Waterfall methodologies.\n  - Proficient in various technologies including Java and Oracle.\n  - Holds a Certified Scrum Master (CSM) certification.\n  - Experienced with Azure DevOps and other project management tools.\n- **Areas to improve:**\n  - No experience with FastAPI.\n  - Not evidenced in snippet for 5+ years of software development experience.\n  - Not evidenced in snippet for senior developer role.\n  - Not evidenced in snippet for location flexibility.\n\n**3. Vamshi Nizampatnam - Senior Java Developer**  \n- **Summary:** Vamshi Nizampatnam is not a fit for the query as he lacks FastAPI skills and does not meet the specified experience requirements.\n- **Strengths:**\n  - 12+ years of experience in software development.\n  - Specialized in building distributed, service-oriented architectures using Java (Spring Boot).\n  - Strong proficiency in cloud-native deployments and CI/CD automation.\n  - Proven ability to lead Agile and Scrum teams.\n  - Experience in regulated domains including healthcare and finance.\n- **Areas to improve:**\n  - No experience with FastAPI.\n  - Not evidenced in snippet for senior developer role.\n  - Not evidenced in snippet for location flexibility.\n  - Not evidenced in snippet for specific FastAPI-related projects.\n\n**4. Sreenivasa Rao Madagiri (002)**  \n- **Summary:** Sreenivasa Rao Madagiri is not a fit for the query as he does not possess FastAPI skills or relevant senior development experience.\n- **Strengths:**\n  - Holds a Bachelor of Engineering in Electronics & Communication.\n  - Microsoft Certified Technology Specialist (MCTS) in SharePoint and BizTalk Server.\n  - Experience in modernizing legacy applications.\n  - Proficient in C# and UWP Framework.\n- **Areas to improve:**\n  - No experience with FastAPI.\n  - Not evidenced in snippet for 5+ years of software development experience.\n  - Not evidenced in snippet for senior developer role.\n  - Not evidenced in snippet for location flexibility.\n\n**5. Kalyan Chakravarthy Atukuri - PM**  \n- **Summary:** Kalyan Chakravarthy Atukuri is not a fit for the query as he lacks FastAPI skills and relevant software development experience.\n- **Strengths:**\n  - Skilled in project management and vendor management.\n  - Proficient in risk identification and mitigation.\n  - Experienced in stakeholder coordination and cross-functional team collaboration.\n  - Familiar with Azure DevOps and SAP CRM.\n- **Areas to improve:**\n  - No experience with FastAPI.\n  - Not evidenced in snippet for 5+ years of software development experience.\n  - Not evidenced in snippet for senior developer role.\n  - Not evidenced in snippet for location flexibility.",
+      "ts": "2025-08-22T15:28:07",
+      "results": [
+        {
+          "candidate_name": "Venu Gopal Kakarla - Senior Power Platform Developer",
+          "match_pct": 100,
+          "email": "612-267-2101venugopal.kakarla@gmail.comProject",
+          "phone": "+16122672101",
+          "document_id": "Venu Gopal Kakarla - Senior Power Platform Developer-899657e072ea",
+          "file_path": "./resumes_store\\Venu Gopal Kakarla - Senior Power Platform Developer.899657e072ea.docx",
+          "evidence": {
+            "snippet": "lutions. Strong database skills with SQL Server and performance tuning.Holds certifications in Power Platform (Maker & Fundamentals), SharePoint Server, Microsoft 365 Fundamentals, and ITIL.Recognized for effective collaboration with stakeholders, driving cloud migration strategies, and leading cross-functional teams to deliver projects on time with high quality.SKILLS:PROFESSIONAL EXPERIENCE:Texas Health and Human Services (HHSC) - Austin, TX May 2025 - Till DatePower Platform DeveloperResponsibilities:Designed and developed Canvas Power Apps, optimizing business processes and enhancing user experiences, ensuring efficient use of Power Apps and Canvas Apps design patterns.Designed and developed complex Canvas Apps in Power Apps to digitize business processes, implementing custom logic usi"
+          }
+        },
+        {
+          "candidate_name": "Vipin_Gautam - Project Manager",
+          "match_pct": 8,
+          "email": "CSM847-702-4540vipingautam@yahoo.comOver",
+          "phone": "847-702-4540",
+          "document_id": "Vipin_Gautam - Project Manager-da53232f77d3",
+          "file_path": "./resumes_store\\Vipin_Gautam - Project Manager.da53232f77d3.docx",
+          "evidence": {
+            "snippet": "Vipin GautamPMP, P2P, CSM847-702-4540vipingautam@yahoo.comOver 25 years of experience including over 15 years in leading projects & programs using Agile & Waterfall methodologiesFrameworks & MethodologiesAgile/ScrumSoftware Development Life Cycle (SDLC)/WaterfallRBPM - Risk Based Project Management Program & Portfolio ManagementTechnology SummaryMicrosoft Project, Visio, Planview PPM, Hadoop, Apache Spark, Spark Streaming AWSNoSQL, Java, Oracle, Linux, Sybase, Mainframe Clarity, Jira, Jira Align, Azure DevOps (ADO), VersionOne Microsoft Office Suite, Web Technology SuiteHP PPM, QC, ALM, RPA, Tableau,Maven, Jenkins, Kubernetes, Docker, Datadog Education MBA—International BusinessBachelor of TechnologyJapanese Language skills (JLPT Level 3 certified)CertificationsCertified Scrum Master (CSM)"
+          }
+        },
+        {
+          "candidate_name": "Vamshi Nizampatnam - Senior Java Developer",
+          "match_pct": 5,
+          "email": "414-1292reach.vamshi1242@gmail.comSummary",
+          "phone": "+13184141292",
+          "document_id": "Vamshi Nizampatnam - Senior Java Developer-8226d28d4edc",
+          "file_path": "./resumes_store\\Vamshi Nizampatnam - Senior Java Developer.8226d28d4edc.docx",
+          "evidence": {
+            "snippet": "Vamshi Nizampatnam+1 (318) 414-1292reach.vamshi1242@gmail.comSummary:Results-driven Senior Java Developer with 12+ years of experience designing and delivering high-performance, scalable enterprise systems across regulated domains including healthcare, finance, and e-commerce.Specialized in building distributed, service-oriented architectures using Java (Spring Boot), with strong proficiency in risk analytics, cloud-native deployments, and CI/CD automation.Proven ability to lead Agile and Scrum teams, optimize system performance, and collaborate cross-functionally to meet complex business and regulatory requirements such as CCAR and stress testing.Experienced in developing and testing ADA-compliant user interfaces, ensuring applications meet WCAG standards and accessibility guidelines acro"
+          }
+        },
+        {
+          "candidate_name": "Sreenivasa Rao Madagiri (002)",
+          "match_pct": 1,
+          "email": "Madagiri908.249.2074sreenivas.madagiri@gmail.comPROFESSIONAL",
+          "phone": "908-249-2074",
+          "document_id": "Sreenivasa Rao Madagiri (002)-d1f84f7353ff",
+          "file_path": "./resumes_store\\Sreenivasa Rao Madagiri (002).d1f84f7353ff.docx",
+          "evidence": {
+            "snippet": "ck once Education, Training and Certifications:Bachelor of Engineering (Electronics & Communication). Gulbarga University. Address: Jnana Ganga, Gulbarga, Karnataka 585106, India.Microsoft Certified Technology Specialist (MCTS): SharePoint 2010 App Development. 08/2011 Microsoft Certified Technology Specialist (MCTS): BizTalk Server 2006. 07/2007.Future Plan in Education: Graduation (Masters) in Cyber Security or Data Architect/Analyst from GMU Fairfax.PROFESSIONAL EXPERIENCE: Role: Senior Dotnet DeveloperClient: Department of Labor.Division: MSHA.Responsibilities:Modernization of all legacy applications.Upgraded and Migrated 52 legacy projects to latest 2019 Version using Windows 10 OS. Application for Surface tablets using UWP Framework by using C # composite score charts for end users.I"
+          }
+        },
+        {
+          "candidate_name": "Kalyan Chakravarthy Atukuri - PM",
+          "match_pct": 0,
+          "email": null,
+          "phone": "+17032322068",
+          "document_id": "Kalyan Chakravarthy Atukuri - PM-0f9562a093ac",
+          "file_path": "./resumes_store\\Kalyan Chakravarthy Atukuri - PM.0f9562a093ac.docx",
+          "evidence": {
+            "snippet": "iciency, cost-effectiveness, quality, and productivity across all initiatives.Skilled in identifying opportunities for technology modernization and process improvement.Proficient in Risk identification and mitigation, Stakeholder coordination, Cross-functional team collaboration, Program assurance, and Advisory tasks.SKILLS:Project ManagementVendor ManagementChange ManagementSAP CRMSAP SDSolution ManagerMSOffice SuiteJIRAVersionOneConfluencePlanview ToolAzure FundamentalsSalesforce-Service CloudAzure DevOpsPROFESSIONAL EXPERIENCE:Project: (USDA)/ Department of Labor February 2024 – PresentEmployer: ILabs Role: Director/Program ManagerResponsibilities/Deliverables:Manage USDA – APHIS (Animal and Plant Health Inspection Service) contracts / Task Orders that over $6 MM, ensuring portfolio man"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "I want an PeopleSoft candidate ",
+      "ts": "2025-08-24T01:13:50"
+    },
+    {
+      "role": "assistant",
+      "content": "(Retrieval error) HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=45.0)",
+      "ts": "2025-08-24T01:14:39"
+    },
+    {
+      "role": "user",
+      "content": "I want an PeopleSoft candidate",
+      "ts": "2025-08-24T01:17:49"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Venkata Ramanaiah Papudippu - Python Developer**  \n- **Summary:** Overall, Venkata Ramanaiah Papudippu does not fit the query for a PeopleSoft developer as he specializes in Python development with no mention of PeopleSoft experience.  \n- **Strengths:**  \n  - Extensive experience in data optimization and storage in Oracle databases.  \n  - Developed high-performance applications using FastAPI and Python.  \n  - Collaborated with frontend teams using React.js.  \n  - Created data visualizations with Tableau and Grafana.  \n  - Experience in statistical modeling with Python libraries like Pandas and NumPy.  \n- **Areas to improve:**  \n  - No experience with PeopleSoft.  \n  - Does not meet the 5+ years of PeopleSoft-specific experience requirement.  \n  - Not evidenced in snippet for seniority level.  \n  - Location flexibility not mentioned.  \n\n---\n\n**2. SRINIVAS REDDY BATTULA**  \n- **Summary:** SRINIVAS REDDY BATTULA has relevant experience in software development but lacks specific PeopleSoft expertise and does not clearly meet the seniority level or location flexibility requirements.  \n- **Strengths:**  \n  - Experience with secure authentication and authorization mechanisms (Spring Security, OAuth 2.0).  \n  - Developed containerized applications using Docker and managed Kubernetes clusters.  \n  - Configured CI/CD pipelines using Jenkins and GitLab CI.  \n  - Integrated front-end with microservices using RESTful APIs.  \n  - Experience in event-driven workflows using Kafka and RabbitMQ.  \n- **Areas to improve:**  \n  - No experience with PeopleSoft.  \n  - Does not meet the 5+ years of PeopleSoft-specific experience requirement.  \n  - Seniority level not evidenced in snippet.  \n  - Location flexibility not mentioned.  \n\n---\n\n**3. final resume**  \n- **Summary:** The candidate has a background in data science and development but lacks any relevant experience with PeopleSoft and does not meet the seniority or location flexibility requirements.  \n- **Strengths:**  \n  - Proficient in Python and various libraries (NumPy, Scikit-learn, TensorFlow).  \n  - Familiar with Google Cloud Platform and AWS.  \n  - Holds multiple certifications related to cloud and programming.  \n  - Experience in problem-solving and algorithms.  \n- **Areas to improve:**  \n  - No experience with PeopleSoft.  \n  - Does not meet the 5+ years of PeopleSoft-specific experience requirement.  \n  - Seniority level not evidenced in snippet.  \n  - Location flexibility not mentioned.  \n\n---\n\n**4. Swapna Chinnapapakkagari - QA Systems Analyst 3**  \n- **Summary:** Swapna Chinnapapakkagari has extensive QA experience but does not have any relevant PeopleSoft development experience or meet the seniority level required for the position.  \n- **Strengths:**  \n  - Experience in designing and developing test strategies and test plans.  \n  - Familiar with various methodologies (CMM, ISO 9000, RUP).  \n  - Strong problem-solving skills under strict deadlines.  \n  - Excellent communication and collaboration skills.  \n- **Areas to improve:**  \n  - No experience with PeopleSoft.  \n  - Does not meet the 5+ years of PeopleSoft-specific experience requirement.  \n  - Seniority level not evidenced in snippet.  \n  - Location flexibility not mentioned.  \n\n---\n\n**5. Sunil Kandukuri**  \n- **Summary:** Sunil Kandukuri does not meet the requirements for a PeopleSoft developer as the snippet indicates a focus on testing and support rather than development.  \n- **Strengths:**  \n  - Experience in maintaining code and documentation throughout project phases.  \n  - Coordinated with DBA teams for production deployment.  \n  - Involved in user acceptance testing (UAT) phases.  \n- **Areas to improve:**  \n  - No experience with PeopleSoft.  \n  - Does not meet the 5+ years of PeopleSoft-specific experience requirement.  \n  - Seniority level not evidenced in snippet.  \n  - Location flexibility not mentioned.  ",
+      "ts": "2025-08-24T01:18:20",
+      "results": [
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 100,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": " and load large volumes of data, optimizing data flow and storage in Oracle databases for more efficient querying and reporting.Collaborated with frontend teams using React.js to design RESTful APIs and optimize data flow.Created data visualizations and interactive dashboards using Tableau and Grafana, empowering non-technical stakeholders with real-time insights into key business metrics and improving decision-making processes.Implemented advanced Python libraries such as Pandas, NumPy, and SciPy for data analysis and statistical modeling, ensuring the integrity and accuracy of insights used in business-critical applications.Schlumberger, TX Jul 2011 – Apr 2015Python Developer Developed high-performance FastAPI applications using Python, creating scalable RESTful APIs that supported micro"
+          }
+        },
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 85,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "final resume",
+          "match_pct": 49,
+          "email": "divya.dha24@gmail.com",
+          "phone": "+917732000666",
+          "document_id": "final resume-46121dd3f6b7",
+          "file_path": "./resumes_store\\final resume.46121dd3f6b7.pdf",
+          "evidence": {
+            "snippet": "as, NumPy, Scikit-learn, Matplotlib, Seaborn, TensorFlow, Keras, NLTK Developer Tools: Google Cloud Platform, AWS, VS Code, IntelliJ Languages and Others: English, Hindi, Telugu, Problem Solving, AptitudeCertifications • Wiki Women Hackathon • Google Cloud Badges • AWS Educate Cloud Introduction Badge • Pupilfirst of Certification Web Development 101 • Programming, Data Structures And Algorithms Using Python • Introduction to Machine Learning"
+          }
+        },
+        {
+          "candidate_name": "Swapna Chinnapapakkagari - QA Systems Analyst 3",
+          "match_pct": 8,
+          "email": "20152972-510-9321swapnareddy0508@gmail.comSUMMARY",
+          "phone": "20152972-510-9321",
+          "document_id": "Swapna Chinnapapakkagari - QA Systems Analyst 3-50934231c550",
+          "file_path": "./resumes_store\\Swapna Chinnapapakkagari - QA Systems Analyst 3.50934231c550.docx",
+          "evidence": {
+            "snippet": "e, Work First Services, Presumptive Medicaid, NC Health Choice, Cash Force Eligibility, Medical Force Eligibility, and Medical Transportation, validating data integrity and functional workflows.Experience in designing and developing test strategies, Test Plans, Test Cases, and generating test reports, defect reports, and overall product quality assurance documentation.Experience with resource planning, scope assessment, testing frameworks, communication plans, reporting metrics, defect tracking, and stakeholder collaboration.Familiar with CMM, ISO 9000, RUP, IEEE, and Extreme Programming methodologies, ensuring standardized QA processes and quality metrics are met.Highly dedicated, quick starter with problem-solving skills under strict deadlines; a strong team player with excellent communi"
+          }
+        },
+        {
+          "candidate_name": "SunilKandukuri_Resume",
+          "match_pct": 0,
+          "email": null,
+          "phone": "732-910-4620",
+          "document_id": "SunilKandukuri_Resume-20ae69a79914",
+          "file_path": "./resumes_store\\SunilKandukuri_Resume.20ae69a79914.docx",
+          "evidence": {
+            "snippet": "m and logging the test results in HPQC, closing the defect logged.Maintained code in version control tool VSTFS.Created required documentation from Design phase to till project warranty support like LDR, PDD, ETL Specification, OLAP Specification, Test cases doc, Deployment doc, KT plan, Support handshake guide etc., Supporting the Third Party and Business Users for SIT, PRE-UAT and UAT respectively Interacting with Latin Center business in UAT phase and resolving issues.Providing the estimates for CRs.Coordinating with DBA team in cutover and production deployment of this application Coordinating with support team and responsible for providing KT and supporting team in reverse shadowing.Project-5: System Alignment Diagnostics platform migration The objective of this project is to migratio"
+          }
+        }
+      ]
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.7,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

@@ -1,0 +1,5 @@
+Name: Test User 3
+Email: user3@example.com
+Phone: +1-555-1003
+Summary: hive golang postgres observability store logging microservice design automation bigquery logging monitoring feature event design rust presto bigquery airflow hive logging python analytics hive docker terraform golang metrics microservice bigquery monitoring golang docker observability event ci/cd streaming microservice kafka pubsub kafka scalable tracing bigquery java presto kafka bigquery observability pipeline analytics cloud pubsub kafka kafka spark privacy event docker rust
+Key Skills: kafka scalable privacy kubernetes rust feature ci/cd reliability python rust cloud privacy compliance pubsub terraform java design microservice pipeline pubsub postgres monitoring cloud design java api pipeline data pubsub hive

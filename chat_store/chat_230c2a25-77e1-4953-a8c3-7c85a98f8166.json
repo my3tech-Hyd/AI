@@ -1,0 +1,21 @@
+{
+  "id": "230c2a25-77e1-4953-a8c3-7c85a98f8166",
+  "title": "New chat",
+  "created_at": "2025-09-10T23:57:30",
+  "updated_at": "2025-09-10T23:57:30",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).Don't ask irrelevent questions",
+      "ts": "2025-09-10T23:57:30"
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.55,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

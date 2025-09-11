@@ -1,0 +1,130 @@
+{
+  "id": "12833ff4-d06c-41fa-b88d-397782da83aa",
+  "title": "I want Candidate java full stack Experience",
+  "created_at": "2025-08-17T19:28:17",
+  "updated_at": "2025-08-20T16:33:23",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).",
+      "ts": "2025-08-17T19:28:17"
+    },
+    {
+      "role": "user",
+      "content": "I want a Candidate with the java full stack and Experience of 8 years",
+      "ts": "2025-08-17T19:29:01"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the provided evidence, here are brief recommendations for the top 5 candidates:\n\n1. **Vamshi Nizampatnam**: With 12+ years of experience in Java development and a strong background in risk analytics, cloud-native deployments, and CI/CD automation, Vamshi is an ideal candidate for a full-stack Java role.\n\n2. **Imrana Azmat**: Although primarily a QA Analyst, Imrana's 14+ years of software testing experience, proficiency in Core Java, and knowledge of automation tools like Selenium WebDriver make her a strong contender for a full-stack Java position.\n\n3. **Vipin Gautam**: As a Project Manager with expertise in Agile methodologies, Vipin's 25+ years of experience and familiarity with Java, Oracle, and Linux make him an excellent candidate for a leadership role that requires technical guidance.\n\n4. **Srinivas Gopinath**: With over 15 years of experience in Solutions Architecture and Technical Solutions Implementations, Srinivas is well-suited for a full-stack Java role, particularly in areas like RPA Cloud Platform Implementations and MS Azure Cloud.\n\n5. **Jayesh Vashu Kalro**: As an experienced management consultant with expertise in Identity and Access Management (IAM) solutions, Jayesh's 15+ years of experience make him an ideal candidate for a full-stack Java role that requires strategic guidance and technical expertise.\n\nPlease note that these recommendations are based solely on the provided evidence and may not be comprehensive or definitive.",
+      "ts": "2025-08-17T19:30:26",
+      "results": [
+        {
+          "candidate_name": "Vamshi Nizampatnam - Senior Java Developer",
+          "match_pct": 51,
+          "email": "414-1292reach.vamshi1242@gmail.comSummary",
+          "phone": "+13184141292",
+          "document_id": "Vamshi Nizampatnam - Senior Java Developer-8226d28d4edc",
+          "file_path": "./resumes_store\\Vamshi Nizampatnam - Senior Java Developer.8226d28d4edc.docx",
+          "evidence": {
+            "snippet": "Vamshi Nizampatnam+1 (318) 414-1292reach.vamshi1242@gmail.comSummary:Results-driven Senior Java Developer with 12+ years of experience designing and delivering high-performance, scalable enterprise systems across regulated domains including healthcare, finance, and e-commerce.Specialized in building distributed, service-oriented architectures using Java (Spring Boot), with strong proficiency in risk analytics, cloud-native deployments, and CI/CD automation.Proven ability to lead Agile and Scrum teams, optimize system performance, and collaborate cross-functionally to meet complex business and regulatory requirements such as CCAR and stress testing.Experienced in developing and testing ADA-compliant user interfaces, ensuring applications meet WCAG standards and accessibility guidelines acro…"
+          },
+          "score_breakdown": {
+            "skills": 0.0,
+            "experience": 100.0,
+            "industry": 60.0,
+            "education": 100.0,
+            "location": 80.0
+          }
+        },
+        {
+          "candidate_name": "IMRANA AZMAT Sr QA Analyst  - Senior Resume",
+          "match_pct": 51,
+          "email": null,
+          "phone": null,
+          "document_id": "IMRANA AZMAT Sr QA Analyst  - Senior Resume-d7c177b6a0a9",
+          "file_path": "./resumes_store\\IMRANA AZMAT Sr QA Analyst  - Senior Resume.d7c177b6a0a9.docx",
+          "evidence": {
+            "snippet": "Imrana Azmat Summary of Qualifications: 17+ years of experience in IT industry which include 14+ years of Software Testing and 1+ year in Software Development (Java/Oracle/VB/SAP) with various client server, Mainframe & web applications. Experience in testing various IT industrial applications in HealthCare, Insurance, Banking and Financial. Experience testing web applications developed in Java, Drupal, PHP and .Net technologies. Experienced in defect management, analysis and tracking for resolution using various tools with test director, Quality Center, ALM, JIRA, Zephyr TFS & Escalated issues to development teams and verified fixes. Proficient in Manual and automation testing and knowledge of Core Java, JavaScript, Oracle, Power Builder, Selenium WebDriver, Page object model, Cucumber, J…"
+          },
+          "score_breakdown": {
+            "skills": 0.0,
+            "experience": 100.0,
+            "industry": 60.0,
+            "education": 100.0,
+            "location": 80.0
+          }
+        },
+        {
+          "candidate_name": "Vipin_Gautam - Project Manager",
+          "match_pct": 51,
+          "email": "CSM847-702-4540vipingautam@yahoo.comOver",
+          "phone": "847-702-4540",
+          "document_id": "Vipin_Gautam - Project Manager-da53232f77d3",
+          "file_path": "./resumes_store\\Vipin_Gautam - Project Manager.da53232f77d3.docx",
+          "evidence": {
+            "snippet": "Vipin GautamPMP, P2P, CSM847-702-4540vipingautam@yahoo.comOver 25 years of experience including over 15 years in leading projects & programs using Agile & Waterfall methodologiesFrameworks & MethodologiesAgile/ScrumSoftware Development Life Cycle (SDLC)/WaterfallRBPM - Risk Based Project Management Program & Portfolio ManagementTechnology SummaryMicrosoft Project, Visio, Planview PPM, Hadoop, Apache Spark, Spark Streaming AWSNoSQL, Java, Oracle, Linux, Sybase, Mainframe Clarity, Jira, Jira Align, Azure DevOps (ADO), VersionOne Microsoft Office Suite, Web Technology SuiteHP PPM, QC, ALM, RPA, Tableau,Maven, Jenkins, Kubernetes, Docker, Datadog Education MBA—International BusinessBachelor of TechnologyJapanese Language skills (JLPT Level 3 certified)CertificationsCertified Scrum Master (CSM)…"
+          },
+          "score_breakdown": {
+            "skills": 0.0,
+            "experience": 100.0,
+            "industry": 60.0,
+            "education": 100.0,
+            "location": 80.0
+          }
+        },
+        {
+          "candidate_name": "Srinivas Gopinath  _RPA Lead Resume",
+          "match_pct": 51,
+          "email": "gopinath.8711@gmail.com",
+          "phone": "214-702-8353",
+          "document_id": "Srinivas Gopinath  _RPA Lead Resume-d9ff014e7721",
+          "file_path": "./resumes_store\\Srinivas Gopinath  _RPA Lead Resume.d9ff014e7721.docx",
+          "evidence": {
+            "snippet": "Srinivas Gopinath Madhavarao Dallas TX gopinath.8711@gmail.com 214-702-8353 SummaryOver 15 years of experience in Solutions Architecture, Technical Solutions Implementations, Business Analysis, Migration, Integration & Operations Management in retail, E Commerce, healthcare, Insurance, and high-tech domains.Over 12 years of customer facing experience (LOB Stakeholders) in designing, building, and implementing Enterprise Class Solutions and Security Solutions with technology and architecture teams.Over 7 years’ experience in owning and driving Application & Services, Integration, Process Automation, Digital Transformation, and RPA Cloud Platform Implementations in MS Azure Cloud and UiPath. Specific Expertise:15+ years of experience in IT Includes Solutions Architect, Technical solution imp…"
+          },
+          "score_breakdown": {
+            "skills": 0.0,
+            "experience": 100.0,
+            "industry": 60.0,
+            "education": 100.0,
+            "location": 80.0
+          }
+        },
+        {
+          "candidate_name": "Jayesh Vashu Kalro_IAM",
+          "match_pct": 51,
+          "email": "8279jkalro@aonepro.nethttps",
+          "phone": "609-284-8279",
+          "document_id": "Jayesh Vashu Kalro_IAM-846bf7f4a506",
+          "file_path": "./resumes_store\\Jayesh Vashu Kalro_IAM.846bf7f4a506.docx",
+          "evidence": {
+            "snippet": "Jayesh Vashu Kalro Yardley, PA(609) 284 8279jkalro@aonepro.nethttps://www.linkedin.com/in/jayeshkalro/SUMMARYExperienced management consultant with 15+ years of expertise in IT strategy, solution design, deployment, adoption, and execution. Subject matter expert in Identity and Access management (IAM) solutions, including identity management, web single sign-on, privileged identity management, risk orchestration, API gateway, cloud security architecture, mobile authentication, and IoT, across various industry verticals. Proven track record of building compelling business cases for IT projects, securing funding, and delivering new initiatives. Dedicated to providing top-quality service and exceeding client expectations.TECHNOLOGY AND PRODUCT EXPERIENCEEDUCATIONBachelor of Engineering – Elec…"
+          },
+          "score_breakdown": {
+            "skills": 0.0,
+            "experience": 100.0,
+            "industry": 60.0,
+            "education": 100.0,
+            "location": 80.0
+          }
+        }
+      ]
+    }
+  ],
+  "retrieval": {
+    "top_k_vec": 50,
+    "top_k_final": 5,
+    "weights": {
+      "skills": 0.4,
+      "experience": 0.25,
+      "industry": 0.2,
+      "education": 0.1,
+      "location": 0.05
+    },
+    "alpha": 0.7
+  },
+  "meta": {}
+}

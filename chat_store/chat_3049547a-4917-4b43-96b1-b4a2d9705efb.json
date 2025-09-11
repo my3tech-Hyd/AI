@@ -1,0 +1,93 @@
+{
+  "id": "3049547a-4917-4b43-96b1-b4a2d9705efb",
+  "title": "java developer full stack skills 5 years experience",
+  "created_at": "2025-08-16T19:21:58",
+  "updated_at": "2025-08-16T22:21:59",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).",
+      "ts": "2025-08-16T19:21:58"
+    },
+    {
+      "role": "user",
+      "content": "java developer with full stack skills and 5 years experience ",
+      "ts": "2025-08-16T19:23:35"
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the evidence provided, here are brief recommendations for the top 5 candidates:\n\n1. **Hrishikesh Raipet**: With over 14+ years of Java development experience and expertise in modern front-end and backend frameworks (Angular JS, Angular 12, AWS), Hrishikesh is a strong fit for a full-stack Java developer role.\n\n2. **SRINIVAS REDDY BATTULA**: As a Senior Java Developer with 5+ years of experience in developing microservices architecture using Java 8/11/17 and Spring Boot, SRINIVAS has the necessary skills to excel in a full-stack Java development position.\n\n3. **Vamshi Nizampatnam**: With 12+ years of experience designing and delivering high-performance enterprise systems across regulated domains, Vamshi is well-suited for a senior Java developer role with expertise in Spring Boot, risk analytics, and cloud-native deployments.\n\n4. **Tiegang Tong**: Although primarily a .NET Developer, Tiegang's extensive experience in full-stack development (9+ years) and proficiency in .NET technologies like C#, Python, and SQL make him a strong candidate for a Java developer role with full-stack skills.\n\n5. **Jaya Prakashnarayana Velecheti**: With over 14 years of experience in developing Java/J2EE applications and expertise in cloud environments (Amazon S3, SQS, ALB), Jaya is a strong fit for a full-stack Java developer role, although his profile may require additional training or experience with modern front-end frameworks.\n\nPlease note that while Tiegang and Jaya have relevant skills, their primary profiles are not Java developers.",
+      "ts": "2025-08-16T19:24:21",
+      "results": [
+        {
+          "candidate_name": "Hrishikesh Raipet - Java FullStack Developer",
+          "match_pct": 100,
+          "email": "5963hrishikeshraipet@gmail.comhttps",
+          "phone": "+1 203 572 5963",
+          "document_id": "Hrishikesh Raipet - Java FullStack Developer-15bf1060a0ac",
+          "file_path": "./resumes_store\\Hrishikesh Raipet - Java FullStack Developer.15bf1060a0ac.docx",
+          "evidence": {
+            "snippet": "Hrishikesh RaipetCarmel, IN, 46074 Public Trust Clearance +1 203 572 5963hrishikeshraipet@gmail.comhttps://www.linkedin.com/in/hrishikesh-raipet-75021024a/SR. Java Full Stack DeveloperSUMMARY: Over 14+ years of JAVA development experience working with the modern Front end and the Backend frameworks.Extensive experience of agile methodologies: Extreme Programming, Scrum and Waterfall Software Development Life Cycle (SDLC) including requirement analysis, design and technical specification, code development, code integration, testing and deployment of Object-Oriented Analysis and Design using Java/J2EE on Windows Unix and Linux platforms. Experience in working with Angular JS, Angular 12, AWS, jQuery, MySQL, Node.js, PostgreSQL.Experience in developing applications using React with Redux arch…"
+          }
+        },
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 71,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "e, Miro, Visio, and ALM Octane for managing projects and collaboration.Strong in problem-solving, debugging, and performance optimization, with tools such as VisualVM, JProfiler, and Postman for efficient application testing and debugging.TECHNICAL SKILLS:Education: Bachelors - Anna University, Chennai, Computer Science, 2011Masters - University of North Texas, Computer Science, 2012 Dec PROFESSIONAL EXPERIENCEClient: American Airlines | Senior Java Developer May 2022 – Present Location: Remote. Developed and maintained microservices architecture using Java 8/11/17, Spring Boot, Spring MVC, Spring Batch, and Spring Cloud for airline reservation systems and customer-facing platforms.Designed and implemented RESTful APIs, SOAP APIs, and GraphQL endpoints for seamless data retrieval, supporti…"
+          }
+        },
+        {
+          "candidate_name": "Vamshi Nizampatnam - Senior Java Developer",
+          "match_pct": 62,
+          "email": "414-1292reach.vamshi1242@gmail.comSummary",
+          "phone": "+13184141292",
+          "document_id": "Vamshi Nizampatnam - Senior Java Developer-8226d28d4edc",
+          "file_path": "./resumes_store\\Vamshi Nizampatnam - Senior Java Developer.8226d28d4edc.docx",
+          "evidence": {
+            "snippet": "Vamshi Nizampatnam+1 (318) 414-1292reach.vamshi1242@gmail.comSummary:Results-driven Senior Java Developer with 12+ years of experience designing and delivering high-performance, scalable enterprise systems across regulated domains including healthcare, finance, and e-commerce.Specialized in building distributed, service-oriented architectures using Java (Spring Boot), with strong proficiency in risk analytics, cloud-native deployments, and CI/CD automation.Proven ability to lead Agile and Scrum teams, optimize system performance, and collaborate cross-functionally to meet complex business and regulatory requirements such as CCAR and stress testing.Experienced in developing and testing ADA-compliant user interfaces, ensuring applications meet WCAG standards and accessibility guidelines acro…"
+          }
+        },
+        {
+          "candidate_name": "Tiegang Tong _ DOTNET Developer",
+          "match_pct": 11,
+          "email": "Tong608-216-5402tonytong002@gmail.comPROFESSIONAL",
+          "phone": "608-216-5402",
+          "document_id": "Tiegang Tong _ DOTNET Developer-a6b0a58e6fb4",
+          "file_path": "./resumes_store\\Tiegang Tong _ DOTNET Developer.a6b0a58e6fb4.docx",
+          "evidence": {
+            "snippet": "Tiegang Tong608-216-5402tonytong002@gmail.comPROFESSIONAL SUMMARY:Full-stack developer with 9+ years of experience in designing and developing scalable, high-performance web applications. Proficient in .NET (Forms, MVC 4/5, Core/8), Restful API development, and front-end technologies including React, Kendo UI, AngularJS, and jQuery. Extensive experience in backend development using C#, Python, and SQL, and database technologies including Microsoft SQL Server and Oracle with strong knowledge of T-SQL and PL/SQL. Adept in software design patterns, clean coding practices, and the full SDLC. Skilled in integrating applications with Azure AD and Azure B2C, deploying/debugging web applications, and working with modern DevOps tools like Git, TFS, and Azure DevOps. Seeking backend, full-stack, or …"
+          }
+        },
+        {
+          "candidate_name": "Jaya Prakashnarayana Velecheti",
+          "match_pct": 0,
+          "email": "Velechetivelicheti123@gmail.comPh",
+          "phone": "573-694-5961",
+          "document_id": "Jaya Prakashnarayana Velecheti-9f61b1d291de",
+          "file_path": "./resumes_store\\Jaya Prakashnarayana Velecheti.9f61b1d291de.docx",
+          "evidence": {
+            "snippet": "Jaya Prakashnarayana Velechetivelicheti123@gmail.comPh:5736945961PROFESSIONAL SUMMARY: Over 14 years of experience in IT in the development of JAVA/J2EE applications.Good understanding in all the aspects of Software development life cycle from the beginning to the completion of project which include domain analysis, requirements gathering, functional specification, creating architecture & design documents, implementation, testing, maintenance and documentation.Experience working in Amazon cloud environment with services like S3, SNS, SQS, ALB, ECS, CloudWatch, Lambdas, StepFunctions, DynamoDB etc.Experience working in Microservices architecture utilizing Containerization in cloud platforms like, Amazon ECS, EKS, Azure, Openshift, ServiceMesh architecture.Excellent understanding and experie…"
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "python developer with full stack skills and 5 years experience",
+      "ts": "2025-08-16T19:25:32"
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.7,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

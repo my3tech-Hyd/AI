@@ -1,0 +1,5 @@
+Name: Test User 2
+Email: user2@example.com
+Phone: +1-555-1002
+Summary: feature kafka streaming spark redis tracing hive tracing monitoring testing store api reliability streaming reliability hive event python terraform pipeline testing analytics logging python streaming docker terraform terraform tracing redis hive redis kafka terraform python security design terraform analytics ci/cd metrics analytics postgres compliance docker golang hive ci/cd compliance pubsub data data redis metrics reliability golang feature airflow privacy scalable
+Key Skills: streaming rust bigquery feature testing security docker terraform monitoring kafka event ci/cd docker pipeline postgres ci/cd golang terraform scalable microservice tracing hive kafka pipeline microservice observability kubernetes scalable rust cloud

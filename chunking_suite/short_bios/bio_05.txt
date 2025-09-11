@@ -1,0 +1,5 @@
+Name: Test User 5
+Email: user5@example.com
+Phone: +1-555-1005
+Summary: monitoring store automation tracing java microservice python rust bigquery tracing pipeline golang kubernetes testing redis security reliability automation logging privacy rust java airflow kubernetes cloud metrics privacy presto privacy spark hive security pubsub data spark airflow presto golang security ci/cd kafka streaming terraform microservice presto airflow spark streaming testing observability reliability automation postgres java cloud compliance feature pipeline tracing docker
+Key Skills: streaming event api privacy monitoring python observability python bigquery design pubsub logging automation data spark automation python cloud bigquery observability monitoring tracing reliability store python store airflow pubsub golang security

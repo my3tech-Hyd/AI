@@ -1,0 +1,22 @@
+{
+  "id": "46bf2f97-247b-4495-91c5-fe39964be639",
+  "user_id": "anonymous",
+  "title": "New chat",
+  "created_at": "2025-08-29T22:27:58",
+  "updated_at": "2025-08-29T22:27:58",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).Don't ask irrelevent questions",
+      "ts": "2025-08-29T22:27:58"
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.7,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

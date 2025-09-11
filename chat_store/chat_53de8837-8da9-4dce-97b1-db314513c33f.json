@@ -1,0 +1,155 @@
+{
+  "id": "53de8837-8da9-4dce-97b1-db314513c33f",
+  "title": "Senior python developer locating Hydrabad",
+  "created_at": "2025-08-24T01:31:14",
+  "updated_at": "2025-08-25T00:51:19",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).Don't ask irrelevent questions",
+      "ts": "2025-08-24T01:31:14"
+    },
+    {
+      "role": "user",
+      "content": "Senior python developer with locating in Hydrabad ",
+      "ts": "2025-08-24T01:31:32"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**\n- **Summary:** Srinivas is an excellent fit for the Senior Python Developer role with over 5 years of experience and a strong background in relevant technologies, although Django and Flask are not explicitly mentioned.\n- **Strengths:**\n  - Extensive experience in developing applications using Python.\n  - Proficient in asynchronous communication with Kafka and RabbitMQ.\n  - Strong knowledge of secure authentication mechanisms (OAuth 2.0, JWT).\n  - Experience with containerization using Docker and Kubernetes.\n  - Familiar with CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions.\n  - Located in Hyderabad (assumed based on the query).\n- **Areas to improve:**\n  - Django and Flask proficiency not evidenced in snippet.\n  - Specific years of experience not detailed in snippet.\n\n**2. Final Resume**\n- **Summary:** This candidate has a moderate fit for the Senior Python Developer position, showcasing Python skills and relevant tools, but lacks direct experience with Django and Flask.\n- **Strengths:**\n  - Proficient in Python and familiar with libraries like NumPy and Scikit-learn.\n  - Experience with Google Cloud Platform and AWS.\n  - Holds certifications in web development and machine learning.\n  - Multilingual: English, Hindi, Telugu.\n  - Demonstrated problem-solving skills.\n- **Areas to improve:**\n  - Direct experience with Django and Flask not evidenced in snippet.\n  - Less than 5 years of experience in Python development not evidenced in snippet.\n  - Location not evidenced in snippet.\n\n**3. Venkata Ramanaiah Papudippu**\n- **Summary:** Venkata has some relevant experience as a Python Developer but does not meet the 5+ years requirement and lacks proficiency in Django and Flask.\n- **Strengths:**\n  - Experience with Python and advanced libraries like Pandas and NumPy.\n  - Developed FastAPI applications, showcasing RESTful API skills.\n  - Background in data analysis and statistical modeling.\n  - Experience with Oracle databases for data optimization.\n- **Areas to improve:**\n  - Less than 5 years of experience in Python development not evidenced in snippet.\n  - No mention of Django or Flask proficiency.\n  - Location not evidenced in snippet.\n\n**4. Sunil Kandukuri**\n- **Summary:** Sunil has minimal relevance to the Senior Python Developer role, with no evidence of Python development experience or the required technologies.\n- **Strengths:**\n  - Experience in documentation and project support.\n  - Familiarity with version control tools.\n- **Areas to improve:**\n  - No evidence of Python development experience.\n  - No mention of Django or Flask.\n  - Less than 5 years of experience in Python development not evidenced in snippet.\n  - Location not evidenced in snippet.\n\n**5. Ravi Kumar Tankala**\n- **Summary:** Ravi is not a suitable candidate for the Senior Python Developer position, as his experience is primarily in mainframe programming with no relevant Python skills.\n- **Strengths:**\n  - Experience in test estimation and strategy.\n  - Knowledge of COBOL and other mainframe technologies.\n- **Areas to improve:**\n  - No evidence of Python development experience.\n  - No mention of Django or Flask.\n  - Less than 5 years of experience in Python development not evidenced in snippet.\n  - Location not evidenced in snippet.",
+      "ts": "2025-08-24T01:31:49",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "final resume",
+          "match_pct": 65,
+          "email": "divya.dha24@gmail.com",
+          "phone": "+917732000666",
+          "document_id": "final resume-46121dd3f6b7",
+          "file_path": "./resumes_store\\final resume.46121dd3f6b7.pdf",
+          "evidence": {
+            "snippet": "as, NumPy, Scikit-learn, Matplotlib, Seaborn, TensorFlow, Keras, NLTK Developer Tools: Google Cloud Platform, AWS, VS Code, IntelliJ Languages and Others: English, Hindi, Telugu, Problem Solving, AptitudeCertifications • Wiki Women Hackathon • Google Cloud Badges • AWS Educate Cloud Introduction Badge • Pupilfirst of Certification Web Development 101 • Programming, Data Structures And Algorithms Using Python • Introduction to Machine Learning"
+          }
+        },
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 37,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": " and load large volumes of data, optimizing data flow and storage in Oracle databases for more efficient querying and reporting.Collaborated with frontend teams using React.js to design RESTful APIs and optimize data flow.Created data visualizations and interactive dashboards using Tableau and Grafana, empowering non-technical stakeholders with real-time insights into key business metrics and improving decision-making processes.Implemented advanced Python libraries such as Pandas, NumPy, and SciPy for data analysis and statistical modeling, ensuring the integrity and accuracy of insights used in business-critical applications.Schlumberger, TX Jul 2011 – Apr 2015Python Developer Developed high-performance FastAPI applications using Python, creating scalable RESTful APIs that supported micro"
+          }
+        },
+        {
+          "candidate_name": "SunilKandukuri_Resume",
+          "match_pct": 4,
+          "email": null,
+          "phone": "732-910-4620",
+          "document_id": "SunilKandukuri_Resume-20ae69a79914",
+          "file_path": "./resumes_store\\SunilKandukuri_Resume.20ae69a79914.docx",
+          "evidence": {
+            "snippet": "m and logging the test results in HPQC, closing the defect logged.Maintained code in version control tool VSTFS.Created required documentation from Design phase to till project warranty support like LDR, PDD, ETL Specification, OLAP Specification, Test cases doc, Deployment doc, KT plan, Support handshake guide etc., Supporting the Third Party and Business Users for SIT, PRE-UAT and UAT respectively Interacting with Latin Center business in UAT phase and resolving issues.Providing the estimates for CRs.Coordinating with DBA team in cutover and production deployment of this application Coordinating with support team and responsible for providing KT and supporting team in reverse shadowing.Project-5: System Alignment Diagnostics platform migration The objective of this project is to migratio"
+          }
+        },
+        {
+          "candidate_name": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst",
+          "match_pct": 0,
+          "email": null,
+          "phone": null,
+          "document_id": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst-b5bd4a914792",
+          "file_path": "./resumes_store\\Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst.b5bd4a914792.docx",
+          "evidence": {
+            "snippet": "integrated back-end logic to support real-time user requests and rapid response processing.Develop Test Estimations, Test Strategy, Test Plans, and Test Cases, and participate in peer reviews of these documents.Provide training to new team members on testing procedures, coding, test security, and accommodations.Ensure Personally Identifiable Information (PII) and Protected Health Information (PHI) are masked before being uploaded to lower test environments using the IBM-Optim masking process.Test applications developed using COBOL, CICS, JCL, DB2, Assembler, PL/I, VSAM, and GENEVA/SAFR.Log, track, and manage defects, and conduct Root Cause Analysis meetings to address issues and provide permanent solutions.Support Pre & Post implementation testing for new/enhancements of software products."
+          }
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "I want a full stack java developer with 6 years of experience or more ",
+      "ts": "2025-08-24T01:32:46"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Srinivas Reddy Battula**  \n- **Summary:** Srinivas is an excellent fit for the Full Stack Java Developer role, demonstrating extensive experience and proficiency in Java, Spring, Hibernate, and RESTful APIs, along with relevant tools and methodologies.  \n- **Strengths:**  \n  - Over 6 years of experience in software development.  \n  - Proficient in Java and Spring, as evidenced by \"Developed secure authentication and authorization mechanisms using Spring Security.\"  \n  - Experience with Hibernate, as indicated by \"Integrated JSF front-end with microservices using RESTful APIs.\"  \n  - Strong knowledge of RESTful APIs, demonstrated through \"Integrated JSF front-end with microservices using RESTful APIs.\"  \n  - Familiarity with CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions.  \n  - Experience in deploying containerized applications using Docker and managing Kubernetes clusters.  \n  - Location not specified in snippet.  \n\n- **Areas to improve:**  \n  - No mention of specific Hibernate experience in the snippet.  \n  - Not evidenced in snippet: familiarity with specific Java frameworks beyond Spring.  \n  - Not in snippet: additional certifications or formal education details.  \n\n---\n\n**2. Venkata Ramanaiah Papudippu**  \n- **Summary:** Venkata has strong technical skills and experience in developing RESTful APIs, but lacks direct experience with Java, Spring, and Hibernate, making him a less suitable candidate for the Full Stack Java Developer position.  \n- **Strengths:**  \n  - Over 6 years of experience in software development.  \n  - Proficient in creating RESTful APIs, as shown by \"Collaborated with frontend teams using React.js to design RESTful APIs.\"  \n  - Experience with Python and FastAPI, indicating strong backend development skills.  \n  - Familiar with data visualization tools like Tableau and Grafana.  \n  - Location: Schlumberger, TX.  \n\n- **Areas to improve:**  \n  - No experience with Java, Spring, or Hibernate; \"not evidenced in snippet.\"  \n  - Not evidenced in snippet: experience with Java frameworks.  \n  - Not in snippet: familiarity with containerization or CI/CD tools.  \n\n---\n\n**3. Final Resume**  \n- **Summary:** This candidate has limited relevance to the Full Stack Java Developer role, primarily showcasing skills in Python and JavaScript rather than the required Java, Spring, and Hibernate technologies.  \n- **Strengths:**  \n  - Experience with web development technologies such as HTML, CSS, and JavaScript.  \n  - Developed applications using Node.js, indicating some backend experience.  \n  - Familiarity with data manipulation using Python libraries like NumPy and Scikit-learn.  \n  - Experience with TensorFlow/Keras for machine learning applications.  \n  - Location not specified in snippet.  \n\n- **Areas to improve:**  \n  - No experience with Java, Spring, or Hibernate; \"not evidenced in snippet.\"  \n  - Not evidenced in snippet: experience with RESTful APIs in a Java context.  \n  - Not in snippet: familiarity with containerization or CI/CD tools.  \n\n---\n\n**4. Swapna Chinnapapakkagari**  \n- **Summary:** Swapna's background in QA and testing does not align with the requirements for a Full Stack Java Developer, as she lacks relevant development experience in Java and associated frameworks.  \n- **Strengths:**  \n  - Experience in designing and developing test strategies and test plans.  \n  - Familiarity with various testing methodologies and frameworks.  \n  - Strong problem-solving skills under strict deadlines.  \n  - Excellent communication and collaboration skills.  \n  - Location not specified in snippet.  \n\n- **Areas to improve:**  \n  - No experience with Java, Spring, or Hibernate; \"not evidenced in snippet.\"  \n  - Not evidenced in snippet: development experience or skills in RESTful APIs.  \n  - Not in snippet: familiarity with CI/CD tools or containerization.  \n\n---\n\n**5. Ravi Kumar Tankala**  \n- **Summary:** Ravi does not meet the requirements for the Full Stack Java Developer position, as his experience is focused on mainframe programming rather than Java development.  \n- **Strengths:**  \n  - Experience in integrated back-end logic and real-time processing.  \n  - Familiarity with COBOL, CICS, JCL, and DB2 for mainframe applications.  \n  - Experience in test strategy and planning.  \n  - Location not specified in snippet.  \n\n- **Areas to improve:**  \n  - No experience with Java, Spring, or Hibernate; \"not evidenced in snippet.\"  \n  - Not evidenced in snippet: development of RESTful APIs.  \n  - Not in snippet: familiarity with modern development tools or frameworks.  ",
+      "ts": "2025-08-24T01:33:10",
+      "results": [
+        {
+          "candidate_name": "SRINIVAS REDDY BATTULA_RESUME",
+          "match_pct": 100,
+          "email": null,
+          "phone": null,
+          "document_id": "SRINIVAS REDDY BATTULA_RESUME-5e04553fdf93",
+          "file_path": "./resumes_store\\SRINIVAS REDDY BATTULA_RESUME.5e04553fdf93.docx",
+          "evidence": {
+            "snippet": "views, billing status tracking, and real-time updates for patient dashboards.Integrated asynchronous communication using Kafka and RabbitMQ for event-driven workflows such as appointment notifications and lab result updates.Developed secure authentication and authorization mechanisms using Spring Security, OAuth 2.0, JWT, and Azure Active Directory (Entra) to adhere to HIPAA compliance.Deployed containerized applications using Docker and managed Kubernetes clusters for scalable and fault-tolerant production environments.Configured CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for automated builds, testing, and deployments.Integrated JSF front-end with microservices using RESTful APIsDesigned and implemented batch processing scripts for data imports/exports and report generat"
+          }
+        },
+        {
+          "candidate_name": "Venkata Ramanaiah Papudippu - Python Developer",
+          "match_pct": 99,
+          "email": "venkatpapudippu284@gmail.comlinkedin.com",
+          "phone": "972-379-8117",
+          "document_id": "Venkata Ramanaiah Papudippu - Python Developer-43b085ef7639",
+          "file_path": "./resumes_store\\Venkata Ramanaiah Papudippu - Python Developer.43b085ef7639.docx",
+          "evidence": {
+            "snippet": " and load large volumes of data, optimizing data flow and storage in Oracle databases for more efficient querying and reporting.Collaborated with frontend teams using React.js to design RESTful APIs and optimize data flow.Created data visualizations and interactive dashboards using Tableau and Grafana, empowering non-technical stakeholders with real-time insights into key business metrics and improving decision-making processes.Implemented advanced Python libraries such as Pandas, NumPy, and SciPy for data analysis and statistical modeling, ensuring the integrity and accuracy of insights used in business-critical applications.Schlumberger, TX Jul 2011 – Apr 2015Python Developer Developed high-performance FastAPI applications using Python, creating scalable RESTful APIs that supported micro"
+          }
+        },
+        {
+          "candidate_name": "final resume",
+          "match_pct": 42,
+          "email": "divya.dha24@gmail.com",
+          "phone": "+917732000666",
+          "document_id": "final resume-46121dd3f6b7",
+          "file_path": "./resumes_store\\final resume.46121dd3f6b7.pdf",
+          "evidence": {
+            "snippet": "ilingual content management app with dynamic data retrieval using Flask and Python, and an interface using HTML, CSS, and JavaScript. Todo Website | Node.js, HTML, CSS, JavaScript Link • Developed a task management app for WD201 with NodeJS for dynamic handling, and HTML, CSS, and JavaScript for the user interface and interactivity. EEG-based Cognitive Load Classification | Feature Masked Autoencoding, TensorFlow/Keras Link • Developed a neural network with Feature Masked Autoencoding and TensorFlow/Keras to classify cognitive load levels from EEG data with high accuracy. Diabetes Prediction | Streamlit, Numpy, Seaborn, Scikit-learn Link • Built a diabetes prediction app using Streamlit for an interactive interface, with Python for backend processing. Utilized NumPy for data manipulation a"
+          }
+        },
+        {
+          "candidate_name": "Swapna Chinnapapakkagari - QA Systems Analyst 3",
+          "match_pct": 35,
+          "email": "20152972-510-9321swapnareddy0508@gmail.comSUMMARY",
+          "phone": "20152972-510-9321",
+          "document_id": "Swapna Chinnapapakkagari - QA Systems Analyst 3-50934231c550",
+          "file_path": "./resumes_store\\Swapna Chinnapapakkagari - QA Systems Analyst 3.50934231c550.docx",
+          "evidence": {
+            "snippet": "e, Work First Services, Presumptive Medicaid, NC Health Choice, Cash Force Eligibility, Medical Force Eligibility, and Medical Transportation, validating data integrity and functional workflows.Experience in designing and developing test strategies, Test Plans, Test Cases, and generating test reports, defect reports, and overall product quality assurance documentation.Experience with resource planning, scope assessment, testing frameworks, communication plans, reporting metrics, defect tracking, and stakeholder collaboration.Familiar with CMM, ISO 9000, RUP, IEEE, and Extreme Programming methodologies, ensuring standardized QA processes and quality metrics are met.Highly dedicated, quick starter with problem-solving skills under strict deadlines; a strong team player with excellent communi"
+          }
+        },
+        {
+          "candidate_name": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst",
+          "match_pct": 0,
+          "email": null,
+          "phone": null,
+          "document_id": "Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst-b5bd4a914792",
+          "file_path": "./resumes_store\\Ravi Kumar Tankala - Sr. Mainframe Programmer Analyst.b5bd4a914792.docx",
+          "evidence": {
+            "snippet": "integrated back-end logic to support real-time user requests and rapid response processing.Develop Test Estimations, Test Strategy, Test Plans, and Test Cases, and participate in peer reviews of these documents.Provide training to new team members on testing procedures, coding, test security, and accommodations.Ensure Personally Identifiable Information (PII) and Protected Health Information (PHI) are masked before being uploaded to lower test environments using the IBM-Optim masking process.Test applications developed using COBOL, CICS, JCL, DB2, Assembler, PL/I, VSAM, and GENEVA/SAFR.Log, track, and manage defects, and conduct Root Cause Analysis meetings to address issues and provide permanent solutions.Support Pre & Post implementation testing for new/enhancements of software products."
+          }
+        }
+      ]
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.7,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}
