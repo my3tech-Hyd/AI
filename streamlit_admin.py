@@ -4,6 +4,7 @@ import os
 import time
 import math
 import pickle
+import zipfile
 from pathlib import Path
 from typing import List, Dict, Tuple
 
@@ -506,23 +507,103 @@ def ollama_healthcheck():
     except Exception:
         return False, base, None
 
+def read_text_from_doc_bytes(data: bytes, filename: str = "file.doc") -> str:
+    """
+    Extract text from legacy .doc files.
+    Tries: MS Word (pywin32) → LibreOffice headless → fallback latin-1.
+    """
+    from datetime import datetime
+    import subprocess, shutil
+
+    tmp_dir = Path.cwd() / "_doc_tmp"
+    tmp_dir.mkdir(parents=True, exist_ok=True)
+    stem = re.sub(r"[^A-Za-z0-9._-]+", "_", Path(filename).stem) or "doc"
+    src = tmp_dir / f"{stem}-{datetime.now().timestamp():.0f}.doc"
+    with open(src, "wb") as f:
+        f.write(data)
+
+    # 1) Microsoft Word via COM (Windows + Word installed)
+    try:
+        import win32com.client  # pip install pywin32
+        word = win32com.client.DispatchEx("Word.Application")
+        word.Visible = False
+        doc = word.Documents.Open(str(src))
+        out_txt = str(src.with_suffix(".txt"))
+        wdFormatText = 2
+        doc.SaveAs(out_txt, FileFormat=wdFormatText)
+        doc.Close(False)
+        word.Quit()
+        return Path(out_txt).read_text(encoding="utf-8", errors="ignore")
+    except Exception:
+        pass
+
+    # 2) LibreOffice headless (cross-platform)
+    try:
+        soffice = shutil.which("soffice") or shutil.which("libreoffice")
+        if soffice:
+            subprocess.run(
+                [soffice, "--headless", "--convert-to", "txt:Text", "--outdir", str(tmp_dir), str(src)],
+                check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
+            )
+            out_txt = src.with_suffix(".txt")
+            if out_txt.exists():
+                return out_txt.read_text(encoding="utf-8", errors="ignore")
+    except Exception:
+        pass
+
+    # 3) Best-effort fallback
+    return data.decode("latin1", errors="ignore")
+
+
+
 def read_text_from_bytes(data: bytes, filename: str) -> str:
-    suffix = Path(filename).suffix.lower()
-    if suffix == ".pdf":
-        reader = PdfReader(io.BytesIO(data))
-        return "".join(page.extract_text() or "" for page in reader.pages)
-    elif suffix == ".docx":
-        doc = Docx(io.BytesIO(data))
-        return "".join(p.text for p in doc.paragraphs)
-    elif suffix in {".txt", ".rtf"}:
-        txt = data.decode(errors="ignore")
-        if suffix == ".rtf":
-            # simple strip; for production, consider `striprtf`
-            import re
-            return re.sub(r"{\rtf1.*?}", "", txt, flags=re.DOTALL)
-        return txt
-    else:
-        raise ValueError(f"Unsupported file type: {suffix}")
+    """
+    Robust text extraction for PDF/DOCX/DOC/RTF/TXT regardless of filename extension.
+    We first sniff the content; if that fails, we fall back to the filename suffix.
+    """
+    # Primary: sniff kind from bytes
+    kind = _sniff_ext_from_bytes(data, filename)
+
+    # Fallback to suffix if sniffing could not decide
+    if not kind:
+        kind = Path(filename).suffix.lower()
+
+    try:
+        if kind == ".pdf":
+            from pypdf import PdfReader
+            reader = PdfReader(io.BytesIO(data))
+            return "".join(page.extract_text() or "" for page in reader.pages)
+
+        if kind == ".docx":
+            from docx import Document as Docx
+            doc = Docx(io.BytesIO(data))
+            return "\n".join(p.text or "" for p in doc.paragraphs)
+
+        if kind == ".doc":
+            return read_text_from_doc_bytes(data, filename)
+
+        if kind == ".rtf":
+            # quick-and-clean RTF text pass
+            txt = data.decode(errors="ignore")
+            # strip basic RTF control words/braces
+            txt = re.sub(r"[{}]", " ", txt)
+            txt = re.sub(r"\\[a-zA-Z]+\d* ?", " ", txt)
+            return re.sub(r"\s+", " ", txt).strip()
+
+        # default: treat as text
+        return data.decode("utf-8", errors="ignore")
+
+    except Exception:
+        # One more try: if kind looks wrong, re-sniff and attempt DOC fallback
+        alt = _sniff_ext_from_bytes(data, filename)
+        if alt == ".doc":
+            try:
+                return read_text_from_doc_bytes(data, filename)
+            except Exception:
+                pass
+        # Final fallback
+        return data.decode("latin1", errors="ignore")
+
 
 def save_bytes_to_store(data: bytes, filename: str) -> Tuple[str, str, str]:
     """
@@ -586,7 +667,7 @@ def already_exists(coll, sha256: str, local_meta_by_id: dict | None = None) -> b
 def normalize_ext(filename: str) -> str:
     return Path(filename).suffix.lower()
 
-SUPPORTED_EXTS = {".pdf", ".docx", ".txt", ".rtf"}
+SUPPORTED_EXTS = {".pdf", ".docx", ".txt", ".rtf", ".DOC"}
 
 def validate_ext(filename: str) -> bool:
     ext = normalize_ext(filename)
@@ -727,6 +808,63 @@ def _existing_candidate_ids(coll, meta_by_id: dict) -> set[str]:
     except Exception:
         pass
     return ids
+
+try:
+    import olefile  # optional but nice for .doc detection
+    _HAVE_OLE = True
+except Exception:
+    _HAVE_OLE = False
+
+def _sniff_ext_from_bytes(data: bytes, filename: str = "") -> str:
+    """
+    Guess a stable extension from the file signature, ignoring the filename.
+    Returns one of: .pdf, .docx, .doc, .rtf, .txt, .zip, or '' (unknown).
+    """
+    if not data:
+        ext = Path(filename).suffix.lower()
+        return ext or ""
+    sig8 = data[:8]
+    head = data[:4096].lstrip()
+
+    # PDF
+    if data[:5] == b"%PDF-":
+        return ".pdf"
+
+    # RTF
+    if head.startswith(b"{\\rtf"):
+        return ".rtf"
+
+    # OOXML (zip); check inner structure
+    if sig8.startswith(b"PK\x03\x04"):
+        try:
+            with zipfile.ZipFile(io.BytesIO(data)) as z:
+                names = z.namelist()
+            if any(n.startswith("word/") for n in names): return ".docx"
+            if any(n.startswith("ppt/")  for n in names): return ".pptx"
+            if any(n.startswith("xl/")   for n in names): return ".xlsx"
+        except Exception:
+            pass
+        return ".zip"
+
+    # OLE/CFBF (97–2003)
+    if sig8 == b"\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1":
+        if _HAVE_OLE:
+            try:
+                with olefile.OleFileIO(io.BytesIO(data)) as ole:
+                    streams = {"/".join(s) for s in ole.listdir()}
+                if any("WordDocument" in s for s in streams): return ".doc"
+                if any("Workbook" in s for s in streams): return ".xls"
+                if any("PowerPoint Document" in s for s in streams): return ".ppt"
+            except Exception:
+                pass
+        return ".doc"  # best guess for OLE
+    # Plain-ish text fallback
+    try:
+        sample = head[:512]
+        sample.decode("utf-8")
+        return ".txt"
+    except Exception:
+        return ""
 
 # --- Delete helpers (Chroma + BM25) ---
 def chroma_delete_by_document_ids(coll, parent_ids) -> int:
@@ -1604,8 +1742,8 @@ with tab_upload:
     files = st.file_uploader(
         "Drop files here",
         accept_multiple_files=True,
-        type=["pdf", "docx", "txt", "rtf"],
-        help="Supported: PDF, DOCX, TXT, RTF"
+        type=["pdf", "docx", "txt", "rtf", "doc"],
+        help="Supported: PDF, DOCX, TXT, RTF, DOC"
     )
     colA, colB, _ = st.columns([1,1,2])
     with colA:
