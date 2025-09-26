@@ -1,0 +1,88 @@
+{
+  "id": "37494bd9-27a1-4f61-bbe5-3205c31305ee",
+  "title": "java full stack developer",
+  "created_at": "2025-09-12T20:28:46",
+  "updated_at": "2025-09-12T20:30:32",
+  "pinned": false,
+  "summary": "",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Hi! Describe the role you’re hiring for (skills, years, tools, domain, location).Don't ask irrelevent questions",
+      "ts": "2025-09-12T20:28:46"
+    },
+    {
+      "role": "user",
+      "content": "java full stack developer ",
+      "ts": "2025-09-12T20:29:37"
+    },
+    {
+      "role": "assistant",
+      "content": "### Candidate Evaluations\n\n**1. Keerthi Maddireddy**\n- **Summary:** Keerthi Maddireddy is a strong fit for the Java Full Stack Developer role with over 6 years of experience in web-based enterprise applications using Java and J2EE, and proficiency in Angular, making him a suitable candidate for the position.\n- **Strengths:**\n  - Over 6 years of experience as a Full Stack Developer.\n  - Proficient in Java and J2EE technologies.\n  - Experience with AngularJS for front-end development.\n  - Familiar with frameworks such as Spring and Hibernate.\n  - Skilled in building responsive web applications using HTML5, CSS, and JavaScript.\n- **Areas to improve:**\n  - No evidence of senior-level experience in the snippet.\n  - Not evidenced in snippet: specific experience with Spring and Hibernate in detail.\n  - Not in snippet: location details.\n\n**2. Anuroop Vanam**\n- **Summary:** Anuroop Vanam has over 8 years of software development experience, primarily in Java/J2EE, and while he has relevant experience, he lacks specific mention of Angular and senior-level designation.\n- **Strengths:**\n  - Over 8 years of professional software development experience.\n  - Strong background in Java/J2EE technologies.\n  - Experience in designing and deploying web applications.\n  - Familiar with the full software development lifecycle (SDLC).\n  - Experience in various business domains including E-Commerce and Banking.\n- **Areas to improve:**\n  - Not evidenced in snippet: proficiency in Angular.\n  - No mention of Spring or Hibernate in detail.\n  - Not in snippet: specific senior-level experience.\n  - Not in snippet: location details.\n\n**3. Xi (Eddy) Wu**\n- **Summary:** Xi (Eddy) Wu has over 5 years of experience as a Senior Full Stack .NET Developer, which does not align with the Java focus of the query, making him a less suitable candidate.\n- **Strengths:**\n  - Over 5 years of experience in full stack development.\n  - Proficient in .NET technologies, including ASP.NET MVC.\n  - Strong skills in Agile Development and Test-Driven Development.\n  - Experience with web-based applications and service-oriented architecture.\n- **Areas to improve:**\n  - Not evidenced in snippet: experience with Java, Spring, or Hibernate.\n  - Not in snippet: experience with Angular.\n  - Not in snippet: location details.\n\n**4. David Okolo**\n- **Summary:** David Okolo has extensive experience in Salesforce and cloud technologies but does not meet the requirements for a Java Full Stack Developer, making him an unsuitable candidate.\n- **Strengths:**\n  - Over 13 years of diversified IT and business experience.\n  - Experience in full stack implementation on Salesforce.\n  - Knowledge of Java and Spring frameworks.\n- **Areas to improve:**\n  - Not evidenced in snippet: Java Full Stack development experience.\n  - No mention of Spring, Hibernate, or Angular.\n  - Not in snippet: specific years of experience in Java development.\n  - Not in snippet: location details.\n\n**5. Goon Yee Jimmy**\n- **Summary:** Goon Yee Jimmy is a Network Engineer with no relevant experience in Java Full Stack development, making him an unsuitable candidate for the role.\n- **Strengths:**\n  - Experience in network design and implementation.\n  - Familiarity with Cisco technologies.\n- **Areas to improve:**\n  - Not evidenced in snippet: experience with Java, Spring, Hibernate, or Angular.\n  - Not in snippet: years of experience in software development.\n  - Not in snippet: location details.",
+      "ts": "2025-09-12T20:30:31",
+      "results": [
+        {
+          "candidate_name": "1322_1602503436Goon-Yee-Jimmy-Sr-Network-Engineer-131ec078",
+          "match_pct": 100,
+          "email": "goon268@yahoo.com",
+          "phone": "+0202060305040",
+          "document_id": "1322_1602503436Goon-Yee-Jimmy-Sr-Network-Engineer-131ec078-577f72434988",
+          "file_path": "./resumes_store\\1322_1602503436Goon-Yee-Jimmy-Sr-Network-Engineer-131ec078.577f72434988.rtf",
+          "evidence": {
+            "snippet": "default{\\*\\pn \\pnlvlblt\\ilvl0\\ls1\\pnrnot0\\pnf3 {\\pntxtb \\'b7}} \\faauto\\ls1\\rin0\\lin720\\itap0\\pararsid5071758 {\\rtlch\\fcs1 \\af1\\afs19 \\ltrch\\fcs0 \\fs19\\insrsid817400 \\hich\\af1\\dbch\\af31505\\loch\\f1 Helped design and implemented Vlans an\\hich\\af1\\dbch\\af31505\\loch\\f1 d network scheme for VOIP rollout of cisco phones for the West Coast.}{\\rtlch\\fcs1 \\ab\\af0\\afs19 \\ltrch\\fcs0 \\b\\f0\\fs19\\insrsid817400 \\par {\\pntext\\pard\\plain\\ltrpar \\rtlch\\fcs1 \\af1\\afs19 \\ltrch\\fcs0 \\f3\\fs19\\insrsid817400 \\loch\\af3\\dbch\\af31505\\hich\\f3 \\'b7\\tab}}\\pard \\ltrpar\\ql \\fi-360\\li720\\ri0\\nowidctlpar\\wrapdefault{\\*\\pn \\pnlvlblt\\ilvl0\\ls1\\pnrnot0\\pnf3 {\\pntxtb \\'b7}} \\faauto\\ls1\\rin0\\lin720\\itap0\\pararsid5071758 {\\rtlch\\fcs1 \\af1\\afs19 \\ltrch\\fcs0 \\fs19\\insrsid817400 \\hich\\af1\\dbch\\af31505\\loch\\f1 Administered and config"
+          }
+        },
+        {
+          "candidate_name": "190_1601999872Xi-Eddy-Wu-May-2020-5db900d8",
+          "match_pct": 52,
+          "email": "eddywu9527@gmail.comSummary",
+          "phone": "732-242-7265",
+          "document_id": "190_1601999872Xi-Eddy-Wu-May-2020-5db900d8-246d696ba46b",
+          "file_path": "./resumes_store\\190_1601999872Xi-Eddy-Wu-May-2020-5db900d8.246d696ba46b.docx",
+          "evidence": {
+            "snippet": "Xi (Eddy) WuTel: 732-242-7265Email: eddywu9527@gmail.comSummary: 5+ years of experience as Senior Full Stack .Net Developer in design and development of web based, intranet/internet applicationsHandsome experience in latest .NET Framework with MVC architecture model and Singleton, Abstract Factory and Facade design patternsExceptional skills in Agile Development and Test-Driven DevelopmentExpert in windows applications, Service Oriented Architecture (SOA) based applications, web applications, windows services and web services in Microsoft Visual Studio .NET IDE using C# .NET, VB, ADO.NET, ASP.NET, Entity Framework and SQL ServerExpert in creating building server applications using ASP.NET MVC 4/5/6, ADO.NET Entity Framework, XML, Web API, RESTful, Web Service based on .NET Framework 4.5/4."
+          }
+        },
+        {
+          "candidate_name": "4862_1602503777Keerthi-Madireddy-Java-Developer-fc4ec308",
+          "match_pct": 17,
+          "email": "knara0825@gmail.comPhone",
+          "phone": "469-236-9683",
+          "document_id": "4862_1602503777Keerthi-Madireddy-Java-Developer-fc4ec308-271ba480e127",
+          "file_path": "./resumes_store\\4862_1602503777Keerthi-Madireddy-Java-Developer-fc4ec308.271ba480e127.docx",
+          "evidence": {
+            "snippet": "Keerthi Maddireddy Dallas TX Email: knara0825@gmail.comPhone: 469-236-9683Over 6 years of professional experience in Web based enterprise applications using JAVA and J2EE FULL STACK DEVELOPER.Expertise in design, development, testing, deployment, integration, documentation of different software applications.Proficient in building in Responsive and Adaptive web applications using HTML5, CSS, SASS, LESS, AJAX, JavaScript, AngularJS, Backbone.js, Node.js, Require.js and Bootstrap.js.Extensive experience in creating style guides, best practices and setting UI standards for enterprise/consumer applications.Good experience in various frameworks such as Struts, spring, Hibernate, Apache wicket, GWT, JSF (Rich faces, Prime faces), JUnit, Active MQ.Expertise in building WSDL, SOAP and RESTful imple"
+          }
+        },
+        {
+          "candidate_name": "4967_1602502381Anuroop-Vanam-Sr-Java-ecommerce-Developer-85702994",
+          "match_pct": 12,
+          "email": "Vanamavanam24@gmail.com",
+          "phone": "361-296-4141",
+          "document_id": "4967_1602502381Anuroop-Vanam-Sr-Java-ecommerce-Developer-85702994-0539f94e1a8e",
+          "file_path": "./resumes_store\\4967_1602502381Anuroop-Vanam-Sr-Java-ecommerce-Developer-85702994.0539f94e1a8e.docx",
+          "evidence": {
+            "snippet": "Anuroop Vanamavanam24@gmail.com(361) 296 - 4141Professional Summary8+ years of professional software development experience supporting the full lifecycle of commercial software. Key team and individual contributor consistently relied upon to advocate, develop, and maintain a wide range of applications, which include SaaS, SOA, distributed processing, and analytic solutions.Experience in Designing, Deploying, and supporting Web applications using Java/J2EE Technologies in E-Commerce, Banking, Health and Financial business domains.Experienced in the lifecycle process (SDLC) in projects which includes User Interaction, Analysis, Design, Development, Implementation, Integration, Documentation, Testing, Deployment, Builds, Configuration and Code Management.Strong background in Java/J2EE environ"
+          }
+        },
+        {
+          "candidate_name": "5195_1602502949David-Okolo-Salesforce-Solution-Architect-a3e339ba",
+          "match_pct": 0,
+          "email": "Davidokolo01@gmail.com",
+          "phone": "+3344920564424",
+          "document_id": "5195_1602502949David-Okolo-Salesforce-Solution-Architect-a3e339ba-41220dc657b8",
+          "file_path": "./resumes_store\\5195_1602502949David-Okolo-Salesforce-Solution-Architect-a3e339ba.41220dc657b8.docx",
+          "evidence": {
+            "snippet": "DAVID OKOLO334-492-0564424-333-5548 Davidokolo01@gmail.com SALESFORCE LEAD MANAGER| ARCHITECT | CONSULTANT AND DEVELOPER PROFESSIONAL QUALIFICATIONS PROFILE IT and Business professional with over 13+ years of diversified proficiency as a project manager, architect, consultant, analyst, admin and developer, with experience in full stack implementation on Salesforce and Scrum Master, Amazon Web Service(AWS), Microsoft Azure, Google Cloud Platform, Pivotal Cloud, SaaS,SpringCM and Java with almost around 6+ years’ experience in SFDC,SOQL,SOSL, SOAP and REST API, Salesforce lightning design system, tips and tricks, Sales Cloud, Salesforce Pardot B2B Marketing Automation, Salesforce.com CRM, Force.com Platform as an Administrator and Developer in Salesforce.com with experience in Apex Coding La"
+          }
+        }
+      ]
+    }
+  ],
+  "retrieval": {
+    "alpha": 0.55,
+    "top_k_vec": 50,
+    "top_k_final": 5
+  },
+  "meta": {}
+}

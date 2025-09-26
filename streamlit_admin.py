@@ -40,6 +40,8 @@ from urllib.parse import urlparse
 import pandas as pd
 import requests
 from pathlib import Path
+import email.utils as eut
+from datetime import datetime, timezone, timedelta, time as dt_time
 
 from utils_text import clean_text
 st.set_page_config(page_title="JD–Resume Admin", page_icon="🗂️", layout="wide")
@@ -866,6 +868,103 @@ def _sniff_ext_from_bytes(data: bytes, filename: str = "") -> str:
     except Exception:
         return ""
 
+
+
+# Parse arbitrary datetime-ish values safely → timezone-aware UTC datetime or None
+def _parse_dt_any(v) -> datetime | None:
+    if not v:
+        return None
+    # already datetime?
+    if isinstance(v, datetime):
+        return v if v.tzinfo else v.replace(tzinfo=timezone.utc)
+    # numeric epoch?
+    try:
+        if isinstance(v, (int, float)):
+            return datetime.fromtimestamp(float(v), tz=timezone.utc)
+    except Exception:
+        pass
+    # RFC 2822 (HTTP Last-Modified)
+    try:
+        tup = eut.parsedate_to_datetime(str(v))
+        if tup:
+            return tup.astimezone(timezone.utc) if tup.tzinfo else tup.replace(tzinfo=timezone.utc)
+    except Exception:
+        pass
+    # ISO / free text via pandas
+    try:
+        import pandas as pd
+        ts = pd.to_datetime(v, utc=True, errors="coerce")
+        if str(ts) != "NaT":
+            return ts.to_pydatetime()
+    except Exception:
+        pass
+    return None
+
+# Pull modified/updated dt from CEIPAL row (try many keys)
+def _extract_modified_dt(row: dict) -> datetime | None:
+    for k in [
+        "modified_at","updated_at","last_modified","modifiedDate","date_modified",
+        "lastUpdated","lastUpdate","updatedOn","updated_on","modifiedOn","modified_on",
+        "last_change_date","lastChangeDate"
+    ]:
+        if k in row:
+            dt = _parse_dt_any(row.get(k))
+            if dt: return dt
+    return None
+
+# HEAD the resume URL to get Last-Modified (UTC)
+def _head_last_modified(url: str, headers: dict | None = None, timeout: float = 15.0) -> datetime | None:
+    try:
+        r = requests.head(url, headers=headers or {}, timeout=timeout, allow_redirects=True)
+        # some servers don’t support HEAD; fall back to a tiny GET if header missing
+        lm = r.headers.get("Last-Modified") or r.headers.get("last-modified")
+        if not lm and r.status_code >= 400:
+            return None
+        if not lm:
+            r2 = requests.get(url, headers=headers or {}, timeout=timeout, stream=True, allow_redirects=True)
+            r2.close()
+            lm = r2.headers.get("Last-Modified") or r2.headers.get("last-modified")
+        return _parse_dt_any(lm)
+    except Exception:
+        return None
+
+# Decide if an item is within [since, until] using (row → HEAD fallback)
+def _is_modified_within(row: dict, url: str | None, since_dt: datetime, until_dt: datetime, headers: dict | None = None) -> tuple[bool, datetime | None, str]:
+    # 1) row-level modified/updated
+    dt = _extract_modified_dt(row)
+    source = "row.modified"
+    if not dt and url:
+        # 2) HTTP header fallback
+        dt = _head_last_modified(url, headers=headers)
+        source = "http.last_modified" if dt else "unknown"
+    if not dt:
+        return (False, None, source)  # unknown → will filter based on toggle in UI
+    # normalize to UTC
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return (since_dt <= dt <= until_dt, dt, source)
+
+# Sidecar metadata for existing local files (to skip unchanged)
+def _sidecar_path(file_path: str) -> Path:
+    p = Path(file_path)
+    return p.with_suffix(p.suffix + ".meta.json")
+
+def _load_sidecar(file_path: str) -> dict:
+    sc = _sidecar_path(file_path)
+    if sc.exists():
+        try:
+            return pyjson.loads(sc.read_text(encoding="utf-8"))
+        except Exception:
+            return {}
+    return {}
+
+def _save_sidecar(file_path: str, info: dict):
+    sc = _sidecar_path(file_path)
+    try:
+        sc.write_text(pyjson.dumps(info, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception:
+        pass
+
 # --- Delete helpers (Chroma + BM25) ---
 def chroma_delete_by_document_ids(coll, parent_ids) -> int:
     """Bulk delete: remove all chunk vectors for the given parent_ids."""
@@ -1323,273 +1422,301 @@ st.caption("Admins can ingest resumes (bulk or single), avoid duplicates, and vi
 (client, coll) = get_chroma()
 corpus_tokens, meta_by_id, bm25_doc_ids = load_bm25()
 
-# === Step 3 of 7 – Download CEIPAL resumes (no date filter, dedupe by candidate_id) ===
-with st.expander("Step 3 of 7 – Download CEIPAL resumes (no date filter, dedupe by candidate_id)", expanded=False):
-    # Ensure Chroma + BM25 are available
-    try:
-        _coll = coll
-        _corpus_tokens = corpus_tokens
-        _meta_by_id = meta_by_id
-        _bm25_doc_ids = bm25_doc_ids
-    except NameError:
-        (client, _coll) = get_chroma()
-        _corpus_tokens, _meta_by_id, _bm25_doc_ids = load_bm25()
-
-    # ---- Helpers (safe to keep even if defined earlier) ----
-    import hashlib, mimetypes
-    from urllib.parse import urlparse
-    from pathlib import Path
-    import requests
+# --- step 3/7: CEIPAL resume download (modified-date filter + dedupe) with robust parsing + optional saved_at fallback ---
+# --- step 3/7: CEIPAL resume download (modified-date filter + dedupe) — IST-aware + verbose diagnostics ---
+with st.expander("Step 3 of 7 – Download CEIPAL resumes (modified-date filter + dedupe)", expanded=False):
+    from datetime import datetime, timezone, timedelta, time as dt_time
     import pandas as pd
-    from datetime import datetime, timezone
+    import hashlib
+    import mimetypes
+    import collections
 
-    def _extract_candidate_id(row: dict) -> str:
-        return str(
-            row.get("candidate_id")
-            or row.get("id")
-            or row.get("ceipal_id")
-            or row.get("applicant_id")
-            or ""
-        ).strip()
+    base = _secret("CEIPAL_BASE_URL", "https://api.ceipal.com")
+    url  = _secret("CEIPAL_ENDPOINT_URL", "")
+    style = (_secret("CEIPAL_AUTH_STYLE", "bearer") or "bearer").lower().strip()
+    u = _secret("CEIPAL_USERNAME", "")
+    p = _secret("CEIPAL_PASSWORD", "")
+    k = _secret("CEIPAL_API_KEY", "")
 
-    def _extract_resume_url(row: dict) -> str | None:
-        return (
-            row.get("resume_path")
-            or row.get("resume")
-            or row.get("resumeUrl")
-            or row.get("resume_url")
-            or row.get("resume_file")
-            or row.get("file_url")
-            or None
-        )
+    # Controls (unique keys)
+    c_top = st.container()
+    c1, c2 = c_top.columns([1,1])
+    dl_paging_len  = c1.number_input("paging_length", 1, 100, 30, 1, key="mod_paging_len")
+    dl_max_pages   = c2.number_input("max_pages (0 = all)", 0, 9999, 0, 1, key="mod_max_pages")
 
-    def _suggest_filename(candidate_id: str, resume_url: str) -> str:
-        parsed = urlparse(resume_url)
-        name = Path(parsed.path).name or "resume"
-        ext = "".join(Path(name).suffixes)
-        if not ext:
-            guess = mimetypes.guess_extension(mimetypes.guess_type(resume_url)[0] or "")
-            ext = guess or ".pdf"
-        h = hashlib.sha1(resume_url.encode("utf-8")).hexdigest()[:8]
-        base = f"ceipal-{candidate_id}-{h}"
-        return base + ext
+    d1, d2 = st.columns([1,1])
+    _now_utc = datetime.now(timezone.utc)
+    since_date = d1.date_input("modified since (local date)", value=(_now_utc + timedelta(hours=5, minutes=30)).date(), key="mod_since_date")
+    since_time = d1.time_input("since time (local)", value=dt_time(0, 0), key="mod_since_time")
+    until_date = d2.date_input("modified until (local date)", value=(_now_utc + timedelta(hours=5, minutes=30)).date(), key="mod_until_date")
+    until_time = d2.time_input("until time (local)", value=dt_time(23, 59, 59), key="mod_until_time")
 
-    def _existing_candidate_ids(coll, meta_by_id: dict) -> set[str]:
-        ids = set()
-        for md in (meta_by_id or {}).values():
-            cid = str(md.get("candidate_id") or md.get("ceipal_id") or md.get("id") or "").strip()
-            if cid: ids.add(cid)
+    # Interpret the pickers in your local zone by default (IST), but let you switch to UTC if needed
+    tz_choice = st.selectbox(
+        "Interpret the date/time pickers in…",
+        ["Asia/Kolkata", "UTC"],
+        index=0,
+        key="mod_naive_tz"
+    )
+    verbose = st.checkbox("Verbose diagnostics (show local timestamps in skip messages)", value=True, key="mod_verbose")
+
+    # Allow fallback to saved_at when the API doesn't provide any modified-like field
+    allow_saved_fallback = st.checkbox(
+        "If no modified timestamp present, fallback to saved_at",
+        value=True,
+        key="mod_allow_saved_fallback"
+    )
+
+    target_dir = st.text_input("Save files to folder", value=RESUMES_STORE_DIR, key="mod_target_dir")
+    go = st.button("Download resumes for modified-date window", type="primary", use_container_width=True, key="mod_go")
+
+    # ---- helpers ----
+    def _mk_dt_local_to_utc(d, t):
+        """Take a date+time from the pickers (interpreted in tz_choice), return UTC-aware datetime."""
+        tz = "Asia/Kolkata" if tz_choice == "Asia/Kolkata" else "UTC"
+        ts_local = pd.Timestamp(d.year, d.month, d.day, t.hour, t.minute, t.second, tz=tz)
+        return ts_local.tz_convert("UTC").to_pydatetime()
+
+    def _pick_ext(resp):
+        ct = (resp.headers.get("Content-Type") or "").lower()
+        cd = resp.headers.get("Content-Disposition") or ""
+        fn = None
+        if "filename=" in cd:
+            try:
+                fn = cd.split("filename=")[1].strip().strip("\"'")
+            except Exception:
+                fn = None
+        if fn and "." in fn:
+            return "." + fn.rsplit(".", 1)[-1].lower()
+        if "application/pdf" in ct: return ".pdf"
+        if "application/vnd.openxmlformats-officedocument.wordprocessingml.document" in ct: return ".docx"
+        if "application/msword" in ct: return ".doc"
+        if "application/rtf" in ct or "text/rtf" in ct: return ".rtf"
+        return mimetypes.guess_extension(ct) or ".doc"  # default to .doc
+
+    def _make_filename(candidate_id: str, ts_iso: str | None, ext: str) -> str:
+        slug = sanitize_slug(candidate_id or "")
+        ts = "unknown"
         try:
-            got = coll.get(where={"source": "ceipal"}, include=["metadatas"])
-            for md in (got or {}).get("metadatas") or []:
-                if not isinstance(md, dict): continue
-                cid = str(md.get("candidate_id") or md.get("ceipal_id") or md.get("id") or "").strip()
-                if cid: ids.add(cid)
+            if ts_iso:
+                t = pd.to_datetime(ts_iso, utc=True, errors="coerce")
+                ts = t.strftime("%Y%m%dT%H%M%SZ") if t is not None else "unknown"
         except Exception:
             pass
-        return ids
+        base = slug or hashlib.sha256((ts_iso or "").encode()).hexdigest()[:12]
+        return f"ceipal-{base}-{ts}{ext}"
 
-    # ---- CEIPAL creds ----
-    base  = _secret("CEIPAL_BASE_URL", "https://api.ceipal.com")
-    url   = _secret("CEIPAL_ENDPOINT_URL", "")
-    style = (_secret("CEIPAL_AUTH_STYLE", "bearer") or "bearer").lower().strip()
-    u     = _secret("CEIPAL_USERNAME", "")
-    p     = _secret("CEIPAL_PASSWORD", "")
-    k     = _secret("CEIPAL_API_KEY", "")
+    # Prefer true modified-like fields; optional saved_at fallback
+    TS_FIELDS_PRIMARY   = ["source_modified_iso", "modified_at", "last_modified", "updated_at", "modified", "updated"]
+    TS_FIELDS_SECONDARY = ["created_at", "created", "date_created", "modified_date"]
 
-    # ---- Download options ----
-    default_dir = str(Path(RESUMES_STORE_DIR).resolve()) if "RESUMES_STORE_DIR" in globals() else str(Path.cwd() / "resumes_store")
-    dest_dir = st.text_input("Local folder to save resumes", value=default_dir, key="s3_dest_dir",
-                             help="All downloaded resumes will be saved here.")
-    Path(dest_dir).mkdir(parents=True, exist_ok=True)
+    def _parse_ts_any(val):
+        """Parse -> pandas.Timestamp (UTC-aware). Supports ISO, epoch s/ms/us, and naive localized by tz_choice."""
+        if val is None or val == "":
+            return None
+        v = val
+        if isinstance(v, str):
+            vs = v.strip()
+            if vs.replace(".", "", 1).isdigit():
+                try:
+                    v = int(vs) if "." not in vs else float(vs)
+                except Exception:
+                    v = val
+        # numeric epoch
+        if isinstance(v, (int, float)):
+            if v > 1e15:
+                t = pd.to_datetime(int(v), unit="us", utc=True, errors="coerce")
+            elif v > 1e12:
+                t = pd.to_datetime(int(v), unit="ms", utc=True, errors="coerce")
+            else:
+                t = pd.to_datetime(int(v), unit="s",  utc=True, errors="coerce")
+            return t if (t is not None and not pd.isna(t)) else None
+        # strings -> parse; localize if naive
+        t = pd.to_datetime(v, utc=False, errors="coerce")
+        if t is None or pd.isna(t):
+            return None
+        if getattr(t, "tzinfo", None) is None:
+            tz = "Asia/Kolkata" if tz_choice == "Asia/Kolkata" else "UTC"
+            t = t.tz_localize(tz)
+        return t.tz_convert("UTC")
 
-    c1, c2, c3 = st.columns([1,1,1])
-    paging_len = c1.number_input("paging_length", 1, 100, 30, 1, key="s3_paging_length")
-    max_pages  = c2.number_input("max_pages (0 = all)", 0, 9999, 0, 1, key="s3_max_pages")
-    test_only  = c3.checkbox("Dry run (don't download)", value=False, key="s3_dry_run")
+    def _extract_modified_ts_utc(row: dict):
+        """Return (UTC timestamp, source_key). Checks primary, then secondary; finally saved_at if allowed."""
+        for k in TS_FIELDS_PRIMARY + TS_FIELDS_SECONDARY:
+            t = _parse_ts_any(row.get(k))
+            if t is not None:
+                return t, k
+        if allow_saved_fallback:
+            for k in ("saved_at", "savedAt"):
+                t = _parse_ts_any(row.get(k))
+                if t is not None:
+                    return t, k
+        return None, ""
 
-    c4, c5 = st.columns([1,1])
-    skip_existing = c4.checkbox("Skip if file exists", value=True, key="s3_skip_existing")
-    throttle_s    = c5.slider("Throttle between downloads (seconds)", 0.0, 1.0, 0.0, 0.1, key="s3_throttle")
-
-    urls_text = st.text_area("Optional: paste resume_path URLs (one per line) to force-download",
-                             height=120, key="s3_urls",
-                             placeholder="https://.../resume1.pdf\nhttps://.../resume2.docx")
-
-    go = st.button("Download & stage", type="primary", use_container_width=True, key="s3_go")
+    def _fmt_local(ts_utc_pd) -> str:
+        tz = "Asia/Kolkata" if tz_choice == "Asia/Kolkata" else "UTC"
+        try:
+            return ts_utc_pd.tz_convert(tz).strftime("%Y-%m-%d %H:%M:%S %Z")
+        except Exception:
+            try:
+                return pd.to_datetime(ts_utc_pd, utc=True).tz_convert(tz).strftime("%Y-%m-%d %H:%M:%S %Z")
+            except Exception:
+                return str(ts_utc_pd)
 
     if go:
         try:
+            os.makedirs(target_dir, exist_ok=True)
+
             tok = None
             if style == "bearer":
                 tok = ceipal_auth(u.strip(), p, k.strip(), base.strip())
 
-            headers = {"Authorization": f"Bearer {tok}"} if (tok and style == "bearer") else {}
+            reg_path = Path(target_dir) / "ceipal_download_index.json"
+            try:
+                with open(reg_path, "r", encoding="utf-8") as fh:
+                    registry = pyjson.load(fh)
+            except Exception:
+                registry = {}
 
-            existing_ids = _existing_candidate_ids(_coll, _meta_by_id)
-            seen_ids: set[str] = set()
-            staged_rows: list[dict] = []
+            # Build local-window → UTC
+            since_dt_utc = _mk_dt_local_to_utc(since_date, since_time)
+            until_dt_utc = _mk_dt_local_to_utc(until_date, until_time)
+            since_pd_utc = pd.Timestamp(since_dt_utc, tz="UTC")
+            until_pd_utc = pd.Timestamp(until_dt_utc, tz="UTC")
+            # for messages
+            since_local = _fmt_local(since_pd_utc)
+            until_local = _fmt_local(until_pd_utc)
 
-            kept = skipped_dupe = skipped_no_url = skipped_exists = dl_errors = 0
-            total_seen = 0
-            total_cap = int(paging_len) * (int(max_pages) if max_pages > 0 else 1000)
-            pbar = st.progress(0.0, text="Starting downloads…")
-            details = st.empty()
+            seen = in_window = downloaded = skipped_exists = skipped_dupe = no_url = no_ts = errors = 0
+            ts_key_counts = collections.Counter()
+            per_run_cids = set()
+            records = []
 
-            # ---- 1) Manual URL list (optional) ----
-            manual_urls = [u.strip() for u in (urls_text or "").splitlines() if u.strip()]
-            for uurl in manual_urls:
-                total_seen += 1
-                cid = "manual-" + hashlib.sha1(uurl.encode("utf-8")).hexdigest()[:8]
-                fname = _suggest_filename(cid, uurl)
-                out_path = Path(dest_dir) / fname
+            total_hint = int(dl_paging_len) * (int(dl_max_pages) if dl_max_pages > 0 else 1000)
+            pbar = st.progress(0.0, text=f"Starting CEIPAL download… window [{since_local} … {until_local}]")
+            info = st.empty()
 
-                if skip_existing and out_path.exists():
-                    skipped_exists += 1
-                    staged_rows.append({
-                        "row": {"candidate_id": cid, "resume_path": uurl, "source": "manual"},
-                        "file_path": str(out_path),
-                        "created_at": datetime.now(timezone.utc).isoformat(),
-                    })
-                    details.info(f"exists: {out_path.name}")
-                else:
-                    if not test_only:
-                        try:
-                            with requests.get(uurl, headers=headers, stream=True, timeout=60,
-                                              allow_redirects=True) as r:
-                                r.raise_for_status()
-                                out_path = _decide_save_path(cid, uurl, r, dest_dir, default_docx=True)
-
-                                if skip_existing and out_path.exists():
-                                    skipped_exists += 1
-                                    staged_rows.append({
-                                        "row": {"candidate_id": cid, "resume_path": uurl, "source": "manual"},
-                                        "file_path": str(out_path),
-                                        "created_at": datetime.now(timezone.utc).isoformat(),
-                                    })
-                                else:
-                                    with open(out_path, "wb") as fh:
-                                        for chunk in r.iter_content(chunk_size=8192):
-                                            if chunk: fh.write(chunk)
-                                    kept += 1
-                                    staged_rows.append({
-                                        "row": {"candidate_id": cid, "resume_path": uurl, "source": "manual"},
-                                        "file_path": str(out_path),
-                                        "created_at": datetime.now(timezone.utc).isoformat(),
-                                    })
-
-                        except Exception as e:
-                            dl_errors += 1
-                            details.warning(f"manual download failed: {uurl} — {e}")
-                            pbar.progress(min(0.99, total_seen / max(1, total_cap)))
-                            continue
-                    kept += 1
-                    staged_rows.append({
-                        "row": {"candidate_id": cid, "resume_path": uurl, "source": "manual"},
-                        "file_path": str(out_path),
-                        "created_at": datetime.now(timezone.utc).isoformat(),
-                    })
-                    if throttle_s > 0: time.sleep(throttle_s)
-
-                pbar.progress(min(0.99, total_seen / max(1, total_cap)),
-                              text=f"manual: kept={kept} exists={skipped_exists} dupes={skipped_dupe} no_url={skipped_no_url} errors={dl_errors}")
-
-            # ---- 2) CEIPAL iterator (no date filter) ----
-            page_cap = (int(max_pages) if max_pages > 0 else None)
             for row in ceipal_iter_applicants(
                 url, tok, auth_style=style,
-                paging_length=int(paging_len),
-                max_pages=page_cap
+                paging_length=int(dl_paging_len),
+                max_pages=(int(dl_max_pages) if dl_max_pages > 0 else None)
             ):
-                total_seen += 1
-                cid = _extract_candidate_id(row)
-                if not cid:
-                    details.info("skip: missing candidate_id")
-                    pbar.progress(min(0.99, total_seen / max(1, total_cap))); continue
+                seen += 1
+                resume_url = row.get("resume_path") or row.get("resume_url")
+                cid = str(row.get("candidate_id") or row.get("id") or row.get("applicant_id") or "")
 
-                if cid in existing_ids or cid in seen_ids:
-                    skipped_dupe += 1
-                    details.info(f"skip duplicate candidate_id={cid}")
-                    pbar.progress(min(0.99, total_seen / max(1, total_cap))); continue
+                ts_utc, ts_key = _extract_modified_ts_utc(row)
+                if ts_utc is None:
+                    no_ts += 1
+                    pbar.progress(min(0.99, seen / max(1, total_hint)),
+                                  text=f"skip {cid or '—'}: unknown modified")
+                    continue
 
-                rurl = _extract_resume_url(row)
-                if not rurl:
-                    skipped_no_url += 1
-                    details.info(f"skip: no resume_path for candidate_id={cid}")
-                    pbar.progress(min(0.99, total_seen / max(1, total_cap))); continue
+                # inclusive window in UTC (pandas Timestamps)
+                if not (since_pd_utc <= ts_utc <= until_pd_utc):
+                    if verbose:
+                        pbar.progress(min(0.99, seen / max(1, total_hint)),
+                                      text=f"skip {cid or '—'}: {ts_key}={_fmt_local(ts_utc)} ∉ [{since_local} … {until_local}]")
+                    else:
+                        pbar.progress(min(0.99, seen / max(1, total_hint)),
+                                      text=f"skip {cid or '—'}: modified ∉ window")
+                    continue
 
-                fname = _suggest_filename(cid, rurl)
-                out_path = Path(dest_dir) / fname
+                ts_key_counts[ts_key] += 1
+                in_window += 1
 
-                if skip_existing and out_path.exists():
+                if not resume_url:
+                    no_url += 1
+                    pbar.progress(min(0.99, seen / max(1, total_hint)), text=f"skip {cid or '—'}: no resume_path")
+                    continue
+
+                # Dedupe by candidate_id (registry + per-run)
+                if cid and cid in registry:
                     skipped_exists += 1
-                    staged_rows.append({
-                        "row": row,
-                        "file_path": str(out_path),
-                        "created_at": datetime.now(timezone.utc).isoformat(),
+                    pbar.progress(min(0.99, seen / max(1, total_hint)), text=f"skip {cid}: already downloaded")
+                    continue
+                if cid and cid in per_run_cids:
+                    skipped_dupe += 1
+                    pbar.progress(min(0.99, seen / max(1, total_hint)), text=f"skip {cid}: duplicate in page")
+                    continue
+
+                # Download
+                try:
+                    s = ceipal_session()
+                    headers = {}
+                    if style == "bearer" and tok:
+                        headers["Authorization"] = f"Bearer {tok}"
+                    r = s.get(resume_url, headers=headers, timeout=(5, 60))
+                    r.raise_for_status()
+                    data = r.content
+
+                    ext = _pick_ext(r)  # default .doc if unknown
+                    fname = _make_filename(cid, ts_utc.isoformat(), ext)
+                    out_path = str(Path(target_dir) / fname)
+                    with open(out_path, "wb") as fh:
+                        fh.write(data)
+
+                    registry[cid or fname] = {
+                        "file_path": out_path,
+                        "timestamp_key": ts_key or "",
+                        "timestamp_iso": ts_utc.isoformat(),
+                        "resume_path": resume_url,
+                    }
+                    per_run_cids.add(cid or fname)
+                    downloaded += 1
+                    records.append({
+                        "candidate_id": cid,
+                        "timestamp_key": ts_key or "(none)",
+                        "timestamp_iso": ts_utc.isoformat(),
+                        "file_path": out_path,
+                        "ext": ext
                     })
-                else:
-                    if not test_only:
-                        try:
-                            with requests.get(rurl, headers=headers, stream=True, timeout=60,
-                                              allow_redirects=True) as rr:
-                                rr.raise_for_status()
-                                out_path = _decide_save_path(cid, rurl, rr, dest_dir, default_docx=True)
+                    info.info(f"saved: {fname}")
+                except Exception as e:
+                    errors += 1
+                    info.warning(f"download error: {e}")
 
-                                if skip_existing and out_path.exists():
-                                    skipped_exists += 1
-                                    staged_rows.append({
-                                        "row": row,
-                                        "file_path": str(out_path),
-                                        "created_at": datetime.now(timezone.utc).isoformat(),
-                                    })
-                                else:
-                                    with open(out_path, "wb") as fh:
-                                        for chunk in rr.iter_content(chunk_size=8192):
-                                            if chunk: fh.write(chunk)
-                                    kept += 1
-                                    staged_rows.append({
-                                        "row": row,
-                                        "file_path": str(out_path),
-                                        "created_at": datetime.now(timezone.utc).isoformat(),
-                                    })
-                                    seen_ids.add(cid)
+                pbar.progress(
+                    min(0.99, seen / max(1, total_hint)),
+                    text=(f"seen={seen} in_window={in_window} downloaded={downloaded} "
+                          f"exists={skipped_exists} dupes={skipped_dupe} no_url={no_url} "
+                          f"no_ts={no_ts} errors={errors}")
+                )
 
-                        except Exception as e:
-                            dl_errors += 1
-                            details.warning(f"download failed for candidate_id={cid}: {e}")
-                            pbar.progress(min(0.99, total_seen / max(1, total_cap))); continue
+            try:
+                with open(reg_path, "w", encoding="utf-8") as fh:
+                    pyjson.dump(registry, fh, indent=2, ensure_ascii=False)
+            except Exception:
+                pass
 
-                    kept += 1
-                    staged_rows.append({
-                        "row": row,
-                        "file_path": str(out_path),
-                        "created_at": datetime.now(timezone.utc).isoformat(),
-                    })
-                    seen_ids.add(cid)
-                    if throttle_s > 0: time.sleep(throttle_s)
+            pbar.progress(
+                1.0,
+                text=(f"done • downloaded={downloaded} in_window={in_window} "
+                      f"exists={skipped_exists} dupes={skipped_dupe} no_url={no_url} "
+                      f"no_ts={no_ts} errors={errors}")
+            )
 
-                pbar.progress(min(0.99, total_seen / max(1, total_cap)),
-                              text=f"seen={total_seen} kept={kept} exists={skipped_exists} dupes={skipped_dupe} no_url={skipped_no_url} errors={dl_errors}")
-
-            pbar.progress(1.0, text=f"done • kept={kept} exists={skipped_exists} dupes={skipped_dupe} no_url={skipped_no_url} errors={dl_errors}")
-            st.success(f"Staged {kept} new download(s). Skipped existing={skipped_exists}, dupes={skipped_dupe}, no-url={skipped_no_url}, errors={dl_errors}.")
-
-            # Persist manifest for Step 4 (ingestion will consume this)
-            st.session_state["ceipal_stage_rows"] = staged_rows
-
-            # Show a compact table
-            if staged_rows:
-                df = pd.DataFrame([{
-                    "candidate_id": _extract_candidate_id(it["row"]),
-                    "resume_path": _extract_resume_url(it["row"]) or "",
-                    "file_path": it["file_path"],
-                    "created_at": it["created_at"],
-                } for it in staged_rows])
-                st.dataframe(df, use_container_width=True, hide_index=True)
+            # Diagnostics / verification
+            st.caption(f"window (local): [{since_local} … {until_local}]  |  interpreted as UTC: "
+                       f"[{since_pd_utc.isoformat()} … {until_pd_utc.isoformat()}]")
+            if ts_key_counts:
+                st.caption(f"timestamp keys used → {dict(ts_key_counts)}")
+            if records:
+                dfv = pd.DataFrame(records)
+                min_ts = pd.to_datetime(dfv["timestamp_iso"]).min()
+                max_ts = pd.to_datetime(dfv["timestamp_iso"]).max()
+                st.caption(f"verified modified_utc ∈ [{since_pd_utc.isoformat()} … {until_pd_utc.isoformat()}] "
+                           f"• observed min={min_ts.isoformat()} max={max_ts.isoformat()} • rows={len(dfv)}")
+                st.dataframe(dfv.head(20), use_container_width=True, hide_index=True)
+                st.success(f"Downloaded {downloaded} resume(s).")
+            else:
+                st.info("No files downloaded for the chosen settings.")
 
         except Exception as e:
-            st.error(f"Staging failed: {e}")
+            st.error(f"Download failed: {e}")
+
+
+
 
 
 # --- step 4/7: CEIPAL → ingest to Chroma + BM25 ---
@@ -1678,6 +1805,12 @@ with st.expander("Step 4 of 7 – CEIPAL ingest to Chroma + BM25", expanded=Fals
                     continue
 
                 md = build_meta_from_app(row, sha)
+
+                # carry staged modified date into metadata (if present)
+                if rows_source:
+                    src_mod = item.get("source_modified_iso")
+                    if src_mod:
+                        md["source_modified_iso"] = src_mod
 
                 # carry file paths into metadata when available (from Step 3)
                 if local_fp:
