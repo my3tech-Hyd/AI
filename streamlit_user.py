@@ -5,6 +5,7 @@ import re
 import json
 from pathlib import Path
 from typing import List, Dict, Tuple
+from typing import Any, Dict, List, Set, Tuple
 
 import streamlit as st
 import pandas as pd
@@ -396,7 +397,7 @@ def retrieve_candidates_union(jd_text: str, k_vec: int, k_bm25: int):
         top_any = [cid for cid, _ in pairs[:k_bm25]]
         kw_scores_map_any = {cid: sc for cid, sc in pairs[:k_bm25]}
 
-        # ← this is the key change
+        # collect BM25 chunks that exist in Chroma (by ids or metadata)
         bm25_hits = _bm25_collect_chunks(coll, top_any, kw_scores_map_any)
 
         if not bm25_hits:
@@ -456,33 +457,92 @@ def retrieve_candidates_union(jd_text: str, k_vec: int, k_bm25: int):
             except Exception:
                 pass
 
-    # ----- MMR diversity (optional) -----
+    # ======================== Parent-diversity selection ========================
+    def _parent_of(cid: str, md: Dict[str, Any]) -> str:
+        # prefer explicit parent hints
+        parent = (md.get("parent_id")
+                  or md.get("resume_id")
+                  or md.get("document_id")
+                  or md.get("chunk_parent"))
+        if parent:
+            return str(parent)
+        # derive from chunk_id pattern like "base::c0001"
+        chunk_id = md.get("chunk_id", cid)
+        if "::" in str(chunk_id):
+            return str(chunk_id).split("::", 1)[0]
+        # fallback: use the chunk's own id
+        return str(chunk_id)
+
+    # ensure we pull at least N unique parents before any fill
+    try:
+        needed_parents = max(int(TOP_K_FINAL), 10)
+    except Exception:
+        needed_parents = 10
+
+    # prepare an ordered list of (cid, fused_score, parent_id)
+    ordered_triplets = []
+    for cid in ordered:
+        md = C[cid].get("meta") or {}
+        pid = _parent_of(cid, md)
+        ordered_triplets.append((cid, fused.get(cid, 0.0), pid))
+
+    parents_seen: Set[str] = set()
+    diverse: List[str] = []
+    for cid, _, pid in ordered_triplets:
+        if pid not in parents_seen:
+            parents_seen.add(pid)
+            diverse.append(cid)
+        if len(parents_seen) >= needed_parents:
+            break
+
+    # remaining candidates in rank order (excluding those already chosen)
+    remaining = [cid for cid in ordered if cid not in diverse]
+
+    # ----- MMR fill with parent penalty (optional) -----
     if USE_MMR and ordered:
         try:
             import numpy as np
-            def cos(a,b):
+
+            def _cos(a, b) -> float:
+                if a is None or b is None:
+                    return 0.0
                 na, nb = np.linalg.norm(a), np.linalg.norm(b)
-                return 0.0 if na==0 or nb==0 else float(np.dot(a,b)/(na*nb))
-            def emb(cid):
+                if na == 0 or nb == 0:
+                    return 0.0
+                return float(np.dot(a, b) / (na * nb))
+
+            def _emb(cid: str):
                 e = C[cid].get("emb")
-                if e is None: return None
-                try: return np.asarray(e, dtype=float)
-                except Exception: return None
-            selected = [ordered[0]]
-            remaining = ordered[1:]
-            while remaining and len(selected) < min(K_CHUNKS, len(ordered)):
+                try:
+                    return None if e is None else np.asarray(e, dtype=float)
+                except Exception:
+                    return None
+
+            # start from the diverse seed set
+            selected: List[str] = list(diverse)
+
+            # parent penalty shrinks the chance of adding more chunks from parents we already selected
+            PARENT_PENALTY = 0.25  # tweakable
+
+            while remaining and len(selected) < min(int(K_CHUNKS), len(ordered)):
                 best_idx, best_score = 0, -1e9
+                selected_parents = {_parent_of(s, C[s].get("meta") or {}) for s in selected}
                 for i, cid in enumerate(remaining):
-                    redun = max((cos(emb(cid), emb(s)) for s in selected if emb(cid) is not None and emb(s) is not None), default=0.0)
-                    score = float(MMR_LAMBDA) * (1.0 - redun)
+                    base = fused.get(cid, 0.0)
+                    # redundancy against already selected
+                    redun = max((_cos(_emb(cid), _emb(s)) for s in selected), default=0.0)
+                    # extra penalty if parent already present
+                    penalty_parent = PARENT_PENALTY if _parent_of(cid, C[cid].get("meta") or {}) in selected_parents else 0.0
+                    score = base - float(MMR_LAMBDA) * redun - penalty_parent
                     if score > best_score:
                         best_score, best_idx = score, i
                 selected.append(remaining.pop(best_idx))
-            final_ids = selected
+            final_ids = selected[:int(K_CHUNKS)]
         except Exception:
-            final_ids = ordered[:K_CHUNKS]
+            final_ids = (diverse + remaining)[:int(K_CHUNKS)]
     else:
-        final_ids = ordered[:K_CHUNKS]
+        final_ids = (diverse + remaining)[:int(K_CHUNKS)]
+    # ====================== end parent-diversity selection ======================
 
     # ----- materialize candidates -----
     out = []
@@ -499,6 +559,7 @@ def retrieve_candidates_union(jd_text: str, k_vec: int, k_bm25: int):
             "score": fused.get(cid, 0.0),
         })
     return out
+
 
 
 
@@ -727,4 +788,3 @@ with st.expander("Diagnostics"):
             st.write("BM25 doc_ids is empty.")
     except Exception as e:
         st.warning(f"Diagnostics failed: {e}")
-

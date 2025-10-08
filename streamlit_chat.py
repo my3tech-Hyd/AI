@@ -139,6 +139,54 @@ def read_text_from_bytes(data: bytes, filename: str) -> str:
     else:
         raise ValueError(f"Unsupported file type: {suffix}")
 
+def _safe_first_list(val):
+    """
+    Chroma may return:
+      - nested lists: [[...]]
+      - flat lists:   [...]
+      - empty:        []
+      - None
+    Return a plain list safely in all cases.
+    """
+    if val is None:
+        return []
+    if isinstance(val, list):
+        if val and isinstance(val[0], list):
+            return _tolist(val[0])
+        return _tolist(val)
+    try:
+        return list(val)
+    except Exception:
+        return []
+
+def _align_triplet(ids, docs, metas):
+    """Force docs/metas to the same length/order as ids; pad with safe defaults."""
+    ids = list(ids or [])
+    docs = list(docs or [])
+    metas = list(metas or [])
+    n = len(ids)
+    if len(docs) < n:
+        docs = docs + [""] * (n - len(docs))
+    else:
+        docs = docs[:n]
+    if len(metas) < n:
+        metas = metas + [{}] * (n - len(metas))
+    else:
+        metas = metas[:n]
+    return ids, docs, metas
+
+def _map_by_id(got):
+    """Build id→(doc, meta) map from a Chroma get/query response."""
+    gids   = _safe_first_list(got.get("ids"))
+    gdocs  = _safe_first_list(got.get("documents"))
+    gmetas = _safe_first_list(got.get("metadatas"))
+    m = {}
+    for i, gid in enumerate(gids):
+        doc  = gdocs[i]  if i < len(gdocs)  else ""
+        meta = gmetas[i] if i < len(gmetas) else {}
+        m[gid] = (doc, meta)
+    return m
+
 # --- Query chunker ---
 
 def chunk_text_query(text: str, size: int = QUERY_CHUNK_SIZE, overlap: int = QUERY_CHUNK_OVERLAP) -> List[str]:
@@ -286,18 +334,25 @@ def hybrid_retrieve(query_text: str, _coll, _bm25, doc_ids: List[str], id2pos: D
 
     # --- Vector candidates
     qvec = embed_query_pooled(query_text)
-    vq = _coll.query(query_embeddings=[qvec], n_results=top_k_vec,
-                     include=["documents", "metadatas", "distances"])  # ids returned implicitly
+    vq = _coll.query(
+        query_embeddings=[qvec],
+        n_results=top_k_vec,
+        include=["documents", "metadatas", "distances"],
+    )
 
-    v_ids   = _tolist(vq.get("ids", [[]])[0])          # coerce to list
-    v_docs  = _tolist(vq.get("documents", [[]])[0])    # coerce to list
-    v_metas = _tolist(vq.get("metadatas", [[]])[0])    # coerce to list
-    v_dists = [float(d) for d in _tolist(vq.get("distances", [[]])[0])]
+    v_ids = _safe_first_list(vq.get("ids"))
+    v_docs = _safe_first_list(vq.get("documents"))
+    v_metas = _safe_first_list(vq.get("metadatas"))
+    v_dists = [float(d) for d in _safe_first_list(vq.get("distances"))]
 
     # raw cosine similarity (hnsw:space=cosine): sim = 1 - distance
     v_sem_raw  = [1.0 - d for d in v_dists] if len(v_dists) > 0 else []
     v_sem_norm = _normalize(v_sem_raw) if len(v_sem_raw) > 0 else []
-
+    # pad distances if Chroma omitted some; use distance=1.0 → sim=0.0
+    if len(v_dists) < len(v_ids):
+        v_dists += [1.0] * (len(v_ids) - len(v_dists))
+    elif len(v_dists) > len(v_ids):
+        v_dists = v_dists[:len(v_ids)]
     # --- BM25 top-k (true union path)
     kw_all = []
     topk_pos = []
