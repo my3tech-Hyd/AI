@@ -1,0 +1,8 @@
+# Environment / secrets
+.env
+.env.*
+
+# Streamlit secrets (never commit)
+**/secrets.toml
+.streamlit/secrets.toml
+Generative/streamlit/secrets.toml

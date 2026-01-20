@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  chroma:
+    image: ghcr.io/chroma-core/chroma:latest
+    container_name: chroma-server
+    ports:
+      - "8000:8000"
+    environment:
+      - ALLOW_RESET=false
+      - ANONYMIZED_TELEMETRY=false
+    volumes:
+      - "C:\WITS\Wits dev\AI Model\chroma"
+

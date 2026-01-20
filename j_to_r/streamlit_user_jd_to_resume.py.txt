@@ -1,0 +1,394 @@
+# streamlit_user_jd_to_resume.py
+# ----------------------------------------------------------------------
+# JD → Resume semantic matcher (cosine only, no BM25)
+# - NEW: Employers must provide an allow-list of resume_ids (applicants).
+# - We compose JD text from a form, chunk/pool-embed via Ollama,
+# - Then we ONLY score resumes whose IDs are in the allow-list.
+# - We fetch all chunks for each allowed resume, compute cosine sims,
+# - Keep best-chunk evidence per resume, and return relative Match%.
+# ----------------------------------------------------------------------
+
+from __future__ import annotations
+
+import io
+import os
+from pathlib import Path
+from typing import Dict, List, Tuple
+
+import requests
+import streamlit as st
+import pandas as pd
+import chromadb
+import numpy as np
+from pypdf import PdfReader
+from docx import Document as Docx
+
+# Reuse cleaning from the shared utils
+from utils_r import clean_text
+
+# Config for the RESUMES corpus (isolated DB + env-driven knobs)
+from config_jds_resumes import (
+    CHROMA_DIR_RESUMES,
+    CHROMA_COLLECTION_RESUMES,
+    OLLAMA_HOST,
+    EMBED_MODEL,
+    # Retrieval / pooling knobs (loaded from .env by config_jds_resumes)
+    R2J_QUERY_CHUNK_SIZE,
+    R2J_QUERY_CHUNK_OVERLAP,
+    R2J_QUERY_MAX_CHUNKS,
+    R2J_TOP_K_VECTOR,
+    R2J_TOP_K_FINAL,
+)
+
+# Additional local tunable (okay if missing in .env)
+MAX_QUERY_CHARS = int(os.getenv("R2J_MAX_QUERY_CHARS", "1200"))
+OLLAMA_TIMEOUT = float(os.getenv("OLLAMA_TIMEOUT", "45"))
+
+# ----------------------------------------------------------------------
+# Streamlit UI config
+# ----------------------------------------------------------------------
+st.set_page_config(
+    page_title="JD → Resume Search (Semantic Only)",
+    page_icon="🔁",
+    layout="wide",
+)
+st.title("JD → Resume Search (Semantic Only)")
+st.caption(
+    "Finds the most relevant **resumes** using cosine similarity over a separate Chroma collection."
+)
+
+# ----------------------------------------------------------------------
+# Helpers
+# ----------------------------------------------------------------------
+def read_text_from_bytes(data: bytes, filename: str) -> str:
+    """
+    Extract text from common formats and clean it.
+    Supports: .pdf, .docx, .txt, .rtf, .md, .doc (best-effort decode)
+    """
+    ext = Path(filename).suffix.lower()
+    try:
+        if ext == ".pdf":
+            with io.BytesIO(data) as f:
+                reader = PdfReader(f, strict=False)
+                text = " ".join((page.extract_text() or "") for page in reader.pages)
+        elif ext == ".docx":
+            with io.BytesIO(data) as f:
+                doc = Docx(f)
+                text = "\n".join(p.text for p in doc.paragraphs)
+        elif ext in {".txt", ".rtf", ".md"}:
+            text = data.decode(errors="ignore")
+        else:
+            # .doc or unknown → best-effort decode
+            text = data.decode(errors="ignore")
+    except Exception:
+        # Fallback to raw decode if any parser chokes
+        text = data.decode(errors="ignore")
+    return clean_text(text)
+
+
+def _chunk_query_text(text: str, size: int, overlap: int, max_chunks: int) -> List[str]:
+    """
+    Split the (possibly long) JD text into smaller chunks so we can embed
+    and pooled-average them for a more stable query vector.
+    """
+    t = text[:MAX_QUERY_CHARS] if MAX_QUERY_CHARS > 0 else text
+    n = len(t)
+    if n == 0:
+        return []
+    size = max(1, int(size))
+    overlap = max(0, int(overlap))
+    if overlap >= size:
+        overlap = size // 4  # safety
+    chunks: List[str] = []
+    start = 0
+    while start < n and len(chunks) < max_chunks:
+        end = min(n, start + size)
+        chunks.append(t[start:end])
+        if end == n:
+            break
+        start = end - overlap
+    return chunks
+
+
+def _embed_query_ollama(chunk: str) -> List[float]:
+    """
+    Call Ollama's embeddings API directly.
+    Requires: ollama serve  &  ollama pull <EMBED_MODEL>
+    """
+    resp = requests.post(
+        f"{OLLAMA_HOST}/api/embeddings",
+        json={"model": EMBED_MODEL, "prompt": chunk},
+        timeout=OLLAMA_TIMEOUT,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    # Ollama returns either {'embedding': [...]} or {'data': [{'embedding': [...]}]}
+    vec = data.get("embedding") or (data.get("data") or [{}])[0].get("embedding")
+    if not isinstance(vec, list) or not all(isinstance(x, (int, float)) for x in vec):
+        raise ValueError("Invalid embedding vector from Ollama")
+    return [float(x) for x in vec]
+
+
+def _embed_query_pooled(text: str) -> List[float]:
+    """
+    Pool embeddings across several overlapping chunks of the JD text.
+    Length-weighted mean pooling.
+    """
+    chunks = _chunk_query_text(text, R2J_QUERY_CHUNK_SIZE, R2J_QUERY_CHUNK_OVERLAP, R2J_QUERY_MAX_CHUNKS)
+    if not chunks:
+        return []
+    vecs = [_embed_query_ollama(ch) for ch in chunks]
+    dims = len(vecs[0])
+    pooled = [0.0] * dims
+    weights = [len(ch) for ch in chunks]
+    denom = float(sum(weights) or 1.0)
+    for v, w in zip(vecs, weights):
+        if len(v) != dims:
+            # Skip malformed vectors (defensive)
+            continue
+        wf = float(w)
+        for i in range(dims):
+            pooled[i] += wf * float(v[i])
+    for i in range(dims):
+        pooled[i] /= denom
+    return pooled
+
+
+def _normalize(xs: List[float]) -> List[float]:
+    """Min–max normalize to [0,1] (stable even with equal values)."""
+    if not xs:
+        return xs
+    lo, hi = min(xs), max(xs)
+    if hi - lo < 1e-12:
+        return [0.0 for _ in xs]
+    scale = hi - lo
+    return [(x - lo) / scale for x in xs]
+
+
+def _get_resume_collection():
+    client = chromadb.PersistentClient(path=CHROMA_DIR_RESUMES)
+    return client.get_or_create_collection(name=CHROMA_COLLECTION_RESUMES)
+
+
+def _safe_cosine(a: List[float], b: List[float], eps: float = 1e-12) -> float:
+    """
+    Cosine similarity mapped to [0,1]. Returns 0 if either vector is near-zero.
+    """
+    va = np.asarray(a, dtype=float)
+    vb = np.asarray(b, dtype=float)
+    na = float(np.linalg.norm(va))
+    nb = float(np.linalg.norm(vb))
+    if na < eps or nb < eps:
+        return 0.0
+    cos = float(np.dot(va, vb) / (na * nb))
+    cos = max(-1.0, min(1.0, cos))
+    return 0.5 * (cos + 1.0)  # [-1,1] → [0,1]
+
+
+def _get_all_parent_embeddings(coll, parent_id: str) -> Tuple[List[List[float]], List[str], List[Dict]]:
+    """
+    Fetch ALL chunk embeddings for a given resume (parent_id).
+    We rely on metadata 'resume_id' being set at ingestion.
+    """
+    all_embs: List[List[float]] = []
+    all_docs: List[str] = []
+    all_meta: List[Dict] = []
+    offset = 0
+    page = 500
+    while True:
+        batch = coll.get(
+            where={"resume_id": parent_id},
+            include=["embeddings", "documents", "metadatas"],
+            limit=page,
+            offset=offset,
+        )
+        ids = batch.get("ids", [])
+        if not ids:
+            break
+        embs = batch.get("embeddings", [])
+        docs = batch.get("documents", [])
+        meta = batch.get("metadatas", [])
+        all_embs.extend(embs or [])
+        all_docs.extend(docs or [])
+        all_meta.extend(meta or [])
+        offset += len(ids)
+    return all_embs, all_docs, all_meta
+
+
+def _parse_allowed_ids(raw: str) -> List[str]:
+    """
+    Parse a comma/space/newline-separated list of resume_ids.
+    """
+    if not raw:
+        return []
+    # split on commas or whitespace, strip empty tokens
+    parts = [p.strip() for chunk in raw.split(",") for p in chunk.split()]
+    return [p for p in parts if p]
+
+
+def _semantic_search_guarded(jd_text: str, coll, allowed_resume_ids: List[str]) -> List[Dict]:
+    """
+    Guarded search: ONLY compute scores for resume_ids in allowed_resume_ids.
+    For each allowed resume: fetch all its chunk embeddings, compute cosine sims
+    vs the pooled JD vector, and keep best-chunk evidence.
+    """
+    qvec = _embed_query_pooled(jd_text)
+    if not qvec:
+        return []
+
+    rows: List[Dict] = []
+    sims_all: List[float] = []
+
+    for rid in allowed_resume_ids:
+        embs, docs, metas = _get_all_parent_embeddings(coll, rid)
+        if not embs:
+            continue
+
+        # compute sims for each chunk and find the best
+        sims = [_safe_cosine(qvec, e) for e in embs]
+        best_idx = int(np.argmax(sims))
+        best_sim = float(sims[best_idx])
+        sims_all.append(best_sim)
+
+        md0 = metas[0] if metas else {}
+        best_doc = (docs[best_idx] if 0 <= best_idx < len(docs) else "") or ""
+        preview = best_doc[:320].replace("\n", " ")
+
+        rows.append({
+            "resume_id": rid,
+            "candidate_name": (md0 or {}).get("candidate_name"),
+            "email": (md0 or {}).get("email"),
+            "phone": (md0 or {}).get("phone"),
+            "sim": best_sim,
+            "preview": preview,
+        })
+
+    if not rows:
+        return []
+
+    # Relative Match% scaling within this guarded result set
+    hi = max(sims_all) or 1.0
+    lo = min(sims_all)
+    span = hi - lo if hi > lo else 1.0
+    for r in rows:
+        r["match_pct"] = round(100.0 * ((r["sim"] - lo) / span), 1)
+
+    # rank by sim desc and keep top-K
+    rows = sorted(rows, key=lambda x: x["sim"], reverse=True)[: R2J_TOP_K_FINAL]
+    return rows
+
+
+# ----------------------------------------------------------------------
+# UI
+# ----------------------------------------------------------------------
+left, right = st.columns([1, 1])
+
+with left:
+    # ---------- New Job Post Form (replaces file upload) ----------
+    with st.form("new_job_post_form", clear_on_submit=False):
+        employer_id = st.text_input("EmployerId", value="1")
+        job_title = st.text_input("Job title", value="Java Full Stack Developer")
+        description = st.text_area("Description", value="Should have knowledge on designing and developing both front-end user …", height=200)
+        location = st.text_input("Location", value="Hyderabad")
+        job_type = st.selectbox("JobType", options=["FULL_TIME", "PART_TIME", "CONTRACT", "INTERNSHIP", "TEMPORARY"], index=0)
+        min_salary = st.number_input("MinSalary", value=30000, step=1000)
+        max_salary = st.number_input("MaxSalary", value=50000, step=1000)
+        required_skills_text = st.text_input("RequiredSkills (comma-separated)", value="Java, Springboot, Hibernate, Html")
+        posted_date = st.text_input("PostedDate", value="2025-08-28T13:03:02.686+00:00")
+        anonymous_posting = st.checkbox("AnonymousPosting", value=False)
+        is_active = st.checkbox("IsActive", value=True)
+        created_at = st.text_input("CreatedAt", value="2025-08-28T13:03:02.748+00:00")
+        updated_at = st.text_input("UpdatedAt", value="2025-08-28T13:03:02.748+00:00")
+        run_btn = st.form_submit_button("Find matching resumes")
+
+with right:
+    st.subheader("Settings & Info")
+    st.write(f"Chroma dir: `{CHROMA_DIR_RESUMES}`")
+    st.write(f"Collection: `{CHROMA_COLLECTION_RESUMES}`")
+    st.write(f"Embeddings via Ollama: `{EMBED_MODEL}` at `{OLLAMA_HOST}`")
+    st.markdown(
+        f"""
+- Query pooling: `{R2J_QUERY_CHUNK_SIZE}` size, `{R2J_QUERY_CHUNK_OVERLAP}` overlap, `{R2J_QUERY_MAX_CHUNKS}` chunks  
+- Retrieval: guarded per **allowed applicants** only  
+- Tip: ensure you've **ingested resumes** using your *Resume Admin* tool (separate collection).
+"""
+    )
+    allowed_ids_raw = st.text_area(
+        "Allowed Resume IDs (applicants only)",
+        help="Paste comma/newline/space-separated resume_ids that applied to this job.",
+        placeholder="resume123, resume456\nresume789",
+        height=120,
+    )
+
+# ----------------------------------------------------------------------
+# Run search (GUARDED)
+# ----------------------------------------------------------------------
+if run_btn:
+    try:
+        # Compose a JD text from the form fields (then clean, chunk, embed)
+        skills_list = [s.strip() for s in required_skills_text.split(",") if s.strip()]
+        composed_text = f"""
+EmployerId: {employer_id}
+Job Title: {job_title}
+Description: {description}
+Location: {location}
+Job Type: {job_type}
+Min Salary: {min_salary}
+Max Salary: {max_salary}
+Required Skills: {", ".join(skills_list)}
+Posted Date: {posted_date}
+Anonymous Posting: {anonymous_posting}
+Is Active: {is_active}
+Created At: {created_at}
+Updated At: {updated_at}
+""".strip()
+        text = clean_text(composed_text)
+
+        allowed_resume_ids = _parse_allowed_ids(allowed_ids_raw)
+
+        if not text.strip():
+            st.warning("This form seems empty after parsing/cleaning.")
+        elif not allowed_resume_ids:
+            st.warning("No allowed resume IDs provided. Per WITS policy, we cannot show matches without an applicant allow-list.")
+        else:
+            coll = _get_resume_collection()
+            results = _semantic_search_guarded(text, coll, allowed_resume_ids)
+
+            if not results:
+                st.info("No results for the provided allow-list. Ensure the resume_ids exist in the resume collection.")
+            else:
+                df = pd.DataFrame(results)
+                show_cols = [
+                    "match_pct",
+                    "candidate_name",
+                    "email",
+                    "phone",
+                    "resume_id",
+                    "sim",
+                    "preview",
+                ]
+                # Ensure all columns exist for display
+                for c in show_cols:
+                    if c not in df.columns:
+                        df[c] = None
+                st.dataframe(df[show_cols], use_container_width=True, hide_index=True)
+                with st.expander("Download results"):
+                    csv = df[show_cols].to_csv(index=False).encode()
+                    st.download_button(
+                        "Download CSV",
+                        data=csv,
+                        file_name="jd_to_resume_results_guarded.csv",
+                        mime="text/csv",
+                    )
+                st.caption(
+                    "Match% is relative within this guarded result set. "
+                    "'sim' is cosine similarity of the best chunk per resume (0–1, mapped relative to 0–100%)."
+                )
+    except requests.RequestException as e:
+        st.error(
+            f"Embedding call to Ollama failed. "
+            f"Is Ollama running and the model `{EMBED_MODEL}` pulled? Details: {e}",
+            icon="⚠️",
+        )
+    except Exception as e:
+        st.error(f"Search failed: {e}")
